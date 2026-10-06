@@ -33,7 +33,7 @@ ht-degree: 1%
 - 검색하거나 마이그레이션하려는 개체에 액세스합니다.
 - CX Coworker에 설치된 Adobe CXO 플러그인입니다.
 
-플러그인 설치에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
+플러그인 설치에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
 
 ## 샌드박스 도구 에이전트 기술 사용 {#use-sandbox-tooling-agentic-skills}
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
    ![요청 상태를 표시하는 전송 완료 페이지입니다.](./assets/sandbox-tooling/transfer-complete.png)
 
-CX Coworker 사용에 대한 자세한 내용은 [Coworker UI 안내서](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
+CX Coworker 사용에 대한 자세한 내용은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
 
 ## 지원되는 사용 사례 {#supported-use-cases}
 
@@ -108,5 +108,5 @@ CX Coworker을 사용하면 자연어로 마이그레이션을 설명함으로�
 
 이 안내서를 읽은 후에는 샌드박스 도구 에이전트 기술을 사용하여 샌드박스 간에 지원되는 객체를 검색, 패키지 및 마이그레이션하는 방법을 이해해야 합니다.
 
-샌드박스 도구에 대한 자세한 내용은 [샌드박스 도구 가이드](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)를 참조하세요.
+샌드박스 도구에 대한 자세한 내용은 [샌드박스 도구 가이드](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/ui/sandbox-tooling)를 참조하세요.
 

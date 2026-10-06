@@ -56,4 +56,4 @@ Adobe는 커뮤니티의 기여를 환영합니다. 참여자를 넘어 한 걸�
 
 ## 보안 문제
 
-보안 문제는 이 문제 추적기에 보고해서는 안 됩니다. 대신 [보안 전문가에게 문제를 제기](https://helpx.adobe.com/security/alertus.html)합니다.
+보안 문제는 이 문제 추적기에 보고해서는 안 됩니다. 대신 [보안 전문가에게 문제를 제기](https://helpx.adobe.com/kr/security/alertus.html)합니다.

@@ -30,5 +30,5 @@ ht-degree: 1%
 
 ## 참조 -
 
-- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create), Coworker Chat에서 여정 생성을 지원하는 기본 AI 기능입니다.
+- [Journey Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create), Coworker Chat에서 여정 생성을 지원하는 기본 AI 기능입니다.
 - [더 많은 동료 채팅 사용 사례](../overview.md#journeys)

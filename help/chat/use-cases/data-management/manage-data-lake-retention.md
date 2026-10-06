@@ -12,7 +12,7 @@ CX Coworker을 사용하여 샌드박스에 있는 Experience Event 데이터의
 
 ## 시작하기에 앞서 {#before-you-begin}
 
-검토할 데이터 세트가 포함된 샌드박스에서 작업 중인지 확인합니다. 또한 데이터 관리 에이전트에 대한 액세스 권한과 필요한 Adobe Experience Platform 권한이 필요합니다. [데이터 관리 에이전트 필수 구성 요소](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-management#prerequisites)를 참조하십시오.
+검토할 데이터 세트가 포함된 샌드박스에서 작업 중인지 확인합니다. 또한 데이터 관리 에이전트에 대한 액세스 권한과 필요한 Adobe Experience Platform 권한이 필요합니다. [데이터 관리 에이전트 필수 구성 요소](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-management#prerequisites)를 참조하십시오.
 
 ## 샌드박스의 데이터 최적화 {#optimize-data-in-your-sandbox}
 
@@ -26,7 +26,7 @@ CX Coworker을 사용하여 샌드박스에 있는 Experience Event 데이터의
 
 목록의 범위를 좁히면 데이터 세트 분석 사용 기술을 사용하여 특정 데이터 세트가 얼마나 활발하게 사용되는지 알아보십시오.
 
-이 기술로 인해 표시된 사용하지 않거나 중단된 모든 데이터 세트가 데이터 레이크 보존 정책에 적합한 후보자는 아닙니다. 전체 데이터 세트를 제거하거나 다른 Experience Platform 스토어에서 데이터를 관리해야 하는 경우 [적합한 데이터 수명 주기 관리 기능 선택](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/choose-a-capability)을 참조하십시오. 데이터 레이크 보존 정책을 설정하기 전에 데이터 세트가 경험 이벤트 데이터 세트인지 확인하십시오.
+이 기술로 인해 표시된 사용하지 않거나 중단된 모든 데이터 세트가 데이터 레이크 보존 정책에 적합한 후보자는 아닙니다. 전체 데이터 세트를 제거하거나 다른 Experience Platform 스토어에서 데이터를 관리해야 하는 경우 [적합한 데이터 수명 주기 관리 기능 선택](https://experienceleague.adobe.com/ko/docs/experience-platform/data-lifecycle/choose-a-capability)을 참조하십시오. 데이터 레이크 보존 정책을 설정하기 전에 데이터 세트가 경험 이벤트 데이터 세트인지 확인하십시오.
 
 프롬프트 예:
 
@@ -78,7 +78,7 @@ CX Coworker을 사용하여 샌드박스에 있는 Experience Event 데이터의
 
 ![제안된 데이터 레이크 보존 정책, 그 영향 및 변경 내용이 적용되기 전에 필요한 확인을 표시하는 동료입니다.](../../assets/data-management/retention-impact-preview.png)
 
-보존 정책을 확인한 후 변경 사항이 Adobe Experience Platform UI에 표시되는 데 시간이 조금 걸릴 수 있습니다. 보존 정책은 만료된 데이터를 즉시 삭제하지 않습니다. 정책이 적용된 후 24시간 내에 초기 보존 작업이 시작됩니다. 초기 실행 후 예약된 작업은 30일마다 만료된 레코드를 평가하고 삭제합니다. 유지 및 삭제에 대한 자세한 내용은 [경험 이벤트 TTL(데이터 세트 유지) 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)를 참조하십시오.
+보존 정책을 확인한 후 변경 사항이 Adobe Experience Platform UI에 표시되는 데 시간이 조금 걸릴 수 있습니다. 보존 정책은 만료된 데이터를 즉시 삭제하지 않습니다. 정책이 적용된 후 24시간 내에 초기 보존 작업이 시작됩니다. 초기 실행 후 예약된 작업은 30일마다 만료된 레코드를 평가하고 삭제합니다. 유지 및 삭제에 대한 자세한 내용은 [경험 이벤트 TTL(데이터 세트 유지) 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)를 참조하십시오.
 
 정책을 설정, 변경 또는 제거할 때를 포함하여 모든 보존 정책 변경 사항이 감사 추적에 기록됩니다. 감사 추적은 각 변경을 수행한 사용자, 발생 시기 및 수정된 내용을 기록합니다. Coworker에서 제공하는 링크를 따라 Adobe Experience Platform에 있는 데이터 세트의 감사 로그 탭에서 이러한 이벤트를 검토할 수 있습니다. 자세한 내용은 [감사 로그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview)를 참조하십시오.
 
@@ -99,4 +99,4 @@ CX Coworker을 사용하여 샌드박스에 있는 Experience Event 데이터의
 
 ## 다음 단계 {#next-steps}
 
-데이터 관리 에이전트의 기술, 범위, 동작 및 제한 사항에 대한 자세한 내용은 [데이터 관리 에이전트 개요](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-management)를 참조하십시오. Adobe Experience Platform에서 데이터 레이크 보존 정책이 작동하는 방법에 대한 자세한 내용은 [경험 이벤트 TTL(데이터 세트 보존) 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)를 참조하십시오.
+데이터 관리 에이전트의 기술, 범위, 동작 및 제한 사항에 대한 자세한 내용은 [데이터 관리 에이전트 개요](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-management)를 참조하십시오. Adobe Experience Platform에서 데이터 레이크 보존 정책이 작동하는 방법에 대한 자세한 내용은 [경험 이벤트 TTL(데이터 세트 보존) 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)를 참조하십시오.
