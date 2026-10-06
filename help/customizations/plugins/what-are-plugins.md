@@ -17,7 +17,7 @@ ht-degree: 4%
 
 이 비디오에서는 플러그인을 소개하고 새로운 기능으로 [!DNL Coworker]을(를) 확장하는 방법을 설명합니다. 플러그인의 정의, 구성 요소, 플러그인이 스킬 및 MCP 서버와 관련되는 방법, 작업 영역에서 플러그인을 설치, 사용 및 제거하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503656/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503662/?captions=kor&learn=on&enablevpops)
 
 ## 플러그인이란?
 

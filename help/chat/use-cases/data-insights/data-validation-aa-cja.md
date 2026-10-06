@@ -45,7 +45,7 @@ Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레�
 
 구현이 어떻게 설계되었는지 알 필요가 없습니다. 이 기술은 Customer Journey Analytics 구현에서 Analytics Source 커넥터를 사용하는지 또는 Experience Platform Web SDK의 새 구현을 사용하는지 자동으로 감지합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496846/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496862/?captions=kor&learn=on&enablevpops)
 
 ## 유효성 검사 세션 시작
 

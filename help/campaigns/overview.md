@@ -114,7 +114,7 @@ Coworker Campaigns 인터페이스는 왼쪽 탐색을 중심으로 구성됩니
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492812?captions=kor&learn=on){transcript=true}
 
 
 새로운 기능은 평가판 중에 제공됩니다. 여러분의 피드백은 다음에 나올 것을 형성하는 데 도움이 됩니다. 헤더의 제품 내 피드백 아이콘을 통해 피드백을 제출합니다.

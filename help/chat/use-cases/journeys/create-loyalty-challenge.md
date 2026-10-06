@@ -25,7 +25,7 @@ ht-degree: 1%
  
 이 비디오에서는 충성도 플러그인과 사용자 인터페이스의 모든 설정을 수동으로 구성하는 대신 자연어를 사용하여 충성도 문제를 만들고, 편집하고, 관리하는 마케터를 지원하는 AI 기반 기능인 과제 관리 기술을 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496543/?captions=kor&learn=on&enablevpops)
 
 ## 참조 -
 

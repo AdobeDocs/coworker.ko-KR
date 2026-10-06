@@ -28,4 +28,4 @@ Coworker를 사용하면 마케팅 워크플로우에서 브랜드 일관성을 
 
 동료는 문제를 식별하는 데 그치지 않고 실행 가능한 제안을 제공합니다. 예를 들어, 캡션이 너무 일반적이거나 call to action이 없는 경우 관련 태그가 포함된 브랜드 표준을 충족하는 수정된 버전을 제공합니다. 이 프로세스를 통해 콘텐츠 생성을 간소화하고 최소한의 노력으로 브랜드 준수를 보장할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502691/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502707/?captions=kor&learn=on&enablevpops)

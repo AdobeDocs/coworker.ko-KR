@@ -46,7 +46,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills" title="기술이란?" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322/?format=jpeg&nocache=1790273741021" alt="기술이란?"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502328/?captions=kor&format=jpeg&nocache=1790273741021" alt="기술이란?"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -69,7 +69,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/integrations/understanding-integrations-in-coworker" title="통합이란 무엇입니까?" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503744/?format=jpeg&nocache=1790273741207" alt="통합이란 무엇입니까?"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503750/?captions=kor&format=jpeg&nocache=1790273741207" alt="통합이란 무엇입니까?"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -92,7 +92,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/plugins/what-are-plugins" title="플러그인이란 무엇입니까?" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503656/?format=jpeg&nocache=1790273741022" alt="플러그인이란 무엇입니까?"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503662/?captions=kor&format=jpeg&nocache=1790273741022" alt="플러그인이란 무엇입니까?"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -115,7 +115,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/memory/what-is-memory" title="메모리란 무엇입니까?" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503657/?format=jpeg&nocache=1790273741019" alt="메모리란 무엇입니까?"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503671/?captions=kor&format=jpeg&nocache=1790273741019" alt="메모리란 무엇입니까?"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>

@@ -21,7 +21,7 @@ ht-degree: 1%
 
 이 비디오에서는 사용자 정의 동료 스킬이 다운스트림으로 이동하기 전에 조직의 활성화 표준에 대해 대상을 자동으로 확인하여 활성화 게이트 역할을 수행하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503162/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503170/?captions=kor&learn=on&enablevpops)
 
 ## 샘플 활성화 품질 게이트 스킬
  

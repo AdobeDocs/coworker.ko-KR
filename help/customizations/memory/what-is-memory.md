@@ -19,7 +19,7 @@ ht-degree: 1%
 
 새로운 대화를 시작할 때마다 동일한 지침을 반복하는 대신, 메모리를 사용하면 동료가 선택한 정보를 세션 간에 전달할 수 있으므로 보다 빠르고 관련성 있는 응답을 제공할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503657/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503671/?captions=kor&learn=on&enablevpops)
 
 ## 메모리 이해
 

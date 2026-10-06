@@ -19,7 +19,7 @@ ht-degree: 0%
 
 이 비디오에서는 쿼리를 작성하거나 수동으로 데이터를 검사하지 않고도 **Coworker의 데이터 유효성 검사 기술**&#x200B;을 사용하여 Customer Journey Analytics 구현을 지원하는 데이터 세트의 품질을 빠르게 평가하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503519/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503524/?captions=kor&learn=on&enablevpops)
 
 ## CJA 보고 이면의 데이터 세트 살펴보기
 

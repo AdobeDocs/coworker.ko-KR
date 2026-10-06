@@ -22,7 +22,7 @@ ht-degree: 0%
 
 새 속성에 대한 디지털 출시를 계획한다는 것은 일반적으로 분석, 대상, 크리에이티브 및 웹 팀의 작업을 가져오는 것을 의미하며 몇 주가 걸릴 수 있습니다. 이 비디오에서는 Adobe Enterprise Coworker가 Miami의 새 속성에 대한 디지털 출시를 계획하는 방법을 한 번의 대화로 알아봅니다. 동료는 첫 번째 메시지에서 목표와 내역을 이해하고 자사 Experience Platform 데이터와 Semrush의 라이브 시장 인텔리전스를 결합한 다음 대상, 고객 여정, 콘텐츠 실험 및 랜딩 페이지를 구축하며 거버넌스, 동의 및 비즈니스 규칙은 필요한 위치에 대한 인적 검토와 함께 유지됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503873?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503878?captions=kor&learn=on)
 
 ## 하루의 우선 순위를 정하고 목표를 명확히 제시
 

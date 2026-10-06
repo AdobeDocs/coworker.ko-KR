@@ -17,4 +17,4 @@ ht-degree: 0%
 
 통합이 무엇인지, 통합을 사용해야 하는 이유, 인터페이스 사용 방법을 포함하여 Coworker의 통합에 대한 간략한 둘러보기 및 개요를 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503744/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503750/?captions=kor&learn=on&enablevpops)
