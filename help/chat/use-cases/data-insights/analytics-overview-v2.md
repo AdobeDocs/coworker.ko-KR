@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작업을 자동화하여 유연한 계획, 사용자 정의 기술 및 지능형 실행을 통해 아이디어를 작업으로 신속하게 전환할 수 있습니다. Coworker에 대한 일반적인 정보는 [CX Enterprise Coworker 개요](/help/home.md)를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503519/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503524/?captions=kor&learn=on&enablevpops)
 
 ## 데이터 분석 작동 방식
 

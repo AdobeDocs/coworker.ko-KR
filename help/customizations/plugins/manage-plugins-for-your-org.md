@@ -54,7 +54,7 @@ ht-degree: 0%
 
 관리자가 기존 Adobe 권한과의 정렬을 유지하면서 승인된 플러그인과 Adobe Coworker Chat를 확장하고 마켓플레이스를 관리하며 기술 및 연결된 도구에 대한 액세스를 제어하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504182/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504187/?captions=kor&learn=on&enablevpops)
 
 ## 배울 내용
  
