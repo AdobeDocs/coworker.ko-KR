@@ -25,8 +25,8 @@ Adobe CX Enterprise은 단일 MCP를 통해 제품 도구를 노출합니다. �
 | Journey Optimizer | Beta | 활성 Journey Optimizer 라이선스, Adobe 조직에 대한 Beta 지원 및 캠페인, 여정 및 채널 구성을 볼 수 있는 권한. |
 | Customer Journey Analytics | 사용 가능 | Active Customer Journey Analytics 라이선스 및 Adobe Admin Console의 **MCP 액세스** 권한 항목을 포함하는 제품 프로필입니다. 제품 권한은 여전히 액세스하거나 수정할 수 있는 데이터 보기, 구성 요소, 보고서, 프로젝트 및 대상을 제어합니다. |
 | Adobe Analytics | 사용 가능 | Active Adobe Analytics 라이선스 및 Adobe Admin Console의 **MCP 액세스** 권한 항목을 포함하는 제품 프로필입니다. 제품 권한은 여전히 액세스하거나 수정할 수 있는 보고서 세트, 구성 요소, 보고서, 세그먼트, 날짜 범위 및 프로젝트를 제어합니다. |
-| Workfront | 미리 보기 | 활성 Workfront 라이선스 및 Workfront MCP 지원. [Workfront MCP 설명서](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)를 참조하세요. |
-| 대상 | Beta | Adobe Experience Platform 조직의 활성 Target 라이선스. [Target MCP 설명서](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started)를 참조하세요. |
+| Workfront | 미리 보기 | 활성 Workfront 라이선스 및 Workfront MCP 지원. [Workfront MCP 설명서](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)를 참조하세요. |
+| 대상 | Beta | Adobe Experience Platform 조직의 활성 Target 라이선스. [Target MCP 설명서](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp-get-started)를 참조하세요. |
 
 
 

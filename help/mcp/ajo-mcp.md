@@ -11,9 +11,9 @@ ht-degree: 2%
 
 Adobe Journey Optimizer 제품 도구를 사용하여 MCP 호환 클라이언트에서 캠페인, 여정 및 채널 구성을 검사합니다. 이러한 도구는 조직이 활성화되고 사용자 계정에 필요한 Journey Optimizer 권한이 있는 경우 [CX Coworker 게이트웨이](overview.md)를 통해 사용할 수 있습니다.
 
-자세한 내용은 Adobe Journey Optimizer 설명서에서 [MCP 클라이언트 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}을 참조하십시오.
+자세한 내용은 Adobe Journey Optimizer 설명서에서 [MCP 클라이언트 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}을 참조하십시오.
 
-여정을 만들고, 분석하고, 시뮬레이션할 수 있는 대화식 아젠틱 경험에 대해서는 [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)을(를) 대신 참조하십시오.
+여정을 만들고, 분석하고, 시뮬레이션할 수 있는 대화식 아젠틱 경험에 대해서는 [Journey Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)을(를) 대신 참조하십시오.
 
 >[!AVAILABILITY]
 >

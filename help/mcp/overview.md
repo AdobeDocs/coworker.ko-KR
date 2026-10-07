@@ -43,7 +43,7 @@ CX Coworker Gateway는 CX Coworker Gateway 제품 도구에 대한 관리 끝점
 | **Journey Optimizer** | 캠페인, 여정 및 채널 구성(읽기 전용), 콘텐츠 템플릿, 조각, 랜딩 페이지 및 인라인 메시지 콘텐츠(읽기 및 쓰기) | Beta | [Journey Optimizer 도구](ajo-mcp.md) |
 | **Customer Journey Analytics** | 데이터 보기, 차원, 지표, 보고서, 세그먼트, 날짜 범위, 프로젝트 및 대상(읽기 및 쓰기) | 사용 가능 | [Customer Journey Analytics 도구](cja-mcp.md) |
 | **Adobe Analytics** | 보고서 세트, 차원, 지표, 보고서, 세그먼트, 날짜 범위 및 작업 영역 프로젝트 (지원되는 구성 요소의 경우 읽기 및 쓰기) | 사용 가능 | [Adobe Analytics 도구](analytics-mcp.md) |
-| **Workfront** | 프로젝트, 작업 및 승인 워크플로를 위한 작업 관리 도구 | 미리 보기 | [Workfront MCP 서버](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | 프로젝트, 작업 및 승인 워크플로를 위한 작업 관리 도구 | 미리 보기 | [Workfront MCP 서버](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]

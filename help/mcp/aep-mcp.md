@@ -255,7 +255,7 @@ Experience Platform 카탈로그 서비스를 위한 통합 디스패치 도구.
 
 >[!NOTE]
 >
->이 도구는 평가 결과만 검색합니다. 플래그가 지정된 문제를 수정하려면 [!DNL Experience Platform] UI의 상태 검사 세부 정보 패널을 사용하십시오. [상태 확인](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks)을 참조하세요. 지원되는 상태 검사에 대한 자동 수정 지침은 [CX Coworker 채팅](../chat/overview.md)에서 기술로 사용할 수 있습니다.
+>이 도구는 평가 결과만 검색합니다. 플래그가 지정된 문제를 수정하려면 [!DNL Experience Platform] UI의 상태 검사 세부 정보 패널을 사용하십시오. [상태 확인](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/health-checks)을 참조하세요. 지원되는 상태 검사에 대한 자동 수정 지침은 [CX Coworker 채팅](../chat/overview.md)에서 기술로 사용할 수 있습니다.
 
 **기능:** 현재 샌드박스에 대한 모든 상태 검사 결과를 나열하고 명명된 검사 결과를 가져옵니다.
 
