@@ -2,15 +2,15 @@
 title: 동료 프로젝트에서 구현 체크리스트 생성
 description: Coworker Projects에서 할당 및 추적할 수 있는 단계를 사용하여 구현 안내서 계획에서 미리 채워진 구현 체크리스트를 생성하는 방법을 알아봅니다.
 hold: true
-source-git-commit: 94cf399a48d13ee83c702804b50fdccd4baa9d71
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 1%
+source-wordcount: '703'
+ht-degree: 0%
 ---
 
 # Coworker Projects로 구현 체크리스트 생성
 
-동료 프로젝트는 Customer Journey Analytics, Adobe Analytics에서 Customer Journey Analytics으로의 업그레이드, Content Analytics(ACA), Marketing Campaign Analytics(MCA) 또는 스트리밍 미디어용 구현 안내서 계획의 순서가 지정된 단계로 미리 채워진 구현 체크리스트 프로젝트를 생성할 수 있습니다. Coworker는 기술적으로 가능한 한 많은 단계를 자동화하거나 지원하므로 귀하와 귀하의 팀은 구현 과정을 추적할 수 있는 단일 위치를 보유합니다.
+Adobe CX Enterprise Coworker은 Customer Journey Analytics, Adobe Analytics에서 Customer Journey Analytics으로 업그레이드, Content Analytics(ACA), Marketing Campaign Analytics(MCA) 또는 스트리밍 미디어용 구현 안내서 계획의 순서가 지정된 단계로 미리 채워진 Coworker 프로젝트에서 구현 체크리스트 프로젝트를 생성할 수 있습니다. Coworker는 기술적으로 가능한 한 많은 단계를 자동화하거나 지원하므로 귀하와 귀하의 팀은 구현 과정을 추적할 수 있는 단일 위치를 보유합니다.
 
 구현을 주도하거나 기술 단계를 실행하거나 진행 상황에 대한 가시성만 필요한 경우 이 체크리스트를 사용하여 Coworker에서 나가지 않고 작업을 할당하고 상태를 추적하고 팀과 공동 작업을 수행할 수 있습니다.
 

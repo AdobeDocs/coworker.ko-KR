@@ -2,15 +2,15 @@
 title: Coworker를 사용하여 Streaming Media 구현 확인
 description: Coworker의 스트리밍 미디어 유효성 검사 스킬이 구성, 세션 및 로그를 검사하여 구현이 올바르게 추적되고 있는지 확인하는 방법을 알아봅니다.
 hold: true
-source-git-commit: 94cf399a48d13ee83c702804b50fdccd4baa9d71
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1304'
 ht-degree: 0%
 ---
 
 # Coworker를 사용하여 Streaming Media 구현 확인
 
-Coworker에는 Edge Network에서 Adobe 스트리밍 미디어(비디오 및 오디오 분석) 구현을 확인하여 Customer Journey Analytics 및/또는 Adobe Analytics에 제공하는 스트리밍 미디어 유효성 검사 기술이 포함되어 있습니다. Assurance, 데이터 세트 구성, XDM 스키마 필드 그룹, Customer Journey Analytics 데이터 보기 설정 및 원시 네트워크 로그를 수동으로 상호 참조하는 대신 단일 유효성 검사 보고서를 받게 됩니다.
+Adobe CX Enterprise Coworker에는 Edge Network에서 Adobe 스트리밍 미디어(비디오 및 오디오 Analytics) 구현을 확인하여 Customer Journey Analytics 및/또는 Adobe Analytics에 제공하는 스트리밍 미디어 유효성 검사 기술이 포함되어 있습니다. Assurance, 데이터 세트 구성, XDM 스키마 필드 그룹, Customer Journey Analytics 데이터 보기 설정 및 원시 네트워크 로그를 수동으로 상호 참조하는 대신 단일 유효성 검사 보고서를 받게 됩니다.
 
 Streaming Media 추적을 구현하거나 문제를 해결하는 경우 이 기술을 사용하여 구현이 올바르게 구성되었는지 확인하고, 예상대로 데이터를 수집하고, 추적하려는 내용을 단일 동료 채팅 대화 내에서 모두 캡처할 수 있습니다.
 

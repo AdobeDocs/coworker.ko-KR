@@ -10,15 +10,15 @@ jira: PLAT-302857
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1058'
 ht-degree: 0%
 ---
 
 # Coworker를 사용하여 Experience Platform 데이터 유효성 검사
 
-동료는 Experience Platform 데이터 세트의 데이터 품질을 확인하는 데이터 유효성 검사 기술을 포함합니다. 이 도구를 사용하여 단일 동료 채팅 대화를 통해 데이터 세트에 대한 통계 및 의미 체계 검증을 실행하고, 데이터 세트 필드를 분석하고, 데이터 품질 문제를 식별할 수 있습니다.
+Adobe CX Enterprise Coworker에는 Experience Platform 데이터 세트의 데이터 품질을 확인하는 데이터 유효성 검사 기술이 포함되어 있습니다. 이 도구를 사용하여 단일 동료 채팅 대화를 통해 데이터 세트에 대한 통계 및 의미 체계 검증을 실행하고, 데이터 세트 필드를 분석하고, 데이터 품질 문제를 식별할 수 있습니다.
 
 데이터 엔지니어, 데이터 관리자 및 구현 엔지니어는 SQL 쿼리나 복잡한 스키마 계층 없이 신속한 품질 검사에 사용합니다.
 
@@ -156,5 +156,5 @@ Coworker를 사용하여 데이터의 유효성을 검사하려면 다음 작업
 
 * [업그레이드 시 Adobe Analytics에서 Customer Journey Analytics 데이터로의 유효성 검사](./data-validation-aa-cja.md)
 * [Coworker의 데이터 유효성 검사 스킬을 사용하여 Customer Journey Analytics 데이터 유효성 검사](./validate-dataset-quality-for-cja.md)
-* [데이터 유효성 검사(AI Assistant)](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
-* [Customer Journey Analytics 보고 신뢰: Adobe CX Coworker의 데이터 유효성 검사 기술](https://www.youtube.com/watch?v=gCSm_QYSYhk)&#x200B;(비디오)
+* [데이터 유효성 검사(AI Assistant)](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
+* [Customer Journey Analytics 보고 신뢰: Adobe CX Enterprise Coworker의 데이터 유효성 검사 기술](https://www.youtube.com/watch?v=gCSm_QYSYhk)&#x200B;(비디오)
