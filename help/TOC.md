@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 hide: true
-source-git-commit: 6c126810936bea3e883d74e6ff685991cb40cd4a
+source-git-commit: e35e97f90153da41a9236a9fa761be65d3bd73c1
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 19%
 ---
 
@@ -65,6 +65,7 @@ ht-degree: 19%
   - 메모리 {#memory}
     - [메모리란 무엇입니까?](./customizations/memory/what-is-memory.md)
 - 캠페인 {#campaigns}
+  - {hide-from-toc}[새 팀 경험](./campaigns/new-teams-experience.md)
   - [개요](./campaigns/overview.md)
   - [이메일 캠페인 만들기](./campaigns/create-an-email-campaign.md)
   - [캠페인 시작 및 관리](./campaigns/launch-manage-campaign.md)
