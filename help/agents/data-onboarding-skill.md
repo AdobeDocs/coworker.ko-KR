@@ -28,7 +28,7 @@ CX Coworker의 데이터 온보딩 기술을 사용하여 단일 대화 워크�
 - 조직에 대한 데이터 온보딩 스킬이 활성화된 Adobe CX Enterprise Coworker에 액세스
 - Adobe Experience Platform에서 스키마를 만들 수 있는 권한입니다.
 
-플러그인 설치에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
+플러그인 설치에 대한 지침은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
 
 ## 데이터 온보딩 스킬 사용 {#use-the-data-onboarding-skill}
 
@@ -48,7 +48,7 @@ CX Coworker의 데이터 온보딩 기술을 사용하여 단일 대화 워크�
 
 1. 데이터 품질 검토, 의미론적 데이터 보강, 스키마 매핑 및 스키마 작성을 통해 동료와 대화를 계속하고 각 단계를 확인합니다.
 
-CX Coworker 사용에 대한 자세한 내용은 [Coworker UI 안내서](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
+CX Coworker 사용에 대한 자세한 내용은 [Coworker UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)를 참조하십시오.
 
 ## 지원되는 사용 사례 {#supported-use-cases}
 
@@ -78,4 +78,4 @@ CX Coworker 사용에 대한 자세한 내용은 [Coworker UI 안내서](https:/
 
 이 안내서를 읽은 후에는 스키마 생성에서 데이터 온보딩 기술을 시작하는 방법과 CX Coworker에서 수행하는 데 도움이 되는 사항을 이해해야 합니다.
 
-Experience Platform UI 절차 및 액세스/자격 시나리오에 대해서는 스키마 UI 안내서에서 [AI로 데이터 온보딩](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#data-onboarding-skill)을 참조하십시오.
+Experience Platform UI 절차 및 액세스/자격 시나리오에 대해서는 스키마 UI 안내서에서 [AI로 데이터 온보딩](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#data-onboarding-skill)을 참조하십시오.
