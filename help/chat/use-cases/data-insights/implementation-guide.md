@@ -2,15 +2,15 @@
 title: Coworker와 함께 Customer Journey Analytics 또는 스트리밍 미디어 구현 계획
 description: Coworker의 구현 안내서 기술이 검색 대화를 내보낼 수 있는 체크리스트를 통해 개인화되고 순서가 지정된 구현 계획으로 변환하는 방법에 대해 알아봅니다.
 hold: true
-source-git-commit: 94cf399a48d13ee83c702804b50fdccd4baa9d71
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1239'
 ht-degree: 1%
 ---
 
 # Coworker를 사용하여 구현 계획
 
-Coworker에는 Customer Journey Analytics, Adobe Analytics에서 Customer Journey Analytics으로의 업그레이드, Content Analytics(ACA), Marketing Campaign Analytics(MCA) 및 스트리밍 미디어라는 5가지 구현 가이드 기술이 포함되어 있습니다. 각 스킬은 짧은 검색 대화를 단일 동료 채팅 대화 내에서 대화형 체크리스트와 즉시 사용할 수 있는 내보내기를 포함하는 개인화된 종속성 인식 구현 계획으로 전환합니다.
+Adobe CX Enterprise Coworker에는 Customer Journey Analytics, Adobe Analytics에서 Customer Journey Analytics으로 업그레이드, Content Analytics(ACA), Marketing Campaign Analytics(MCA) 및 스트리밍 미디어라는 5가지 구현 가이드 기술이 포함되어 있습니다. 각 스킬은 짧은 검색 대화를 단일 동료 채팅 대화 내에서 대화형 체크리스트와 즉시 사용할 수 있는 내보내기를 포함하는 개인화된 종속성 인식 구현 계획으로 전환합니다.
 
 이러한 제품으로 바로 구입하거나 마이그레이션하는 경우 Adobe의 구현 요구 사항을 수동으로 조사하거나 프로젝트 계획을 처음부터 빌드하지 않고도 이러한 기술을 사용하여 주문된 단계별 계획을 얻을 수 있습니다.
 

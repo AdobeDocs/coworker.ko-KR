@@ -1,5 +1,5 @@
 ---
-title: 동료 채팅을 사용하여 Customer Journey Analytics 데이터 분석
+title: 동료 채팅을 사용한 데이터 분석 시작
 description: Adobe CX Enterprise Coworker Chat을 사용하여 Customer Journey Analytics 데이터를 분석하고 단계를 구축하며 여정에서 고객이 중단되는 위치를 찾는 방법에 대해 알아봅니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,23 +7,18 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2d4922c334bcc2ec93dec46098a9c021623034ad
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '3338'
-ht-degree: 3%
+source-wordcount: '2094'
+ht-degree: 4%
 ---
-# 동료 채팅을 사용하여 Adobe CX Analytics 데이터 분석
+# 동료 채팅을 사용하여 데이터 분석 시작
 
-Adobe CX Enterprise Coworker Chat은 이전에 Analysis Workspace에서만 가능했던 고급 데이터 분석을 수행할 수 있습니다. Coworker Chat은 Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트의 데이터에 액세스하여 해당 데이터를 탐색하고 자연어 프롬프트에 대한 답변을 얻을 수 있습니다.
-
-필요한 분석의 양에 따라 두 가지 방법으로 Coworker Chat을 사용할 수 있습니다.
-
-* **빠른 답변** - 간단한 언어를 직접 질문하고 즉시 답변을 받으십시오. 비즈니스 사용자들은 이러한 방식으로 동료 채팅을 사용하는 경우가 많으며, 분석가들은 이해 관계자를 위한 빠른 답변이 필요할 때도 이를 사용합니다.
-* **깊이 있는 생각 작업** - Coworker Chat과 여러 번 대화하여 비즈니스 문제를 조사하고, 원인을 배제하고, 권장 사항에 도달하십시오. 분석가는 일반적으로 이 접근 방식을 사용하여 권장 사항을 작성하기 전에 데이터를 심층적으로 탐색합니다.
+Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트를 분석한 다음 작업 예를 따릅니다. 사용 사례, 기술 및 모범 사례를 포함하여 공동 작업자 채팅으로 수행할 수 있는 작업에 대한 개요는 [공동 작업자 채팅으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview-v2.md)을 참조하세요.
 
 시작하기 전에 Coworker 채팅 인터페이스 및 구성 옵션을 학습한 다음 Coworker가 Customer Journey Analytics 또는 Adobe Analytics 및 관련 데이터 보기 또는 보고서 세트에 연결되어 있는지 확인합니다.
 
-## 동료 채팅 시작
+## 시작하기에 앞서
 
 ### 데이터 액세스 및 권한
 
@@ -43,40 +38,6 @@ Customer Journey Analytics 또는 Adobe Analytics 데이터와 함께 Coworker C
 * 기타
 
 자세한 내용은 [동료 채팅 UI 안내서](/help/chat/ui-guide.md)를 참조하십시오.
-
-### 동료 채팅을 사용하여 데이터를 분석할 때의 모범 사례
-
-#### 조직 수준 우수 사례
-
-* 조직의 분석가를 동료 챔피언으로 지정합니다.
-
-* 사용자가 사용할 수 있는 데이터 및 구성 요소와 상관 관계가 있는 검증된 프롬프트 및 스킬 라이브러리를 만듭니다.
-
-* 분석에 사용할 구성 요소만 사용하도록 Coworker Chat에 지시하는 스킬을 한 개 이상 만듭니다. 이렇게 하면 Coworker Chat이 조직의 사용자에게 가장 관련성이 높은 데이터를 제공하는 데 도움이 됩니다.
-
-* 빠른 답변을 위해 동료 채팅에게 질문할 시점과 깊은 생각에 잠긴 작업에 사용할 시점에 대해 사용자에게 교육합니다.
-
-#### 사용자 수준 우수 사례
-
-* 계획 모드를 사용합니다.
-
-  이 모드는 복잡한 작업에 특히 유용하지만, 동료가 행동하기 전에 후속 질문을 할 수 있기 때문에 간단한 작업에 대해 더 나은 결과를 얻을 수도 있습니다. 자세한 내용은 [플랜 모드](/help/chat/ui-guide.md#plan-mode)를 참조하세요.
-
-* 프롬프트를 만들 때 가능한 한 구체적이어야 합니다.
-
-  * 분석할 차원, 지표 및 날짜 범위의 이름을 지정합니다.
-  * 정확한 이름으로 구성 요소를 참조합니다.
-  * 포함, 제외 또는 비교하려는 세그먼트, 대상, 채널 또는 장치를 지정합니다.
-  * funnel, 트렌드 또는 집단 테이블 등 특정 시각화 유형을 원하는지 여부를 기술합니다.
-  * 동료 채팅에서 후속 질문을 제안하려면 권장되는 다음 단계를 요청하십시오.
-  * 지표를 예상할 때 &quot;다음 30일&quot;과 같은 예측 대상 기간을 요청합니다.
-  * 이미 가지고 있는 가설을 언급하면 Coworker Chat이 이를 검증하거나 배제할 수 있습니다.
-  * 지표 변경에 대한 분류를 원하는 경우 기여 차원을 요청합니다.
-  * 리더십 또는 마케팅 팀과 같은 요약에 대한 대상자를 지정하고 결과를 제시하려는 경우 슬라이드 데크 개요를 요청합니다.
-  * 데이터의 유효성을 검사할 때 비교할 특정 보고서 세트 및 데이터 보기의 이름을 지정합니다.
-  * 먼저 분석을 완료한 다음 동료 채팅에 요청하여 기술로 저장해 두십시오. 그러면 명확하고 설명적인 이름이 지정되고 재사용할 빈도가 얼마나 되는지 알 수 있습니다.
-
-* 동료 채팅 메모리에 표준 방향을 추가합니다. 예를 들어, 항상 동일한 데이터 보기 또는 보고서 세트의 데이터를 사용하는 경우 해당 데이터를 메모리에 추가합니다.
 
 ## 동료 채팅이 Customer Journey Analytics에 연결되어 있는지 확인합니다.
 
@@ -139,161 +100,6 @@ Customer Journey Analytics의 다양한 데이터 보기 또는 Adobe Analytics�
 1. 메모리 페이지의 [!UICONTROL **저장된 환경 설정**] 섹션에서, 채팅에서 Coworker Chat이 사용할 데이터 보기 또는 보고서 세트를 하나 이상 지정합니다.
 
    ![왼쪽 레일의 메모리 섹션](../../assets/coworker-memory.png)
-
-## Customer Journey Analytics에서 분석
-
-동료가 시각화를 만든 후 Analysis Workspace에서 열어 보다 심층적인 분석과 세분화된 제어를 수행할 수 있습니다. 시각화는 Customer Journey Analytics의 새 Analysis Workspace 프로젝트에서 열립니다.
-
-새 Analysis Workspace 프로젝트에서 시각화를 열려면 다음을 수행하십시오.
-
-1. Coworker에서 만든 시각화 옆에 있는 [!UICONTROL **CJA에서 분석**]&#x200B;을 선택합니다.
-
-1. Customer Journey Analytics에서 시각화를 열면 Analysis Workspace 드래그 앤 드롭 브라우저 인터페이스를 사용하여 수정, 분석 추가, 대상 만들기 등을 할 수 있습니다. 선택한 모든 사람과 Workspace 프로젝트를 공유할 수도 있습니다.
-
-   Analysis Workspace에 대한 자세한 내용은 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하십시오.
-
-### Customer Journey Analytics 사용 사례
-
-빠른 답변부터 깊이 있는 사고 작업 조사에 이르기까지 Adobe CX Enterprise Coworker Chat에서 실무자가 사용하는 Customer Journey Analytics 사용 사례와 샘플 프롬프트를 볼 수 있습니다. 각 프롬프트는 복사되고, 고유한 데이터와 컨텍스트에 맞게 조정되며, 대화를 통해 정제되도록 작성됩니다.
-
-자세한 내용은 [사용 사례](/help/chat/use-cases/overview.md)를 참조하세요.
-
-## Analytics 기술
-
-Customer Journey Analytics 또는 Adobe Analytics 데이터를 분석하는 데 다음 기술을 사용할 수 있습니다.
-
-### 데이터 쿼리 및 분석
-
-이러한 기술을 사용하면 Analysis Workspace에서 직접 요청을 빌드하지 않고도 실시간으로 데이터를 쿼리하고 결과를 분석할 수 있습니다.
-
-* `cja` - Customer Journey Analytics 데이터 보기 쿼리
-* `aa` - Adobe Analytics 보고서 세트 쿼리
-
-#### 필요한 권한
-
-* 쿼리할 데이터 보기 또는 보고서 세트에 대한 액세스 보기
-
-#### 주요 사용 사례
-
-| 사용 사례 | 함수 | 샘플 프롬프트 |
-|---------|----------|---------|
-| **보고서 및 지표 가져오기** | 실시간으로 Customer Journey Analytics 또는 Adobe Analytics을 쿼리하여 지표, 차원, 세그먼트, 데이터 보기 및 보고서 세트를 가져옵니다. | <ul><li>&quot;지난 30일 동안의 페이지 보기 횟수 표시&quot;</li><li>&quot;마스터 데이터 보기에 상위 세그먼트 나열&quot;</li></ul> |
-| **비교 분석** | 채널, 기간 또는 세그먼트 간에 지표를 나란히 비교합니다. | <ul><li>&quot;월별 채널별 수익 비교&quot;</li><li>&quot;이번 분기에 모바일과 데스크탑 간 전환은 어떻게 보입니까?&quot;</li></ul> |
-| **Funnel 분석** | 각 단계에서 드롭오프로 여러 단계의 전환 단계를 거칩니다. | <ul><li>&quot;체크아웃 funnel 안내&quot;</li><li>&quot;PDP에서 구매로 변환 funnel 표시&quot;</li></ul> |
-| **예측** | 내역 데이터를 기반으로 향후 지표 값을 예상합니다. | <ul><li>&quot;향후 30일 동안의 세션 예측&quot;</li><li>&quot;매출 목표를 달성하는 데 도움이 됩니까?&quot;</li></ul> |
-
-#### 범위 내
-
-* 지표, 차원, 세그먼트, 데이터 보기 및 보고서 세트의 실시간 쿼리
-* 채널, 기간 또는 세그먼트 간의 병렬 비교
-* 여러 단계의 funnel 및 폴아웃 분석
-* 과거 추세를 기반으로 한 지표 예측
-
-#### 범위를 벗어남
-
-* 데이터 보기 또는 보고서 세트 구성 요소 만들기 또는 편집
-* 액세스 권한이 있는 데이터 보기 또는 보고서 세트 외부의 데이터
-* 지표 예측을 뛰어넘는 예측 모델링
-
-### 근본 원인 분석
-
-이러한 기술은 지표가 변경되었다는 보고만 하지 않고 왜 지표가 변경되었는지 조사합니다.
-
-* `cja-root-cause-analysis` - Customer Journey Analytics 데이터 보기의 지표 변경 분석
-* `aa-root-cause-analysis` - Adobe Analytics 보고서 세트의 지표 변경 분석
-
-#### 필요한 권한
-
-* 분석 중인 데이터 보기 또는 보고서 세트에 대한 액세스 보기
-
-#### 주요 사용 사례
-
-| 사용 사례 | 함수 | 샘플 프롬프트 |
-|---------|----------|---------|
-| **지표 변경 진단** | 드롭, 스파이크 및 예외 항목을 포함하여 지표가 변경된 이유를 조사합니다. | <ul><li>&quot;지난 주에 전환율이 떨어진 이유는 무엇입니까?&quot;</li><li>&quot;1월 15일 매출 급증의 원인은 무엇입니까?&quot;</li></ul> |
-
-#### 범위 내
-
-* 알려진 기간 동안 알려진 지표의 변경 조사
-* 변경에 기여한 차원 및 세그먼트 표시
-
-#### 범위를 벗어남
-
-* 확인하지 않은 예외 항목 탐지(자동화된 경고 또는 실시간 경고 없음)
-* 액세스 권한이 있는 데이터 보기 또는 보고서 세트 외부의 지표에 대한 근본 원인 분석
-
-### 경영진 요약 및 성능 요약
-
-이 스킬(`cja-executive-summary`)은 이해 당사자에게 준비된 Customer Journey Analytics 또는 Adobe Analytics 데이터 요약을 생성합니다.
-
-#### 필요한 권한
-
-* 요약에서 다루는 데이터 보기 또는 보고서 세트에 대한 액세스 보기
-
-#### 주요 사용 사례
-
-| 사용 사례 | 함수 | 샘플 프롬프트 |
-|---------|----------|---------|
-| **성능 요약** | 관련자 대비 성능 요약, 규범적 권장 사항 및 슬라이드 데크 아웃라인을 생성합니다. | <ul><li>&quot;지난 달의 요약본을 주세요.&quot;</li><li>&quot;이번 분기의 데이터로 슬라이드 데크 아웃라인 만들기&quot;</li></ul> |
-
-#### 범위 내
-
-* 지정된 기간 동안의 성능 요약
-* 데이터를 기반으로 규범적 권장 사항 생성
-* 슬라이드 데크 또는 관련자 판독에 대한 콘텐츠 개요
-
-#### 범위를 벗어남
-
-* 최종 슬라이드 데크 또는 프레젠테이션 파일 구축
-* 액세스 권한이 없는 데이터 보기 또는 보고서 세트에 걸쳐 있는 요약
-
-### Adobe Analytics을 사용한 데이터 유효성 검사
-
-이 스킬(`aa-cja-validation`)은 [!DNL Adobe Analytics]과(와) Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정합니다.
-
-#### 필요한 권한
-
-* 비교 중인 [!DNL Adobe Analytics] 보고서 세트 및 Customer Journey Analytics 데이터 보기에 대한 액세스 권한 보기
-
-#### 주요 사용 사례
-
-| 사용 사례 | 함수 | 샘플 프롬프트 |
-|---------|----------|---------|
-| **Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터 유효성 검사** | [!DNL Adobe Analytics]과(와) Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정합니다.<p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사](data-validation-aa-cja.md)를 참조하십시오.</p> | <ul><li>&quot;내 Adobe Analytics 보고서 세트를 내 Customer Journey Analytics 데이터 보기와 비교&quot;</li><li>&quot;Adobe Analytics과 Customer Journey Analytics 간 페이지 보기 횟수 유효성 검사&quot;</li></ul> |
-
-#### 범위 내
-
-* 보고서 세트와 데이터 보기 간의 지표 값 비교
-* 두 데이터 소스 간의 불일치 플래그 지정
-
-#### 범위를 벗어남
-
-* 데이터 불일치의 근본 원인 해결
-* [!DNL Adobe Analytics] 및 Customer Journey Analytics 이외의 데이터 원본 확인
-
-### 사용자 지정 스킬 만들기
-
-이 스킬(`cja-skill-creator`)은 이미 실행한 분석을 세션 간에 지속되는 재사용 가능한 스킬로 바꿉니다.
-
-#### 필요한 권한
-
-* 기술 관리
-
-#### 주요 사용 사례
-
-| 사용 사례 | 함수 | 샘플 프롬프트 |
-|---------|----------|---------|
-| **재사용 가능한 분석 패턴** | 분석 패턴을 재사용이 가능하고 반복 가능한 스킬로 변환하여 세션 간에 지속합니다. | <ul><li>&quot;이 주간 매출 분석을 재사용 가능한 스킬로 전환&quot;</li><li>&quot;월별 funnel 보고를 위한 스킬로 저장&quot;</li></ul> |
-
-#### 범위 내
-
-* 완료된 분석을 명명된 재사용 가능한 스킬로 변환
-* 저장된 스킬을 향후 채팅 세션에서 사용할 수 있도록 설정
-
-#### 범위를 벗어남
-
-* 저장된 스킬을 다른 사용자와 자동으로 공유(조직 수준의 스킬 라이브러리는 관리자 설정이 필요)
-* 스킬이 참조하는 데이터 보기 또는 보고서 세트 구성 요소 편집
 
 ## 예: 고객이 드롭오프하는 위치 찾기
 
@@ -510,3 +316,19 @@ funnel은 체크아웃할 때까지 디바이스 간에 동일하며 모바일�
 * 마케팅 채널이 거의 동일한 속도로 누출되는 원인은 마케팅 채널 제외
 * 실제 문제를 모바일 체크아웃으로 파악하고 구매 시 35% 상승도로 수정 사항을 수량화합니다.
 * 우선 순위를 지정할 특정 수정 사항(모바일 결제 및 양식 마찰)을 사용하지 마십시오. 이는 데스크탑의 전환율 23.2%와 비교하여 벤치마킹되었습니다
+
+## Customer Journey Analytics에서 분석
+
+동료가 시각화를 만든 후 Analysis Workspace에서 열어 보다 심층적인 분석과 세분화된 제어를 수행할 수 있습니다. 시각화는 Customer Journey Analytics의 새 Analysis Workspace 프로젝트에서 열립니다.
+
+새 Analysis Workspace 프로젝트에서 시각화를 열려면 다음을 수행하십시오.
+
+1. Coworker에서 만든 시각화 옆에 있는 [!UICONTROL **CJA에서 분석**]&#x200B;을 선택합니다.
+
+1. Customer Journey Analytics에서 시각화를 열면 Analysis Workspace 드래그 앤 드롭 브라우저 인터페이스를 사용하여 수정, 분석 추가, 대상 만들기 등을 할 수 있습니다. 선택한 모든 사람과 Workspace 프로젝트를 공유할 수도 있습니다.
+
+   Analysis Workspace에 대한 자세한 내용은 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하십시오.
+
+## 다음 단계
+
+추가 사용 사례에서는 Coworker Chat이 데이터를 분석하는 데 사용하는 기술과 프롬프트 작성에 대한 모범 사례를 참조하십시오. [Coworker Chat으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview-v2.md)을 참조하십시오.

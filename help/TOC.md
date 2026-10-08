@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 hide: true
-source-git-commit: 2d4922c334bcc2ec93dec46098a9c021623034ad
+source-git-commit: 6c126810936bea3e883d74e6ff685991cb40cd4a
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 10%
+source-wordcount: '217'
+ht-degree: 19%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -22,7 +22,9 @@ ht-degree: 10%
   - 사용 사례 {#use-cases}
     - [동료 채팅 사용 사례](./chat/use-cases/overview.md)
     - 데이터 인사이트 {#data-insights}
-      - [CJA 데이터 분석](./chat/use-cases/data-insights/analytics-chat.md)
+      - {hide-from-toc}[개요](./chat/use-cases/data-insights/analytics-overview-v2.md)
+      - {hide-from-toc}[개요](./chat/use-cases/data-insights/analytics-overview.md)
+      - [시작하기](./chat/use-cases/data-insights/analytics-chat.md)
       - [트렌드 및 근본 원인 탐색](./chat/use-cases/data-insights/root-cause-analysis.md)
       - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./chat/use-cases/data-insights/data-validation-aa-cja.md)
       - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -42,9 +44,10 @@ ht-degree: 10%
     - 경고 {#alerts}
       - [고객 경고 기술](./chat/use-cases/customer-alerts/customer-alerts.md)
     - Brand Visibility {#brand-visibility}
-      - [마케팅 에셋 생성](./chat/use-cases/brand-visibility/generate-assets.md)
       - [브랜드 준수 검사](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [AEM Sites 페이지 작성](./chat/use-cases/brand-visibility/author-web-pages.md)
+      - [AEM Assets 온보드](./chat/use-cases/brand-visibility/onboard-aem-assets.md)
+      - [마케팅 에셋 생성](./chat/use-cases/brand-visibility/generate-assets.md)
     - 워크플로 및 계획 {#workflow-and-planning}
       - [디지털 캠페인 시작 계획](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
 - 사용자 지정 {#customizations}
@@ -58,6 +61,7 @@ ht-degree: 10%
     - [통합이란 무엇입니까?](./customizations/integrations/understanding-integrations-in-coworker.md)
   - 플러그인 {#plugins}
     - [플러그인이란 무엇입니까?](./customizations/plugins/what-are-plugins.md)
+    - [조직의 플러그인 관리](./customizations/plugins/manage-plugins-for-your-org.md)
   - 메모리 {#memory}
     - [메모리란 무엇입니까?](./customizations/memory/what-is-memory.md)
 - 캠페인 {#campaigns}
@@ -71,18 +75,3 @@ ht-degree: 10%
     - [Marketo Engage](./campaigns/connectors/marketo.md)
     - [Hubspot](./campaigns/connectors/hubspot.md)
   - [릴리스 정보](./campaigns/release-notes.md)
-- MCP {#mcp}
-  - {hide-from-toc}[Adobe CX Coworker 게이트웨이](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/overview)
-  - {hide-from-toc}[Real-Time CDP MCP 베타](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/rtcdp-mcp)
-  - 시작하기 {#mcp-get-started}
-    - {hide-from-toc}[CX Coworker 게이트웨이 도구 액세스](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/access)
-    - {hide-from-toc}[CX Coworker 게이트웨이 설치](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/install)
-    - {hide-from-toc}[CX Coworker 게이트웨이의 세션 컨텍스트 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/context-tools)
-  - 제품 도구 {#mcp-product-tools}
-    - {hide-from-toc}[Real-Time CDP 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/rtcdp-mcp)
-    - {hide-from-toc}[Experience Platform 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/aep-mcp)
-    - {hide-from-toc}[Journey Optimizer 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/ajo-mcp)
-    - {hide-from-toc}[Customer Journey Analytics 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/cja-mcp)
-    - {hide-from-toc}[Adobe Analytics 도구](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/mcp/analytics-mcp)
-    - [Workfront](https://experienceleague.adobe.com/ko/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [대상](https://experienceleague.adobe.com/ko/docs/target/using/mcp/target-mcp)

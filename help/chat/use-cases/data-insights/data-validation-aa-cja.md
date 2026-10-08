@@ -14,9 +14,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1530'
 ht-degree: 0%
 ---
 # Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사
@@ -25,7 +25,7 @@ ht-degree: 0%
 > 
 >이전의 모든 업그레이드 단계를 완료한 후에만 이 페이지의 단계를 따르십시오. 대부분의 조직에 권장되는 업그레이드 단계를 따르거나(권장) Customer Journey Analytics 업그레이드 안내서를 사용하여 조직에 대해 동적으로 생성되는 단계를 따를 수 있습니다. <ul><li>**권장 업그레이드 단계**(대부분의 조직에 권장)<p>이상적인 Customer Journey Analytics 구현으로 이어지는 일련의 단계입니다.</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)를 참조하십시오.</p></li><li>**Customer Journey Analytics 업그레이드 안내서**(조직의 특정 요구 사항에 맞는 사용자 지정 단계)<p>조직 및 고유한 환경에 맞게 조정된 업그레이드 단계를 동적으로 생성하는 새로운 업그레이드 가이드를 사용할 수 있습니다.</p><p>Customer Journey Analytics에서 가이드에 액세스하려면 **[!UICONTROL Workspace]** 탭을 선택한 다음 왼쪽 패널에서 **[!UICONTROL Customer Journey Analytics으로 업그레이드]**&#x200B;를 선택합니다. 화면에 표시되는 안내를 따릅니다.</p></li></ul>
 
-Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터의 유효성을 검사할 수 있는 유효성 검사 기술이 포함되어 있습니다. 데이터 유효성 검사는 단일 대화 내에서 완료됩니다.
+Adobe CX Enterprise Coworker에는 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터의 유효성을 검사할 수 있는 유효성 검사 기술이 포함되어 있습니다. 데이터 유효성 검사는 단일 대화 내에서 완료됩니다.
 
 이 스킬은 다음을 자동으로 비교합니다.
 
