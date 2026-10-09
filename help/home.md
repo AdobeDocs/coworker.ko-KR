@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: ee990126b1447f2eb2634761d27358f9d2e4586d
+source-git-commit: 0bdba61cab438bc8e3ad4f7ca04f1df2cd3711b7
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '800'
 ht-degree: 15%
 ---
 # CX Enterprise Coworker 개요 {#overview}
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작업을 자동화하여 유연한 계획, 사용자 정의 기술 및 지능형 실행을 통해 아이디어를 작업으로 신속하게 전환할 수 있습니다.
 
-## 동료 채팅 기본 사항
+## 동료 채팅 필수 사항
 
 이제 막 시작했거나 전문성을 강화하려는 경우 이러한 플레이리스트에서는 CX Enterprise Coworker Chat에 대한 안내식 소개를 제공합니다. 주요 기능을 탐색하고 효과적인 프롬프트를 작성하며 Adobe Experience Cloud 제품 전반에서 팀이 보다 효율적으로 작동하도록 Coworker를 지원하는 방법에 대한 실용적인 예제를 살펴보십시오.
 
@@ -155,9 +155,9 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## 동료 팀(이전 캠페인)
+## 동료 캠페인
 
-동료 팀은 작은 애자일 팀이 일어나 캠페인을 실행할 수 있는 임시 기능입니다.
+동료 캠페인은 소규모 애자일 팀이 캠페인을 시작하고 실행할 수 있는 임시 기능입니다.
 
 * [개요](./campaigns/overview.md)
 * [이메일 캠페인 만들기](./campaigns/create-an-email-campaign.md)

@@ -5,11 +5,10 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-hide: true
-source-git-commit: e35e97f90153da41a9236a9fa761be65d3bd73c1
+source-git-commit: 8a3d0d693aebf0a40fcece3fde80558f6d02696c
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 19%
+source-wordcount: '228'
+ht-degree: 18%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -29,6 +28,8 @@ ht-degree: 19%
       - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./chat/use-cases/data-insights/data-validation-aa-cja.md)
       - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - [Experience Platform 데이터 유효성 검사](./chat/use-cases/data-insights/data-validation-aep.md)
+    - 데이터 온보딩 {#data-onboarding}
+      - {hide-from-toc}[동료와 데이터 온보딩](./agents/data-onboarding-skill.md)
     - 데이터 관리 {#data-management}
       - [데이터 레이크 보존 관리](./chat/use-cases/data-management/manage-data-lake-retention.md)
     - 대상자 {#audiences}
@@ -39,6 +40,7 @@ ht-degree: 19%
       - [충성도 과제 및 잠재 고객 인사이트 만들기](./chat/use-cases/journeys/create-loyalty-challenge.md)
     - 최적화 {#optimization}
       - [Target 활동 시작](./chat/use-cases/optimization/target.md)
+      - [실험 가속화](./chat/use-cases/optimization/accelerate-experimentation.md)
     - 샌드박스 도구 {#sandbox-tooling}
       - [샌드박스 도구 에이전트 기술](./chat/use-cases/sandbox-tooling/sandbox-tooling.md)
     - 경고 {#alerts}
@@ -52,7 +54,7 @@ ht-degree: 19%
       - [디지털 캠페인 시작 계획](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
 - 사용자 지정 {#customizations}
   - [개요](./customizations/overview.md)
-  - 기술 {#skills}
+  - 스킬 {#skills}
     - [기술이란?](./customizations/skills/what-are-skills.md)
     - [첫 번째 스킬 만들기](./customizations/skills/create-your-first-skill.md)
     - [품질 게이트 스킬 구축 및 실행](./customizations/skills/run-a-quality-gate-skill.md)
