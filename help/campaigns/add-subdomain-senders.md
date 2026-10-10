@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d36bbe844cff08b2c820418121dea794a7a347c2
+source-git-commit: ebed9c3e740939a7f7520ab3bf1a6bbe5ba84019
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 4%
@@ -16,9 +16,7 @@ ht-degree: 4%
 
 하위 도메인은 브랜드나 다양한 트래픽 유형(예: 마케팅 커뮤니케이션)을 분리하는 데 사용할 수 있는 도메인의 하위 도메인입니다.
 
-마케팅 커뮤니케이션을 전송하는 데 사용되는 &quot;mybrand.com&quot; 도메인을 사용하겠습니다. 이 경우 특정 하위 도메인을 설정할 수 있습니다.
-
-* 잠재 고객 대상 이메일용 &quot;marketing.mybrand.com&quot; 하위 도메인
+예를 들어 팀에서 마케팅 커뮤니케이션을 전송하는 데 사용하는 &quot;mybrand.com&quot; 도메인을 사용하겠습니다. 이 경우 특정 하위 도메인 &quot;marketing.mybrand.com&quot;을 설정할 수 있습니다.
 
 이러한 하위 도메인을 설정하면 사용 중인 도메인과 다른 하위 도메인의 평판을 유지할 수 있습니다. 예를 들어 잘못된 전달성 사례로 인해 &quot;marketing.mybrand.com&quot; 하위 도메인이 인터넷 서비스 공급자의 차단 목록에 추가되는 경우 전체 &quot;mybrand.com&quot; 도메인과 사용자가 만든 다른 하위 도메인이 추가되지 않습니다.
 
