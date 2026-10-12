@@ -20,7 +20,7 @@ ht-degree: 14%
 동료는 다음 세 가지 경험을 통해 제공됩니다.
 
 **[동료 [!UICONTROL 채팅]](./chat/overview.md):** _[!UICONTROL 채팅]_ 기능을 사용하면 Adobe 애플리케이션에서 복잡한 요청, 인사이트, 콘텐츠 생성 및 작업에 자연어를 사용할 수 있습니다.
-**[동료 [!UICONTROL 캠페인]](./campaigns/overview.md):** _[!UICONTROL 캠페인]_은(는) 애자일 마케팅 팀을 캠페인 목표에서 조정된 캠페인 실행으로 전환하도록 설계되었습니다.
+**[동료 [!UICONTROL 캠페인]](./campaigns/overview.md):** _[!UICONTROL 캠페인]_&#x200B;은(는) 애자일 마케팅 팀을 캠페인 목표에서 조정된 캠페인 실행으로 전환하도록 설계되었습니다.
 **Coworker [!UICONTROL 프로젝트]&#x200B;(준비 중):** _[!UICONTROL 프로젝트]_&#x200B;는 팀에서 프로세스, 승인 및 Coworker의 자율 수준을 정의하는 더 오래 실행되는 다양한 기능의 Enterprise 워크플로우를 위해 설계되었습니다.
 
 ## [!DNL Coworker] [!UICONTROL 채팅]에 대한 필수 패키지
