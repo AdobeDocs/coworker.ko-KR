@@ -1,7 +1,13 @@
 ---
 title: 데이터 레이크 보존 관리
 description: CX Coworker을 사용하여 최적화할 가치가 있는 경험 이벤트 데이터를 식별하고, 데이터 세트 사용 및 보존 영향을 분석하고, 데이터 레이크 보존 정책을 관리하는 방법을 알아봅니다.
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+role: Developer
+level: Beginner, Intermediate
+doc-type: Feature Video
+duration: 160
+last-substantial-update: 2026-10-09
+jira: KT-22762
+source-git-commit: 7ae11e6865d847c6a3c316ffa26b2e4303f7e40d
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 1%
@@ -9,6 +15,8 @@ ht-degree: 1%
 # 데이터 레이크 보존 관리
 
 CX Coworker을 사용하여 샌드박스에 있는 Experience Event 데이터의 가치를 이해하고 최적화의 이점을 얻을 수 있는 데이터를 식별합니다. 먼저 Coworker에 샌드박스 데이터를 최적화하거나 데이터 세트를 정리하도록 요청하는 등의 광범위한 요청으로 시작할 수 있습니다. Coworker는 Data Management Agent를 사용하여 조사할 가치가 있는 데이터 세트를 표시하고, 데이터 세트가 얼마나 활발하게 사용되는지 분석하고, 보존 기간의 영향을 모델링하고, 적절한 경우 데이터 레이크 보존 정책을 관리하는 데 도움이 됩니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504101?captions=kor&learn=on)
 
 ## 시작하기에 앞서 {#before-you-begin}
 

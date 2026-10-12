@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: cd9cf5d6dd6e24274ea814a87509a427b9cfd394
+source-git-commit: fca51b8777f14bbfa1469c66f04e297867a96de6
 workflow-type: tm+mt
-source-wordcount: '7135'
+source-wordcount: '7646'
 ht-degree: 6%
 ---
 # 동료 채팅 사용 사례 {#use-cases}
@@ -221,6 +221,27 @@ ht-degree: 6%
 **관련 정보**
 
 * [콘텐츠 관리를 위한 동료](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}에서는 Adobe Journey Optimizer의 콘텐츠 관리 도구 및 사용 가능한 기술에 대한 세부 정보를 제공합니다.
+
+## Campaign v8
+
+동료 채팅을 사용하여 게재를 검색 및 업데이트하고, 자산을 관리하고, 데이터 모델을 탐색하고, Adobe Campaign v8에서 워크플로우를 검사, 유효성 검사 및 문제를 해결할 수 있습니다.
+
+| 사용 사례 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| 게재 찾기 및 검사 | 이름, 폴더, 채널 또는 상태별로 게재를 검색하고, 채널 콘텐츠 및 SMTP 구성을 포함한 게재의 전체 세부 정보를 검색하고, 재사용 가능한 이메일 콘텐츠 템플릿을 찾아보고, 기본 제공 게재 보고서를 읽습니다 | `find_delivery`, `describe_delivery`, `find_content_template`, `read_delivery_indicator` | Adobe Campaign v8 | &quot;이름에 &#39;뉴스레터&#39;가 포함된 이메일 콘텐츠 템플릿을 찾으십시오.&quot; · &quot;초안 이메일 게재 표시&quot; · &quot;이번 달에 실패한 게재 수는 몇 개입니까?&quot; · &quot;이 게재에서 사용하는 제목과 발신자는 무엇입니까?&quot; |
+| 게재 만들기 및 업데이트 | 채널 템플릿과 명명된 콘텐츠로 게재 또는 템플릿을 만들고 기존 게재의 레이블 및 채널당 메시지 콘텐츠를 편집합니다 | `create_delivery`, `update_delivery` | Adobe Campaign v8 | &quot;내 뉴스레터 콘텐츠 템플릿을 사용하여 이메일을 만듭니다.&quot; · &quot;여름 출시 이메일의 제목을 변경합니다.&quot; · &quot;이 게재의 HTML 콘텐츠를 바꿉니다.&quot; |
+| 보내지 않고 게재 준비 | 게재를 브로드캐스트하지 않고 타겟 확인 및 개인화 렌더링 | `prepare_delivery` | Adobe Campaign v8 | &quot;여름 시작 게재를 준비합니다.&quot; · &quot;이 게재 준비를 실행하지만 보내지 마십시오.&quot; |
+| 이메일 SMTP 및 웹 분석 설정 구성 | 이메일 게재의 SMTP 헤더 설정, 웹 분석 계정 및 추적 태그 설정 | `update_email_smtp_config`, `update_email_web_analytics` | Adobe Campaign v8 |  |
+| 자산 및 첨부 파일 관리 | 파일을 에셋으로 업로드하고, 메타데이터 및 공개 URL을 읽고, 비공개 에셋을 공개로 만들고, 에셋을 게재에 실제 첨부 파일로 연결합니다 | `upload_asset`, `get_asset_url`, `publish_asset`, `attach_asset` | Adobe Campaign v8 | &quot;이메일에 사용할 수 있도록 이 이미지를 업로드하십시오.&quot; · &quot;업로드한 이미지의 공개 URL을 제공하십시오.&quot; · &quot;업로드한 PDF을 여름 출시 게재에 첨부합니다.&quot; |
+| 캠페인 검사 | 캠페인 및 템플릿을 검색하고, 하위 워크플로우 및 게재를 포함한 캠페인에 대한 전체 세부 정보를 가져옵니다. | `find_campaign`, `describe_campaign` | Adobe Campaign v8 |  |
+| 워크플로우 이해 및 유효성 검사 | 워크플로우를 검색하고, 워크플로우를 요약하거나, 활동 및 게재 접점을 드릴다운하고, 워크플로우 정의를 정적으로 확인합니다 | `find_workflow`, `describe_workflow`, `validate_workflow` | Adobe Campaign v8 | &quot;시작 워크플로를 설명합니다.&quot; · &quot;이 워크플로우에서 사용하는 게재는 무엇입니까?&quot; · &quot;시작 워크플로의 유효성을 검사합니다.&quot; |
+| 워크플로우 제어 | 라이프사이클 명령(시작, 일시 중지, 중지, 다시 시작 또는 절전 모드 해제)을 통해 워크플로우를 실행하고 워크플로우 내의 게재 활동을 다시 구성합니다 | `control_workflow`, `update_workflow_delivery_activity` | Adobe Campaign v8 | &quot;시작 워크플로우를 시작합니다.&quot; · &quot;이 워크플로를 일시 중지합니다.&quot; |
+| 워크플로우 문제 해결 | 워크플로가 실행될 때 워크플로의 상태, 실행 저널, 현재 작업 및 보류 중인 엔진 명령을 한 번에 읽습니다. | `read_workflow_health`, `read_workflow_history`, `read_workflow_logs`, `read_workflow_tasks`, `read_workflow_jobs` | Adobe Campaign v8 |  |
+| 데이터 모델 탐색 및 확장 | 스키마 카탈로그를 검색하고, 스키마 구조를 검사하고, 스키마에서 행을 읽고, 새 스키마를 만들고, 실제 SQL 테이블을 만들거나 변경합니다. | `find_schema`, `describe_schema`, `read_schema_entity`, `create_schema`, `update_database_structure` | Adobe Campaign v8 | &quot;수신자와 관련된 스키마를 찾습니다.&quot; · &quot;수신자 스키마를 설명합니다.&quot; · &quot;충성도 환경 설정에 대한 사용자 정의 스키마 만들기&quot; |
+
+**관련 정보**
+
+* [Adobe Campaign 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/get-started){target="_blank"}에서 Adobe Campaign v8에 대한 개요를 제공합니다.
 
 ## 최적화
 
