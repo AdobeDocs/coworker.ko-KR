@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 662ac793f7838834f84cddc5d78859dae97930aa
+source-git-commit: 40eedb1e4ec40af535c66c456230c29754e69200
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '843'
 ht-degree: 14%
 ---
 # CX Enterprise Coworker 개요 {#overview}
@@ -19,7 +19,7 @@ ht-degree: 14%
 
 동료는 다음 세 가지 경험을 통해 제공됩니다.
 
-* **[Coworker [!UICONTROL 채팅]](./chat/overview.md):** Adobe 애플리케이션에서 복잡한 요청, 인사이트, 콘텐츠 생성 및 작업에 자연어를 사용합니다.
+* **[동료 [!UICONTROL 채팅]](./chat/overview.md):** Adobe 애플리케이션에서 복잡한 요청, 인사이트, 콘텐츠 생성 및 작업에 자연어를 사용합니다.
 * **[동료 [!UICONTROL 캠페인]](./campaigns/overview.md):** 캠페인 목표에서 조정된 캠페인 실행으로 민첩한 마케팅 팀을 만들도록 설계되었습니다.
 * **Coworker [!UICONTROL 프로젝트]&#x200B;(준비 중):** 팀이 프로세스, 승인 및 Coworker의 자율 수준을 정의하는 더 오래 실행되는 다양한 기능의 Enterprise 워크플로우를 위해 설계되었습니다.
 
@@ -101,7 +101,7 @@ CARDS
   {title = Transforming CX Workflows with Adobe CX Enterprise Coworker}
   {description = Explore real-world use cases that demonstrate how organizations can put Coworker to work to uncover insights, create audiences, optimize journeys, and deliver customer experiences faster and more efficiently.}
   {cta = Watch}
-*  https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008
+*  https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26
   {title = Audience and Journey B2C capabilities in Coworker}
   {description = See how Coworker can execute end-to-end workflows for customer experience orchestration, increasing productivity and simplifying otherwise technical or complex tasks.}
   {cta = Register}
@@ -113,7 +113,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="Adobe CX Enterprise Coworker을 사용하여 CX 워크플로 변환" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/exl-live-20260924.png" alt="Adobe CX Enterprise Coworker을 사용하여 CX 워크플로 변환"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3503884/?format=jpeg&nocache=1791907736815" alt="Adobe CX Enterprise Coworker을 사용하여 CX 워크플로 변환"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -135,8 +135,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" title="Coworker의 Audience 및 여정 B2C 기능" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/exl-live-20261008.png" alt="Coworker의 Audience 및 여정 B2C 기능"
+                    <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" title="Coworker의 Audience 및 여정 B2C 기능" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3504278/?format=jpeg&nocache=1791907736813" alt="Coworker의 Audience 및 여정 B2C 기능"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -144,11 +144,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" title="Coworker의 Audience 및 여정 B2C 기능">Coworker의 Audience 및 여정 B2C 기능</a>
+                        <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" title="Coworker의 Audience 및 여정 B2C 기능">Coworker의 Audience 및 여정 B2C 기능</a>
                     </p>
                     <p class="is-size-6">Coworker가 고객 경험 오케스트레이션을 위한 통합 워크플로우를 실행하여 생산성을 높이고 기술적 또는 복잡한 작업을 간소화하는 방법을 살펴볼 수 있습니다.</p>
                 </div>
-                <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">등록</span>
                 </a>
             </div>
@@ -156,6 +156,7 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 
 ## 동료 캠페인
 
