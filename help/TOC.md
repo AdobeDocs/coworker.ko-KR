@@ -5,9 +5,9 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 8a3d0d693aebf0a40fcece3fde80558f6d02696c
+source-git-commit: 60669850e4005be01c31d9f7818d1c4ad3ed8f3a
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '227'
 ht-degree: 18%
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 18%
   - 사용 사례 {#use-cases}
     - [동료 채팅 사용 사례](./chat/use-cases/overview.md)
     - 데이터 인사이트 {#data-insights}
-      - {hide-from-toc}[개요](./chat/use-cases/data-insights/analytics-overview-v2.md)
       - {hide-from-toc}[개요](./chat/use-cases/data-insights/analytics-overview.md)
       - [시작하기](./chat/use-cases/data-insights/analytics-chat.md)
       - [트렌드 및 근본 원인 탐색](./chat/use-cases/data-insights/root-cause-analysis.md)
@@ -52,7 +51,7 @@ ht-degree: 18%
       - [마케팅 에셋 생성](./chat/use-cases/brand-visibility/generate-assets.md)
     - 워크플로 및 계획 {#workflow-and-planning}
       - [디지털 캠페인 시작 계획](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-- 사용자 지정 {#customizations}
+- 사용자 정의 {#customizations}
   - [개요](./customizations/overview.md)
   - 스킬 {#skills}
     - [기술이란?](./customizations/skills/what-are-skills.md)
