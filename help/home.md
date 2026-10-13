@@ -8,22 +8,24 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 0bdba61cab438bc8e3ad4f7ca04f1df2cd3711b7
+source-git-commit: 662ac793f7838834f84cddc5d78859dae97930aa
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 15%
+source-wordcount: '834'
+ht-degree: 14%
 ---
 # CX Enterprise Coworker 개요 {#overview}
 
 동료는 AI가 지원하는 팀 동료로 조직, 팀, 개인의 업무 성격을 재구상한다. Coworker는 고객 경험과 마케팅 워크플로우를 우아하게 자동화하여 조직에서 작업을 조정하지 않고 비즈니스 목표를 실현하고 결과를 전환하는 데 집중할 수 있도록 합니다. Coworker는 에이전시 엔진으로서 비즈니스 프로세스를 자동화하는 혁신적인 새로운 접근 방식을 채택하고 있습니다. 엔터프라이즈 컨텍스트, 거버넌스 및 인적 감독이 내장된 데이터, 인텔리전스, 협업 및 에이전트 기술 실행을 통합함으로써 AI 모델 성능과 정확성을 향상시킵니다.
 
-## 동료 채팅
+동료는 다음 세 가지 경험을 통해 제공됩니다.
 
-Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작업을 자동화하여 유연한 계획, 사용자 정의 기술 및 지능형 실행을 통해 아이디어를 작업으로 신속하게 전환할 수 있습니다.
+* **[Coworker [!UICONTROL 채팅]](./chat/overview.md):** Adobe 애플리케이션에서 복잡한 요청, 인사이트, 콘텐츠 생성 및 작업에 자연어를 사용합니다.
+* **[동료 [!UICONTROL 캠페인]](./campaigns/overview.md):** 캠페인 목표에서 조정된 캠페인 실행으로 민첩한 마케팅 팀을 만들도록 설계되었습니다.
+* **Coworker [!UICONTROL 프로젝트]&#x200B;(준비 중):** 팀이 프로세스, 승인 및 Coworker의 자율 수준을 정의하는 더 오래 실행되는 다양한 기능의 Enterprise 워크플로우를 위해 설계되었습니다.
 
-## 동료 채팅 필수 사항
+## [!DNL Coworker] [!UICONTROL 채팅]에 대한 필수 패키지
 
-이제 막 시작했거나 전문성을 강화하려는 경우 이러한 플레이리스트에서는 CX Enterprise Coworker Chat에 대한 안내식 소개를 제공합니다. 주요 기능을 탐색하고 효과적인 프롬프트를 작성하며 Adobe Experience Cloud 제품 전반에서 팀이 보다 효율적으로 작동하도록 Coworker를 지원하는 방법에 대한 실용적인 예제를 살펴보십시오.
+이 플레이리스트에서는 이제 막 시작했거나 전문 지식을 강화하려는 경우 [!DNL Coworker]의 [!UICONTROL 채팅] 기능을 사용하는 방법에 대해 안내합니다. 주요 기능을 탐색하고 효과적인 프롬프트를 작성하며 Adobe Experience Cloud 제품 전반에서 팀이 보다 효율적으로 작동하도록 Coworker를 지원하는 방법에 대한 실용적인 예제를 살펴보십시오.
 
 <!--
 CARDS
