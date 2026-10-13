@@ -1,12 +1,11 @@
 ---
 title: 동료 채팅을 사용하여 Customer Journey Analytics 데이터 분석
 description: Adobe CX Enterprise Coworker Chat을 사용하여 Customer Journey Analytics 데이터를 분석하고 단계를 구축하며 여정에서 고객이 중단되는 위치를 찾는 방법에 대해 알아봅니다.
-hold: true
 product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: d3a78af009a642a516658070d06eaf245fe67e6c
+source-git-commit: 1406a6258a8f7ad3a7e5268a01c8ab2b449505b6
 workflow-type: tm+mt
 source-wordcount: '1915'
 ht-degree: 1%
