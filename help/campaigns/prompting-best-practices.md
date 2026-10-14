@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: ee66c1cc95ef1dd8c5e45c1fcb699547e63b9c8a
+source-git-commit: b6a05e2fdc16830fd69ac1b5ea68ed1d4c5d5c5f
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->현재 Coworker Campaign 지원 통합에만 연결할 수 있습니다. 대상을 저장하거나 여정을 빌드하는 기존 Adobe 엔터프라이즈 응용 프로그램이 있는 경우 대신 [CX Enterprise Coworker](/help/chat/use-cases/overview.md)을 사용하는 것이 좋습니다.
+>현재 Coworker Campaign 지원 통합에만 연결할 수 있습니다. 대상을 저장하거나 여정을 빌드하는 기존 Adobe 엔터프라이즈 응용 프로그램이 있는 경우 대신 [CX Enterprise Coworker](/help/chat/use-cases/workflows.md)을 사용하는 것이 좋습니다.
 
 ## CO-STAR 프레임워크 사용
 

@@ -5,7 +5,7 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: 1406a6258a8f7ad3a7e5268a01c8ab2b449505b6
+source-git-commit: b6a05e2fdc16830fd69ac1b5ea68ed1d4c5d5c5f
 workflow-type: tm+mt
 source-wordcount: '1915'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 | 사용 사례 | 함수 |
 | --- | --- |
 | [성능 비교](#skills-and-limitations) | 채널, 기간 또는 세그먼트 간에 지표를 나란히 비교합니다.<p>**샘플 프롬프트:** &quot;월별 채널별 수익 비교&quot;</p><p>자세한 내용은 [기술 및 제한 사항](#skills-and-limitations)을 참조하세요.</p> |
-| [운영 추세 및 원인 분석](/help/chat/use-cases/overview.md#data-insights) | 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 변경 사항을 발생시킨 원인을 식별합니다.<p>**샘플 프롬프트:** &quot;지난 90일 동안의 대상자 크기 트렌드 표시&quot;</p><p>자세한 내용은 동료 채팅 사용 사례의 [데이터 인사이트](/help/chat/use-cases/overview.md#data-insights)를 참조하십시오.</p> |
+| [운영 추세 및 원인 분석](/help/chat/use-cases/workflows.md#data-insights) | 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 변경 사항을 발생시킨 원인을 식별합니다.<p>**샘플 프롬프트:** &quot;지난 90일 동안의 대상자 크기 트렌드 표시&quot;</p><p>자세한 내용은 동료 채팅 사용 사례의 [데이터 인사이트](/help/chat/use-cases/workflows.md#data-insights)를 참조하십시오.</p> |
 
 ### 비즈니스 성과
 
@@ -86,9 +86,9 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 
 | 사용 사례 | 함수 |
 | --- | --- |
-| [캠페인 성과 측정](/help/chat/use-cases/overview.md#data-insights) | 주어진 기간 동안 캠페인, 채널 및 웹 속성을 수행하는 방법을 확인하십시오.<p>**샘플 프롬프트:** &quot;지난 달 Acrobat 웹 캠페인의 성능은 어떻습니까?&quot;</p><p>자세한 내용은 동료 채팅 사용 사례의 [데이터 인사이트](/help/chat/use-cases/overview.md#data-insights)를 참조하십시오.</p> |
+| [캠페인 성과 측정](/help/chat/use-cases/workflows.md#data-insights) | 주어진 기간 동안 캠페인, 채널 및 웹 속성을 수행하는 방법을 확인하십시오.<p>**샘플 프롬프트:** &quot;지난 달 Acrobat 웹 캠페인의 성능은 어떻습니까?&quot;</p><p>자세한 내용은 동료 채팅 사용 사례의 [데이터 인사이트](/help/chat/use-cases/workflows.md#data-insights)를 참조하십시오.</p> |
 
-사용 기술과 더 많은 샘플 프롬프트를 포함하여 이러한 사용 사례에 대한 자세한 내용은 [데이터 인사이트 사용 사례](/help/chat/use-cases/overview.md#data-insights)를 참조하십시오.
+사용 기술과 더 많은 샘플 프롬프트를 포함하여 이러한 사용 사례에 대한 자세한 내용은 [데이터 인사이트 사용 사례](/help/chat/use-cases/workflows.md#data-insights)를 참조하십시오.
 
 ## 기술 및 제한 사항
 
