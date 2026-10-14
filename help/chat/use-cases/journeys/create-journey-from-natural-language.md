@@ -14,9 +14,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: bc2c2d0bb2f73ffb9018325f812c9701c90779e1
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '128'
 ht-degree: 1%
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 1%
 ## 참조 -
 
 - [Journey Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create), Coworker Chat에서 여정 생성을 지원하는 기본 AI 기능입니다.
-- [더 많은 동료 채팅 사용 사례](../overview.md#journeys)
+- [더 많은 동료 채팅 워크플로](../workflows.md#journeys)

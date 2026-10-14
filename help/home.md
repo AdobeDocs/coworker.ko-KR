@@ -7,16 +7,20 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f0ca8fc373cae1697ac28a4f555e8c096ff6fbca
+source-git-commit: 8cefb410e43dfb295d72ff5284348fdfb604093f
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 14%
+source-wordcount: '863'
+ht-degree: 18%
 ---
-# CX Enterprise Coworker 개요 {#overview}
+# CX Enterprise Coworker 안내서 {#overview}
 
-동료는 AI가 지원하는 팀 동료로 조직, 팀, 개인의 업무 성격을 재구상한다. Coworker는 고객 경험과 마케팅 워크플로우를 우아하게 자동화하여 조직에서 작업을 조정하지 않고 비즈니스 목표를 실현하고 결과를 전환하는 데 집중할 수 있도록 합니다. Coworker는 에이전시 엔진으로서 비즈니스 프로세스를 자동화하는 혁신적인 새로운 접근 방식을 채택하고 있습니다. 엔터프라이즈 컨텍스트, 거버넌스 및 인적 감독이 내장된 데이터, 인텔리전스, 협업 및 에이전트 기술 실행을 통합함으로써 AI 모델 성능과 정확성을 향상시킵니다.
+[!DNL Coworker]은(는) 고객 경험 및 마케팅 작업을 위한 Adobe의 아젠틱 AI 팀 동료입니다. 질문에 답변하거나 작업을 추천하는 것 이상의 작업을 수행하도록 설계되었습니다. 즉, 정의된 승인과 거버넌스를 통해 제어하면서 Adobe 및 기타 엔터프라이즈 시스템 전반에서 복잡하고 다단계인 마케팅 워크플로우를 통합 및 실행할 수 있습니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
 
-동료는 다음 세 가지 경험을 통해 제공됩니다.
+## [!DNL Coworker]을(를) 사용하는 방법
+
+[!DNL Coworker]을(를) 사용하여 대상을 만들고 검증하고, 목표에서 고객 여정을 만들고, 크로스 채널 성과를 분석하고, 캠페인 성과가 변경된 이유를 진단하고, 상태 검사를 수행하고, 항상 켜져 있는 프로그램을 유지하고, 운영 예외를 처리하고, 캠페인 시작을 조정할 수 있습니다.
+
+[!DNL Coworker]은(는) 다음 세 가지 경험을 통해 제공됩니다.
 
 * **[동료 [!UICONTROL 채팅]](./chat/overview.md):** Adobe 애플리케이션에서 복잡한 요청, 인사이트, 콘텐츠 생성 및 작업에 자연어를 사용합니다.
 * **[동료 [!UICONTROL 캠페인]](./campaigns/overview.md):** 캠페인 목표에서 조정된 캠페인 실행으로 민첩한 마케팅 팀을 만들도록 설계되었습니다.
@@ -103,7 +107,7 @@ CARDS
 *  https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26
   {title = Audience and Journey B2C capabilities in Coworker}
   {description = See how Coworker can execute end-to-end workflows for customer experience orchestration, increasing productivity and simplifying otherwise technical or complex tasks.}
-  {cta = Register}
+  {cta = Watch}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -148,7 +152,7 @@ CARDS
                     <p class="is-size-6">Coworker가 고객 경험 오케스트레이션을 위한 통합 워크플로우를 실행하여 생산성을 높이고 기술적 또는 복잡한 작업을 간소화하는 방법을 살펴볼 수 있습니다.</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">등록</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">시청</span>
                 </a>
             </div>
         </div>

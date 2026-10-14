@@ -13,9 +13,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: bc2c2d0bb2f73ffb9018325f812c9701c90779e1
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 1%
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 1%
 
 - [Journey Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)&#x200B;(여정 만들기, 분석 및 시뮬레이션과 같은 동료 채팅을 통해 사용할 수 있는 기타 AJO AI 기능)
 - Adobe Journey Optimizer 설명서의 [충성도 과제 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"}.
-- [더 많은 동료 채팅 사용 사례](../overview.md#journeys)
+- [더 많은 동료 채팅 워크플로](../workflows.md#journeys)
