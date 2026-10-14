@@ -1,14 +1,13 @@
 ---
 title: Adobe CX Enterprise Coworker 안내서
 description: 조직 전반에서 고객 경험 및 마케팅 워크플로우를 자동화하는 AI 기반의 팀원인 Adobe CX Enterprise Coworker에 대해 알아봅니다.
-dummy: true
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 40eedb1e4ec40af535c66c456230c29754e69200
+source-git-commit: f0ca8fc373cae1697ac28a4f555e8c096ff6fbca
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 14%

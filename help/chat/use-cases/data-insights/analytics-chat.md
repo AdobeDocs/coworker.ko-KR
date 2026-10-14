@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
+source-git-commit: 60669850e4005be01c31d9f7818d1c4ad3ed8f3a
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 4%
 ---
 # 동료 채팅을 사용하여 데이터 분석 시작
 
-Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트를 분석한 다음 작업 예를 따릅니다. 사용 사례, 기술 및 모범 사례를 포함하여 공동 작업자 채팅으로 수행할 수 있는 작업에 대한 개요는 [공동 작업자 채팅으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview-v2.md)을 참조하세요.
+Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트를 분석한 다음 작업 예를 따릅니다. 사용 사례, 기술 및 모범 사례를 포함하여 공동 작업자 채팅으로 수행할 수 있는 작업에 대한 개요는 [공동 작업자 채팅으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview.md)을 참조하세요.
 
 시작하기 전에 Coworker 채팅 인터페이스 및 구성 옵션을 학습한 다음 Coworker가 Customer Journey Analytics 또는 Adobe Analytics 및 관련 데이터 보기 또는 보고서 세트에 연결되어 있는지 확인합니다.
 
@@ -34,7 +34,7 @@ Customer Journey Analytics 또는 Adobe Analytics 데이터와 함께 Coworker C
 * MCP 서버
 * 메모리
 * 플러그인
-* 기술
+* 스킬
 * 기타
 
 자세한 내용은 [동료 채팅 UI 안내서](/help/chat/ui-guide.md)를 참조하십시오.
@@ -331,4 +331,4 @@ funnel은 체크아웃할 때까지 디바이스 간에 동일하며 모바일�
 
 ## 다음 단계
 
-추가 사용 사례에서는 Coworker Chat이 데이터를 분석하는 데 사용하는 기술과 프롬프트 작성에 대한 모범 사례를 참조하십시오. [Coworker Chat으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview-v2.md)을 참조하십시오.
+추가 사용 사례에서는 Coworker Chat이 데이터를 분석하는 데 사용하는 기술과 프롬프트 작성에 대한 모범 사례를 참조하십시오. [Coworker Chat으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview.md)을 참조하십시오.
