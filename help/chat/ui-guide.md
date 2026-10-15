@@ -17,7 +17,7 @@ ht-degree: 2%
 
 동료 채팅을 사용하면 일반 언어로 필요한 사항을 요청하여 Adobe CX Enterprise 데이터 및 도구로 작업할 수 있습니다. 이 페이지를 사용하여 동료 채팅을 열고 첫 번째 메시지를 보내고 작업 방식을 설정합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
 
 ## 가용성
 
