@@ -8,16 +8,16 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 9dbf1eb9bf7b975af633b67ea2af812392932ec3
+source-git-commit: e3d44db4695911c1b72f47fb66bd75e24acfc2e2
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1809'
 ht-degree: 2%
 ---
 # 동료 채팅 시작 {#ui-guide}
 
 동료 채팅을 사용하면 일반 언어로 필요한 사항을 요청하여 Adobe CX Enterprise 데이터 및 도구로 작업할 수 있습니다. 이 페이지를 사용하여 동료 채팅을 열고 첫 번째 메시지를 보내고 작업 방식을 설정합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 가용성
 
@@ -46,9 +46,9 @@ ht-degree: 2%
 
 ![CX Enterprise 응용 프로그램 선택기의 Coworker](./assets/ui-guide-1.png)
 
-## 컨텍스트 설정
+## 조직 선택
 
-조직과 샌드박스는 대화가 도달할 수 있는 데이터, 기술 및 연결된 도구를 결정합니다. 시작하기 전에 확인하십시오. 현재 컨텍스트는 왼쪽 탐색 레일의 아래 사용자 이름 아래에 나타납니다.
+[조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations) 및 샌드박스에서 대화가 도달할 수 있는 데이터, 기술 및 연결된 도구를 결정합니다. 시작하기 전에 확인하십시오. 현재 컨텍스트는 왼쪽 탐색 레일의 아래 사용자 이름 아래에 나타납니다.
 
 컨텍스트를 변경하려면 다음 작업을 수행하십시오.
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 ## 첫 번째 메시지 보내기
 
-홈 화면에는 샌드박스에서 동료 채팅이 수행할 수 있는 작업을 기반으로 인사말, 입력란 및 제안된 프롬프트가 표시됩니다. 제안으로 시작하거나 직접 메시지를 작성할 수 있습니다.
+홈 화면에는 인사말, 입력([!UICONTROL 채팅]) 상자 및 동료 채팅이 샌드박스에서 수행할 수 있는 작업에 따라 제안된 프롬프트가 표시됩니다. 제안으로 시작하거나 직접 메시지를 작성할 수 있습니다.
 
 메시지를 보내려면:
 
