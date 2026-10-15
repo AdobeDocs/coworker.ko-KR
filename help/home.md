@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 161506b712f3a5f39cb584d0491795a3db6faa95
+source-git-commit: d87a189293dcc367e5fdfd80e6b59615fdbe9a2d
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '938'
 ht-degree: 18%
 ---
 # CX Enterprise Coworker 안내서 {#overview}
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 * **액세스:** Adobe [Admin Console](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/admin-console)에서 팀에 대한 역할 할당 및 공동 작업자 기능에 대한 액세스 권한을 부여합니다.
 
-* **시작하기:** Coworker가 활성화되면 [UI 안내서](./chat/ui-guide.md)를 참조하여 입력란, 응답, 채팅 기록 및 기술, MCP 서버 및 메모리 설정 등 Coworker Chat 인터페이스에 대해 알아보십시오.
+* **시작:** Coworker가 활성화되면 [Coworker Chat 시작하기](./chat/ui-guide.md)를 참조하여 입력란, 응답, 채팅 기록 및 기술, MCP 서버, 메모리 설정 등 Coworker Chat 인터페이스에 대해 알아보십시오.
 
 ## 동료 채팅 사용에 대한 비디오
 
