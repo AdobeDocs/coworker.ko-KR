@@ -5,10 +5,10 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 0ccc8faed069b726a28a39042047d1e66200181e
+source-git-commit: 69cf9eca65b61d4eb86ea3365013d8553a81e6e3
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 18%
+source-wordcount: '229'
+ht-degree: 17%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -27,6 +27,7 @@ ht-degree: 18%
       - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./chat/use-cases/data-insights/data-validation-aa-cja.md)
       - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - [Experience Platform 데이터 유효성 검사](./chat/use-cases/data-insights/data-validation-aep.md)
+      - [데이터 인사이트 가속화](./chat/use-cases/data-insights/accelerate-data-insights.md)
     - 데이터 온보딩 {#data-onboarding}
       - {hide-from-toc}[동료와 데이터 온보딩](./agents/data-onboarding-skill.md)
     - 데이터 관리 {#data-management}

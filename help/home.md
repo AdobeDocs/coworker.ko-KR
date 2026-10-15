@@ -7,28 +7,40 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8cefb410e43dfb295d72ff5284348fdfb604093f
+source-git-commit: 161506b712f3a5f39cb584d0491795a3db6faa95
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '936'
 ht-degree: 18%
 ---
 # CX Enterprise Coworker 안내서 {#overview}
 
-[!DNL Coworker]은(는) 고객 경험 및 마케팅 작업을 위한 Adobe의 아젠틱 AI 팀 동료입니다. 질문에 답변하거나 작업을 추천하는 것 이상의 작업을 수행하도록 설계되었습니다. 즉, 정의된 승인과 거버넌스를 통해 제어하면서 Adobe 및 기타 엔터프라이즈 시스템 전반에서 복잡하고 다단계인 마케팅 워크플로우를 통합 및 실행할 수 있습니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
+[!DNL Coworker]은(는) 고객 경험 및 마케팅 작업을 위한 Adobe의 아젠틱 AI 팀 동료입니다. Adobe 및 기타 엔터프라이즈 시스템 전반에서 다단계 마케팅 워크플로우를 실행하고 승인 및 거버넌스를 통해 고객이 통제력을 유지하는 등 질문에 대한 답변이나 권장 조치 이상의 역할을 합니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
 
 ## [!DNL Coworker]을(를) 사용하는 방법
 
-[!DNL Coworker]을(를) 사용하여 대상을 만들고 검증하고, 목표에서 고객 여정을 만들고, 크로스 채널 성과를 분석하고, 캠페인 성과가 변경된 이유를 진단하고, 상태 검사를 수행하고, 항상 켜져 있는 프로그램을 유지하고, 운영 예외를 처리하고, 캠페인 시작을 조정할 수 있습니다.
+동료는 AI를 _지원_&#x200B;에서 _연기_(으)로 전환합니다. 응용 프로그램 간에 전환하고 모든 단계를 직접 조정하지 않고 목표를 정의하면 [!DNL Coworker]이(가) 작동하여 단계를 수행합니다. 대상, 여정, 콘텐츠, 통찰력, 진단 및 마케팅 운영 전반에서 작동합니다.
 
 [!DNL Coworker]은(는) 다음 세 가지 경험을 통해 제공됩니다.
 
-* **[동료 [!UICONTROL 채팅]](./chat/overview.md):** Adobe 애플리케이션에서 복잡한 요청, 인사이트, 콘텐츠 생성 및 작업에 자연어를 사용합니다.
-* **[동료 [!UICONTROL 캠페인]](./campaigns/overview.md):** 캠페인 목표에서 조정된 캠페인 실행으로 민첩한 마케팅 팀을 만들도록 설계되었습니다.
-* **Coworker [!UICONTROL 프로젝트]&#x200B;(준비 중):** 팀이 프로세스, 승인 및 Coworker의 자율 수준을 정의하는 더 오래 실행되는 다양한 기능의 Enterprise 워크플로우를 위해 설계되었습니다.
+* **[동료 [!UICONTROL 채팅]](./chat/overview.md):** 자연어로 Adobe 응용 프로그램 전반에 대한 통찰력, 콘텐츠 및 작업을 요청하세요.
+* **[Coworker [!UICONTROL 캠페인]](./campaigns/overview.md):** 애자일 마케팅 팀이 캠페인 목표에서 조정된 실행으로 이동할 수 있도록 지원합니다.
+* **Coworker [!UICONTROL 프로젝트]&#x200B;(준비 중):** 팀이 프로세스, 승인 및 Coworker의 자율 수준을 설정하는 장기적인 교차 기능 엔터프라이즈 워크플로우의 경우.
 
-## [!DNL Coworker] [!UICONTROL 채팅]에 대한 필수 패키지
+## Coworker를 활성화하는 방법
 
-이 플레이리스트에서는 이제 막 시작했거나 전문 지식을 강화하려는 경우 [!DNL Coworker]의 [!UICONTROL 채팅] 기능을 사용하는 방법에 대해 안내합니다. 주요 기능을 탐색하고 효과적인 프롬프트를 작성하며 Adobe Experience Cloud 제품 전반에서 팀이 보다 효율적으로 작동하도록 Coworker를 지원하는 방법에 대한 실용적인 예제를 살펴보십시오.
+동료(동료 채팅 포함)를 활성화하려면 조직에서 Adobe CX Enterprise Coworker에 액세스해야 합니다. 활성화에는 일반적으로 다음 사항이 포함됩니다.
+
+* **라이선스:** Adobe 계정 담당자 또는 영업 팀에 문의하여 올바른 라이선스와 권한이 있는지 확인하십시오.
+
+* **온보딩:** Adobe의 엔터프라이즈 지원 또는 Professional Services 팀이 사용자 환경에 대한 Coworker를 구성하고, Adobe 애플리케이션과의 통합을 설정하고, 거버넌스 및 승인 워크플로를 정의합니다.
+
+* **액세스:** Adobe [Admin Console](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/admin-console)에서 팀에 대한 역할 할당 및 공동 작업자 기능에 대한 액세스 권한을 부여합니다.
+
+* **시작하기:** Coworker가 활성화되면 [UI 안내서](./chat/ui-guide.md)를 참조하여 입력란, 응답, 채팅 기록 및 기술, MCP 서버 및 메모리 설정 등 Coworker Chat 인터페이스에 대해 알아보십시오.
+
+## 동료 채팅 사용에 대한 비디오
+
+이러한 비디오 플레이리스트에서는 [!UICONTROL 채팅] 주요 기능과 효과적인 프롬프트를 작성하는 방법을 다루며, [!DNL Coworker]을(를) 통해 팀이 [!DNL CX Enterprise] 제품에서 보다 효율적으로 작업하는 방법에 대한 실용적인 예를 제공합니다.
 
 <!--
 CARDS
@@ -94,9 +106,24 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
+## 동료 캠페인
+
+동료 캠페인은 소규모 애자일 팀이 캠페인을 시작하고 실행할 수 있는 임시 기능입니다.
+
+* [개요](./campaigns/overview.md)
+* [이메일 캠페인 만들기](./campaigns/create-an-email-campaign.md)
+* [사용 사례](./campaigns/use-cases.md)
+* [프롬프트 우수 사례](./campaigns/prompting-best-practices.md)
+* [Marketo Engage에 연결](./campaigns/connectors/marketo.md)
+* [Hubspot에 연결](./campaigns/connectors/hubspot.md)
+
+## 프로젝트(준비 중)
+
+Coworker Projects는 전략에서 게재에 이르기까지 고객 경험 워크플로를 자동화하기 위한 공유 작업 영역입니다. 팀은 이를 사용하여 작업, 승인 및 실행을 조정합니다.
+
 ## Experience League LIVE: Coworker 잠금 해제 시리즈
 
-CX Enterprise Coworker Unlocked 시리즈에 참여하여 조직에서 AI 기반 지원을 사용하여 고객 경험 작업을 간소화하는 방법을 살펴보십시오. 각 세션에서는 팀이 워크플로를 가속화하고, 통찰력을 발견하고, Adobe Experience Cloud 애플리케이션 전반에서 작업을 자동화하는 데 도움이 되는 실용적인 사용 사례, 라이브 데모 및 전문가 지침을 살펴봅니다. 이전 에피소드를 찾아보거나 예정된 이벤트에 등록하여 생산성을 높이고 고객 경험 결과를 도출하는 새로운 방법을 알아보십시오.
+CX Enterprise Coworker Unlocked 시리즈에 참여하여 조직에서 AI를 사용하여 고객 경험 작업을 간소화하는 방법을 살펴보십시오. 각 세션에서는 실용적인 사용 사례, 라이브 데모 및 워크플로우 가속화, 통찰력 발견 및 Adobe Experience Cloud 애플리케이션 전반의 작업 자동화에 대한 전문가 지침을 제공합니다. 이전 에피소드를 찾아보거나 예정된 이벤트에 등록하십시오.
 
 <!--
 CARDS
@@ -159,19 +186,3 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
-## 동료 캠페인
-
-동료 캠페인은 소규모 애자일 팀이 캠페인을 시작하고 실행할 수 있는 임시 기능입니다.
-
-* [개요](./campaigns/overview.md)
-* [이메일 캠페인 만들기](./campaigns/create-an-email-campaign.md)
-* [사용 사례](./campaigns/use-cases.md)
-* [프롬프트 우수 사례](./campaigns/prompting-best-practices.md)
-* [Marketo Engage에 연결](./campaigns/connectors/marketo.md)
-* [Hubspot에 연결](./campaigns/connectors/hubspot.md)
-
-## 프로젝트(준비 중)
-
-Coworker Projects는 엔드 투 엔드 고객 경험 오케스트레이션 워크플로를 자동화하는 통합 작업 영역으로서, 팀이 작업, 승인 및 실행을 조정하여 전략에서 전달까지 성과를 얻을 수 있도록 지원합니다.
