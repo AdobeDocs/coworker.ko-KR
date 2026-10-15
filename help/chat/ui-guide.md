@@ -8,20 +8,18 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: e3d44db4695911c1b72f47fb66bd75e24acfc2e2
+source-git-commit: 74f8413fcb9bb0ab6c257a56c38e5e374414e2d5
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1802'
 ht-degree: 2%
 ---
 # 동료 채팅 시작 {#ui-guide}
 
 동료 채팅을 사용하면 일반 언어로 필요한 사항을 요청하여 Adobe CX Enterprise 데이터 및 도구로 작업할 수 있습니다. 이 페이지를 사용하여 동료 채팅을 열고 첫 번째 메시지를 보내고 작업 방식을 설정합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
-
 ## 가용성
 
-동료 채팅 은 몰입형 경험, 전체 페이지 작업 공간으로, 일부 CX Enterprise 애플리케이션에서 제품 내 경험으로 사용할 수 있습니다. 제품 내 경험을 열려면 응용 프로그램의 오른쪽 상단에 있는 Coworker 아이콘 ![Coworker 아이콘](./assets/icon-coworker.png)을 클릭합니다.
+[!DNL Coworker] [!UICONTROL 채팅]은(는) 몰입형 경험, 전체 페이지 작업 영역 및 일부 [!DNL CX Enterprise] 응용 프로그램에서 제품 내 경험으로 사용할 수 있습니다.
 
 다음 표는 각 경험을 사용할 수 있는 위치를 보여 줍니다.
 
@@ -35,16 +33,20 @@ ht-degree: 2%
 | AEM | 현재 사용 가능 | 현재 사용 가능 |
 | Marketo Engage | 현재 사용 가능 | 곧 출시 예정 |
 
-## 동료 채팅 열기 {#immersive}
+## [!DNL Coworker] 채팅 열기 {#immersive}
 
 몰입형 경험을 사용하려면 Adobe 자격 증명으로 로그인하십시오. 직접 링크 또는 CX Enterprise 내에서 열 수 있습니다.
 
 1. [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker)&#x200B;(으)로 이동합니다.
 1. Adobe ID로 로그인합니다.
-
-또는 CX Enterprise 헤더의 응용 프로그램 선택기에서 **[!UICONTROL 동료]**&#x200B;를 클릭합니다.
+1. [!DNL CX Enterprise]에서 응용 프로그램 선택기 메뉴 ![제품 메뉴 아이콘](./assets/apps-icon.png)을 클릭한 다음 **[!DNL Coworker]**&#x200B;을(를) 클릭합니다.
+1. 채팅(제품 내 경험)을 열려면 **[!UICONTROL 채팅]** ![동료 아이콘](./assets/icon-coworker.png)을 클릭하세요.
 
 ![CX Enterprise 응용 프로그램 선택기의 Coworker](./assets/ui-guide-1.png)
+
+## 비디오 - [!DNL Coworker] 채팅 인터페이스의 기본 사항
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 조직 선택
 
