@@ -5,9 +5,9 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 69cf9eca65b61d4eb86ea3365013d8553a81e6e3
+source-git-commit: d87a189293dcc367e5fdfd80e6b59615fdbe9a2d
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 17%
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 - [동료 개요](home.md)
 - 채팅 {#chat}
   - [개요](./chat/overview.md)
-  - [UI 안내서](./chat/ui-guide.md)
+  - [채팅 시작](./chat/ui-guide.md)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./playground-coworker-chat.md)
   - 사용 사례 {#use-cases}
     - [동료 채팅 워크플로](./chat/use-cases/workflows.md)

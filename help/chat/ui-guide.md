@@ -8,7 +8,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 216699c5b1bd34ffea0884083599fb51609762d1
+source-git-commit: 9dbf1eb9bf7b975af633b67ea2af812392932ec3
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 동료 채팅을 사용하면 일반 언어로 필요한 사항을 요청하여 Adobe CX Enterprise 데이터 및 도구로 작업할 수 있습니다. 이 페이지를 사용하여 동료 채팅을 열고 첫 번째 메시지를 보내고 작업 방식을 설정합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 가용성
 
@@ -132,7 +132,7 @@ Coworker Chat에서 작업을 수행하기 위해 추가 정보가 필요한 경
 
 ![메뉴 첨부](./assets/ui-guide-5.png)
 
-### 동료 채팅이 작동하기 전에 플랜 검토
+### 동료 채팅이 작동하기 전에 플랜 검토 {#plan-mode}
 
 데이터를 변경하는 복잡한 작업 또는 작업에 계획 모드를 사용합니다. 플랜 모드가 켜지면, 동료 채팅은 플랜을 제안하고 실행 전에 승인을 기다립니다. 플랜 모드가 꺼져 있으면 동료채팅이 바로 작업을 시작합니다.
 

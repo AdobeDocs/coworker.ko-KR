@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: d87a189293dcc367e5fdfd80e6b59615fdbe9a2d
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '747'
 ht-degree: 3%
 ---
 # Adobe CX Enterprise Coworker 채팅 개요 {#overview}
@@ -17,6 +17,8 @@ ht-degree: 3%
 동료 채팅은 고객 경험 작업을 완료하기 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명합니다(예: &quot;봄 요가 프로모션을 위한 대상 구축&quot; 또는 &quot;지난주 이 대상이 왜 줄어들었는지 알려 주십시오&quot;). Coworker Chat은 작업을 계획하고, Adobe 및 연결된 시스템 전반에서 실행하고, 결과를 확인하고, 완료된 작업을 다시 승인을 위해 가져옵니다.
 
 값: 여러 화면, 팀 및 요일에 걸쳐 수행되던 작업이 이제 한 번의 대화로 몇 분 안에 수행됩니다. 사용자는 결과를 위임하고 검토 및 승인을 통해 계속 제어할 수 있습니다. 동료 채팅은 단계를 수행하고, 진행 중 오류로부터 복구되며, 팀이 어떻게 작동하는지 학습할 때 더 예리해집니다.
+
+[동료 채팅 시작](ui-guide.md)을 참조하세요.
 
 >[!AVAILABILITY]
 >
@@ -70,4 +72,4 @@ Coworker Chat은 Coworker 빌딩 블록을 통해 제공됩니다. 현재 사용
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3495972?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
