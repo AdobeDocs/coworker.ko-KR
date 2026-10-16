@@ -1,8 +1,7 @@
 ---
 title: 동료 프로젝트에서 구현 체크리스트 생성
 description: Coworker Projects에서 할당 및 추적할 수 있는 단계를 사용하여 구현 안내서 계획에서 미리 채워진 구현 체크리스트를 생성하는 방법을 알아봅니다.
-hold: true
-source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
+source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%

@@ -1,8 +1,7 @@
 ---
 title: Coworker와 함께 Customer Journey Analytics 또는 스트리밍 미디어 구현 계획
 description: Coworker의 구현 안내서 기술이 검색 대화를 내보낼 수 있는 체크리스트를 통해 개인화되고 순서가 지정된 구현 계획으로 변환하는 방법에 대해 알아봅니다.
-hold: true
-source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
+source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 1%

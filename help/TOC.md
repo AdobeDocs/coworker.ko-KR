@@ -5,10 +5,10 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
+source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 17%
+source-wordcount: '250'
+ht-degree: 16%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -21,13 +21,18 @@ ht-degree: 17%
   - 사용 사례 {#use-cases}
     - [동료 채팅 워크플로](./chat/use-cases/workflows.md)
     - 데이터 인사이트 {#data-insights}
-      - {hide-from-toc}[개요](./chat/use-cases/data-insights/analytics-overview.md)
+      - [개요](./chat/use-cases/data-insights/analytics-overview.md)
       - [시작하기](./chat/use-cases/data-insights/analytics-chat.md)
-      - [트렌드 및 근본 원인 탐색](./chat/use-cases/data-insights/root-cause-analysis.md)
-      - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./chat/use-cases/data-insights/data-validation-aa-cja.md)
-      - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-      - [Experience Platform 데이터 유효성 검사](./chat/use-cases/data-insights/data-validation-aep.md)
-      - [데이터 인사이트 가속화](./chat/use-cases/data-insights/accelerate-data-insights.md)
+      - 데이터 거버넌스 및 검증 {#data-governance-and-validation}
+        - [구현 계획](./chat/use-cases/data-insights/implementation-guide.md)
+        - [구현 체크리스트 생성](./chat/use-cases/data-insights/intelligent-checklist.md)
+        - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [스트리밍 미디어 구현의 유효성 검사](./chat/use-cases/data-insights/streaming-media-validation.md)
+        - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Experience Platform 데이터 유효성 검사](./chat/use-cases/data-insights/data-validation-aep.md)
+        - [데이터 인사이트 가속화](./chat/use-cases/data-insights/accelerate-data-insights.md)
+      - 비즈니스 성과 {#business-performance}
+        - [트렌드 및 근본 원인 탐색](./chat/use-cases/data-insights/root-cause-analysis.md)
     - 데이터 온보딩 {#data-onboarding}
       - {hide-from-toc}[동료와 데이터 온보딩](./agents/data-onboarding-skill.md)
     - 데이터 관리 {#data-management}
