@@ -5,7 +5,7 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: f914f4a123216985ae9b562413f26e7b8c29eb0f
+source-git-commit: 4bbaf3021be6518ce3aa811efec7b4d0d2746199
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 
 | 도메인 | 수행 가능한 작업 | 다음에 최적 |
 | --- | --- | --- |
-| [데이터 거버넌스 및 유효성 검사](/help/chat/use-cases/data-insights/data-governance-and-validation.md) | 구현을 설정, 마이그레이션 및 관리하고 모든 답변 뒤의 데이터를 신뢰할 수 있도록 하십시오. | 관리 |
+| [지능형 구현 및 관리](/help/chat/use-cases/data-insights/data-governance-and-validation.md) | 구현을 설정, 마이그레이션 및 관리하고 모든 답변 뒤의 데이터를 신뢰할 수 있도록 하십시오. | 관리 |
 | [여정 분석](/help/chat/use-cases/data-insights/journey-analysis.md) | 고객이 여정에서 전환되는 위치와 그 이유를 채널, 장치 및 세그먼트에서 찾습니다. | 분석가, 비즈니스 사용자 |
 | [대상 및 세그먼트 분석](/help/chat/use-cases/data-insights/audience-and-segment-analysis.md) | 어떤 고객 그룹이 어떻게 다르게 행동하는지 파악하여 가장 중요한 것에 집중할 수 있습니다. | 분석가, 비즈니스 사용자 |
 | [비즈니스 성과](/help/chat/use-cases/data-insights/business-performance.md) | 비즈니스의 운영 방식, 지표가 이동한 이유, 지표의 이동 위치 및 다음 작업 내용을 이해합니다. | 분석가, 비즈니스 사용자 |

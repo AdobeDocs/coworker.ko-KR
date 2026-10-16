@@ -1,5 +1,5 @@
 ---
-title: 동료 채팅을 사용하여 Analytics 데이터의 유효성 검사 및 관리
+title: 동료 채팅을 사용하여 Analytics 구현 및 관리
 description: 구현을 계획하고, 체크리스트에서 추적하고, Coworker Chat을 사용하여 Adobe Analytics, Customer Journey Analytics 및 Experience Platform 데이터의 유효성을 검사합니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,17 +7,17 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f914f4a123216985ae9b562413f26e7b8c29eb0f
+source-git-commit: 4bbaf3021be6518ce3aa811efec7b4d0d2746199
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1126'
 ht-degree: 0%
 ---
 
-# 데이터 거버넌스 및 유효성 검사 개요
+# 지능형 구현 및 관리 개요
 
 Adobe CX Enterprise Coworker Chat을 사용하여 Analytics 구현을 설정, 마이그레이션 및 관리하고 모든 답변 뒤의 데이터를 신뢰할 수 있도록 하십시오. 동료는 구현을 계획하고, 해당 계획을 팀이 추적할 수 있는 체크리스트로 전환하며, 데이터가 수집된 후 유효성을 검사할 수 있습니다.
 
-데이터 거버넌스 및 유효성 검사는 공동 작업자 채팅의 여러 분석 도메인 중 하나입니다. 모든 도메인을 보려면 [동료의 채팅에서 분석 시작](/help/chat/use-cases/data-insights/analytics-overview.md#start-analyzing-in-coworker-chat)과(와) 함께 데이터 분석을 참조하십시오.
+지능형 구현 및 관리는 공동 작업자 채팅의 여러 분석 도메인 중 하나입니다. 모든 도메인을 보려면 [동료의 채팅에서 분석 시작](/help/chat/use-cases/data-insights/analytics-overview.md#start-analyzing-in-coworker-chat)과(와) 함께 데이터 분석을 참조하십시오.
 
 **관리자:** 추천
 
