@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d87a189293dcc367e5fdfd80e6b59615fdbe9a2d
+source-git-commit: 53e769c5478f46ec9240c62534994d8c30ce8380
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '936'
 ht-degree: 18%
 ---
 # CX Enterprise Coworker 안내서 {#overview}
@@ -23,7 +23,7 @@ ht-degree: 18%
 [!DNL Coworker]은(는) 다음 세 가지 경험을 통해 제공됩니다.
 
 * **[동료 [!UICONTROL 채팅]](./chat/overview.md):** 자연어로 Adobe 응용 프로그램 전반에 대한 통찰력, 콘텐츠 및 작업을 요청하세요.
-* **[Coworker [!UICONTROL 캠페인]](./campaigns/overview.md):** 애자일 마케팅 팀이 캠페인 목표에서 조정된 실행으로 이동할 수 있도록 지원합니다.
+* **[팀용 동료 [!UICONTROL 2&rbrace;:** 애자일 마케팅 팀이 캠페인 목표에서 실행 조정으로 이동할 수 있도록 지원합니다.]](./coworker-for-teams/overview.md)
 * **Coworker [!UICONTROL 프로젝트]&#x200B;(준비 중):** 팀이 프로세스, 승인 및 Coworker의 자율 수준을 설정하는 장기적인 교차 기능 엔터프라이즈 워크플로우의 경우.
 
 ## Coworker를 활성화하는 방법
@@ -106,20 +106,20 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## 동료 캠페인
-
-동료 캠페인은 소규모 애자일 팀이 캠페인을 시작하고 실행할 수 있는 임시 기능입니다.
-
-* [개요](./campaigns/overview.md)
-* [이메일 캠페인 만들기](./campaigns/create-an-email-campaign.md)
-* [사용 사례](./campaigns/use-cases.md)
-* [프롬프트 우수 사례](./campaigns/prompting-best-practices.md)
-* [Marketo Engage에 연결](./campaigns/connectors/marketo.md)
-* [Hubspot에 연결](./campaigns/connectors/hubspot.md)
-
 ## 프로젝트(준비 중)
 
 Coworker Projects는 전략에서 게재에 이르기까지 고객 경험 워크플로를 자동화하기 위한 공유 작업 영역입니다. 팀은 이를 사용하여 작업, 승인 및 실행을 조정합니다.
+
+## Teams 동료
+
+Coworker for teams는 소규모의 애자일 팀이 서서 캠페인을 실행할 수 있는 임시 기능입니다.
+
+**인기 있는 기사**
+
+* [개요](./coworker-for-teams/overview.md)
+* [이메일 캠페인 만들기](./coworker-for-teams/create-an-email-campaign.md)
+* [사용 사례](./coworker-for-teams/use-cases.md)
+* [프롬프트 우수 사례](./coworker-for-teams/prompting-best-practices.md)
 
 ## Experience League LIVE: Coworker 잠금 해제 시리즈
 

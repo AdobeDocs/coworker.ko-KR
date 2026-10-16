@@ -1,20 +1,20 @@
 ---
-description: Adobe CX Enterprise Coworker 캠페인 릴리스 정보에서 기능 개선 사항 및 수정 사항에 대해 알아봅니다.
-title: CX Enterprise Coworker Campaigns 릴리스 노트
+description: Adobe CX Enterprise Coworker for teams 릴리스 정보에서 기능 개선 사항 및 수정 사항에 대해 알아봅니다.
+title: CX Enterprise Coworker for teams 릴리스 노트
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: ee66c1cc95ef1dd8c5e45c1fcb699547e63b9c8a
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '3590'
+source-wordcount: '3597'
 ht-degree: 0%
 ---
-# Adobe CX Enterprise Coworker Campaigns 릴리스 정보 {#release-notes}
+# Adobe CX Enterprise Coworker for teams 릴리스 노트 {#release-notes}
 
-동료 캠페인 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 제공 모델에서 작동합니다.
+Coworker for teams 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 제공 모델에서 작동합니다.
 
 ## 2026년 9월 {#sep-2026}
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 * Campaign 인사이트는 각 지표를 구동하는 데이터 소스를 보여줍니다
 * 브랜드 편집기가 이제 온보딩에 내장되어 보다 원활한 최초 설정을 지원합니다
 * 캠페인을 커밋하기 전에 샘플 대상자 미리 보기
-* 동료 캠페인은 이제 통합 Experience Cloud 탐색 쉘 내에 있습니다.
+* 이제 Teams용 동료가 통합 Experience Cloud 탐색 쉘 내에 있습니다.
 * 깔끔한 캠페인 게시판용 부동 피드백 팁 표시줄 제거됨
 * 전반에서 다양한 성능 및 안정성 개선
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 
 **릴리스 날짜: 2026년 6월 10일**
 
-* 이제 앱은 전체 이름을 업데이트하여 공동 작업자 캠페인이 됩니다
+* 이제 앱은 전체에서 업데이트된 이름을 사용하는 팀을 위한 동료입니다
 * 처음 온보딩 투어는 데모 브랜드를 구축하는 과정을 안내합니다
 * 플랜이 준비되면 전용 대화 상자에서 캠페인 실행
 * 통합 카탈로그의 API 키와 HubSpot 연결
@@ -370,7 +370,7 @@ ht-degree: 0%
 
 * 작업 중에도 캠페인 게시판과 목록은 최신 세부 정보와 계속 일치합니다
 * 캠페인 채팅 및 에이전트 빌더에 명확한 생성 AI 면책조항이 표시됩니다
-* 이제 지원 연락처 세부 정보에서 전용 CX Coworker 캠페인 이메일 주소를 사용합니다.
+* 지원 연락처 세부 정보 이제 전용 CX Coworker for teams 이메일 주소를 사용하십시오.
 * 마케팅 홈 페이지에서는 대기자 명단 섹션이 제거되고 영웅 비디오가 보다 명확하게 표시됩니다
 * 더 많은 화면은 언어 및 로컬 날짜 형식을 자동으로 준수합니다.
 * 전반에서 다양한 성능 및 안정성 개선

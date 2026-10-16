@@ -1,5 +1,5 @@
 ---
-description: 프롬프트 작성에서 캠페인 검토 및 내보내기에 이르기까지 Adobe CX Enterprise Coworker 캠페인에서 이메일 캠페인을 생성하는 방법에 대한 단계별 안내서입니다.
+description: 프롬프트 작성에서 캠페인 검토 및 내보내기에 이르기까지 Adobe CX Enterprise Coworker for teams에서 이메일 캠페인을 생성하는 방법에 대한 단계별 안내서입니다.
 title: 이메일 캠페인 만들기
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2d4922c334bcc2ec93dec46098a9c021623034ad
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '983'
 ht-degree: 0%
 ---
 # 이메일 캠페인 만들기 {#create-an-email-campaign}
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 다음을 수행해야 합니다.
 
-* 활성 Adobe CX Enterprise Coworker Campaign 계정([여기에서 등록](https://coworker-campaigns.experience.adobe.com/){target="_blank"} 아직 등록하지 않은 경우).
+* Teams용 활성 Adobe CX Enterprise Coworker 계정([여기에서 등록](https://coworker-campaigns.experience.adobe.com/){target="_blank"} 아직 등록하지 않은 경우)입니다.
 
 * 내 브랜드가 **내 제품** > **브랜드**&#x200B;에 추가되었습니다.
 
@@ -46,7 +46,7 @@ _사용할 시기: 원하는 것을 정확히 알고 있을 때._
 
 _사용 시기: 원하는 항목을 모를 때._
 
-**옵션 3**: 프롬프트 표시줄의 드롭다운에서 &quot;Help me prompt&quot; 옵션을 사용하여 Coworker Campaigns에서 프롬프트 작성을 안내합니다.
+**옵션 3**: 프롬프트 표시줄의 드롭다운에서 &quot;Help me prompt&quot; 옵션을 사용하여 Teams용 Coworker에서 프롬프트 작성을 안내합니다.
 
 _사용 시기: 원하는 아이디어를 얻을 수 있지만 도움이 필요한 경우(또는 &quot;놀랄 만한&quot; 기능을 사용할 경우)._
 
@@ -54,7 +54,7 @@ _사용 시기: 원하는 아이디어를 얻을 수 있지만 도움이 필요�
 
 ## 2단계: 프롬프트 만들기
 
-강력한 동료 캠페인 프롬프트는 다음과 같습니다.
+Teams 프롬프트에 대한 강력한 동료는 다음과 같습니다.
 
 * 캠페인 목표(달성하려는 항목)입니다.
 * 대상(대상 또는 대상 데이터가 전송되는 위치)입니다.
@@ -75,7 +75,7 @@ _사용 시기: 원하는 아이디어를 얻을 수 있지만 도움이 필요�
 
 ![프롬프트에서 입력](./assets/create-an-email-campaign-2.png)
 
-프롬프트가 준비되면 **캠페인 생성**&#x200B;을 클릭하세요. 그러면 동료 캠페인은 다음을 수행합니다.
+프롬프트가 준비되면 **캠페인 생성**&#x200B;을 클릭하세요. 그러면 팀 동료:
 
 * 구조화된 캠페인 계획을 생성합니다.
 * 콘텐츠 개인화에도 사용될 타겟 대상자를 요청합니다.
@@ -115,7 +115,7 @@ _사용 시기: 원하는 아이디어를 얻을 수 있지만 도움이 필요�
 
 -또는-
 
-* 대화 인터페이스를 사용하여 동료 캠페인에 직접 얘기함으로써 변경할 수 있습니다. 예를 들면 다음과 같습니다.
+* 대화식 인터페이스를 사용하여 팀의 동료와 직접 대화하여 변경 작업을 수행합니다. 예를 들면 다음과 같습니다.
 
   * &quot;제목란을 더 긴급하게 만드세요.&quot;
   * &quot;본문 길이를 줄입니다.&quot;
@@ -149,7 +149,7 @@ Launch 기능(이메일 캠페인 보내기)이 곧 제공될 예정입니다. �
 
 전략, 필요한 대상, 워크플로우 등을 포함하여 전체 캠페인을 생성하고 있습니다. 콘텐츠가 생성된 첫 번째 응답의 평균 시간은 일반적으로 약 1분입니다.
 
-**동료 캠페인 출력이 올바르지 않으면 어떻게 해야 합니까?**
+**Teams용 Coworker 출력이 올바르지 않은 경우 어떻게 해야 합니까?**
 
 헤더의 피드백 아이콘을 클릭해서 알려 주시면 플랫폼을 개선할 수 있습니다.
 

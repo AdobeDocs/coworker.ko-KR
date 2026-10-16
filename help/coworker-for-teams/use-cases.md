@@ -1,24 +1,24 @@
 ---
-description: 획득, 참여, 이벤트, 전환 및 유지 캠페인 전반에서 사용 사례별로 구성된 Adobe CX Enterprise Coworker 캠페인에 대한 실제 프롬프트 패턴을 찾아봅니다.
-title: 동료 캠페인 사용 사례
+description: 획득, 참여, 이벤트, 전환 및 유지 캠페인 전반에서 사용 사례별로 구성된 Adobe CX Enterprise Coworker for teams의 실제 프롬프트 패턴을 찾아봅니다.
+title: Teams 사용 사례용 동료
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 0%
 ---
 # 사용 사례 {#use-cases}
 
-다음은 라이프사이클 및 성장 마케터가 Adobe CX Enterprise Coworker 캠페인에서 사용하는 실제 프롬프트 패턴입니다. 각 콘텐츠는 복사, 자체 대상자 및 브랜드 세부 사항과 교체 및 대화에서 구체화되도록 빌드되어 있습니다.
+다음은 라이프사이클 및 성장 마케터가 Adobe CX Enterprise Coworker for teams에서 사용하는 실제 프롬프트 패턴입니다. 각 콘텐츠는 복사, 자체 대상자 및 브랜드 세부 사항과 교체 및 대화에서 구체화되도록 빌드되어 있습니다.
 
 ## 사용 방법
 
-목표에 맞는 사용 사례를 선택하고, 샘플 프롬프트를 복사하여 동료 캠페인에 붙여넣고, 자리 표시자를 세부 항목으로 바꾼 다음 채팅을 통해 결과를 구체화합니다. 전체 단계를 보려면 캠페인을 빌드하고 생성하십시오.
+목표에 맞는 사용 사례를 선택하고, 샘플 프롬프트를 복사하여 Coworker for teams에 붙여넣고, 자리 표시자를 세부 항목으로 바꾼 다음 채팅을 통해 결과를 구체화합니다. 전체 단계를 보려면 캠페인을 빌드하고 생성하십시오.
 
 ## 획득 및 온보딩
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 최적 목표: 소매 시즌 푸시, 컬렉션 드롭, 순간 새로 고침.
 
-`"Build a 2-touch email campaign, 3 days apart, announcing our new seasonal catalog. Highlight what’s new and relevant for buyers in my CSV list. Personalize content to each person’s first name, product interest category, and region."`
+`"Build a 2-touch email campaign, 3 days apart, announcing our new seasonal catalog. Highlight what's new and relevant for buyers in my CSV list. Personalize content to each person's first name, product interest category, and region."`
 
 ## 이벤트 및 순간 중심
 

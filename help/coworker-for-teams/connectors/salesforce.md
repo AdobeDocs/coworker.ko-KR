@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 12ee914ed944c82694b9373f611e19cf040e2229
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '224'
 ht-degree: 0%
 ---
 # Salesforce에 연결 {#salesforce}
 
-Adobe Coworker Campaigns를 사용하면 Salesforce 계정을 연결하여 리드 및 연락처에 액세스할 수 있습니다.
+Adobe Coworker for teams를 사용하면 Salesforce 계정을 연결하여 리드 및 연락처에 액세스할 수 있습니다.
 
 >[!PREREQUISITES]
 >
@@ -26,9 +26,9 @@ Adobe Coworker Campaigns를 사용하면 Salesforce 계정을 연결하여 리�
 
 ## 연결 방법
 
-1. [동료 캠페인 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **사용자 지정**&#x200B;을 클릭하고 **커넥터**&#x200B;를 선택합니다.
+1. [Coworker for teams 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **사용자 지정**&#x200B;을 클릭하고 **커넥터**&#x200B;를 선택합니다.
 
-   ![Coworker Campaigns 왼쪽 탐색(확장된 커넥터 사용자 지정 및 강조 표시)](./assets/salesforce-1.png)
+   ![사용자 지정 확장 및 커넥터가 강조 표시된 왼쪽 탐색 팀용 동료](./assets/salesforce-1.png)
 
 1. **통합 추가**&#x200B;를 클릭합니다.
 

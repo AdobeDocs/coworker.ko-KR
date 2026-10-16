@@ -1,5 +1,5 @@
 ---
-description: 서비스 키를 사용하여 HubSpot 계정을 Coworker Campaigns에 연결하여 연락처 목록을 동기화한 다음 언제든지 통합을 관리하거나 연결을 끊습니다.
+description: 서비스 키를 사용하여 HubSpot 계정을 Coworker for teams에 연결하여 연락처 목록을 동기화한 다음 언제든지 통합을 관리하거나 연결을 끊습니다.
 title: HubSpot에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 0%
 ---
 # HubSpot에 연결 {#hubspot}
 
-Adobe Coworker 캠페인을 사용하면 HubSpot 계정에 연결하여 연락처 목록을 가져올 수 있습니다.
+Adobe Coworker for teams를 사용하면 HubSpot 계정을 연결하여 연락처 목록을 가져올 수 있습니다.
 
 >[!PREREQUISITES]
 >
@@ -25,7 +25,7 @@ Adobe Coworker 캠페인을 사용하면 HubSpot 계정에 연결하여 연락�
 
 ## 연결 방법
 
-1. [동료 캠페인 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **사용자 지정**&#x200B;을 클릭하고 **커넥터**&#x200B;를 선택합니다.
+1. [Coworker for teams 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **사용자 지정**&#x200B;을 클릭하고 **커넥터**&#x200B;를 선택합니다.
 
    ![커넥터가 선택된 사이드바에서 확장된 메뉴 사용자 지정](./assets/hubspot-1.png)
 

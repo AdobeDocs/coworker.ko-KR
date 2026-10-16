@@ -5,9 +5,9 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d87a189293dcc367e5fdfd80e6b59615fdbe9a2d
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 17%
 ---
 
@@ -66,15 +66,15 @@ ht-degree: 17%
     - [조직의 플러그인 관리](./customizations/plugins/manage-plugins-for-your-org.md)
   - 메모리 {#memory}
     - [메모리란 무엇입니까?](./customizations/memory/what-is-memory.md)
-- 캠페인 {#campaigns}
-  - {hide-from-toc}[새 팀 경험](./campaigns/new-teams-experience.md)
-  - [개요](./campaigns/overview.md)
-  - [이메일 캠페인 만들기](./campaigns/create-an-email-campaign.md)
-  - [캠페인 시작 및 관리](./campaigns/launch-manage-campaign.md)
-  - [사용 사례](./campaigns/use-cases.md)
-  - [프롬프트 우수 사례](./campaigns/prompting-best-practices.md)
-  - [C2PA 메타데이터](./campaigns/c2pa-metadata.md)
+- Teams 동료 {#coworker-for-teams}
+  - {hide-from-toc}[새 팀 경험](./coworker-for-teams/new-teams-experience.md)
+  - [개요](./coworker-for-teams/overview.md)
+  - [이메일 캠페인 만들기](./coworker-for-teams/create-an-email-campaign.md)
+  - [캠페인 시작 및 관리](./coworker-for-teams/launch-manage-campaign.md)
+  - [사용 사례](./coworker-for-teams/use-cases.md)
+  - [프롬프트 우수 사례](./coworker-for-teams/prompting-best-practices.md)
+  - [C2PA 메타데이터](./coworker-for-teams/c2pa-metadata.md)
   - 커넥터 {#connectors}
-    - [Marketo Engage](./campaigns/connectors/marketo.md)
-    - [Hubspot](./campaigns/connectors/hubspot.md)
-  - [릴리스 정보](./campaigns/release-notes.md)
+    - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
+    - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+  - [릴리스 정보](./coworker-for-teams/release-notes.md)

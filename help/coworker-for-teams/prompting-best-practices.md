@@ -1,5 +1,5 @@
 ---
-description: CO-STAR 프레임워크, 실행 및 금지 사항, 지원되지 않는 콘텐츠 및 프롬프트에 대한 품질 검사 목록 등 동료가 캠페인 프롬프트를 표시하는 모범 사례에 대해 알아봅니다.
+description: CO-STAR 프레임워크, 실행 및 금지 사항, 지원되지 않는 콘텐츠, 프롬프트에 대한 품질 검사 목록 등 모범 사례를 제안하는 팀에 대한 동료에 대해 알아봅니다.
 title: 프롬프트 모범 사례
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,18 +7,18 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: b6a05e2fdc16830fd69ac1b5ea68ed1d4c5d5c5f
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '785'
 ht-degree: 1%
 ---
 # 프롬프트 우수 사례 {#best-practices}
 
-동료 캠페인을 최대한 활용하는 방법은 메시지를 표시하는 방법에서부터 시작됩니다. 최상의 결과를 생성하는 사례, 즉 프롬프트를 구성하기 위한 CO-STAR 프레임워크, 무엇을 포함하고 무엇을 피해야 하는지, AI에게 적절한 온타겟 콘텐츠를 생성하는 데 필요한 컨텍스트를 제공하는 시나리오 기반 예제에 대해 알아봅니다.
+Team에 대해 Coworker를 최대한 활용하는 방법은 메시지를 표시하는 방법에서부터 시작됩니다. 최상의 결과를 생성하는 사례, 즉 프롬프트를 구성하기 위한 CO-STAR 프레임워크, 무엇을 포함하고 무엇을 피해야 하는지, AI에게 적절한 온타겟 콘텐츠를 생성하는 데 필요한 컨텍스트를 제공하는 시나리오 기반 예제에 대해 알아봅니다.
 
 >[!NOTE]
 >
->현재 Coworker Campaign 지원 통합에만 연결할 수 있습니다. 대상을 저장하거나 여정을 빌드하는 기존 Adobe 엔터프라이즈 응용 프로그램이 있는 경우 대신 [CX Enterprise Coworker](/help/chat/use-cases/workflows.md)을 사용하는 것이 좋습니다.
+>현재 Coworker for teams 지원 통합에만 연결할 수 있습니다. 대상을 저장하거나 여정을 빌드하는 기존 Adobe 엔터프라이즈 응용 프로그램이 있는 경우 대신 [CX Enterprise Coworker](/help/chat/use-cases/workflows.md)을 사용하는 것이 좋습니다.
 
 ## CO-STAR 프레임워크 사용
 
@@ -179,4 +179,4 @@ AI가 관련 콘텐츠를 생성할 수 있도록 항상 컨텍스트와 가치 
 
 >[!MORELIKETHIS]
 >
->동료 캠페인에 대해 [프롬프트 패턴](use-cases.md)을(를) 더 찾아봅니다.
+>Team용 Coworker에 대해 [프롬프트 패턴](use-cases.md)을 더 찾아봅니다.

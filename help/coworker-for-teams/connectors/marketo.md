@@ -1,5 +1,5 @@
 ---
-description: Marketo 스마트 및 정적 목록을 동기화할 수 있도록 Marketo Engage 계정을 Coworker Campaigns에 연결하는 방법을 알아봅니다.
+description: Marketo 스마트 및 정적 목록을 동기화할 수 있도록 Marketo Engage 계정을 Coworker for teams에 연결하는 방법을 알아봅니다.
 title: Marketo Engage에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '316'
 ht-degree: 0%
 ---
 # Marketo Engage에 연결 {#marketo}
 
-Adobe Coworker Campaigns를 사용하면 Marketo Engage 계정을 연결하여 스마트 및 정적 목록을 가져올 수 있습니다.
+Adobe Coworker for teams를 사용하면 Marketo Engage 계정을 연결하여 스마트 및 정적 목록을 가져올 수 있습니다.
 
 >[!PREREQUISITES]
 >
@@ -22,13 +22,13 @@ Adobe Coworker Campaigns를 사용하면 Marketo Engage 계정을 연결하여 �
 >
 >* 활성 Marketo Engage 계정
 >* Marketo **인스턴스 URL**
->* [클라이언트 ID 및 클라이언트 암호](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token)를 통해 Marketo의 동료 캠페인에 대해 [사용자 지정 서비스](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services#custom-services-1)를 만들었습니다.
+>* [클라이언트 ID 및 클라이언트 암호](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token)를 통해 Marketo의 Teams용 Coworker에 대해 [사용자 지정 서비스](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services#custom-services-1)를 만들었습니다.
 
 ## 연결 방법
 
-1. [동료 캠페인 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **사용자 지정**&#x200B;을 클릭하고 **커넥터**&#x200B;를 선택합니다.
+1. [Coworker for teams 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **사용자 지정**&#x200B;을 클릭하고 **커넥터**&#x200B;를 선택합니다.
 
-   ![Coworker Campaigns 왼쪽 탐색(확장된 커넥터 사용자 지정 및 강조 표시)](./assets/marketo-1.png)
+   ![사용자 지정 확장 및 커넥터가 강조 표시된 왼쪽 탐색 팀용 동료](./assets/marketo-1.png)
 
 1. **통합 추가**&#x200B;를 클릭합니다.
 
