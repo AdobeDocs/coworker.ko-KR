@@ -5,9 +5,9 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: b6a05e2fdc16830fd69ac1b5ea68ed1d4c5d5c5f
+source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
 workflow-type: tm+mt
-source-wordcount: '1915'
+source-wordcount: '1969'
 ht-degree: 1%
 ---
 
@@ -50,6 +50,7 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 | [스트리밍 미디어 구현의 유효성 검사](/help/chat/use-cases/data-insights/streaming-media-validation.md)<p>![스트리밍 미디어 구현의 유효성 검사](../../assets/ui-guide-8.png)</p> <p>실험</p> | 데이터 스트림, 스키마, 데이터 세트, 데이터 보기 및 세션 데이터를 확인하여 Streaming Media 추적이 구성되어 있고 데이터가 올바르게 수집되는지 확인합니다.<p>**샘플 프롬프트:** &quot;Streaming Media 구현은 전체적으로 얼마나 정상입니까?&quot;</p><p>자세한 내용은 [Coworker를 사용하여 Streaming Media 구현 확인](/help/chat/use-cases/data-insights/streaming-media-validation.md)을 참조하십시오.</p> |
 | [Customer Journey Analytics에 대한 데이터 세트 품질 확인](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)<p>![Customer Journey Analytics에 대한 데이터 세트 품질 확인](../../assets/data-validation-aep/dataset-validation.png)</p> <p>실험(다음 주)</p> | Customer Journey Analytics 보고를 제공하는 데이터 세트를 식별한 다음 스키마, ID 품질 및 필드 품질을 검사하여 대시보드를 작성하기 전에 문제를 해결할 수 있습니다.<p>자세한 내용은 [Coworker의 데이터 유효성 검사 기술을 사용하여 Customer Journey Analytics 데이터 유효성 검사](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)를 참조하십시오.</p> |
 | [Experience Platform으로 수집 후 데이터 유효성 검사](/help/chat/use-cases/data-insights/data-validation-aep.md)<p>![Experience Platform으로 수집 후 데이터 유효성 검사](../../assets/data-validation-aep/null-values.png)</p> | Experience Platform 데이터 세트 및 필드에 대한 통계 및 시맨틱 검사를 실행하여 잘못된 값 또는 매핑 문제와 같은 데이터 품질 문제를 찾습니다.<p>**샘플 프롬프트:** &quot;데이터 집합 Electronics 샘플 1000의 유효성 검사&quot;</p><p>자세한 내용은 [Coworker를 사용하여 Experience Platform 데이터 유효성 검사](/help/chat/use-cases/data-insights/data-validation-aep.md)를 참조하십시오.</p> |
+| [데이터 인사이트 가속화](/help/chat/use-cases/data-insights/accelerate-data-insights.md) | Coworker가 구현을 계획하고, 지원되는 작업을 실행하고, 웹 사이트 참여 데이터를 분석할 준비가 될 때까지 Adobe Experience Manager, Experience Platform, Web SDK 및 Customer Journey Analytics에서 제품 및 개발 단계를 안내하는 방법을 비디오에 표시합니다.<p>자세한 내용은 [Coworker, AEM 및 CJA을 사용하여 데이터 인사이트 가속화](/help/chat/use-cases/data-insights/accelerate-data-insights.md)를 참조하십시오.</p> |
 
 ### 여정 분석
 
