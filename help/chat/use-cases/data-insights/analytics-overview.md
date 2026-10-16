@@ -5,9 +5,9 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
+source-git-commit: f914f4a123216985ae9b562413f26e7b8c29eb0f
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1281'
 ht-degree: 1%
 ---
 
@@ -36,60 +36,16 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 
 알기 원하는 내용을 쉬운 언어로 설명함으로써 시작하십시오. 공동 작업자 채팅은 분석을 계획하고, 데이터 보기 또는 보고서 세트를 쿼리하고, 시각화 및 요약을 만듭니다.
 
-다음 사용 사례는 분석 도메인별로 그룹화되어 있습니다. 각 그룹에는 가장 적합한 역할이 나열됩니다.
+다음 사용 사례는 분석 도메인별로 그룹화되어 있습니다. 각 도메인에는 사용 사례, 샘플 프롬프트, 사전 요구 사항 및 사용 기술이 포함된 자체 페이지가 있습니다.
 
-### 데이터 거버넌스 및 검증
-
-**관리자:**, 분석가
-
-| 사용 사례 | 함수 |
-| --- | --- |
-| [구현 계획](/help/chat/use-cases/data-insights/implementation-guide.md)<p>![구현 계획](../../assets/ui-guide-6.png)</p> | Edge을 구현하거나, Adobe Analytics에서 업그레이드하거나, Content Analytics, Marketing Campaign Analytics 또는 Customer Journey Analytics에서의 스트리밍 미디어 컬렉션을 설정하기 위한 개인화된 단계별 플랜을 만듭니다. 계획에는 소유자, 작업량 예상, 종속성 및 유효성 검사 단계 등의 세부 사항이 포함됩니다.<p>**샘플 프롬프트:** &quot;Customer Journey Analytics 구현을 계획하는 데 도움&quot;</p><p>자세한 내용은 [Coworker로 구현 계획](/help/chat/use-cases/data-insights/implementation-guide.md)을 참조하세요.</p> |
-| [구현 검사 목록 생성](/help/chat/use-cases/data-insights/intelligent-checklist.md)<p>![구현 검사 목록 생성](../../assets/data-validation-aa-cja/date-detail.png)</p> <p>실험</p> | Customer Journey Analytics 구현 계획을 Coworker Projects의 체크리스트로 전환하여 팀이 단계를 할당하고 상태를 추적하고 승인 게이트를 추가할 수 있습니다.<p>자세한 내용은 [Coworker 프로젝트를 사용하여 구현 검사 목록 생성](/help/chat/use-cases/data-insights/intelligent-checklist.md)을 참조하십시오.</p> |
-| [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터 유효성 검사](/help/chat/use-cases/data-insights/data-validation-aa-cja.md)<p>![Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 데이터 유효성 검사](../../assets/data-validation-aa-cja/trend-bar-card.png)</p> | Adobe Analytics 보고서 세트와 Customer Journey Analytics 데이터 보기 간의 차원, 지표 및 트렌드를 비교한 다음, 업그레이드를 지원하도록 수정 사항을 권장합니다.<p>**샘플 프롬프트:** &quot;내 AA 보고서 세트를 내 CJA 데이터 보기와 비교&quot;</p><p>자세한 내용은 [Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사](/help/chat/use-cases/data-insights/data-validation-aa-cja.md)를 참조하십시오.</p> |
-| [스트리밍 미디어 구현의 유효성 검사](/help/chat/use-cases/data-insights/streaming-media-validation.md)<p>![스트리밍 미디어 구현의 유효성 검사](../../assets/ui-guide-8.png)</p> <p>실험</p> | 데이터 스트림, 스키마, 데이터 세트, 데이터 보기 및 세션 데이터를 확인하여 Streaming Media 추적이 구성되어 있고 데이터가 올바르게 수집되는지 확인합니다.<p>**샘플 프롬프트:** &quot;Streaming Media 구현은 전체적으로 얼마나 정상입니까?&quot;</p><p>자세한 내용은 [Coworker를 사용하여 Streaming Media 구현 확인](/help/chat/use-cases/data-insights/streaming-media-validation.md)을 참조하십시오.</p> |
-| [Customer Journey Analytics에 대한 데이터 세트 품질 확인](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)<p>![Customer Journey Analytics에 대한 데이터 세트 품질 확인](../../assets/data-validation-aep/dataset-validation.png)</p> <p>실험(다음 주)</p> | Customer Journey Analytics 보고를 제공하는 데이터 세트를 식별한 다음 스키마, ID 품질 및 필드 품질을 검사하여 대시보드를 작성하기 전에 문제를 해결할 수 있습니다.<p>자세한 내용은 [Coworker의 데이터 유효성 검사 기술을 사용하여 Customer Journey Analytics 데이터 유효성 검사](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)를 참조하십시오.</p> |
-| [Experience Platform으로 수집 후 데이터 유효성 검사](/help/chat/use-cases/data-insights/data-validation-aep.md)<p>![Experience Platform으로 수집 후 데이터 유효성 검사](../../assets/data-validation-aep/null-values.png)</p> | Experience Platform 데이터 세트 및 필드에 대한 통계 및 시맨틱 검사를 실행하여 잘못된 값 또는 매핑 문제와 같은 데이터 품질 문제를 찾습니다.<p>**샘플 프롬프트:** &quot;데이터 집합 Electronics 샘플 1000의 유효성 검사&quot;</p><p>자세한 내용은 [Coworker를 사용하여 Experience Platform 데이터 유효성 검사](/help/chat/use-cases/data-insights/data-validation-aep.md)를 참조하십시오.</p> |
-| [데이터 인사이트 가속화](/help/chat/use-cases/data-insights/accelerate-data-insights.md) | Coworker가 구현을 계획하고, 지원되는 작업을 실행하고, 웹 사이트 참여 데이터를 분석할 준비가 될 때까지 Adobe Experience Manager, Experience Platform, Web SDK 및 Customer Journey Analytics에서 제품 및 개발 단계를 안내하는 방법을 비디오에 표시합니다.<p>자세한 내용은 [Coworker, AEM 및 CJA을 사용하여 데이터 인사이트 가속화](/help/chat/use-cases/data-insights/accelerate-data-insights.md)를 참조하십시오.</p> |
-
-### 여정 분석
-
-**전문가:**, 비즈니스 사용자
-
-| 사용 사례 | 함수 |
-| --- | --- |
-| [Customer Journey Analytics 및 Adobe Analytics 데이터 분석](/help/chat/use-cases/data-insights/analytics-chat.md)<p>![Customer Journey Analytics 및 Adobe Analytics 데이터 분석](../../assets/coworker-funnel-response-card.png)</p> | 데이터 보기 또는 보고서 세트에 대한 자연어 질문에 답변하고, 유입 경로 및 기타 시각화를 구축하며, 고객이 이탈하는 지점을 찾습니다. 추가적인 분석을 위해 Analysis Workspace에서 모든 시각화를 열 수 있습니다.<p>**샘플 프롬프트:** &quot;최근 30일 동안의 페이지 보기 표시&quot;</p><p>자세한 내용은 [동료 채팅을 사용하여 데이터 분석 시작](/help/chat/use-cases/data-insights/analytics-chat.md)을 참조하세요.</p> |
-| [단계 분석](#skills-and-limitations) | 여러 단계로 구성된 전환 단계를 살펴보고 각 단계에서 드롭오프가 있는지 확인합니다.<p>**샘플 프롬프트:** &quot;체크아웃 funnel 안내&quot;</p><p>자세한 내용은 [기술 및 제한 사항](#skills-and-limitations)을 참조하세요.</p> |
-
-### 대상 및 세그먼트 분석
-
-**우수 사례:** 분석가, 비즈니스 사용자, 관리자
-
-| 사용 사례 | 함수 |
-| --- | --- |
-| [성능 비교](#skills-and-limitations) | 채널, 기간 또는 세그먼트 간에 지표를 나란히 비교합니다.<p>**샘플 프롬프트:** &quot;월별 채널별 수익 비교&quot;</p><p>자세한 내용은 [기술 및 제한 사항](#skills-and-limitations)을 참조하세요.</p> |
-| [운영 추세 및 원인 분석](/help/chat/use-cases/workflows.md#data-insights) | 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 변경 사항을 발생시킨 원인을 식별합니다.<p>**샘플 프롬프트:** &quot;지난 90일 동안의 대상자 크기 트렌드 표시&quot;</p><p>자세한 내용은 동료 채팅 사용 사례의 [데이터 인사이트](/help/chat/use-cases/workflows.md#data-insights)를 참조하십시오.</p> |
-
-### 비즈니스 성과
-
-**전문가:**, 비즈니스 사용자
-
-| 사용 사례 | 함수 |
-| --- | --- |
-| [트렌드 및 근본 원인 살펴보기](/help/chat/use-cases/data-insights/root-cause-analysis.md)<p>![트렌드 및 근본 원인 살펴보기](../../assets/data-validation-aa-cja/trend-line-card.png)</p> | 수동 쿼리 없이 Customer Journey Analytics 및 Adobe Analytics 데이터의 경향과 성능 변화를 주도하는 요인을 식별합니다.<p>**샘플 프롬프트:** &quot;지난 주에 전환율이 떨어진 이유는 무엇입니까?&quot;</p><p>자세한 내용은 [Customer Journey Analytics 및 동료](/help/chat/use-cases/data-insights/root-cause-analysis.md)를 참조하세요.</p> |
-| [예측 지표](#skills-and-limitations) | 매출 목표를 달성하기 위한 적절한 과정에 있는지 여부와 같이, 과거 Customer Journey Analytics 또는 Adobe Analytics 데이터에서 향후 지표 값을 예상할 수 있습니다.<p>**샘플 프롬프트:** &quot;향후 30일 동안 세션 예측&quot;</p><p>자세한 내용은 [기술 및 제한 사항](#skills-and-limitations)을 참조하세요.</p> |
-| [경영진 요약 및 KPI 다이제스트 만들기](#skills-and-limitations) | 관련자가 즉시 사용할 수 있는 성능 요약, 권장 사항 및 슬라이드 데크 아웃라인을 생성합니다.<p>**샘플 프롬프트:** &quot;지난달 실행 요약 제공&quot;</p><p>자세한 내용은 [기술 및 제한 사항](#skills-and-limitations)을 참조하세요.</p> |
-| [사용자 지정 Customer Journey Analytics 기술 만들기](#skills-and-limitations) | 반복하는 분석을 세션 간에 지속되는 재사용 가능한 스킬로 전환합니다.<p>**샘플 프롬프트:** &quot;이 주별 수익 분석을 재사용 가능한 스킬로 전환&quot;</p><p>자세한 내용은 [기술 및 제한 사항](#skills-and-limitations)을 참조하세요.</p> |
-
-### 마케팅 측정 및 속성
-
-**전문가:**, 비즈니스 사용자
-
-| 사용 사례 | 함수 |
-| --- | --- |
-| [캠페인 성과 측정](/help/chat/use-cases/workflows.md#data-insights) | 주어진 기간 동안 캠페인, 채널 및 웹 속성을 수행하는 방법을 확인하십시오.<p>**샘플 프롬프트:** &quot;지난 달 Acrobat 웹 캠페인의 성능은 어떻습니까?&quot;</p><p>자세한 내용은 동료 채팅 사용 사례의 [데이터 인사이트](/help/chat/use-cases/workflows.md#data-insights)를 참조하십시오.</p> |
-
-사용 기술과 더 많은 샘플 프롬프트를 포함하여 이러한 사용 사례에 대한 자세한 내용은 [데이터 인사이트 사용 사례](/help/chat/use-cases/workflows.md#data-insights)를 참조하십시오.
+| 도메인 | 수행 가능한 작업 | 다음에 최적 |
+| --- | --- | --- |
+| [데이터 거버넌스 및 유효성 검사](/help/chat/use-cases/data-insights/data-governance-and-validation.md) | 구현을 설정, 마이그레이션 및 관리하고 모든 답변 뒤의 데이터를 신뢰할 수 있도록 하십시오. | 관리 |
+| [여정 분석](/help/chat/use-cases/data-insights/journey-analysis.md) | 고객이 여정에서 전환되는 위치와 그 이유를 채널, 장치 및 세그먼트에서 찾습니다. | 분석가, 비즈니스 사용자 |
+| [대상 및 세그먼트 분석](/help/chat/use-cases/data-insights/audience-and-segment-analysis.md) | 어떤 고객 그룹이 어떻게 다르게 행동하는지 파악하여 가장 중요한 것에 집중할 수 있습니다. | 분석가, 비즈니스 사용자 |
+| [비즈니스 성과](/help/chat/use-cases/data-insights/business-performance.md) | 비즈니스의 운영 방식, 지표가 이동한 이유, 지표의 이동 위치 및 다음 작업 내용을 이해합니다. | 분석가, 비즈니스 사용자 |
+| [컨텐츠 성능](/help/chat/use-cases/data-insights/content-performance.md) | 각 에셋의 특성까지 우수한 콘텐츠와 그 이유를 파악하여 효과적인 콘텐츠에 투자할 수 있습니다. | 비즈니스 사용자 |
+| [마케팅 측정 및 속성](/help/chat/use-cases/data-insights/marketing-measurement-and-attribution.md) | 모든 마케팅 채널 및 캠페인의 증분 영향을 이해하여 ROI를 최적화하기 위해 지출을 할당할 수 있습니다. | 분석가, 비즈니스 사용자 |
 
 ## 기술 및 제한 사항
 
@@ -139,6 +95,7 @@ Customer Journey Analytics 또는 Adobe Analytics 데이터를 분석하는 데 
 
 ## 다음 단계
 
-동료 채팅을 설정하고 작업 예제를 보려면 [동료 채팅을 사용하여 데이터 분석 시작](/help/chat/use-cases/data-insights/analytics-chat.md)을 참조하세요.
+* 동료 채팅을 설정하고 작업 예제를 보려면 [동료 채팅을 사용하여 데이터 분석 시작](/help/chat/use-cases/data-insights/analytics-chat.md)을 참조하세요.
+* 모든 동료 채팅 워크플로우와 그 뒤에 있는 기술을 보려면 [동료 채팅 워크플로우](/help/chat/use-cases/workflows.md)를 참조하십시오.
 
 
