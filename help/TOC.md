@@ -5,10 +5,10 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: f914f4a123216985ae9b562413f26e7b8c29eb0f
+source-git-commit: 9d38c1c9bb50ff07d82da24143074090bf49d7aa
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 17%
+source-wordcount: '275'
+ht-degree: 16%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -51,6 +51,7 @@ ht-degree: 17%
       - [플랫폼 상태 평가 및 대상 구축](./chat/use-cases/audiences/create-audience-from-natural-language.md)
     - 여정 {#journeys}
       - [자연어를 사용하여 여정 만들기](./chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - [크로스 채널 여정 만들기, 시뮬레이션 및 분석](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker-feature-video.md)
     - 충성도 {#loyalty}
       - [충성도 과제 및 잠재 고객 인사이트 만들기](./chat/use-cases/journeys/create-loyalty-challenge.md)
     - 최적화 {#optimization}
