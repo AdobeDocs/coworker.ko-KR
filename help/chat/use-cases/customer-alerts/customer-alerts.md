@@ -1,7 +1,27 @@
 ---
 title: 고객 경고 기술
 description: CX Coworker에서 고객 경고 기술을 사용하여 자연어 대화를 통해 경고 활동을 검토, 분석 및 우선 순위를 지정하는 방법을 알아봅니다.
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+jira: KT-22913
+last-substantial-update: '2026-10-16T00:00:00.000Z'
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: a7150a74-b8a9-4042-b066-147c5f0ca505
+    internal-label: Alerts
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 0a9cfeaf54221e004e0422766f8bd1bb4d078dea
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 4%
@@ -18,6 +38,8 @@ ht-degree: 4%
 CX Coworker의 고객 경고 기술을 사용하여 경고 활동을 개인화된 운영 브리핑으로 전환합니다. 최근 알림을 검토하고, 우선 순위가 높은 문제를 식별하고, 영향을 받는 리소스를 파악하고, 자연어 대화를 통해 조사 노력을 집중합니다.
 
 고객 경고 기술은 경고 보기를 수동으로 검토하거나 여러 인터페이스에서 정보의 상관 관계를 확인하지 않고 경고 신호에서 실행 가능한 인사이트로 이동하는 데 도움이 됩니다. 최근 경고 활동에 대한 광범위한 질문으로 시작한 다음, 후속 질문을 사용하여 반복 경고 패턴을 식별하고, 영향을 받은 개체를 분석하고, 소유하고 있는 경고에 집중하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504716?learn=on)
 
 고객 경고에 대한 자세한 내용은 [고객 경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)를 참조하십시오.
 
