@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ## 비디오 - [!DNL Coworker] 채팅 인터페이스의 기본 사항
 
->[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
 
 ## 조직 선택
 
