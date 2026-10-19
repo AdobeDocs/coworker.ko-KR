@@ -23,7 +23,7 @@ ht-degree: 17%
 [!DNL Coworker]은(는) 다음 세 가지 경험을 통해 제공됩니다.
 
 * **[동료 [!UICONTROL 채팅]](./chat/overview.md):** 자연어로 Adobe 응용 프로그램 전반에 대한 통찰력, 콘텐츠 및 작업을 요청하세요. 채팅은 계정 팀을 통해 라이선스가 부여되고 활성화됩니다.
-* **[팀용 동료 [!UICONTROL 2}:** 애자일 마케팅 팀이 캠페인 목표에서 실행 조정으로 이동할 수 있도록 지원합니다. ]](./coworker-for-teams/overview.md)Coworker for teams는 2026년 12월 31일에 종료되는 자체 URL에서 셀프서비스 무료 체험판이며 북미에만 해당됩니다.
+* **[팀용 동료 [!UICONTROL 2&rbrace;:** 애자일 마케팅 팀이 캠페인 목표에서 실행 조정으로 이동할 수 있도록 지원합니다. &#x200B;]](./coworker-for-teams/overview.md)Coworker for teams는 2026년 12월 31일에 종료되는 자체 URL에서 셀프서비스 무료 체험판이며 북미에만 해당됩니다.
 * **Coworker [!UICONTROL 프로젝트]&#x200B;(준비 중):** 팀이 프로세스, 승인 및 Coworker의 자율 수준을 설정하는 장기적인 교차 기능 엔터프라이즈 워크플로우의 경우.
 
 ## 동료 채팅을 활성화하는 방법
