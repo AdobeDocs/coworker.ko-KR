@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 74f8413fcb9bb0ab6c257a56c38e5e374414e2d5
+source-git-commit: 80f7bf9003e360b9ca6d0e1868c056447d35b763
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1801'
 ht-degree: 2%
 ---
 # 동료 채팅 시작 {#ui-guide}
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ## 비디오 - [!DNL Coworker] 채팅 인터페이스의 기본 사항
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 조직 선택
 
@@ -213,7 +213,7 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 
 ## 동료 채팅 사용자 지정
 
-구성은 동료 채팅이 수행할 수 있는 작업을 제어하는 곳입니다. 탐색 레일에서 **[!UICONTROL 구성]**&#x200B;을 클릭한 다음 탭을 선택합니다. **[!UICONTROL 기술]**, **[!UICONTROL MCP 서버]**, **[!UICONTROL 마켓플레이스]**, **[!UICONTROL 플러그인]** 또는 **[!UICONTROL 메모리]**.
+[!UICONTROL 사용자 지정]에서 [!UICONTROL 동료 채팅]의 기능을 제어할 수 있습니다. 탐색 레일에서 **[!UICONTROL 사용자 지정]**&#x200B;을 클릭한 다음 탭을 선택합니다. **[!UICONTROL 기술]**, **[!UICONTROL 통합]**, **[!UICONTROL 마켓플레이스]**, **[!UICONTROL 플러그인]** 또는 **[!UICONTROL 메모리]**.
 
 ### 스킬 추가 및 보기
 
@@ -221,8 +221,9 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 
 ![기술 탭](./assets/ui-guide-12.png)
 
-1. **[!UICONTROL 스킬]** 탭에서 **[!UICONTROL Source 추가]**&#x200B;를 클릭하여 새 소스에서 스킬을 설치합니다.
-1. 스킬을 찾으려면 **[!UICONTROL 검색]**&#x200B;에 이름을 입력하십시오. 보기 토글을 사용하여 격자선과 목록 레이아웃 간에 전환합니다.
+1. **[!UICONTROL 스킬]** 탭에서 **[!UICONTROL 스킬 추가]**&#x200B;를 클릭하여 새 소스에서 스킬을 설치합니다.
+1. 스킬을 찾으려면 **[!UICONTROL 검색]**에 이름을 입력하십시오.
+보기 토글을 사용하여 격자선과 목록 레이아웃 간에 전환합니다.
 1. 동료 채팅에서 이 플러그인을 사용할 때 이 플러그인이 속한 항목과 이 플러그인에 포함된 파일을 볼 기술을 선택합니다.
 
    ![지원 파일을 표시하는 스킬 세부 정보 보기](./assets/ui-guide-13.png)

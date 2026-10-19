@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 53e769c5478f46ec9240c62534994d8c30ce8380
+source-git-commit: 80f7bf9003e360b9ca6d0e1868c056447d35b763
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 18%
+source-wordcount: '966'
+ht-degree: 17%
 ---
 # CX Enterprise Coworker 안내서 {#overview}
 
-[!DNL Coworker]은(는) 고객 경험 및 마케팅 작업을 위한 Adobe의 아젠틱 AI 팀 동료입니다. Adobe 및 기타 엔터프라이즈 시스템 전반에서 다단계 마케팅 워크플로우를 실행하고 승인 및 거버넌스를 통해 고객이 통제력을 유지하는 등 질문에 대한 답변이나 권장 조치 이상의 역할을 합니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
+[!DNL Coworker]은(는) 고객 경험 및 마케팅 작업을 위한 Adobe의 아젠틱 AI 팀 동료입니다. Adobe 및 기타 엔터프라이즈 시스템 전반에서 다단계 마케팅 워크플로우를 실행하고 승인 및 거버넌스를 통해 고객이 통제력을 유지하는 등 질문에 대한 답변이나 권장 조치 이상의 역할을 합니다. [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
 
 ## [!DNL Coworker]을(를) 사용하는 방법
 
@@ -22,13 +22,13 @@ ht-degree: 18%
 
 [!DNL Coworker]은(는) 다음 세 가지 경험을 통해 제공됩니다.
 
-* **[동료 [!UICONTROL 채팅]](./chat/overview.md):** 자연어로 Adobe 응용 프로그램 전반에 대한 통찰력, 콘텐츠 및 작업을 요청하세요.
-* **[팀용 동료 [!UICONTROL 2&rbrace;:** 애자일 마케팅 팀이 캠페인 목표에서 실행 조정으로 이동할 수 있도록 지원합니다.]](./coworker-for-teams/overview.md)
+* **[동료 [!UICONTROL 채팅]](./chat/overview.md):** 자연어로 Adobe 응용 프로그램 전반에 대한 통찰력, 콘텐츠 및 작업을 요청하세요. 채팅은 계정 팀을 통해 라이선스가 부여되고 활성화됩니다.
+* **[팀용 동료 [!UICONTROL 2}:** 애자일 마케팅 팀이 캠페인 목표에서 실행 조정으로 이동할 수 있도록 지원합니다. ]](./coworker-for-teams/overview.md)Coworker for teams는 2026년 12월 31일에 종료되는 자체 URL에서 셀프서비스 무료 체험판이며 북미에만 해당됩니다.
 * **Coworker [!UICONTROL 프로젝트]&#x200B;(준비 중):** 팀이 프로세스, 승인 및 Coworker의 자율 수준을 설정하는 장기적인 교차 기능 엔터프라이즈 워크플로우의 경우.
 
-## Coworker를 활성화하는 방법
+## 동료 채팅을 활성화하는 방법
 
-동료(동료 채팅 포함)를 활성화하려면 조직에서 Adobe CX Enterprise Coworker에 액세스해야 합니다. 활성화에는 일반적으로 다음 사항이 포함됩니다.
+동료 채팅을 활성화하려면 조직에서 Adobe CX Enterprise Coworker에 액세스해야 합니다. 활성화에는 일반적으로 다음 사항이 포함됩니다.
 
 * **라이선스:** Adobe 계정 담당자 또는 영업 팀에 문의하여 올바른 라이선스와 권한이 있는지 확인하십시오.
 
@@ -44,16 +44,16 @@ ht-degree: 18%
 
 <!--
 CARDS
-* https://experienceleague.adobe.com/ko/playlists/coworker-get-started-with-chat
+* https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat
    {title = Get started with CX Enterprise Coworker Chat}
    {description = Learn the value of CX Enterprise Coworker Chat and start executing use cases.}
    {cta = Watch}
-   {image = https://video.tv.adobe.com/v/3498572?captions=kor&format=jpeg}    
-*  https://experienceleague.adobe.com/ko/playlists/coworker-customize-chat
+   {image = https://video.tv.adobe.com/v/3498558?format=jpeg}    
+*  https://experienceleague.adobe.com/en/playlists/coworker-customize-chat
     {title = Customize CX Enterprise Coworker Chat}
     {description = Learn how Coworker can be customized with reusable skills, enterprise integrations, plugins, and memory to deliver context-aware, personalized, and business-specific AI experiences that fits how your team works.}
     {cta = Watch}
-    {image = https://video.tv.adobe.com/v/3502337?captions=kor&format=jpeg}
+    {image = https://video.tv.adobe.com/v/3502323?format=jpeg}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -61,8 +61,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/ko/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker 채팅 시작" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498572?captions=kor&format=jpeg" alt="CX Enterprise Coworker 채팅 시작"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker 채팅 시작" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="CX Enterprise Coworker 채팅 시작"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -70,11 +70,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/ko/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 시작">CX Enterprise Coworker 채팅 시작</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 시작">CX Enterprise Coworker 채팅 시작</a>
                     </p>
                     <p class="is-size-6">CX Enterprise Coworker 채팅의 가치를 알아보고 사용 사례 실행을 시작하십시오.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/ko/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">시청</span>
                 </a>
             </div>
@@ -84,8 +84,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/ko/playlists/coworker-customize-chat" title="CX Enterprise Coworker 채팅 사용자 지정" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502337?captions=kor&format=jpeg" alt="CX Enterprise Coworker 채팅 사용자 지정"
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="CX Enterprise Coworker 채팅 사용자 지정" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502323?format=jpeg" alt="CX Enterprise Coworker 채팅 사용자 지정"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -93,11 +93,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/ko/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 사용자 지정">CX Enterprise Coworker 채팅 사용자 지정</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker 채팅 사용자 지정">CX Enterprise Coworker 채팅 사용자 지정</a>
                     </p>
                     <p class="is-size-6">재사용 가능한 스킬, 엔터프라이즈 통합, 플러그인 및 메모리를 통해 동료가 사용자 정의 되어 팀 운영 방식에 적합한 컨텍스트 인식, 맞춤형 및 비즈니스별 AI 경험을 제공하는 방법에 대해 알아봅니다.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/ko/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">시청</span>
                 </a>
             </div>
