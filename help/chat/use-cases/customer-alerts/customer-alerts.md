@@ -39,7 +39,7 @@ CX Coworker의 고객 경고 기술을 사용하여 경고 활동을 개인화�
 
 고객 경고 기술은 경고 보기를 수동으로 검토하거나 여러 인터페이스에서 정보의 상관 관계를 확인하지 않고 경고 신호에서 실행 가능한 인사이트로 이동하는 데 도움이 됩니다. 최근 경고 활동에 대한 광범위한 질문으로 시작한 다음, 후속 질문을 사용하여 반복 경고 패턴을 식별하고, 영향을 받은 개체를 분석하고, 소유하고 있는 경고에 집중하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504716?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504721?captions=kor&learn=on)
 
 고객 경고에 대한 자세한 내용은 [고객 경고 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/observability/alerts/overview)를 참조하십시오.
 
