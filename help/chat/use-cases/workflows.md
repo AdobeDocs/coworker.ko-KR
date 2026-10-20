@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: be1be18a25c57eafa07b326b1bf5800527cb1c7d
+source-git-commit: ee4016ae71de6eadc7b38d434a6aeefde74b124b
 workflow-type: tm+mt
-source-wordcount: '7712'
+source-wordcount: '7768'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -188,6 +188,7 @@ ht-degree: 6%
 | --- | --- | --- | --- | --- |
 | [충성도 문제를 만들고, 편집하고, 관리합니다](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | 충성도 프로그램 관리 간소화 및 가속화 | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;회원들이 새로운 계절 음료를 시도하도록 유도하는 문제를 만드십시오.&quot; <br> &quot;회원 감소율이 가장 높은 충성도 문제를 보여 주십시오.&quot; |
 | [충성도 프로그램 성과 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | 자연어를 사용하여 충성도 포인트, 멤버 계층, 환급 및 매출 지표를 쿼리하고 분석합니다. | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;2026년 8월 중에 충성도 포인트를 몇 개나 부여받았습니까?&quot; <br> &quot;충성도 프로그램의 총 수입을 2026년 8월 중 일별로 분류하여 표시합니다.&quot; |
+| [충성도 기회 찾기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | 충성도 프로그램 트렌드 및 성능 데이터를 기반으로 근거에 둔 특정 도전 기회를 요청한 다음 이를 라이브 도전으로 전환합니다. | 추가 예정 | Adobe Journey Optimizer (AJO) | &quot;어떤 충성도 기회로 인해 구성원 지출이 늘어날 수 있습니까?&quot; <br> &quot;활동적이지 않은 멤버들을 다시 이길 수 있는 기회를 보여주세요.&quot; |
 
 **관련 정보**
 

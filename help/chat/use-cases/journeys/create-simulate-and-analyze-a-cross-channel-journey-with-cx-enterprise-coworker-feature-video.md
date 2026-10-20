@@ -25,4 +25,4 @@ CX Enterprise Coworker에서 자연어 프롬프트에서 크로스 채널 여�
 
 이 비디오에서는 여정의 분기 경로를 시뮬레이션하고 진단을 분석하여 구성 문제를 식별하는 방법을 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504706?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504711?captions=kor&learn=on)
