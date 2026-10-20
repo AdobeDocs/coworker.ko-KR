@@ -5,24 +5,24 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 4bbaf3021be6518ce3aa811efec7b4d0d2746199
+source-git-commit: 2b61bbc29954e10515b5bbdbd7bafe48c7cbfdbd
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 16%
+source-wordcount: '282'
+ht-degree: 14%
 ---
 
 # CX Enterprise Coworker {#content}
 
-- [동료 개요](home.md)
+- [동료 안내서](home.md)
 - 채팅 {#chat}
-  - [개요](./chat/overview.md)
-  - [채팅 시작](./chat/ui-guide.md)
+  - [동료 채팅 정보](./chat/overview.md)
+  - [동료 채팅 사용 시작](./chat/ui-guide.md)
   - {hide-from-toc}[플레이그라운드에서 동료 채팅](./playground-coworker-chat.md)
-  - 사용 사례 {#use-cases}
+  - 워크플로 {#use-cases}
     - [동료 채팅 워크플로](./chat/use-cases/workflows.md)
     - 데이터 인사이트 {#data-insights}
-      - [개요](./chat/use-cases/data-insights/analytics-overview.md)
-      - [시작하기](./chat/use-cases/data-insights/analytics-chat.md)
+      - [데이터 분석 기본 정보](./chat/use-cases/data-insights/analytics-overview.md)
+      - [데이터 분석 시작](./chat/use-cases/data-insights/analytics-chat.md)
       - 지능적인 구현 및 관리 {#intelligent-implementation-and-administration}
         - [개요](./chat/use-cases/data-insights/data-governance-and-validation.md)
         - [구현 계획](./chat/use-cases/data-insights/implementation-guide.md)
@@ -69,7 +69,7 @@ ht-degree: 16%
     - 워크플로 및 계획 {#workflow-and-planning}
       - [디지털 캠페인 시작 계획](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
 - 사용자 정의 {#customizations}
-  - [개요](./customizations/overview.md)
+  - [맞춤화 개요](./customizations/overview.md)
   - 스킬 {#skills}
     - [기술이란?](./customizations/skills/what-are-skills.md)
     - [첫 번째 스킬 만들기](./customizations/skills/create-your-first-skill.md)

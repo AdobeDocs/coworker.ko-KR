@@ -7,12 +7,12 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
+source-git-commit: 5dcd4ea4f6fe540f6f48e9db73d8c2de8b43d90d
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 3%
+source-wordcount: '719'
+ht-degree: 6%
 ---
-# Adobe CX Enterprise Coworker 채팅 개요 {#overview}
+# 동료 채팅 정보 {#overview}
 
 동료 채팅은 고객 경험 작업을 완료하기 위한 대화 인터페이스입니다. 목표를 일반 언어로 설명합니다(예: &quot;봄 요가 프로모션을 위한 대상 구축&quot; 또는 &quot;지난주 이 대상이 왜 줄어들었는지 알려 주십시오&quot;). Coworker Chat은 작업을 계획하고, Adobe 및 연결된 시스템 전반에서 실행하고, 결과를 확인하고, 완료된 작업을 다시 승인을 위해 가져옵니다.
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->동료 채팅은 일반적으로 사용할 수 있습니다. 기능 및 연결된 애플리케이션은 계속 확장됩니다. 사용 가능한 스킬 및 커넥터 섹션에서 현재 지원되는 내용을 확인하십시오.
+>동료 채팅은 일반적으로 사용할 수 있습니다. 기능 및 연결된 애플리케이션은 계속 확장됩니다. 현재 지원되는 항목에 대한 사용 가능한 [스킬](./use-cases/workflows.md) 및 커넥터 섹션을 확인하십시오.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## AI Assistant의 발전
 
-AI 어시스턴트와 Adobe Experience Platform Agent Orchestrator을 사용한 적이 있다면 동료채팅이 그 다음 단계다. AI 비서가 동료채팅(Coworker Chat)으로 진화하고 있습니다. 현재 Adobe의 특별히 빌드된 에이전트(제품 지식, 운영 및 데이터 인사이트, 대화 경험)를 호출하여 AI Assistant에서 수행할 수 있는 모든 작업은 계속 사용할 수 있습니다. 동료 채팅은 동료 기본 구성 요소(엔터프라이즈 활용, 기술, 거버넌스 및 메모리)를 통해 지원되므로 이제 동일한 대화가 대답을 넘어 실제로 작업을 끝까지 완료할 수 있습니다.
+동료 채팅은 [AI 도우미](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/ai-assistant-ui) 및 Adobe Experience Platform Agent Orchestrator 다음의 단계입니다. 제품 지식, 운영 및 데이터 통찰력을 포함하여 현재 AI Assistant에서 수행할 수 있는 모든 작업을 사용할 수 있습니다. Coworker Chat은 대화에서 단순히 질문에 답변하는 것이 아니라 작업을 완료할 수 있도록 하는 [빌딩 블록](#building-blocks)을 추가합니다.
 
 ## 채팅 경험
 
@@ -40,10 +40,6 @@ AI 어시스턴트와 Adobe Experience Platform Agent Orchestrator을 사용한 
 * **제안 및 후속 프롬프트:** 동료 채팅에서 다음 단계를 제안하므로 어떤 질문을 할지 추측할 필요가 없습니다.
 * **대화 기록:** 이전 대화가 저장되므로 이전 작업으로 돌아가서 중지한 위치를 선택하고 동료 채팅에서 만든 내용을 다시 사용할 수 있습니다.
 * **피드백 기본 제공:** 엄지손가락으로 응답을 평가하여 무엇이 작동하고 무엇이 작동하지 않는지 동료에게 알려 줍니다. 귀하의 피드백은 시간이 지남에 따라 경험을 개선하는 데 도움이 됩니다.
-
->[!NOTE]
->
->경험이 완료되면 인터페이스 스크린샷이 추가됩니다.
 
 ## 호환 가능한 CX Enterprise 애플리케이션
 

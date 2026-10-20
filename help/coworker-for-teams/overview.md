@@ -7,12 +7,12 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
+source-git-commit: 68132acaa3dfbefa1e9cda9fad724f17c7e5f065
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '983'
 ht-degree: 0%
 ---
-# Adobe CX Enterprise Coworker for teams 개요 {#overview}
+# Teams용 동료 개요 {#overview}
 
 Coworker for teams는 콘텐츠 생성, 여정 구축 및 분석을 단일 도구로 수행해야 하는 민첩한 마케팅 팀이 많은 소규모 조직을 위해 설계되었습니다.
 
