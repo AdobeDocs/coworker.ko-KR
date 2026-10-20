@@ -4,10 +4,7 @@ title: Adobe CX Enterprise Coworker 개요
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 68132acaa3dfbefa1e9cda9fad724f17c7e5f065
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -114,7 +111,7 @@ Coworker for teams 는 개발 중인 제품입니다. 다음은 로그인하는 
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3492812?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 새로운 기능은 평가판 중에 제공됩니다. 여러분의 피드백은 다음에 나올 것을 형성하는 데 도움이 됩니다. 헤더의 제품 내 피드백 아이콘을 통해 피드백을 제출합니다.

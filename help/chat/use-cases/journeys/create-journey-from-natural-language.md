@@ -11,10 +11,7 @@ jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: bc2c2d0bb2f73ffb9018325f812c9701c90779e1
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 1%
@@ -26,9 +23,9 @@ ht-degree: 1%
  
 초기 설정 프로세스를 자동화함으로써, 팀은 처음부터 여정을 구축하는 데 더 적은 시간을 소비하고 고객 경험과 비즈니스 결과를 개선하는 데 더 많은 시간을 할애할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496881/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
 
 ## 참조 -
 
-- [Journey Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create), Coworker Chat에서 여정 생성을 지원하는 기본 AI 기능입니다.
+- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create), Coworker Chat에서 여정 생성을 지원하는 기본 AI 기능입니다.
 - [더 많은 동료 채팅 워크플로](../workflows.md#journeys)

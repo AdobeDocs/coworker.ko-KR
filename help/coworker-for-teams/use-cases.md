@@ -4,10 +4,7 @@ title: Teams 사용 사례용 동료
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -162,4 +159,4 @@ ht-degree: 0%
 
 ## 빌드할 준비가 되셨습니까?
 
-위에서 사용 사례를 선택하고 [전자 메일 캠페인 만들기] (./)를 방문하여 전체 단계별 캠페인을 시도하세요.
+위에서 사용 사례를 선택하고 [전자 메일 캠페인 만들기](./)를 방문하여 전체 단계별 캠페인을 시도하세요.

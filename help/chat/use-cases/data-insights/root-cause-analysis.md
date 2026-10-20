@@ -11,10 +11,7 @@ jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 2bf31c1348054a16ba7e7c0c26c0ff913634aa27
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -26,4 +23,4 @@ ht-degree: 0%
  
 분석가 및 마케터는 자연어를 사용하여 데이터에 대한 질문을 하고, 시각화된 결과를 받고, 의미 있는 트렌드를 식별하고, 성과를 이끄는 요인을 발견할 수 있습니다. 이 모든 것은 한 번의 대화로 이루어집니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496857/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)

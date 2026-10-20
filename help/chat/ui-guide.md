@@ -5,10 +5,7 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 80f7bf9003e360b9ca6d0e1868c056447d35b763
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 2%
@@ -46,7 +43,7 @@ ht-degree: 2%
 
 ## 비디오 - [!DNL Coworker] 채팅 인터페이스의 기본 사항
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 조직 선택
 
@@ -222,7 +219,7 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 ![기술 탭](./assets/ui-guide-12.png)
 
 1. **[!UICONTROL 스킬]** 탭에서 **[!UICONTROL 스킬 추가]**&#x200B;를 클릭하여 새 소스에서 스킬을 설치합니다.
-1. 스킬을 찾으려면 **[!UICONTROL 검색]**&#x200B;에 이름을 입력하십시오.
+1. 스킬을 찾으려면 **[!UICONTROL 검색]**에 이름을 입력하십시오.
 보기 토글을 사용하여 격자선과 목록 레이아웃 간에 전환합니다.
 1. 동료 채팅에서 이 플러그인을 사용할 때 이 플러그인이 속한 항목과 이 플러그인에 포함된 파일을 볼 기술을 선택합니다.
 
