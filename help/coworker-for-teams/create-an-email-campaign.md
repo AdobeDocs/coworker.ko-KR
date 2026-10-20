@@ -7,18 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
+source-git-commit: 54ce8ccc61cf4c2eaa6a59ac68b6e75eeba2f772
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '964'
 ht-degree: 0%
 ---
 # 이메일 캠페인 만들기 {#create-an-email-campaign}
 
 몇 분 내에 전체 이메일 캠페인을 생성하고 검토하는 방법을 알아봅니다.
-
->[!IMPORTANT]
->
->지금은 캠페인만 생성할 수 있으며 아직 전송(실행)할 수 없습니다. 출시 기능이 곧 제공될 예정입니다.
 
 ## 시작하기 전에
 
