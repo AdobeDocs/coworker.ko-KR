@@ -4,10 +4,7 @@ title: 캠페인 시작 및 관리
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 7af4950080b8805d94062567bdf4075d1f57fc13
+source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 2%
@@ -76,7 +73,7 @@ ht-degree: 2%
 | 필드 | 설명 | 필수? |
 | --- | --- | --- |
 | 일정 모드 | 지금, 한 번 예약 또는 반복 중 선택 | 예 |
-| 시작 일자 | 캠페인 시작 날짜 및 시간(한 번 예약 모드) | 예, 한 번 예약합니다. |
+| 시작 날짜 | 캠페인 시작 날짜 및 시간(한 번 예약 모드) | 예, 한 번 예약합니다. |
 | 빈도 | 일별, 주별 또는 월별(반복 모드) | 예, 자동연장 |
 | 시작 시간 | 반복 캠페인이 전송하는 시간 | 예, 자동연장 |
 | 요일 | 캠페인이 반복되는 날짜 | 예, 주별 빈도 |
