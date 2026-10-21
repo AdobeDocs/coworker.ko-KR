@@ -4,9 +4,9 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: 3194d97a10b97403b6a1103e49d833fabf016548
 workflow-type: tm+mt
-source-wordcount: '7768'
+source-wordcount: '7843'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -143,6 +143,7 @@ ht-degree: 6%
 | [사용자 지정 작업 오류 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; <br> &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
 | [여정 예외 항목 탐지](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 과거 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급감, 강하 또는 평면선을 감지하고 확인하여 가능한 근본 원인을 표시합니다 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;어제 환영 여정에 대한 항목이 왜 떨어졌습니까?&quot; <br> &quot;이번 주에 장바구니 포기 여정의 종료가 급증했습니까?&quot; |
 | [비즈니스 성과 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 여정 성과를 분석하고 성과가 낮은 여정에 대한 구체적인 최적화 기회를 식별합니다. 참여도와 전환율을 향상시킬 수 있도록 경향, 병목 현상 및 낮은 결과를 초래하는 원인 표시 비즈니스 성과 통찰력을 기반으로 여정 디자인, 타기팅 또는 메시징 전략을 조정하는 실행 가능한 권장 사항을 얻을 수 있습니다. | 여정 분석 | Adobe Journey Optimizer (AJO) | &quot;여정 [여정 이름]의 성능을 분석하고 최적화를 권장합니다.&quot; <br> &quot;여정 [여정 이름]이(가) 지난달과 비교하여 성능이 낮은 이유는 무엇입니까?&quot; <br> &quot;여정 [여정 이름]의 성능을 향상시키려면 무엇을 변경해야 합니까?&quot; <br> &quot;[여정 이름] 여정 중 어느 부분이 전환이나 참여를 제한할 수 있습니까?&quot; |
+| [여정 위생 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 여정 인벤토리를 감사하여 누락되었거나 일반적인 이름, 오래된 초안 또는 라이브 여정, 크기가 초과된 여정, 기존의 닫힌 여정 및 유사한 작업 및 이벤트 이름을 가진 여정을 찾고 구성을 정리하고 안정화하기 위한 권장 사항을 제공합니다 | 여정 분석 | Adobe Journey Optimizer (AJO) | &quot;내 여정 구성을 감사합니다.&quot; <br> &quot;내 여정 중 오래된 것이거나 정리해야 하는 것은 무엇입니까?&quot; |
 | [여정 버전 비교](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 두 여정 버전을 비교하고 노드, 연결 및 여정 수준 속성 변경의 구조적 차이를 검토합니다 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | &quot;시작 여정의 버전 2와 버전 3 비교&quot; <br> &quot;이 두 여정 버전 간의 변경 사항은 무엇입니까?&quot; |
 
 **관련 정보**
