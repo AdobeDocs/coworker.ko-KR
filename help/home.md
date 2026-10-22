@@ -1,17 +1,19 @@
 ---
-title: Adobe CX Enterprise Coworker 안내서
+title: Adobe CX Enterprise Coworker 개요
 description: 조직 전반에서 고객 경험 및 마케팅 워크플로우를 자동화하는 AI 기반의 팀원인 Adobe CX Enterprise Coworker에 대해 알아봅니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: 577c1f8f9ea054eabfede407149139638311d5dc
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 17%
+source-wordcount: '1181'
+ht-degree: 16%
 ---
-# CX Enterprise Coworker 안내서 {#overview}
+# CX Enterprise Coworker 개요 {#overview}
 
-[!DNL Coworker]은(는) 고객 경험 및 마케팅 작업을 위한 Adobe의 아젠틱 AI 팀 동료입니다. 질문에 답변하거나 작업을 추천하는 것 이상을 수행합니다. Adobe 및 기타 엔터프라이즈 시스템에서 여러 단계 마케팅 워크플로우를 실행하고 승인 및 거버넌스를 통해 사용자가 제어하게 합니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
+[!DNL Coworker]은(는) 조직, 팀 및 개인의 작업 특성을 재정의하는 AI 기반의 팀 동료입니다. 고객 경험과 마케팅 워크플로우를 자동화하여 조직은 작업을 조정하는 것보다 비즈니스 목표 달성과 결과 향상에 집중할 수 있습니다. Coworker는 에이전트 엔진으로서 비즈니스 프로세스 자동화에 대한 혁신적인 접근 방식을 채택하고 있습니다. 거버넌스 및 인간 감독이 내장된 엔터프라이즈 컨텍스트, 데이터, 인텔리전스, 협업 및 에이전트 기술 실행을 통합함으로써 AI 모델 성능과 정확성을 향상시킵니다.
+
+Coworker는 복잡한 교차 기능 고객 경험 워크플로우를 실행하는 조직을 위해 빌드됩니다. 또한 Coworker Chat 및 Coworker Projects를 통합하여 전문가가 단일 작업에서 Coworker 경험 내의 전체, 다중 팀 워크플로우로 이동할 수 있습니다. 거버넌스, 승인 및 인적 감독이 처음부터 통합됩니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
 
 ## 경험 선택
 
