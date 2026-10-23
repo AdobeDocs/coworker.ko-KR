@@ -4,9 +4,9 @@ description: Adobe CX Enterprise Coworker Chat을 사용하여 Customer Journey 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: f1ffc050071fc0ca48ae36c7aea8bc66eff2a147
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2160'
 ht-degree: 4%
 ---
 # 동료 채팅을 사용하여 데이터 분석 시작
@@ -305,7 +305,7 @@ funnel은 체크아웃할 때까지 디바이스 간에 동일하며 모바일�
 
 >[!ENDSHADEBOX]
 
-### 무슨 일이 있었습니까
+### 발생한 사항
 
 4가지 일반적인 언어 질문에서 Coworker는 다음을 지원했습니다.
 
@@ -314,17 +314,22 @@ funnel은 체크아웃할 때까지 디바이스 간에 동일하며 모바일�
 * 실제 문제를 모바일 체크아웃으로 파악하고 구매 시 35% 상승도로 수정 사항을 수량화합니다.
 * 우선 순위를 지정할 특정 수정 사항(모바일 결제 및 양식 마찰)을 사용하지 마십시오. 이는 데스크탑의 전환율 23.2%와 비교하여 벤치마킹되었습니다
 
-## Customer Journey Analytics에서 분석
+## Analysis Workspace에서 시각화 열기
 
-동료가 시각화를 만든 후 Analysis Workspace에서 열어 보다 심층적인 분석과 세분화된 제어를 수행할 수 있습니다. 시각화는 Customer Journey Analytics의 새 Analysis Workspace 프로젝트에서 열립니다.
+동료가 시각화를 만든 후 Analysis Workspace에서 열어 보다 심층적인 분석과 세분화된 제어를 수행할 수 있습니다. 시각화는 데이터 소스에 따라 Customer Journey Analytics 또는 Adobe Analytics의 새 Analysis Workspace 프로젝트에서 열립니다.
 
 새 Analysis Workspace 프로젝트에서 시각화를 열려면 다음을 수행하십시오.
 
-1. Coworker에서 만든 시각화 옆에 있는 [!UICONTROL **CJA에서 분석**]&#x200B;을 선택합니다.
+1. Coworker에서 생성된 시각화 옆에 있는 다음 중 하나를 선택합니다.
 
-1. Customer Journey Analytics에서 시각화를 열면 Analysis Workspace 드래그 앤 드롭 브라우저 인터페이스를 사용하여 수정, 분석 추가, 대상 만들기 등을 할 수 있습니다. 선택한 모든 사람과 Workspace 프로젝트를 공유할 수도 있습니다.
+   * Customer Journey Analytics 데이터 보기를 기반으로 한 시각화를 위해 [!UICONTROL **CJA에서 분석**]
+   * Adobe Analytics 보고서 세트를 기반으로 한 시각화를 위해 [!UICONTROL **Analysis Workspace에서 분석**]
 
-   Analysis Workspace에 대한 자세한 내용은 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하십시오.
+1. Analysis Workspace에서 시각화가 열려 있는 상태에서 드래그 앤 드롭 브라우저 인터페이스를 사용하여 수정하고, 분석을 더욱 구체화하는 등의 작업을 할 수 있습니다. Customer Journey Analytics에서 대상을 만들 수도 있습니다.
+
+1. (선택 사항) 선택한 모든 사람과 Workspace 프로젝트를 공유합니다.
+
+   Analysis Workspace에 대한 자세한 내용은 Customer Journey Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) 또는 Adobe Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)를 참조하십시오.
 
 ## 다음 단계
 
