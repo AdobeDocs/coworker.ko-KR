@@ -30,7 +30,7 @@ Adobe CX Enterprise Coworker 채팅을 사용하여 Adobe Content Analytics에�
 
 * Customer Journey Analytics 데이터 보기에 연결된 동료 채팅. [동료 채팅을 사용하여 데이터 분석 시작](/help/chat/use-cases/data-insights/analytics-chat.md)을 참조하세요.
 * 분석할 데이터 보기에 대한 액세스 권한을 봅니다. 동료 채팅은 Customer Journey Analytics의 권한을 상속합니다.
-* Content Analytics용으로 구성된 데이터 보기. Customer Journey Analytics 안내서에서 [Content Analytics 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/configuration)을 참조하십시오.
+* Content Analytics용으로 구성된 데이터 보기. Customer Journey Analytics 안내서에서 [Content Analytics 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/configuration/configuration)을 참조하십시오.
 
 ## 콘텐츠 질문하기
 
@@ -93,11 +93,11 @@ Content Analytics은 자산과 경험이라는 두 가지 유형의 콘텐츠를
 * **경험 ID:** 특정 페이지에 대해 물으면 스킬은 해당 페이지를 식별하는 콘텐츠 경험 ID로 필터링합니다.
 * **AI 생성 특성:** 각 자산 및 경험은 사진 스타일, 색상, 색조 및 설득 전략과 같은 특성으로 설명됩니다. 스킬은 이러한 속성을 사용하여 어떤 콘텐츠가 잘 수행되는지뿐만 아니라 콘텐츠가 잘 수행되는 이유를 설명합니다.
 
-전체 구성 요소 목록은 Customer Journey Analytics 안내서의 [Content Analytics 구성 요소](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/components)를 참조하십시오.
+전체 구성 요소 목록은 Customer Journey Analytics 안내서의 [Content Analytics 구성 요소](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/report/components)를 참조하십시오.
 
 ### 기여도
 
-스킬은 질문에 맞는 속성 모델을 선택합니다. 예를 들어 이미지 클릭에 대한 질문은 해당 이미지가 기여한 매출에 대한 질문과 다르게 답변됩니다. 자세한 내용은 Customer Journey Analytics 안내서의 [속성 모델](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/attribution/models#attribution-models)을 참조하십시오.
+스킬은 질문에 맞는 속성 모델을 선택합니다. 예를 들어 이미지 클릭에 대한 질문은 해당 이미지가 기여한 매출에 대한 질문과 다르게 답변됩니다. 자세한 내용은 Customer Journey Analytics 안내서의 [속성 모델](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/attribution/models#attribution-models)을 참조하십시오.
 
 ### 일반적인 분석 및 워크플로
 
