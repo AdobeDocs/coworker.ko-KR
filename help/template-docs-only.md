@@ -3,7 +3,7 @@
 hide: true
 
 # TITLE AND DESCRIPTION
-# Title: title case, 60 characters or fewer, no product name.
+# Title: title case, 60 characters or fewer.
 # Description: one or two sentences, about 150-160 characters. Start with "Learn about..." for concepts or "Learn how to..." for tasks.
 title: 제목 사례 페이지 제목
 description: Adobe CX Enterprise Coworker으로 [작업을 수행]하는 방법에 대해 알아봅니다. [작업을 초대하는 두 번째 문장.]
@@ -13,7 +13,7 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1c6c045a70d7b6d00a88a32c39216c05478d8029
+source-git-commit: 7536fb875db4118f150cc1e83135c16ec4ac257c
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 1%
