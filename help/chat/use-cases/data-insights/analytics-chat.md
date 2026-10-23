@@ -1,12 +1,12 @@
 ---
 title: 동료 채팅을 사용한 데이터 분석 시작
-description: Adobe CX Enterprise Coworker Chat을 사용하여 Customer Journey Analytics 데이터를 분석하고 단계를 구축하며 여정에서 고객이 중단되는 위치를 찾는 방법에 대해 알아봅니다.
+description: Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey Analytics 또는 Adobe Analytics 데이터를 분석한 다음 고객 드롭오프를 찾는 예를 따릅니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ffc050071fc0ca48ae36c7aea8bc66eff2a147
+source-git-commit: a9f620ee74eeec0f4a838b7bae7a6189226fecc3
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2184'
 ht-degree: 4%
 ---
 # 동료 채팅을 사용하여 데이터 분석 시작
@@ -36,15 +36,17 @@ Customer Journey Analytics 또는 Adobe Analytics 데이터와 함께 Coworker C
 
 자세한 내용은 [동료 채팅 UI 안내서](/help/chat/ui-guide.md)를 참조하십시오.
 
-## 동료 채팅이 Customer Journey Analytics에 연결되어 있는지 확인합니다.
+## Analytics 통합 확인
 
-Coworker Chat에서 Coworker가 Customer Journey Analytics에 연결되어 있는지 확인합니다.
+동료 채팅은 통합을 통해 Customer Journey Analytics 및 Adobe Analytics에 연결합니다. 시작하기 전에 제품에 대한 통합이 연결되어 있는지 확인하십시오.
 
-1. 왼쪽 레일에서 MCP 아이콘을 선택한 다음 연결된 MCP 서버 목록에서 [!UICONTROL **cja-mcp**]&#x200B;을(를) 사용할 수 있는지 확인하십시오.
+1. Coworker의 왼쪽 레일에서 [!UICONTROL **사용자 지정**]&#x200B;을 선택합니다.
 
-   ![동료 왼쪽 레일에 강조 표시된 MCP 아이콘](../../assets/coworker-mcp-cja.png)
+1. [!UICONTROL **통합**] 탭을 선택한 다음 연결된 MCP 서버 목록에서 [!UICONTROL **cja-mcp**] 및 [!UICONTROL **aa-mcp**]&#x200B;을(를) 사용할 수 있는지 확인하십시오. 검색 필드를 사용하여 사용 가능한 통합 목록을 빠르게 필터링합니다.
 
-1. (조건부) [!UICONTROL **cja-mcp**]&#x200B;이(가) 아직 연결되지 않은 경우 [!UICONTROL **MCP 서버 추가**]&#x200B;를 선택하고 [!UICONTROL **서버 이름**] 필드에 cja를 지정한 다음 표시될 때 선택한 다음 [!UICONTROL **서버 추가**]&#x200B;를 선택합니다.
+   ![사용자 지정 페이지의 통합 탭, aa-mcp를 표시하도록 필터링됨](assets/coworker-mcp-aa.png)
+
+1. (조건부) 통합이 나열되지 않으면 [!UICONTROL **서버 추가**]&#x200B;를 선택하여 추가합니다. 자세한 내용은 Coworker Chat UI 안내서의 [MCP 서버 연결](/help/chat/ui-guide.md#connect-mcp-servers)을 참조하십시오.
 
 ## 올바른 데이터 보기 또는 보고서 세트에 연결
 
@@ -329,7 +331,7 @@ funnel은 체크아웃할 때까지 디바이스 간에 동일하며 모바일�
 
 1. (선택 사항) 선택한 모든 사람과 Workspace 프로젝트를 공유합니다.
 
-   Analysis Workspace에 대한 자세한 내용은 Customer Journey Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) 또는 Adobe Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/home)를 참조하십시오.
+   Analysis Workspace에 대한 자세한 내용은 Customer Journey Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) 또는 Adobe Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)를 참조하십시오.
 
 ## 다음 단계
 
