@@ -5,10 +5,10 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: f4682967f0bed2f9a538c41903a32555fe2abbb1
+source-git-commit: ab3fd688f3a83afb0a4d058cc86d5ac8ec5f5977
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 13%
+source-wordcount: '305'
+ht-degree: 12%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -65,6 +65,7 @@ ht-degree: 13%
     - 경고 {#alerts}
       - [고객 경고 기술](./chat/use-cases/customer-alerts/customer-alerts.md)
     - Brand Visibility {#brand-visibility}
+      - [AEM 랜딩 페이지 만들기 및 세분화](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [브랜드 준수 검사](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [AEM Sites 페이지 작성](./chat/use-cases/brand-visibility/author-web-pages.md)
       - [AEM Assets 온보드](./chat/use-cases/brand-visibility/onboard-aem-assets.md)
