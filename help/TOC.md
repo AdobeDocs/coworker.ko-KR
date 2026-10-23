@@ -5,9 +5,9 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 9f9ec676986d190bdc104aff848c7d4289bb13a6
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '291'
 ht-degree: 13%
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 13%
         - [트렌드 및 근본 원인 탐색](./chat/use-cases/data-insights/root-cause-analysis.md)
       - 컨텐츠 성능 {#content-performance}
         - [개요](./chat/use-cases/data-insights/content-performance.md)
+        - [콘텐츠에 대한 질문](./chat/use-cases/data-insights/ask-content-questions.md)
       - 마케팅 측정 및 속성 {#marketing-measurement-and-attribution}
         - [개요](./chat/use-cases/data-insights/marketing-measurement-and-attribution.md)
     - 데이터 온보딩 {#data-onboarding}

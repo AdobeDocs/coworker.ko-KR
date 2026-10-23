@@ -1,7 +1,7 @@
 ---
 title: Coworker와 함께 Customer Journey Analytics 또는 스트리밍 미디어 구현 계획
 description: Coworker의 구현 안내서 기술이 검색 대화를 내보낼 수 있는 체크리스트를 통해 개인화되고 순서가 지정된 구현 계획으로 변환하는 방법에 대해 알아봅니다.
-source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Adobe CX Enterprise Coworker에는 Customer Journey Analytics, Adobe Analytics�
 
 1. 동료에게 로그인합니다.
 
-1. [!UICONTROL **새 채팅**]&#x200B;을 선택하세요.
+1. **[!UICONTROL 새 채팅]**&#x200B;을 선택하세요.
 
 1. 텍스트 필드에서 계획할 구현 또는 마이그레이션에 대해 설명합니다. 예:
 

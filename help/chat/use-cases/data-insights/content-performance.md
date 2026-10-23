@@ -4,10 +4,10 @@ description: 동료의 채팅 을 사용하여 가장 성과가 좋은 콘텐츠
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 1%
+source-wordcount: '566'
+ht-degree: 2%
 ---
 
 # 컨텐츠 성능 개요
@@ -22,13 +22,13 @@ Adobe CX Enterprise Coworker 채팅을 사용하여 각 에셋의 속성까지, 
 
 ## 사전 요구 사항
 
-<!-- FLAG: Confidence: High for the first two bullets (sourced from analytics-chat.md and the Skills and limitations table). Low for the third bullet: the attribute-level and image exposure descriptions suggest that these use cases rely on Content Analytics data in Customer Journey Analytics, and implementation-guide.md lists Content Analytics as an implementation path, but no source confirms this. It's a shared bullet rather than a table row because it would apply to every use case on this page. The paid channel row ("Compare Meta ad creative to our web banners") may need an additional data source, which would become an "Additional prerequisite" note on that row in the Use cases table. Confirm with the PM. -->
+<!-- FLAG: Confidence: High for the first two bullets (sourced from analytics-chat.md and the Skills and limitations table). High for the third bullet: attribute-level and asset analysis needs Content Analytics components, which are available only in data views that are configured for Content Analytics (report/report.md in analytics-platform.en). This applies whichever skill runs the analysis. It's a shared bullet rather than a table row because it applies to every use case on this page. The paid channel row ("Compare Meta ad creative to our web banners") also needs the Paid Media channel enabled in Content Analytics through an Experience Platform paid media source connector, such as Meta Ads or Google Ads. Comparing paid creative with on-site revenue needs custom tracking-key mapping, because enabling paid media doesn't connect paid media data to site orders or revenue (config/paid-media.md). Add an "Additional prerequisite" note on that row after the PM confirms. -->
 
 이 페이지에서 사용 사례를 사용하려면 다음이 필요합니다.
 
 * Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트에 연결된 동료 채팅. [동료 채팅을 사용하여 데이터 분석 시작](/help/chat/use-cases/data-insights/analytics-chat.md)을 참조하세요.
 * 분석할 데이터 보기 또는 보고서 세트에 대한 액세스 권한을 봅니다. 동료 채팅은 Customer Journey Analytics 또는 Adobe Analytics의 권한을 상속합니다.
-* Customer Journey Analytics에 Content Analytics을 설치하여 Coworker Chat이 컨텐츠 속성 및 이미지 노출을 분석할 수 있도록 합니다. Content Analytics 구현을 계획하려면 [Coworker로 구현 계획](/help/chat/use-cases/data-insights/implementation-guide.md)을 참조하세요.
+* Content Analytics용으로 구성된 데이터 보기. Customer Journey Analytics 안내서에서 [Content Analytics 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/configuration)을 참조하십시오.
 
 ## 사용 사례
 
@@ -39,20 +39,15 @@ Adobe CX Enterprise Coworker 채팅을 사용하여 각 에셋의 속성까지, 
 | 유료 채널과 소유 채널 간 크리에이티브 비교 | 웹, 모바일 및 유료 채널에서 우승하는 시각적 개체 및 테마를 한 보기에서 보여줍니다.<p>**샘플 프롬프트:**</p><ul><li>&quot;유료 및 당사 사이트에서 어떤 크리에이티브 테마가 승리합니까?&quot;</li><li>&quot;Meta 광고 크리에이티브를 웹 배너와 비교&quot;</li></ul> |
 | 각 대상을 움직이는 시각적 개체 파악 | 개인화 및 Creative Brief를 안내하기 위해 각 대상자에게 작동하는 시각적 개체를 표시합니다.<p>**샘플 프롬프트:**</p><ul><li>&quot;각 세그먼트에 가장 적합한 비주얼은 무엇입니까?&quot;</li><li>&quot;처음 방문하는 사용자에게 적합한 이미지는 무엇입니까?&quot;</li></ul> |
 
-<!--
-HIDDEN until the skills are confirmed. To publish, remove this comment wrapper.
+## 사용된 스킬
 
-## Skills used
+<!-- FLAG: Confidence: Medium. The `analyze-content` skill is a foundational skill for content questions, so it's listed for every use case on this page. Confirm with the PM that it covers all four. -->
 
-FLAG: Confidence: Low. No source in the repo (workflows.md, the Skills and limitations table, or any data insights article) names the skills behind these use cases. Get the skill IDs from the PM, replace the placeholder rows, and add the skills to the Skills and limitations table on analytics-overview.md so that the link above the table covers them. When you unhide this section, wrap this FLAG note in its own HTML comment.
+동료는 이 문서에서 설명하는 사용 사례에 다음 기술을 사용합니다. 필요한 권한과 다루지 않는 기능을 포함하여 모든 분석 스킬 목록을 보려면 Coworker Chat로 데이터 분석에서 [스킬 및 제한 사항](/help/chat/use-cases/data-insights/analytics-overview.md#skills-and-limitations)을 참조하십시오.
 
-Coworker uses the following skills for the use cases described in this article. For a list of all analytics skills, including the permissions they require and what they don't cover, see [Skills and limitations](/help/chat/use-cases/data-insights/analytics-overview.md#skills-and-limitations) in Analyze data with Coworker Chat.
-
-| Skill | Used for |
+| 스킬 | 다음에 사용됨 |
 | --- | --- |
-| *[Skill to be confirmed]* | Find what winning content has in common<br>Attribute revenue to the content customers see<br>Compare creative across paid and owned channels<br>Know which visuals move each audience |
-
--->
+| `analyze-content`, `cja` | 가장 성과가 좋은 콘텐츠의 공통점을 찾으세요<br>고객이 볼 수 있는 콘텐츠에 매출 기여도<br>유료 채널과 소유 채널 간의 크리에이티브 비교<br>각 대상을 움직이는 시각적 요소 알아보기<p>자세한 내용은 [콘텐츠에 대해 질문하기](/help/chat/use-cases/data-insights/ask-content-questions.md)를 참조하세요.</p> |
 
 ## 더 나은 결과를 위한 팁
 
@@ -64,5 +59,6 @@ Coworker uses the following skills for the use cases described in this article. 
 
 ## 다음 단계
 
+* Coworker가 콘텐츠 질문에 답변하는 방법에 대해 알아보려면 [콘텐츠에 대해 질문하기](/help/chat/use-cases/data-insights/ask-content-questions.md)를 참조하십시오.
 * 다른 분석 도메인 및 모범 사례를 포함하여 Coworker Chat을 사용한 데이터 분석에 대한 개요를 보려면 [Coworker Chat을 사용하여 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview.md)을 참조하십시오.
 * 동료 채팅을 설정하고 작업 예제를 보려면 [동료 채팅을 사용하여 데이터 분석 시작](/help/chat/use-cases/data-insights/analytics-chat.md)을 참조하세요.

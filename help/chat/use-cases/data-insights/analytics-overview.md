@@ -4,9 +4,9 @@ description: Adobe CX Enterprise Coworker Chat을 사용하여 Customer Journey 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1358'
 ht-degree: 1%
 ---
 
@@ -22,7 +22,7 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 
 동료 채팅은 Customer Journey Analytics 또는 Adobe Analytics의 권한을 상속합니다. Analysis Workspace에서 사용할 수 있는 데이터 보기, 보고서 세트, 차원, 지표 및 세그먼트에만 액세스할 수 있습니다.
 
-동료 채팅에서 시각화를 만들면 더 많은 수동 제어를 위해 언제든지 Analysis Workspace에서 열 수 있습니다.
+동료 채팅에서 시각화를 만들면 더 많은 수동 제어를 위해 언제든지 Analysis Workspace에서 열 수 있습니다. [Customer Journey Analytics에서 분석](/help/chat/use-cases/data-insights/analytics-chat.md#analyze-in-customer-journey-analytics)을 참조하세요.
 
 ## 빠른 답변 및 깊이 있는 작업
 
@@ -55,6 +55,7 @@ Customer Journey Analytics 또는 Adobe Analytics 데이터를 분석하는 데 
 | `cja`, `aa` | Customer Journey Analytics 데이터 보기(`cja`) 또는 Adobe Analytics 보고서 세트(`aa`)를 실시간으로 쿼리합니다.<ul><li>가져오기 지표, 차원, 세그먼트, 데이터 보기 및 보고서 세트</li><li>채널, 기간 또는 세그먼트를 나란히 비교</li><li>여러 단계로 구성된 funnel 및 폴아웃 분석 실행</li><li>이전 트렌드를 기반으로 한 예측 지표</li></ul> | 쿼리할 데이터 보기 또는 보고서 세트에 대한 액세스 보기 | <ul><li>데이터 보기 또는 보고서 세트 구성 요소 만들기 또는 편집</li><li>액세스 권한이 있는 데이터 보기 또는 보고서 세트 외부의 데이터</li><li>지표 예측을 뛰어넘는 예측 모델링</li></ul> |
 | `cja-root-cause-analysis`, `aa-root-cause-analysis` | 지표가 변경되었다는 보고만 하지 않고 변경된 이유를 조사하십시오.<ul><li>알려진 기간 동안 알려진 지표의 변경 사항을 조사합니다</li><li>변경에 기여한 차원 및 세그먼트를 표시합니다.</li></ul> | 분석 중인 데이터 보기 또는 보고서 세트에 대한 액세스 보기 | <ul><li>확인하지 않은 예외 항목 탐지(자동화된 경고 또는 실시간 경고 없음)</li><li>액세스 권한이 있는 데이터 보기 또는 보고서 세트 외부의 지표에 대한 근본 원인 분석</li></ul> |
 | `cja-executive-summary` | 관련자가 준비가 된 데이터 요약을 생성합니다.<ul><li>지정된 기간 동안의 성능 요약</li><li>데이터를 기반으로 규범적 권장 사항 생성</li><li>슬라이드 데크 또는 관련자 판독에 대한 윤곽선 콘텐츠</li></ul> | 요약에서 다루는 데이터 보기 또는 보고서 세트에 대한 액세스 보기 | <ul><li>최종 슬라이드 데크 또는 프레젠테이션 파일 구축</li><li>액세스 권한이 없는 데이터 보기 또는 보고서 세트에 걸쳐 있는 요약</li></ul> |
+| `analyze-content`<!-- FLAG: Confirm the Out of scope items with the PM. --> | Customer Journey Analytics에서 Content Analytics 데이터를 사용하여 콘텐츠에 대한 일반 또는 특정 질문에 답변합니다.<ul><li>성과가 가장 좋은 에셋과 경험의 공통점을 찾습니다.</li><li>콘텐츠 노출을 전환 및 매출에 연결</li><li>채널 및 대상자 간 콘텐츠 비교</li></ul>자세한 내용은 [콘텐츠에 대해 질문하기](/help/chat/use-cases/data-insights/ask-content-questions.md)를 참조하세요. | Content Analytics용으로 구성된 데이터 보기에 대한 액세스 권한 보기 | <ul><li>Content Analytics 설정 또는 구성</li><li>Content Analytics에서 수집하지 않는 콘텐츠</li></ul> |
 | `aa-cja-validation` | [!DNL Adobe Analytics]과(와) Customer Journey Analytics 간의 데이터 비교, 감사 및 조정:<ul><li>보고서 세트와 데이터 보기 간의 지표 값 비교</li><li>두 데이터 소스 간의 불일치 플래그 지정</li></ul> | 비교 중인 [!DNL Adobe Analytics] 보고서 세트 및 Customer Journey Analytics 데이터 보기에 대한 액세스 권한 보기 | <ul><li>데이터 불일치의 근본 원인 해결</li><li>[!DNL Adobe Analytics] 및 Customer Journey Analytics 이외의 데이터 원본 확인</li></ul> |
 | `cja-skill-creator` | 이미 실행한 분석을 재사용 가능한 스킬로 전환합니다.<ul><li>완료된 분석을 명명된 재사용 가능한 스킬로 변환</li><li>저장된 스킬을 향후 채팅 세션에서 사용할 수 있도록 설정</li></ul> | 기술 관리 | <ul><li>저장된 스킬을 다른 사용자와 자동으로 공유(조직 수준의 스킬 라이브러리는 관리자 설정이 필요)</li><li>스킬이 참조하는 데이터 보기 또는 보고서 세트 구성 요소 편집</li></ul> |
 

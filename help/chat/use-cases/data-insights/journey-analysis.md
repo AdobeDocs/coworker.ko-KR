@@ -4,9 +4,9 @@ description: 동료 채팅을 사용하여 단계를 만들고, 고객이 중단
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 2%
 ---
 
@@ -62,7 +62,7 @@ Adobe CX Enterprise Coworker Chat을 사용하여 고객이 여정에서 전환�
 * 포함하거나 제외하거나 비교할 세그먼트, 채널 또는 장치를 지정합니다.
 * 최근 사이트 변경과 같이 이미 가지고 있는 가설을 언급하여 Coworker Chat이 이를 검증하거나 배제할 수 있도록 하십시오.
 * 동료 채팅에서 후속 질문을 제안하려면 권장되는 다음 단계를 요청하십시오.
-* 더 많은 수동 제어를 원하는 경우 Analysis Workspace에서 모든 시각화를 엽니다.
+* 더 많은 수동 제어를 원하는 경우 Analysis Workspace에서 모든 시각화를 엽니다. [Customer Journey Analytics에서 분석](/help/chat/use-cases/data-insights/analytics-chat.md#analyze-in-customer-journey-analytics)을 참조하세요.
 
 ## 다음 단계
 

@@ -10,7 +10,7 @@ jira: PLAT-302857
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Coworker를 사용하여 데이터의 유효성을 검사하려면 다음 작업
 
 1. 동료에게 로그인합니다.
 
-1. [!UICONTROL **새 채팅**]&#x200B;을 선택하세요.
+1. **[!UICONTROL 새 채팅]**&#x200B;을 선택하세요.
 
 1. 텍스트 필드에서 에이전트에게 필드 또는 데이터 세트의 유효성을 검사하라는 메시지를 표시합니다. 예:
 
@@ -156,5 +156,5 @@ Coworker를 사용하여 데이터의 유효성을 검사하려면 다음 작업
 
 * [업그레이드 시 Adobe Analytics에서 Customer Journey Analytics 데이터로의 유효성 검사](./data-validation-aa-cja.md)
 * [Coworker의 데이터 유효성 검사 스킬을 사용하여 Customer Journey Analytics 데이터 유효성 검사](./validate-dataset-quality-for-cja.md)
-* [데이터 유효성 검사(AI Assistant)](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
+* [데이터 유효성 검사(AI Assistant)](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
 * [Customer Journey Analytics 보고 신뢰: Adobe CX Enterprise Coworker의 데이터 유효성 검사 기술](https://www.youtube.com/watch?v=gCSm_QYSYhk)&#x200B;(비디오)
