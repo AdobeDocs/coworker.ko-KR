@@ -331,7 +331,7 @@ funnel은 체크아웃할 때까지 디바이스 간에 동일하며 모바일�
 
 1. (선택 사항) 선택한 모든 사람과 Workspace 프로젝트를 공유합니다.
 
-   Analysis Workspace에 대한 자세한 내용은 Customer Journey Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) 또는 Adobe Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)를 참조하십시오.
+   Analysis Workspace에 대한 자세한 내용은 Customer Journey Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) 또는 Adobe Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/home)를 참조하십시오.
 
 ## 다음 단계
 
