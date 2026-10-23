@@ -4,9 +4,9 @@ title: Adobe CX Enterprise Coworker 개요
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: 2c08a164e3f127eb01271b31e1150f1d815e5b27
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1030'
 ht-degree: 0%
 ---
 # Teams용 동료 개요 {#overview}
@@ -21,7 +21,7 @@ Coworker for teams는 콘텐츠 생성, 여정 구축 및 분석을 단일 도�
 >
 >Coworker for teams는 2026년 12월 31일까지 무료 체험판을 통해 사용할 수 있습니다. 체험판 동안 모든 에셋 및 활동은 사용자에게만 해당됩니다.
 
-1. coworker-campaigns.experience.adobe.com으로 이동합니다.
+1. coworker-teams.adobe.com으로 이동합니다.
 
 1. 기존 Adobe 계정이 있는 경우 **로그인**&#x200B;을 클릭합니다. 그렇지 않은 경우 **무료 체험판 가입**&#x200B;을 클릭하고 비즈니스 전자 메일을 사용하여 계정을 만드십시오.
 
@@ -35,7 +35,7 @@ Coworker for teams는 콘텐츠 생성, 여정 구축 및 분석을 단일 도�
 
 1. (선택 사항) 콘텐츠를 생성할 때 디자인을 적용할 Teams용 Coworker의 **이메일 템플릿** 아래에 HTML 이메일 템플릿을 업로드합니다.
 
-   ![Teams 평가판을 위한 Coworker 시작 화면](./assets/overview-1.png){width="800" zoomable="yes"}
+   ![Teams 평가판을 위한 Coworker 시작 화면](./assets/overview-1.gif)
 
 첫 번째 캠페인을 생성할 준비가 되었습니다.
 
@@ -45,14 +45,49 @@ Coworker for teams 인터페이스는 왼쪽 탐색을 중심으로 구성됩니
 
 ![홈 화면](./assets/overview-2.gif)
 
-| 왼쪽 탐색 메뉴 | 용도 |
-|---|---|
-| 새 채팅 | 캠페인을 생성하려면 새 대화를 시작하십시오. |
-| 홈 | 시작 지점: 프롬프트 바, 최근 캠페인 및 준비된 캠페인 템플릿. |
-| 채팅 | 시작한 모든 대화가 아직 캠페인 보드에 생성되지 않았습니다. |
-| 캠페인 | 모든 초안 및 라이브 캠페인에 대한 인벤토리입니다. |
-| 내 항목 | 브랜드 키트 및 이메일 템플릿(Teams용 동료가 모든 것을 브랜드로 유지하기 위해 사용하는 자산)입니다. |
-| 사용자 지정 | 커넥터(론치 시 Marketo Engage) 및 스킬(캠페인 간에 적용할 수 있는 사용자 정의 비헤이비어). |
+<table>
+  <thead>
+    <tr>
+      <th>왼쪽 탐색 메뉴</th>
+      <th>용도</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>새 채팅</td>
+      <td>캠페인을 생성하려면 새 대화를 시작하십시오.</td>
+    </tr>
+    <tr>
+      <td>홈</td>
+      <td>시작 지점: 프롬프트 바, 최근 캠페인 및 준비된 캠페인 템플릿.</td>
+    </tr>
+    <tr>
+      <td>채팅</td>
+      <td>시작한 모든 대화가 아직 캠페인 보드에 생성되지 않았습니다.</td>
+    </tr>
+    <tr>
+      <td>캠페인</td>
+      <td>모든 초안 및 라이브 캠페인에 대한 인벤토리입니다.</td>
+    </tr>
+    <tr>
+      <td>연락처 목록</td>
+      <td>대상자 및 제외 목록을 관리합니다.</td>
+    </tr>
+    <tr>
+      <td>인사이트</td>
+      <td>선택한 날짜 범위 동안 추적된 모든 활성 캠페인에 대한 지표를 봅니다.</td>
+    </tr>
+    <tr>
+      <td>컨텍스트</td>
+      <td><i>컨텍스트</i>를 클릭하여 하위 메뉴를 표시합니다.<br><br>
+      <li><b>브랜드</b> - 브랜드 키트를 관리 및 추가하고 작업 영역에 대한 기본값을 설정합니다.</li>
+      <li><b>전자 메일 템플릿</b> - 사용자 지정 HTML 템플릿을 관리하고 업로드하며 사용 시기를 동료에게 알려 줍니다.</li>
+      <li><b>커넥터</b> - 대상이나 컨텍스트를 가져올 수 있는 데이터 블록 및 Salesforce과 같은 외부 통합.</li>
+      <li><b>스킬</b> - Coworker가 캠페인을 빌드하고 개인화하는 방법을 형성하는 재사용 가능한 지침입니다.</li></td>
+    </tr>
+  </tbody>
+</table>
+
 
 >[!NOTE]
 >
@@ -111,7 +146,7 @@ Coworker for teams 는 개발 중인 제품입니다. 다음은 로그인하는 
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3492812?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 새로운 기능은 평가판 중에 제공됩니다. 여러분의 피드백은 다음에 나올 것을 형성하는 데 도움이 됩니다. 헤더의 제품 내 피드백 아이콘을 통해 피드백을 제출합니다.
