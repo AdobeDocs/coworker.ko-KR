@@ -10,7 +10,7 @@ jira: PLAT-302857
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Coworker를 사용하여 데이터의 유효성을 검사하려면 다음 작업
 
 1. 동료에게 로그인합니다.
 
-1. [!UICONTROL **새 채팅**]&#x200B;을 선택하세요.
+1. **[!UICONTROL 새 채팅]**&#x200B;을 선택하세요.
 
 1. 텍스트 필드에서 에이전트에게 필드 또는 데이터 세트의 유효성을 검사하라는 메시지를 표시합니다. 예:
 

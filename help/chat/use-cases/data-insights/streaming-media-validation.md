@@ -1,7 +1,7 @@
 ---
 title: Coworker를 사용하여 Streaming Media 구현 확인
 description: Coworker의 스트리밍 미디어 유효성 검사 스킬이 구성, 세션 및 로그를 검사하여 구현이 올바르게 추적되고 있는지 확인하는 방법을 알아봅니다.
-source-git-commit: 4d91397c769a76fba4f0ec1c3e86938a01fe2c6a
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Streaming Media 추적을 구현하거나 문제를 해결하는 경우 이 기�
 
 1. 동료에게 로그인합니다.
 
-1. [!UICONTROL **새 채팅**]&#x200B;을 선택하세요.
+1. **[!UICONTROL 새 채팅]**&#x200B;을 선택하세요.
 
 1. 텍스트 필드에서 검증할 내용을 설명합니다. 예:
 

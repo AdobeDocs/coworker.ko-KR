@@ -11,9 +11,9 @@ jira: KT-22083
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: b54085a497ca4bbf0003d5837d816206a4d40396
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1528'
 ht-degree: 0%
 ---
 # Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Coworker를 사용하여 데이터 유효성 검사
@@ -32,7 +32,7 @@ Adobe CX Enterprise Coworker에는 Adobe Analytics에서 Customer Journey Analyt
 
 이러한 비교를 수행한 후 이 기술은 Customer Journey Analytics으로 쉽게 업그레이드할 수 있도록 구현할 수 있는 AI 기반 인사이트와 권장 사항을 생성합니다.
 
-## 시작하기에 앞서
+## 사전 요구 사항
 
 업그레이드의 일부로 데이터의 유효성을 검사하려면 다음을 수행해야 합니다.
 
@@ -46,9 +46,9 @@ Adobe CX Enterprise Coworker에는 Adobe Analytics에서 Customer Journey Analyt
 
 ## 유효성 검사 세션 시작
 
-1. 동료에 로그인합니다.
+1. 동료에게 로그인합니다.
 
-1. [!UICONTROL **새 채팅**]&#x200B;을 선택하세요.
+1. **[!UICONTROL 새 채팅]**&#x200B;을 선택하세요.
 
 1. 텍스트 필드에서 에이전트에 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드했는지 확인하는 메시지를 표시합니다.
 

@@ -5,10 +5,11 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 9f9ec676986d190bdc104aff848c7d4289bb13a6
+nudge: true
+source-git-commit: 6022fafc0e0213cbc887f5b38267cb65fd8d4326
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 13%
+source-wordcount: '305'
+ht-degree: 12%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -42,6 +43,7 @@ ht-degree: 13%
         - [트렌드 및 근본 원인 탐색](./chat/use-cases/data-insights/root-cause-analysis.md)
       - 컨텐츠 성능 {#content-performance}
         - [개요](./chat/use-cases/data-insights/content-performance.md)
+        - [콘텐츠에 대한 질문](./chat/use-cases/data-insights/ask-content-questions.md)
       - 마케팅 측정 및 속성 {#marketing-measurement-and-attribution}
         - [개요](./chat/use-cases/data-insights/marketing-measurement-and-attribution.md)
     - 데이터 온보딩 {#data-onboarding}
@@ -52,6 +54,7 @@ ht-degree: 13%
       - [플랫폼 상태 평가 및 대상 구축](./chat/use-cases/audiences/create-audience-from-natural-language.md)
     - 여정 {#journeys}
       - [자연어를 사용하여 여정 만들기](./chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - [이미지에서 여정 만들기](./chat/use-cases/journeys/create-journey-from-image.md)
       - [크로스 채널 여정 만들기, 시뮬레이션 및 분석](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker-feature-video.md)
     - 충성도 {#loyalty}
       - [충성도 과제 및 잠재 고객 인사이트 만들기](./chat/use-cases/journeys/create-loyalty-challenge.md)
@@ -63,6 +66,7 @@ ht-degree: 13%
     - 경고 {#alerts}
       - [고객 경고 기술](./chat/use-cases/customer-alerts/customer-alerts.md)
     - Brand Visibility {#brand-visibility}
+      - [AEM 랜딩 페이지 만들기 및 세분화](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [브랜드 준수 검사](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [AEM Sites 페이지 작성](./chat/use-cases/brand-visibility/author-web-pages.md)
       - [AEM Assets 온보드](./chat/use-cases/brand-visibility/onboard-aem-assets.md)

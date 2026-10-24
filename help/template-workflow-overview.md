@@ -3,7 +3,7 @@
 hide: true
 
 # TITLE AND DESCRIPTION
-# Title: title case, 60 characters or fewer, no product name. Start with a verb that names the work, for example "Analyze Customer Journeys with Coworker Chat".
+# Title: title case, 60 characters or fewer. Start with a verb that names the work, for example "Analyze Customer Journeys with Coworker Chat".
 # Description: one or two sentences, about 150-160 characters. Start with "Use Coworker Chat to..." and name two or three things the reader can do.
 title: 동사 Work You Do with Coworker 채팅으로
 description: 동료 채팅을 사용하여 [첫 번째], [두 번째] 및 [세 번째] 작업을 수행합니다. [작업을 초대하는 선택적 두 번째 문장입니다.]
@@ -13,9 +13,9 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 14c937d61b7cd41ed1455e72a211ea1f8c0b158a
+source-git-commit: 951c534c04e9d431b4db71e3d999685629821194
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '337'
 ht-degree: 4%
 ---
 <!--
@@ -72,6 +72,8 @@ Adobe CX Enterprise Coworker 채팅을 사용하여 [독자가 이 그룹에서 
 **가장 적합한 대상:** [역할 1, 역할 2]
 
 ## 사전 요구 사항 {#prerequisites}
+
+[필수 구성 요소가 적용되지 않는 경우 이 섹션을 삭제합니다.]
 
 이 그룹에서 사용 사례를 사용하려면 다음이 필요합니다.
 
