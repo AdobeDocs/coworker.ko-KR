@@ -1,19 +1,23 @@
 ---
 title: CX Enterprise Coworker 설명서 업데이트
-description: CX Enterprise Coworker 설명서에 추가된 새 문서 및 비디오를 참조하십시오. 최신 추가 정보를 확인하려면 다시 확인하십시오.
+description: CX Enterprise Coworker 설명서에서 새 문서와 비디오의 업데이트 내용을 참조하십시오. 최신 추가 정보를 확인하려면 다시 확인하십시오.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 6ccaaf8cd5976c21119d800ada44101b11c65eb6
+source-git-commit: e4fbbf54c26a0443f0fab50d05428e793dbb5c88
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 1%
+source-wordcount: '229'
+ht-degree: 0%
 ---
 # 설명서 업데이트 {#documentation-updates}
 
-이 페이지를 사용하여 CX Enterprise Coworker 설명서에서 새 콘텐츠를 찾습니다. 업데이트는 월별로 나열되며 가장 최근 업데이트가 먼저 나열됩니다. Teams용 Coworker에 대한 제품 변경 사항은 [Teams용 Coworker 릴리스 정보](../coworker-for-teams/release-notes.md)를 참조하십시오.
+이 페이지를 사용하여 CX Enterprise Coworker 설명서에서 새롭고 실질적으로 업데이트된 콘텐츠를 찾을 수 있습니다. 업데이트는 월별로 나열되며 가장 최근 업데이트가 먼저 나열됩니다. Teams용 Coworker에 대한 제품 변경 사항은 [Teams용 Coworker 릴리스 정보](../coworker-for-teams/release-notes.md)를 참조하십시오.
 
 ## 2026년 10월 {#oct-2026}
+
+**2026년 10월 26일**
+
+* 업데이트됨: [동료 채팅 시작](../chat/ui-guide.md). 이 문서는 현재 인터페이스와 일치하도록 다시 구성되고 작성됩니다. 이제 **아티팩트** 및 **경험 컨텍스트**&#x200B;를 포함하여 계정 메뉴와 탐색 레일에 대해 설명합니다. 또한 조직 및 샌드박스를 선택하는 방법과 입력 도구 모음, 성적 증명서 보기 및 응답 활동 요약을 사용하는 방법에 대해서도 설명합니다. 오래된 스크린샷은 제거됩니다.
 
 **2026년 10월 23일**
 
