@@ -19,9 +19,9 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7536fb875db4118f150cc1e83135c16ec4ac257c
+source-git-commit: a4755ee1df166cc6efd4ffddca90d395d9e8287c
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '117'
 ht-degree: 0%
 ---
 <!--
@@ -80,18 +80,3 @@ Add {transcript=true} after the closing parenthesis if a transcript is available
 
 [선택 사항입니다. 비디오에 설정이 필요하지 않으면 이 섹션을 삭제합니다. 표시된 인터페이스 버전, 사용된 응용 프로그램 또는 샌드박스 또는 먼저 볼 이전 비디오를 언급하십시오.]
 
-## 챕터 {#chapters}
-
-[선택 사항입니다. 짧은 비디오에 대해서는 이 섹션을 삭제하십시오. 타임스탬프를 사용하여 주제 변경 사항을 나열합니다.]
-
-* 0:00 [소개]
-* 1:30 [주제 하나]
-* 3:00 [주제 2]
-
-## 이 항목에 대한 추가 도움말 {#more-help}
-
-[단계를 기록한 설명서 페이지에 연결합니다. 이 섹션은 필수입니다. 설명 링크 텍스트를 사용하고 항목을 병렬로 유지하십시오.]
-
-* [문서 페이지 제목, 작성된 단계]
-* [관련 페이지를 설명하는 링크 텍스트]
-* [관련 비디오를 설명하는 텍스트를 연결합니다]

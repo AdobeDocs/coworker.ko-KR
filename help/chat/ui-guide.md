@@ -1,13 +1,13 @@
 ---
-description: Coworker Chat를 열고, 조직과 샌드박스를 설정하고, 첫 번째 메시지를 보내고, 기술, MCP 서버 및 메모리를 사용자 정의하는 방법에 대해 알아봅니다. 몇 분 후에 대화를 시작하십시오.
+description: 동료 채팅을 열고, 조직과 샌드박스를 설정하고, 첫 번째 메시지를 보내고, 기술, 통합 서버 및 메모리를 사용자 지정하는 방법을 알아봅니다.
 title: 동료 채팅 시작
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: b91e8dcdacf57bdbc4fb6cf7d6fe92920e7fbb6e
+source-git-commit: fe2c27fd27bfebe17f31078cea769e6a1e4c71f1
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1903'
 ht-degree: 2%
 ---
 # 동료 채팅 시작 {#ui-guide}
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 ## 비디오 - [!DNL Coworker] 채팅 인터페이스의 기본 사항
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 조직 선택
 
@@ -219,7 +219,7 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 ![기술 탭](./assets/ui-guide-12.png)
 
 1. **[!UICONTROL 스킬]** 탭에서 **[!UICONTROL 스킬 추가]**&#x200B;를 클릭하여 새 소스에서 스킬을 설치합니다.
-1. 스킬을 찾으려면 **[!UICONTROL 검색]**&#x200B;에 이름을 입력하십시오.
+1. 스킬을 찾으려면 **[!UICONTROL 검색]**에 이름을 입력하십시오.
 보기 토글을 사용하여 격자선과 목록 레이아웃 간에 전환합니다.
 1. 동료 채팅에서 이 플러그인을 사용할 때 이 플러그인이 속한 항목과 이 플러그인에 포함된 파일을 볼 기술을 선택합니다.
 
@@ -229,13 +229,28 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 
    ![SKILL.md 뷰어](./assets/ui-guide-14.png)
 
-### MCP 서버 연결
+### 서버 연결
 
-MCP(Model Context Protocol) 서버는 Coworker Chat를 Adobe Journey Optimizer, Real-Time CDP, Target 및 Workfront과 같은 외부 도구 및 서비스에 연결합니다. **[!UICONTROL MCP 서버]** 탭에는 연결된 서버와 활성 연결 수가 나열됩니다. 각 카드에는 서버 이름, 종단점 및 제공되는 항목을 설명하는 태그가 표시됩니다.
+서버 a 통합은 Coworker Chat를 Adobe Journey Optimizer, Real-Time CDP, Target 및 Workfront과 같은 외부 도구 및 서비스에 연결합니다. **[!UICONTROL 사용자 지정]** > **[!UICONTROL 사용자]** > **[!UICONTROL 통합]** 탭에는 연결된 서버와 활성 연결 수가 나열됩니다. 각 카드에는 서버 이름, 종단점 및 제공되는 항목을 설명하는 태그가 표시됩니다.
 
-서버에 연결하려면 **[!UICONTROL 서버 추가]**&#x200B;를 클릭하고 나타나는 메시지를 따릅니다.
+1. **[!UICONTROL 사용자 지정]** > **[!UICONTROL 사용자]** > **[!UICONTROL 통합]**(으)로 이동
 
-![MCP 서버 탭](./assets/ui-guide-15.png)
+   ![서버 탭](./assets/get-started-customizations.png)
+
+1. 사용자 지정에서 **[!UICONTROL 서버 추가]**&#x200B;를 클릭합니다.
+
+   ![통합 추가](./assets/get-started-add-integrations.png)
+
+1. 다음 필드 및 옵션을 완료합니다.
+
+   * **[!UICONTROL 서버 이름]**(필수): 통합 목록에서 서버를 식별하는 이름을 입력하십시오(예: `github` 또는 `slack`).
+   * **[!UICONTROL Source URL 또는 명령]**(필수): Coworker Chat이 연결되는 주소(예: `https://mcp.example.com/sse`)를 입력하십시오.
+   * **[!UICONTROL 연결 유형]**: 서버가 동료 채팅과 통신하는 데 사용하는 프로토콜을 선택합니다. **[!UICONTROL SSE]**(서버 전송 이벤트) 또는 **[!UICONTROL HTTP]**. 기본값은 **[!UICONTROL SSE]**&#x200B;입니다.
+   * **[!UICONTROL 도구 시간 제한(초)]**: 이 서버에서 도구가 응답을 기다리는 시간을 설정하여 요청을 중지합니다. 기본값은 60초입니다.
+   * **[!UICONTROL 인증]**: 동료 채팅이 서버에 대한 ID를 증명하는 방법을 선택하십시오. 기본값은 자격 증명을 보내지 않는 **[!UICONTROL 없음]**&#x200B;입니다. 서버에 자격 증명이 필요한 경우 다른 방법을 선택하십시오.
+   * **[!UICONTROL 헤더]**: 서버에 요청할 때마다 API 키와 같은 추가 HTTP 헤더를 보내려면 **[!UICONTROL 헤더 추가]**&#x200B;를 클릭합니다. 이 옵션은 선택 사항입니다.
+
+1. **[!UICONTROL 추가를 클릭합니다]**.
 
 ### 마켓플레이스 추가
 
@@ -245,7 +260,7 @@ MCP(Model Context Protocol) 서버는 Coworker Chat를 Adobe Journey Optimizer, 
 
 ### 플러그인 관리
 
-플러그인은 기술과 MCP 서버를 함께 설치하고 관리할 수 있도록 번들로 제공합니다. **[!UICONTROL 플러그인]** 탭에는 설치된 플러그인이 표시됩니다.
+플러그인은 기술과 서버를 함께 설치하고 관리할 수 있도록 번들로 제공합니다. **[!UICONTROL 플러그인]** 탭에는 설치된 플러그인이 표시됩니다.
 
 * 새 플러그인을 찾으려면 **[!UICONTROL 마켓플레이스 찾아보기]**&#x200B;를 클릭하세요.
 * 마켓플레이스를 기준으로 필터링하여 각 플러그인의 출처를 확인합니다.

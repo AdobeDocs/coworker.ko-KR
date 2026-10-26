@@ -21,9 +21,9 @@ level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 951c534c04e9d431b4db71e3d999685629821194
+source-git-commit: a4755ee1df166cc6efd4ffddca90d395d9e8287c
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '243'
 ht-degree: 1%
 ---
 <!--
@@ -123,10 +123,3 @@ Add {transcript=true} after the closing parenthesis if a transcript is available
 <!-- Owner: Documentation. Delete this section if it does not apply. -->
 
 [독자가 볼 수 있는 문제를 설명한 다음 해결 방법을 설명합니다.]
-
-## 이 항목에 대한 추가 도움말 {#more-help}
-
-<!-- Owner: Documentation -->
-
-* [대상 페이지를 설명하는 링크 텍스트]
-* [다른 대상 페이지를 설명하는 링크 텍스트]
