@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 43080128c8b3eeaa712334c3fff2fa89c157efea
+source-git-commit: fd69d41fa38c993fce1f32815f5badfd4714a270
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '314'
 ht-degree: 14%
 ---
 
@@ -103,3 +103,4 @@ ht-degree: 14%
   - [릴리스 정보](./coworker-for-teams/release-notes.md)
 - 추가 리소스 {#more-resources}
   - [설명서 업데이트](./more-resources/documentation-updates.md)
+  - [릴리스 정보](./more-resources/release-notes.md)
