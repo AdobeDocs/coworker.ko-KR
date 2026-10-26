@@ -145,6 +145,6 @@ Adobe CX Enterprise Coworker은 Adobe의 CX Enterprise 애플리케이션용 대
 
 ## CX Enterprise 워크플로 {#cx-enterprise-workflows}
 
-[Application] 및 기타 CX Enterprise 응용 프로그램에서 Coworker가 작동하는 방식을 설명하는 한 문장입니다. 교차 애플리케이션 카드가 없는 경우 이 섹션을 삭제하십시오.]
+[Application] 및 기타 CX Enterprise 응용 프로그램에서 Coworker가 작동하는 방식을 설명하는 한 문장입니다. 교차 애플리케이션 카드가 없는 경우 이 섹션을 삭제하십시오.&rbrack;
 
 [카드 원본 및 생성된 카드 HTML. 응용 프로그램 간 워크플로우당 하나의 카드입니다.]
