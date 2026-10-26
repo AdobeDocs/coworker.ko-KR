@@ -46,7 +46,7 @@ Adobe 자격 증명을 사용하여 [!DNL Coworker]에 로그인합니다.
 
 ## 동료 채팅의 기본 사항 알아보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
 
 ## Coworker 환경 설정 지정 {#preferences}
 
