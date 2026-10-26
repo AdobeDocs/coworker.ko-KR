@@ -1,12 +1,12 @@
 ---
-description: 설명.
+description: Teams용 Coworker를 Salesforce 계정에 연결하여 리드 및 연락처에 액세스하는 방법을 알아봅니다.
 title: Salesforce에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: a0a02aaf4048f13954a1018499204cab05c27023
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '240'
 ht-degree: 0%
 ---
 # Salesforce에 연결 {#salesforce}
