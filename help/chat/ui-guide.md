@@ -5,9 +5,9 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: fe2c27fd27bfebe17f31078cea769e6a1e4c71f1
+source-git-commit: d611ce2398cba72cf21c766f3b25225765c1675b
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1902'
 ht-degree: 2%
 ---
 # 동료 채팅 시작 {#ui-guide}
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 ## 비디오 - [!DNL Coworker] 채팅 인터페이스의 기본 사항
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 조직 선택
 
@@ -82,7 +82,7 @@ ht-degree: 2%
 | **[!UICONTROL 새 채팅]** | 대화를 시작하세요. 동료 채팅은 현재 채팅을 사용자의 기록에 저장합니다. |
 | **[!UICONTROL 홈]** | 인사말, 입력 상자 및 제안된 프롬프트로 돌아갑니다. |
 | **[!UICONTROL 채팅]** | 지난 대화를 검색, 고정, 보관 또는 삭제합니다. |
-| **[!UICONTROL 구성]** | 기술, MCP 서버, 마켓플레이스, 플러그인 및 메모리를 관리합니다. |
+| **[!UICONTROL 사용자 지정]** | 기술, 통합, 시장, 플러그인 및 메모리를 관리합니다. |
 | **[!UICONTROL 고정]** | 내가 출연한 대화 열기 채팅 페이지에서 모두 보려면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하세요. |
 | **[!UICONTROL 최근 항목]** | 최신 대화를 엽니다. 채팅 페이지를 열려면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하세요. |
 
@@ -219,7 +219,7 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 ![기술 탭](./assets/ui-guide-12.png)
 
 1. **[!UICONTROL 스킬]** 탭에서 **[!UICONTROL 스킬 추가]**&#x200B;를 클릭하여 새 소스에서 스킬을 설치합니다.
-1. 스킬을 찾으려면 **[!UICONTROL 검색]**&#x200B;에 이름을 입력하십시오.
+1. 스킬을 찾으려면 **[!UICONTROL 검색]**에 이름을 입력하십시오.
 보기 토글을 사용하여 격자선과 목록 레이아웃 간에 전환합니다.
 1. 동료 채팅에서 이 플러그인을 사용할 때 이 플러그인이 속한 항목과 이 플러그인에 포함된 파일을 볼 기술을 선택합니다.
 
@@ -229,7 +229,7 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 
    ![SKILL.md 뷰어](./assets/ui-guide-14.png)
 
-### 서버 연결
+### 서버 연결 {#server}
 
 서버 a 통합은 Coworker Chat를 Adobe Journey Optimizer, Real-Time CDP, Target 및 Workfront과 같은 외부 도구 및 서비스에 연결합니다. **[!UICONTROL 사용자 지정]** > **[!UICONTROL 사용자]** > **[!UICONTROL 통합]** 탭에는 연결된 서버와 활성 연결 수가 나열됩니다. 각 카드에는 서버 이름, 종단점 및 제공되는 항목을 설명하는 태그가 표시됩니다.
 
@@ -272,7 +272,7 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 
 메모리를 사용하면 Coworker Chat이 대화 전반에 걸쳐 사용자의 선호도를 기억하므로 응답이 시간 경과에 따라 적절합니다. **[!UICONTROL 메모리]** 탭을 사용하여 보관 항목을 제어합니다.
 
-1. 구성 페이지에서 **[!UICONTROL 메모리]**&#x200B;를 클릭합니다.
+1. 사용자 지정 페이지에서 **[!UICONTROL 메모리]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 메모리 사용]**&#x200B;을 켭니다. 동료 채팅이 세션 간에 기억되지 않도록 하려면 이 설정을 끄십시오.
 1. **[!UICONTROL 저장된 환경 설정]**&#x200B;에서 동료 채팅이 저장된 내용을 검토하십시오. 각 항목을 편집, 삭제 또는 검사하고 범주별로 항목을 필터링할 수 있습니다.
 1. **[!UICONTROL 저장된 메모리 내역]**&#x200B;을 사용하여 메모리 변경 타임라인을 확인하세요.
