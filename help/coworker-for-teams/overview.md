@@ -4,9 +4,9 @@ title: Adobe CX Enterprise Coworker for teams 개요
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 6e7f80445232b5762eb93b82a604d8036c5a78e1
+source-git-commit: bf3751af83dd8d40021fb2459743aec66c53209c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1100'
 ht-degree: 0%
 ---
 # Adobe CX Enterprise Coworker for teams 개요 {#overview}
@@ -144,6 +144,7 @@ Coworker for teams 는 개발 중인 제품입니다. 다음은 로그인하는 
 - **데이터 지침**: 중요한 데이터나 규제 대상 데이터를 업로드하지 마십시오. 팀 동료는 현재 HIPAA 규제 업종을 위한 것이 아닙니다.
 - **준수**: 다음 전자 메일 규정(구독 취소 링크, 개인정보 처리방침 등)에 대한 책임이 있습니다.
 - **전송 제한**: 한 달에 최대 5,000개의 전자 메일을 보낼 수 있습니다. 이 제한을 늘려야 하는 경우 화면 왼쪽 하단의 **도움말 및 피드백** 메뉴를 통해 제품 팀에 문의하세요.
+- **무료 하위 도메인**: 평가판에는 작업 영역에 대한 기본 하위 도메인이 포함되어 있으므로 캠페인을 더 빨리 시작할 수 있습니다.
 
 ![도움말 및 피드백 메뉴](./assets/overview-3.png)
 

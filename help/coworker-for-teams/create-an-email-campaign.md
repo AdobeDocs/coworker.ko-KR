@@ -4,9 +4,9 @@ title: 이메일 캠페인 만들기
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f25492704c73fc42d54bf44aa8d59ab73f811f1b
+source-git-commit: bf3751af83dd8d40021fb2459743aec66c53209c
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # 이메일 캠페인 만들기 {#create-an-email-campaign}
@@ -80,15 +80,13 @@ Teams 프롬프트에 대한 강력한 동료는 다음과 같습니다.
 
 대상자는 CSV를 통해 업로드됩니다. 모든 대상자는 각자의 캠페인에 따라 다릅니다(현재 환경의 다른 곳에는 저장되지 않음).
 
-1. 프롬프트를 제출한 후 Coworker가 실행할 작업을 검토하고 **빌드**&#x200B;를 클릭합니다.
+1. 프롬프트를 제출하면 Coworker for teams (일반적으로)에서 샘플 대상을 생성합니다. 그렇지 않으면 대상을 가져오라는 메시지가 표시됩니다.
 
-1. 왼쪽의 _캠페인 전환_ 창에서 **CSV 업로드**&#x200B;를 클릭합니다.
-
-   ![](./assets/create-an-email-campaign-3.png)
+1. CSV 파일을 업로드하거나 사용 가능한 커넥터에서 데이터를 가져와서 자체 대상을 가져옵니다.
 
    >[!NOTE]
    >
-   >* 이메일 주소는 필수 필드, 이름, 마지막 구매 날짜 및 개인화에 사용할 수 있는 기타 모든 필드를 권장합니다.
+   >Coworker for teams를 사용하면 샘플 대상을 사용하여 캠페인 빌드를 진행할 수 있지만 캠페인을 시작하려면 실제 대상을 추가해야 합니다.
 
 1. CSV 파일을 가져옵니다.
 
@@ -132,9 +130,9 @@ AI 버튼을 사용하여 제목 또는 사전 헤더를 개선할 수도 있습
 
 ![](./assets/create-an-email-campaign-6.png)
 
-## 6단계: 다음 단계
+## 6단계: 캠페인 시작
 
-Launch 기능(이메일 캠페인 보내기)이 곧 제공될 예정입니다. 그때까지 팀과 내용을 검토하고 다음 캠페인을 시작할 수 있습니다.
+이제 [캠페인을 시작](/help/coworker-for-teams/launch-manage-campaign.md#launch-a-campaign)할 준비가 되었습니다.
 
 ## FAQ
 
