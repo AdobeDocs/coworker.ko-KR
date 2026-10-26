@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 6ccaaf8cd5976c21119d800ada44101b11c65eb6
+source-git-commit: 43080128c8b3eeaa712334c3fff2fa89c157efea
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 13%
+source-wordcount: '312'
+ht-degree: 14%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -65,6 +65,8 @@ ht-degree: 13%
       - [샌드박스 도구 에이전트 기술](./chat/use-cases/sandbox-tooling/sandbox-tooling.md)
     - 경고 {#alerts}
       - [고객 경고 기술](./chat/use-cases/customer-alerts/customer-alerts.md)
+    - 알림 {#notifications}
+      - [알림 기술](./chat/use-cases/notifications/notification-skills.md)
     - Brand Visibility {#brand-visibility}
       - [AEM 랜딩 페이지 만들기 및 세분화](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [브랜드 준수 검사](./chat/use-cases/brand-visibility/brand-compliance.md)
