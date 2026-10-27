@@ -4,9 +4,9 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5acb9a62c94486e0487cc7805ebc9ef6e25e2079
+source-git-commit: 5a5642bf7d8b6f4d2aa14321fa9a06249440e998
 workflow-type: tm+mt
-source-wordcount: '8465'
+source-wordcount: '8508'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -100,6 +100,7 @@ ht-degree: 6%
 | 지침 및 세그먼트 조회 | 세그먼트, 시장 또는 카테고리별로 세부 브랜드 가이드라인 검색 | enterprise-context | AEM(Adobe Experience Manager) | &quot;이 브랜드에 대한 음성 톤 지침은 무엇입니까?&quot;<br>&quot;상태 범주에 사용되는 클레임 범주를 나열합니다.&quot; |
 | 브랜드 지침에 따라 콘텐츠 평가 | 구성된 브랜드 검사에 대해 게시/작성된 페이지, 텍스트 블록 또는 이미지 평가 | aem-governance | AEM(Adobe Experience Manager) | &quot;SecurBank 지침에 따라 이 랜딩 페이지를 평가하십시오.&quot;<br>&quot;이 태그가 음성 검사를 통과했습니까?&quot; |
 | AEM 권한 디버그 | 권한 정책, ACL 및 상속 규칙을 디버그/이해합니다. | aem-governance | AEM(Adobe Experience Manager) | &quot;사용자 관리자가 `https://author/`에 `/content/folder/us`을(를) 쓸 수 있는 이유는 무엇입니까?&quot;<br>&quot;`https://author`의 `/content/dam`에서 샘플 작성자 쓰기를 샘플링할 수 없는 이유는 무엇입니까?&quot; |
+| 인스턴스 간 취약성 나열 | 심각도 및 영향을 받는 구성 요소를 포함하여 하나 이상의 AEM 인스턴스에 대해 알려진 취약성의 통합 목록을 검색합니다 | aem-governance | AEM(Adobe Experience Manager) | &quot;내 작성자 및 게시 인스턴스의 모든 취약성을 나열합니다.&quot;<br>&quot;`https://author-xxx.adobeaemcloud.com`에 대한 중요하고 높은 취약성을 표시합니다.&quot; |
 
 **관련 정보**
 
@@ -141,13 +142,13 @@ ht-degree: 6%
 | [자연어에서 여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"} | 텍스트 프롬프트 또는 업로드된 이미지/흐름도에서 AJO의 여정 생성 오케스트레이션 | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;등록 후 전자 메일을 보내고 3일을 기다린 다음 후속 작업을 보내는 시작 여정 만들기&quot; <br> &quot;이 업로드된 순서도 이미지에서 여정 작성&quot; |
 | [여정 충돌 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 활성 여정 간 대상 중복 감지, 충돌 예약 및 중복 제거 문제 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;여정 포기 여정이 다른 장바구니와 충돌합니까?&quot; <br> &quot;내 활성 여정 간 대상 겹침 확인&quot; |
 | [여정 폴아웃 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 여정 중 고객이 중단되는 위치와 이유를 파악하고, 이탈로 이어지는 행동 패턴을 감지합니다 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;내 재참여 여정에서 사람들이 어디에 드롭하고 있습니까?&quot; <br> &quot;여정 X에서 폴아웃이 가장 높은 노드는 무엇입니까?&quot; |
-| [사용자 지정 작업 오류 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별하고 실패가 더 광범위한 중단으로 이어지기 전에 근본 원인을 진단합니다 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; <br> &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
-| [여정 예외 항목 탐지](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 과거 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급감, 강하 또는 평면선을 감지하고 확인하여 가능한 근본 원인을 표시합니다 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;어제 환영 여정에 대한 항목이 왜 떨어졌습니까?&quot; <br> &quot;이번 주에 장바구니 포기 여정의 종료가 급증했습니까?&quot; |
-| [비즈니스 성과 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 여정 성과를 분석하고 성과가 낮은 여정에 대한 구체적인 최적화 기회를 식별합니다. 참여도와 전환율을 향상시킬 수 있도록 경향, 병목 현상 및 낮은 결과를 초래하는 원인 표시 비즈니스 성과 통찰력을 기반으로 여정 디자인, 타기팅 또는 메시징 전략을 조정하는 실행 가능한 권장 사항을 얻을 수 있습니다. | 여정 분석 | Adobe Journey Optimizer (AJO) | &quot;여정 [여정 이름]의 성능을 분석하고 최적화를 권장합니다.&quot; <br> &quot;여정 [여정 이름]이(가) 지난달과 비교하여 성능이 낮은 이유는 무엇입니까?&quot; <br> &quot;여정 [여정 이름]의 성능을 향상시키려면 무엇을 변경해야 합니까?&quot; <br> &quot;[여정 이름] 여정 중 어느 부분이 전환이나 참여를 제한할 수 있습니까?&quot; |
-| [여정 위생 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 여정 인벤토리를 감사하여 누락되었거나 일반적인 이름, 오래된 초안 또는 라이브 여정, 크기가 초과된 여정, 기존의 닫힌 여정 및 유사한 작업 및 이벤트 이름을 가진 여정을 찾고 구성을 정리하고 안정화하기 위한 권장 사항을 제공합니다 | 여정 분석 | Adobe Journey Optimizer (AJO) | &quot;내 여정 구성을 감사합니다.&quot; <br> &quot;내 여정 중 오래된 것이거나 정리해야 하는 것은 무엇입니까?&quot; |
+| [사용자 지정 작업 오류 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별합니다. <br> 실패가 더 광범위한 중단으로 확대되기 전에 근본 원인을 진단합니다. | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;충성도 등록 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot; <br> &quot;시작 여정에서 사용자 지정 작업 ExternalPush에 대한 오류율을 표시합니다.&quot; |
+| [여정 예외 항목 탐지](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 과거 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급감, 하락 또는 평면선을 감지하고 확인합니다. <br> 가능한 근본 원인을 표시합니다. | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;어제 환영 여정에 대한 항목이 왜 떨어졌습니까?&quot; <br> &quot;이번 주에 장바구니 포기 여정의 종료가 급증했습니까?&quot; |
+| [비즈니스 성과 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 여정 성과를 분석하고 성과가 낮은 여정에 대한 구체적인 최적화 기회를 식별합니다. <br> 참여도와 전환율을 향상시킬 수 있도록 경향, 병목 현상 및 낮은 결과를 초래하는 원인 표시 <br> 비즈니스 성과 통찰력을 기반으로 여정 디자인, 타기팅 또는 메시징 전략을 조정하는 실행 가능한 권장 사항을 얻을 수 있습니다. | 여정 분석 | Adobe Journey Optimizer (AJO) | &quot;여정 [여정 이름]의 성능을 분석하고 최적화를 권장합니다.&quot; <br> &quot;여정 [여정 이름]이(가) 지난달과 비교하여 성능이 낮은 이유는 무엇입니까?&quot; <br> &quot;여정 [여정 이름]의 성능을 향상시키려면 무엇을 변경해야 합니까?&quot; <br> &quot;[여정 이름] 여정 중 어느 부분이 전환이나 참여를 제한할 수 있습니까?&quot; |
+| [여정 위생 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 구성 위생 문제에 대한 여정 인벤토리를 감사하십시오. <br> 누락되거나 일반적인 이름, 오래된 초안 또는 라이브 여정, 크기가 너무 큰 여정, 오래 전에 닫혀 있던 여정 및 유사한 작업 및 이벤트 이름을 찾을 수 있습니다. <br> 구성 정리 및 안정화를 위한 권장 사항을 받습니다. | 여정 분석 | Adobe Journey Optimizer (AJO) | &quot;내 여정 구성을 감사합니다.&quot; <br> &quot;내 여정 중 오래된 것이거나 정리해야 하는 것은 무엇입니까?&quot; |
 | [여정 버전 비교](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 두 여정 버전을 비교하고 노드, 연결 및 여정 수준 속성 변경의 구조적 차이를 검토합니다 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | &quot;시작 여정의 버전 2와 버전 3 비교&quot; <br> &quot;이 두 여정 버전 간의 변경 사항은 무엇입니까?&quot; |
-| [여정을 통해 프로필 추적](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | 게시된 여정에 대한 읽기 전용 프로필 수준 실행 데이터 가져오기: 각 노드에 입력된 프로필 수 및 여러 여정으로 분할되는 방법을 확인하고 오류가 발생한 프로필 및 이유를 찾거나 노드를 통한 단일 프로필의 노드별 경로를 따릅니다 | 여정 프로필 추적 | Adobe Journey Optimizer (AJO) | &quot;[여정 이름]을(를) 통해 프로필을 추적합니다.&quot; <br> &quot;지난 7일 동안 [여정 이름]에서 오류가 발생한 프로필은 어느 노드이며 그 이유는 무엇입니까?&quot; <br> &quot;[여정 이름]을(를) 통해 프로필 [ID 또는 이메일]의 경로를 표시합니다.&quot; |
-| [여정 실행 타임라인 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-execution-timeline){target="_blank"} | 대상 여정 읽기 배치의 전체적인 타임라인 가져오기: 대상 내보내기, 여정 실행 및 배달이 시작 및 종료되는 데 걸린 시간 및 시작, 종료 또는 실행 시간에 대한 프로필 수준 P95 및 P99 확인 | 여정 실행 타임라인 | Adobe Journey Optimizer (AJO) | &quot;대상 여정 읽기 [여정 이름]을(를) 실행하는 데 얼마나 걸립니까?&quot; <br> &quot;[여정 이름]에 대한 대상 내보내기, 여정 실행 및 배달 타임라인을 일괄적으로 표시합니다.&quot; <br> &quot;[여정 이름]의 어느 배치가 가장 오래 걸렸고 어느 단계가 지연을 일으켰습니까?&quot; |
+| [여정을 통해 프로필 추적](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | 게시된 여정에 대한 읽기 전용 프로필 수준 실행 데이터를 가져옵니다. <br> 각 노드에 얼마나 많은 프로필이 입력되었는지, 어떻게 여러 분기로 분할되는지 확인하십시오. <br> 오류가 발생한 프로필과 그 이유를 찾거나 단일 프로필의 노드별 경로를 따릅니다. | 여정 프로필 추적 | Adobe Journey Optimizer (AJO) | &quot;[여정 이름]을(를) 통해 프로필을 추적합니다.&quot; <br> &quot;지난 7일 동안 [여정 이름]에서 오류가 발생한 프로필은 어느 노드이며 그 이유는 무엇입니까?&quot; <br> &quot;[여정 이름]을(를) 통해 프로필 [ID 또는 이메일]의 경로를 표시합니다.&quot; |
+| [여정 실행 타임라인 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-execution-timeline){target="_blank"} | 대상자 읽기 여정 배치의 전체적인 타임라인을 가져옵니다. <br> 대상 내보내기, 여정 실행 및 배달이 시작 및 종료되는 시간과 걸린 시간을 확인합니다. <br> 시작, 종료 또는 실행 시간에 대한 프로필 수준 P95 및 P99를 가져옵니다. | 여정 실행 타임라인 | Adobe Journey Optimizer (AJO) | &quot;대상 여정 읽기 [여정 이름]을(를) 실행하는 데 얼마나 걸립니까?&quot; <br> &quot;[여정 이름]에 대한 대상 내보내기, 여정 실행 및 배달 타임라인을 일괄적으로 표시합니다.&quot; <br> &quot;[여정 이름]의 어느 배치가 가장 오래 걸렸고 어느 단계가 지연을 일으켰습니까?&quot; |
 
 **관련 정보**
 
@@ -189,7 +190,7 @@ ht-degree: 6%
 | --- | --- | --- | --- | --- |
 | [충성도 문제를 만들고, 편집하고, 관리합니다](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | 충성도 프로그램 관리 간소화 및 가속화 | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;회원들이 새로운 계절 음료를 시도하도록 유도하는 문제를 만드십시오.&quot; <br> &quot;회원 감소율이 가장 높은 충성도 문제를 보여 주십시오.&quot; |
 | [충성도 프로그램 성과 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | 자연어를 사용하여 충성도 포인트, 멤버 계층, 환급 및 매출 지표를 쿼리하고 분석합니다. | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;2026년 8월 중에 충성도 포인트를 몇 개나 부여받았습니까?&quot; <br> &quot;충성도 프로그램의 총 수입을 2026년 8월 중 일별로 분류하여 표시합니다.&quot; |
-| [충성도 기회 찾기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | 충성도 프로그램 트렌드 및 성능 데이터를 기반으로 근거에 둔 특정 도전 기회를 요청한 다음 이를 라이브 도전으로 전환합니다. | 추가 예정 | Adobe Journey Optimizer (AJO) | &quot;어떤 충성도 기회로 인해 구성원 지출이 늘어날 수 있습니까?&quot; <br> &quot;활동적이지 않은 멤버들을 다시 이길 수 있는 기회를 보여주세요.&quot; |
+| [충성도 기회 찾기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | 충성도 프로그램 트렌드 및 성능 데이터를 기반으로 근거에 둔 특정 도전 기회를 요청한 다음 이를 라이브 도전으로 전환합니다. | 충성도 기회 | Adobe Journey Optimizer (AJO) | &quot;어떤 충성도 기회로 인해 구성원 지출이 늘어날 수 있습니까?&quot; <br> &quot;활동적이지 않은 멤버들을 다시 이길 수 있는 기회를 보여주세요.&quot; |
 
 **관련 정보**
 
@@ -199,7 +200,7 @@ ht-degree: 6%
 
 | 워크플로 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| [의사 결정 규칙 생성, 설명, 시뮬레이션 및 최적화](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 자연어를 사용하여 자격 규칙 및 등급 공식을 만들고, 일반 영어 설명을 얻고, 최대 3개의 프로필과 비교하여 테스트하고, PQL 구문을 수동으로 작성하지 않고도 PQL 크기 제한에 맞게 다시 작성합니다 | 의사 결정 규칙 워크플로 | Adobe Journey Optimizer (AJO) | &quot;계층 2 이상의 충성도 구성원을 타깃팅하는 자격 규칙을 만듭니다.&quot;<br><br>&quot;자연어로 이 규칙을 나에게 설명합니다.&quot;<br><br>&quot;테스트 프로필로 이 규칙을 시뮬레이트합니다.&quot;<br><br>&quot;나를 위해 이 PQL 규칙을 최적화합니다.&quot; |
+| [의사 결정 규칙 생성, 설명, 시뮬레이션 및 최적화](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 자연어를 사용하여 자격 규칙과 등급 수식을 만들고 간단한 영어 설명을 얻을 수 있습니다. <br> 최대 3개의 프로필에 대해 테스트합니다. <br> PQL 구문을 수동으로 작성하지 않고 PQL 크기 제한에 맞게 다시 작성합니다. | 의사 결정 규칙 워크플로 | Adobe Journey Optimizer (AJO) | &quot;계층 2 이상의 충성도 구성원을 타깃팅하는 자격 규칙을 만듭니다.&quot;<br><br>&quot;자연어로 이 규칙을 나에게 설명합니다.&quot;<br><br>&quot;테스트 프로필로 이 규칙을 시뮬레이트합니다.&quot;<br><br>&quot;나를 위해 이 PQL 규칙을 최적화합니다.&quot; |
 
 **관련 정보**
 
@@ -209,8 +210,8 @@ ht-degree: 6%
 
 | 워크플로 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| [채널 구성 검사](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | 푸시 자격 증명, 이메일 하위 도메인, SMS 및 WhatsApp 자격 증명, 파일 라우팅, LINE 채널 설정 및 라이브 활동 레지스트리와 같은 관련 리소스를 포함하여 이메일, SMS, 푸시, DM, 인앱 및 웹과 같은 표준 채널에 대한 채널 구성(사전 설정) 및 자격 증명을 보고, 나열하고, 검색하고, 검사합니다. 읽기 전용 | 채널 작업 | Adobe Journey Optimizer (AJO) | &quot;내 샌드박스에서 사용할 수 있는 채널 사전 설정은 무엇입니까?&quot; <br> &quot;내 전자 메일 채널 구성을 모두 표시합니다.&quot; <br> &quot;내 마케팅 이메일 구성에 대해 구성된 발신자 주소 및 회신 주소&quot; |
-| [사용자 지정 채널 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | 수동 설정, curl 명령 또는 API 문서 링크에서 사용자 지정 아웃바운드 채널을 만들고, 테스트하고, 업데이트하고, 나열하고, 가져오고, 삭제합니다. 채널 구성, 인증, 조절 및 페이로드 정의 가이드 | 채널 빌더 | Adobe Journey Optimizer (AJO) | &quot;내 SMS 공급자에 대한 새 사용자 지정 채널을 만드는 데 도움을 주세요.&quot; <br> &quot;이 API 참조에서 사용자 지정 채널을 만듭니다. [링크].&quot; <br> &quot;내 사용자 지정 채널을 나열합니다.&quot; |
+| [채널 구성 검사](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | 이메일, SMS, 푸시, DM, 인앱, 웹과 같은 표준 채널에 대한 읽기 전용 채널 구성(사전 설정) 및 자격 증명을 보고, 나열하고, 검색하고, 검사합니다. <br> 푸시 자격 증명, 이메일 하위 도메인, SMS 및 WhatsApp 자격 증명, 파일 라우팅, LINE 채널 설정 및 라이브 활동 레지스트리와 같은 관련 리소스도 찾아봅니다. | 채널 작업 | Adobe Journey Optimizer (AJO) | &quot;내 샌드박스에서 사용할 수 있는 채널 사전 설정은 무엇입니까?&quot; <br> &quot;내 전자 메일 채널 구성을 모두 표시합니다.&quot; <br> &quot;내 마케팅 이메일 구성에 대해 구성된 발신자 주소 및 회신 주소&quot; |
+| [사용자 지정 채널 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | 수동 설정, curl 명령 또는 API 문서 링크에서 사용자 지정 아웃바운드 채널을 만들고, 테스트하고, 업데이트하고, 나열하고, 가져오고, 삭제합니다. <br> 채널 구성, 인증, 조절 및 페이로드 정의 가이드 | 채널 빌더 | Adobe Journey Optimizer (AJO) | &quot;내 SMS 공급자에 대한 새 사용자 지정 채널을 만드는 데 도움을 주세요.&quot; <br> &quot;이 API 참조에서 사용자 지정 채널을 만듭니다. [링크].&quot; <br> &quot;내 사용자 지정 채널을 나열합니다.&quot; |
 
 **관련 정보**
 
