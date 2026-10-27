@@ -4,9 +4,9 @@ description: 조직 전반에서 고객 경험 및 마케팅 워크플로우를 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 577c1f8f9ea054eabfede407149139638311d5dc
+source-git-commit: d611ce2398cba72cf21c766f3b25225765c1675b
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1213'
 ht-degree: 16%
 ---
 # CX Enterprise Coworker 개요 {#overview}
@@ -63,6 +63,8 @@ Coworker를 사용하도록 설정한 후 [Coworker Chat 시작](./chat/ui-guide
 * [통합](./customizations/integrations/understanding-integrations-in-coworker.md)
 * [플러그인](./customizations/plugins/what-are-plugins.md)
 * [메모리](./customizations/memory/what-is-memory.md)
+
+동료 채팅을 외부 도구 또는 서비스에 연결하려면 **[!UICONTROL 사용자 지정]** > **[!UICONTROL 사용자]** > **[!UICONTROL 통합]**&#x200B;에 서버로 추가하십시오. 각 필드에 대한 단계 및 설명은 [서버 연결](./chat/ui-guide.md#server)을 참조하십시오.
 
 ## Teams 동료
 

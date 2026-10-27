@@ -4,7 +4,7 @@ title: Marketo Engage에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: 6d121c60fbf41dc2b27844854078f8f4f48d1944
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -23,9 +23,9 @@ Adobe Coworker for teams를 사용하면 Marketo Engage 계정을 연결하여 �
 
 ## 연결 방법
 
-1. [Coworker for teams 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **사용자 지정**&#x200B;을 클릭하고 **커넥터**&#x200B;를 선택합니다.
+1. [Coworker for teams 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **컨텍스트**&#x200B;를 클릭하고 **커넥터**&#x200B;를 선택합니다.
 
-   ![사용자 지정 확장 및 커넥터가 강조 표시된 왼쪽 탐색 팀용 동료](./assets/marketo-1.png)
+   ![컨텍스트가 확장되고 커넥터가 강조 표시된 팀 동료 왼쪽 탐색](./assets/marketo-1.png)
 
 1. **통합 추가**&#x200B;를 클릭합니다.
 

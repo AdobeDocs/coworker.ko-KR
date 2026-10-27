@@ -4,16 +4,16 @@ description: Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a9f620ee74eeec0f4a838b7bae7a6189226fecc3
+source-git-commit: d611ce2398cba72cf21c766f3b25225765c1675b
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2182'
 ht-degree: 4%
 ---
 # 동료 채팅을 사용하여 데이터 분석 시작
 
 Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트를 분석한 다음 작업 예를 따릅니다. 사용 사례, 기술 및 모범 사례를 포함하여 공동 작업자 채팅으로 수행할 수 있는 작업에 대한 개요는 [공동 작업자 채팅으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview.md)을 참조하세요.
 
-시작하기 전에 Coworker 채팅 인터페이스 및 구성 옵션을 학습한 다음 Coworker가 Customer Journey Analytics 또는 Adobe Analytics 및 관련 데이터 보기 또는 보고서 세트에 연결되어 있는지 확인합니다.
+시작하기 전에 Coworker 채팅 인터페이스 및 사용자 지정 옵션을 학습한 다음 Coworker가 Customer Journey Analytics 또는 Adobe Analytics 및 관련 데이터 보기 또는 보고서 세트에 연결되어 있는지 확인합니다.
 
 ## 시작하기에 앞서
 
@@ -28,7 +28,7 @@ Customer Journey Analytics 또는 Adobe Analytics 데이터와 함께 Coworker C
 * 채팅 입력
 * 대화
 * 마켓플레이스
-* MCP 서버
+* 통합 서버
 * 메모리
 * 플러그인
 * 스킬
@@ -42,11 +42,15 @@ Customer Journey Analytics 또는 Adobe Analytics 데이터와 함께 Coworker C
 
 1. Coworker의 왼쪽 레일에서 [!UICONTROL **사용자 지정**]&#x200B;을 선택합니다.
 
-1. [!UICONTROL **통합**] 탭을 선택한 다음 연결된 MCP 서버 목록에서 [!UICONTROL **cja-mcp**] 및 [!UICONTROL **aa-mcp**]&#x200B;을(를) 사용할 수 있는지 확인하십시오. 검색 필드를 사용하여 사용 가능한 통합 목록을 빠르게 필터링합니다.
+1. [!UICONTROL **통합**] 탭을 선택한 다음 연결된 서버 목록에서 [!UICONTROL **cja-mcp**] 및 [!UICONTROL **aa-mcp**]&#x200B;을(를) 사용할 수 있는지 확인하십시오.
+
+   검색 필드를 사용하여 사용 가능한 통합 목록을 빠르게 필터링합니다.
 
    ![사용자 지정 페이지의 통합 탭, aa-mcp를 표시하도록 필터링됨](assets/coworker-mcp-aa.png)
 
-1. (조건부) 통합이 나열되지 않으면 [!UICONTROL **서버 추가**]&#x200B;를 선택하여 추가합니다. 자세한 내용은 Coworker Chat UI 안내서의 [MCP 서버 연결](/help/chat/ui-guide.md#connect-mcp-servers)을 참조하십시오.
+1. (조건부) 통합이 나열되지 않으면 [!UICONTROL **서버 추가**]&#x200B;를 선택하여 추가합니다.
+
+   자세한 내용은 시작 안내서에서 [서버 연결](/help/chat/ui-guide.md#server)을 참조하십시오.
 
 ## 올바른 데이터 보기 또는 보고서 세트에 연결
 

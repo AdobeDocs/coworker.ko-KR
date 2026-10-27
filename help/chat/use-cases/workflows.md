@@ -4,9 +4,9 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: b85f470f860795f9a3960f5a4e36d0584e2b6a81
+source-git-commit: 5acb9a62c94486e0487cc7805ebc9ef6e25e2079
 workflow-type: tm+mt
-source-wordcount: '8358'
+source-wordcount: '8465'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -147,6 +147,7 @@ ht-degree: 6%
 | [여정 위생 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 여정 인벤토리를 감사하여 누락되었거나 일반적인 이름, 오래된 초안 또는 라이브 여정, 크기가 초과된 여정, 기존의 닫힌 여정 및 유사한 작업 및 이벤트 이름을 가진 여정을 찾고 구성을 정리하고 안정화하기 위한 권장 사항을 제공합니다 | 여정 분석 | Adobe Journey Optimizer (AJO) | &quot;내 여정 구성을 감사합니다.&quot; <br> &quot;내 여정 중 오래된 것이거나 정리해야 하는 것은 무엇입니까?&quot; |
 | [여정 버전 비교](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | 두 여정 버전을 비교하고 노드, 연결 및 여정 수준 속성 변경의 구조적 차이를 검토합니다 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | &quot;시작 여정의 버전 2와 버전 3 비교&quot; <br> &quot;이 두 여정 버전 간의 변경 사항은 무엇입니까?&quot; |
 | [여정을 통해 프로필 추적](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | 게시된 여정에 대한 읽기 전용 프로필 수준 실행 데이터 가져오기: 각 노드에 입력된 프로필 수 및 여러 여정으로 분할되는 방법을 확인하고 오류가 발생한 프로필 및 이유를 찾거나 노드를 통한 단일 프로필의 노드별 경로를 따릅니다 | 여정 프로필 추적 | Adobe Journey Optimizer (AJO) | &quot;[여정 이름]을(를) 통해 프로필을 추적합니다.&quot; <br> &quot;지난 7일 동안 [여정 이름]에서 오류가 발생한 프로필은 어느 노드이며 그 이유는 무엇입니까?&quot; <br> &quot;[여정 이름]을(를) 통해 프로필 [ID 또는 이메일]의 경로를 표시합니다.&quot; |
+| [여정 실행 타임라인 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-execution-timeline){target="_blank"} | 대상 여정 읽기 배치의 전체적인 타임라인 가져오기: 대상 내보내기, 여정 실행 및 배달이 시작 및 종료되는 데 걸린 시간 및 시작, 종료 또는 실행 시간에 대한 프로필 수준 P95 및 P99 확인 | 여정 실행 타임라인 | Adobe Journey Optimizer (AJO) | &quot;대상 여정 읽기 [여정 이름]을(를) 실행하는 데 얼마나 걸립니까?&quot; <br> &quot;[여정 이름]에 대한 대상 내보내기, 여정 실행 및 배달 타임라인을 일괄적으로 표시합니다.&quot; <br> &quot;[여정 이름]의 어느 배치가 가장 오래 걸렸고 어느 단계가 지연을 일으켰습니까?&quot; |
 
 **관련 정보**
 

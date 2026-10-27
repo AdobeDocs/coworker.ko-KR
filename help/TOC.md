@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 6022fafc0e0213cbc887f5b38267cb65fd8d4326
+source-git-commit: a0a02aaf4048f13954a1018499204cab05c27023
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 12%
+source-wordcount: '312'
+ht-degree: 15%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -65,6 +65,8 @@ ht-degree: 12%
       - [샌드박스 도구 에이전트 기술](./chat/use-cases/sandbox-tooling/sandbox-tooling.md)
     - 경고 {#alerts}
       - [고객 경고 기술](./chat/use-cases/customer-alerts/customer-alerts.md)
+    - 알림 {#notifications}
+      - [알림 기술](./chat/use-cases/notifications/notification-skills.md)
     - Brand Visibility {#brand-visibility}
       - [AEM 랜딩 페이지 만들기 및 세분화](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [브랜드 준수 검사](./chat/use-cases/brand-visibility/brand-compliance.md)
@@ -88,7 +90,6 @@ ht-degree: 12%
   - 메모리 {#memory}
     - [메모리란 무엇입니까?](./customizations/memory/what-is-memory.md)
 - Teams 동료 {#coworker-for-teams}
-  - {hide-from-toc}[새 팀 경험](./coworker-for-teams/new-teams-experience.md)
   - [개요](./coworker-for-teams/overview.md)
   - [이메일 캠페인 만들기](./coworker-for-teams/create-an-email-campaign.md)
   - [캠페인 시작 및 관리](./coworker-for-teams/launch-manage-campaign.md)
@@ -98,4 +99,8 @@ ht-degree: 12%
   - 커넥터 {#connectors}
     - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+    - [Salesforce](./coworker-for-teams/connectors/salesforce.md)
   - [릴리스 정보](./coworker-for-teams/release-notes.md)
+- 추가 리소스 {#more-resources}
+  - [설명서 업데이트](./more-resources/documentation-updates.md)
+  - [릴리스 정보](./more-resources/release-notes.md)

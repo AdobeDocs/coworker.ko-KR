@@ -1,14 +1,14 @@
 ---
-description: Coworker Chat를 열고, 조직과 샌드박스를 설정하고, 첫 번째 메시지를 보내고, 기술, MCP 서버 및 메모리를 사용자 정의하는 방법에 대해 알아봅니다. 몇 분 후에 대화를 시작하십시오.
+description: 동료 채팅을 열고, 조직과 샌드박스를 설정하고, 첫 번째 메시지를 보내고, 기술, 통합 서버 및 메모리를 사용자 지정하는 방법을 알아봅니다.
 title: 동료 채팅 시작
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: b91e8dcdacf57bdbc4fb6cf7d6fe92920e7fbb6e
+source-git-commit: 6f3146fafcfd39c349f43f961e065b86ed304421
 workflow-type: tm+mt
-source-wordcount: '1765'
-ht-degree: 2%
+source-wordcount: '2088'
+ht-degree: 3%
 ---
 # 동료 채팅 시작 {#ui-guide}
 
@@ -30,69 +30,74 @@ ht-degree: 2%
 | AEM | 현재 사용 가능 | 현재 사용 가능 |
 | Marketo Engage | 현재 사용 가능 | 곧 출시 예정 |
 
-## [!DNL Coworker] 채팅 열기 {#immersive}
+## [!DNL Coworker]에 로그인 {#sign-in}
 
-몰입형 경험을 사용하려면 Adobe 자격 증명으로 로그인하십시오. 직접 링크 또는 CX Enterprise 내에서 열 수 있습니다.
+Adobe 자격 증명을 사용하여 [!DNL Coworker]에 로그인합니다.
 
-1. [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker)&#x200B;(으)로 이동합니다.
-1. Adobe ID로 로그인합니다.
-1. [!DNL CX Enterprise]에서 응용 프로그램 선택기 메뉴 ![제품 메뉴 아이콘](./assets/apps-icon.png)을 클릭한 다음 **[!DNL Coworker]**&#x200B;을(를) 클릭합니다.
-1. 채팅(제품 내 경험)을 열려면 **[!UICONTROL 채팅]** ![동료 아이콘](./assets/icon-coworker.png)을 클릭하세요.
+1. Adobe ID을 사용하여 CX Enterprise에 [로그인](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise).
 
-![CX Enterprise 응용 프로그램 선택기의 Coworker](./assets/ui-guide-1.png)
+   로그인한 후 [!DNL CX Enterprise] 응용 프로그램 메뉴에서 또는 직접 연결되는 링크를 사용하여 [!DNL Coworker]을(를) 열 수 있습니다.
 
-## 비디오 - [!DNL Coworker] 채팅 인터페이스의 기본 사항
+   * [!DNL CX Enterprise] 내에서 응용 프로그램 선택기 메뉴 ![제품 메뉴 아이콘](./assets/apps-icon.png)을 클릭한 다음 **[!DNL Coworker]**&#x200B;을(를) 클릭합니다.
+
+   * 직접 연결을 사용하려면 [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker)&#x200B;(으)로 이동하세요.
+
+1. 채팅을 시작하려면 탐색 레일에서 **[!UICONTROL 새 채팅]**&#x200B;을 클릭하세요.
+
+## 동료 채팅의 기본 사항 알아보기
 
 >[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
 
-## 조직 선택
+## Coworker 환경 설정 지정 {#preferences}
 
-[조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations) 및 샌드박스에서 대화가 도달할 수 있는 데이터, 기술 및 연결된 도구를 결정합니다. 시작하기 전에 확인하십시오. 현재 컨텍스트는 왼쪽 탐색 레일의 아래 사용자 이름 아래에 나타납니다.
+인터페이스 왼쪽 하단에서 채팅 대화가 도달할 수 있는 데이터, 기술 및 연결된 도구를 결정하는 옵션과 환경 설정을 지정할 수 있습니다.
 
-컨텍스트를 변경하려면 다음 작업을 수행하십시오.
+![조직](./assets/get-started-organizations.png)
 
-1. 탐색 레일의 하단에서 이름을 클릭하여 계정 메뉴를 엽니다.
-1. **[!UICONTROL 조직]**&#x200B;을 클릭하고 작업할 IMS 조직을 선택하십시오.
-
-   ![조직 선택기가 열려 있는 계정 메뉴](./assets/ui-guide-2.png)
-
-1. **[!UICONTROL 샌드박스]**&#x200B;를 클릭하고 작업할 AEP 샌드박스를 선택합니다.
-
-   ![샌드박스 선택기가 열려 있는 계정 메뉴](./assets/ui-guide-3.png)
-
-계정 메뉴에는 다음 옵션도 포함되어 있습니다.
-
-| 옵션 | 사용 대상 |
+| 설정 / 옵션 | 사용 대상 |
 | --- | --- |
+| 계정 이름 및 이메일 | 로그인한 Adobe 계정을 확인합니다. |
+| **[!UICONTROL 알림]**(벨 아이콘) | [알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#subscribe-to-notifications-in-experience-cloud)을 봅니다. |
 | **[!UICONTROL 테마]** | 밝은 테마와 어두운 테마 간을 전환합니다. |
-| **[!UICONTROL 설정]** | 계정 세부 정보 및 작업 공간 설정을 봅니다. |
+| **[!UICONTROL 앱 설정]** | 계정 세부 정보 및 작업 공간 설정을 봅니다. |
+| **[!UICONTROL 환경 설정]** | [환경 설정](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences) 계정을 엽니다. 화살표는 페이지가 Coworker 외부에서 열린다는 것을 나타냅니다. |
+| **[!UICONTROL 조직]** | 작업할 IMS [조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations)을(를) 선택하십시오. 메뉴에 현재 조직이 표시되고 선택 표시가 있으면 목록에서 선택한 조직이 식별됩니다. |
+| **[!UICONTROL 샌드박스]** | 작업할 Experience Platform [샌드박스](https://experienceleague.adobe.com/ko/docs/experience-platform/sandbox/home)를 선택하십시오. 메뉴가 현재 샌드박스와 해당 유형(예: **Prod**)을 표시합니다. |
 | **[!UICONTROL CX 응용 프로그램]** | 계정에 연결된 다른 CX Enterprise 애플리케이션으로 이동합니다. |
 | **[!UICONTROL 로그아웃]** | Adobe 계정에서 로그아웃합니다. |
 
-## 길을 찾으세요
+## 동료 기능 익히기 {#interface-features}
 
-작업 공간에는 왼쪽의 탐색 레일과 나머지 창을 채우는 대화 캔버스의 두 가지 영역이 있습니다.
+동료는 왼쪽의 탐색 레일과 나머지 화면을 채우는 채팅 창 등 두 가지 주요 영역을 가지고 있습니다. 아이콘만 표시되도록 탐색 레일을 축소하려면 제품 이름 옆에 있는 축소 아이콘을 클릭합니다.
 
-![홈 화면](./assets/ui-guide-4.png)
+* 탐색 레일:
 
-탐색 레일을 사용하여 제품 부분 간에 이동하고 최근 작업으로 돌아갑니다.
+  ![동료 왼쪽 탐색](./assets/get-started-left-navigation.png)
+
+* 채팅 창(**[!UICONTROL 채팅]** 페이지가 열려 있는 상태로 여기에 표시됨):
+
+  ![동료 채팅](./assets/get-started-canvas.png)
+
+탐색 레일에서 다음 기능을 사용하면 동료와 채팅하고 최근 작업으로 돌아갈 수 있습니다.
 
 | 옵션 | 사용 대상 |
 | --- | --- |
-| **[!UICONTROL 새 채팅]** | 대화를 시작하세요. 동료 채팅은 현재 채팅을 사용자의 기록에 저장합니다. |
+| **[!UICONTROL 새 채팅]** | 대화를 시작하세요. [!UICONTROL 동료 채팅]에서 현재 채팅을 사용자의 기록에 저장합니다. |
 | **[!UICONTROL 홈]** | 인사말, 입력 상자 및 제안된 프롬프트로 돌아갑니다. |
 | **[!UICONTROL 채팅]** | 지난 대화를 검색, 고정, 보관 또는 삭제합니다. |
-| **[!UICONTROL 구성]** | 기술, MCP 서버, 마켓플레이스, 플러그인 및 메모리를 관리합니다. |
-| **[!UICONTROL 고정]** | 내가 출연한 대화 열기 채팅 페이지에서 모두 보려면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하세요. |
+| **[!UICONTROL 아티팩트]** | 대화에서 Coworker Chat이 만든 아티팩트를 엽니다. |
+| **[!UICONTROL 경험 컨텍스트]** | Coworker를 기존 Adobe 애플리케이션(예: Marketo Engage) 및 기타 엔터프라이즈 시스템에 연결하면 모든 관련 고객 및 계정 데이터에 액세스하고 이를 이해할 수 있습니다. |
+| **[!UICONTROL 사용자 지정]** | 기술, 통합, 시장, 플러그인 및 메모리를 관리합니다. |
 | **[!UICONTROL 최근 항목]** | 최신 대화를 엽니다. 채팅 페이지를 열려면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하세요. |
+| **[!UICONTROL 고정]** | 내가 출연한 대화 열기 채팅 페이지에서 모두 보려면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하세요. |
 
-## 첫 번째 메시지 보내기
+## Coworker에게 무엇이든 물어보기 {#message}
 
-홈 화면에는 인사말, 입력([!UICONTROL 채팅]) 상자 및 동료 채팅이 샌드박스에서 수행할 수 있는 작업에 따라 제안된 프롬프트가 표시됩니다. 제안으로 시작하거나 직접 메시지를 작성할 수 있습니다.
+Coworker 홈페이지에서 Coworker Chat 이 샌드박스에서 수행할 수 있는 작업을 기반으로 질문을 입력하거나 제안 프롬프트를 선택할 수 있습니다.
 
-메시지를 보내려면:
+동료에게 질문하려면:
 
-1. 탐색 레일에서 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+1. [Coworker 열기](#sign-in).
 1. 다음 중 하나를 수행합니다.
 
    * **[!UICONTROL 추천]**&#x200B;에서 프롬프트를 선택하십시오. 동료 채팅은 입력 상자에 추가되어 편집할 수 있습니다.
@@ -115,9 +120,9 @@ ht-degree: 2%
 | --- | --- |
 | **[!UICONTROL +]**(첨부) | 메시지에 파일 또는 샌드박스 개체를 추가합니다. |
 | **[!UICONTROL 플랜 모드]** | 동료 채팅이 작동하기 전에 단계별 플랜을 검토하십시오. |
-| **[!UICONTROL 성적 증명서 보기]** | 표시되는 Coworker Chat 활동의 양을 선택합니다. |
+| **[!UICONTROL 성적 증명서 보기]**(**[!UICONTROL 보통]**&#x200B;과 같이 현재 보기로 레이블 지정) | 표시되는 Coworker Chat 활동의 양을 선택합니다. |
 | **[!UICONTROL 마이크]** | 메시지를 받아쓰세요. 레코딩을 중단하려면 다시 클릭합니다. |
-| **[!UICONTROL 보내기]** | 메시지를 보냅니다. 동료 채팅이 응답하는 동안 이 컨트롤은 **[!UICONTROL Stop]**&#x200B;이 되어 응답을 중단합니다. |
+| **[!UICONTROL 보내기]**(화살표 아이콘) | 메시지를 보냅니다. 메시지를 입력할 때까지 컨트롤을 사용할 수 없습니다. 동료 채팅이 응답하는 동안 이 컨트롤은 **[!UICONTROL Stop]**&#x200B;이 되어 응답을 중단합니다. |
 
 ### 파일 또는 개체 첨부
 
@@ -129,8 +134,6 @@ Coworker Chat에서 작업을 수행하기 위해 추가 정보가 필요한 경
    * **[!UICONTROL 파일 첨부]**: 동료 채팅에 대해 읽기 및 참조할 파일을 업로드합니다.
    * **[!UICONTROL 데이터 또는 개체 추가]**: 데이터 세트 또는 스키마와 같은 샌드박스의 개체를 참조하므로 Coworker Chat이 사용자의 라이브 데이터에 대해 작동합니다.
 
-![메뉴 첨부](./assets/ui-guide-5.png)
-
 ### 동료 채팅이 작동하기 전에 플랜 검토 {#plan-mode}
 
 데이터를 변경하는 복잡한 작업 또는 작업에 계획 모드를 사용합니다. 플랜 모드가 켜지면, 동료 채팅은 플랜을 제안하고 실행 전에 승인을 기다립니다. 플랜 모드가 꺼져 있으면 동료채팅이 바로 작업을 시작합니다.
@@ -139,13 +142,11 @@ Coworker Chat에서 작업을 수행하기 위해 추가 정보가 필요한 경
 1. 메시지를 보냅니다.
 1. 플랜을 검토하고 승인하여 계속합니다.
 
-![입력 도구 모음에서 플랜 모드가 켜져 있음](./assets/ui-guide-6.png)
-
 ### 성적 증명서 보기 선택
 
 대본 보기는 대화에서 동료 채팅의 추론 및 도구 활동이 표시되는 정도를 제어합니다.
 
-1. 입력 도구 모음에서 **[!UICONTROL 성적 증명서 보기]**&#x200B;를 클릭합니다.
+1. 입력 도구 모음에서 성적 증명서 보기 컨트롤을 클릭합니다. **[!UICONTROL 보통]**&#x200B;과 같은 현재 보기를 표시합니다.
 1. 보기를 클릭합니다.
 
    | 보기 | 표시되는 항목 |
@@ -154,17 +155,17 @@ Coworker Chat에서 작업을 수행하기 위해 추가 정보가 필요한 경
    | **[!UICONTROL 포커스]** | 대부분 답입니다. 동료 채팅은 대부분의 중간 단계를 숨깁니다. |
    | **[!UICONTROL 자세한 정보]** | 모든 사고 단계, 스킬 로드, 파일 읽기 및 쿼리. |
 
-![성적 증명서 보기 옵션](./assets/ui-guide-7.png)
-
 ## 응답 검토
 
 동료 채팅은 작업이 진행되는 대로 표시한 다음 답변을 반환합니다. 응답에는 추론, 사용한 도구의 기록, 아티팩트 및 요약이 포함될 수 있습니다.
 
-![응답 진행 중](./assets/ui-guide-8.png)
+![응답과 입력란이 있는 대화](./assets/get-started-message.png)
+
+응답이 길면 응답 위에 나타나는 화살표를 클릭하여 끝으로 이동합니다. 동료 채팅에는 입력 상자 아래에 다음과 같은 알림이 표시됩니다. &quot;응답은 AI를 사용하여 생성되며 정확하지 않을 수 있습니다. 사용하기 전에 확인하십시오.&quot; 응답한 내용을 검토한 후 처리하십시오.
 
 ### 활동 팔로우
 
-동료 채팅이 작동하는 동안 수행할 작업을 팔로우하고 확인할 수 있습니다. 더 자세한 내용을 보려면 원하는 항목을 확장하십시오.
+동료 채팅이 작동하는 동안 수행할 작업을 팔로우하고 확인할 수 있습니다. **[!UICONTROL 기본]** 보기에서 활동 요약이 답변 위에 나타납니다(예: &quot;3개 스킬 로드됨, 1개 파일 읽기, 2단계 추가&quot;). 요약을 클릭하여 확장하고 항목을 확장하면 자세한 내용을 볼 수 있습니다. 항목은 다음과 같습니다.
 
 * **고려 사항**: 동료 채팅의 추론 및 소요 시간이 포함된 축소 가능한 블록입니다.
 * **로드된 스킬**: 작업에 사용되는 특수 기능 동료 채팅입니다.
@@ -182,8 +183,6 @@ Coworker Chat 은 대상자 테이블 등의 결과를 응답의 아티팩트 �
 
 Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주목할 만한 결과를 강조하며 후속 조치를 제안합니다. 대화를 계속하려면 이 제안을 사용하십시오.
 
-![아티팩트 테이블 및 요약이 포함된 완료된 응답](./assets/ui-guide-9.png)
-
 ### 응답 비율 및 복사
 
 각 응답에는 피드백을 제공하거나 콘텐츠를 재사용하는 데 사용할 수 있는 컨트롤이 포함되어 있습니다.
@@ -191,13 +190,9 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 * 응답을 평가하려면 **[!UICONTROL 엄지손가락 위로]** 또는 **[!UICONTROL 엄지손가락 아래로]**&#x200B;을 클릭합니다. 귀하의 등급은 향후 답변을 개선하는 데 도움이 됩니다.
 * **[!UICONTROL 복사]**&#x200B;를 클릭한 다음 **[!UICONTROL Markdown으로 복사]**&#x200B;를 선택하여 서식을 유지하거나 **[!UICONTROL 일반 텍스트로 복사]**&#x200B;를 선택하여 제거합니다.
 
-![복사 메뉴](./assets/ui-guide-10.png)
-
 ## 채팅 관리
 
 채팅 기록이 이전 대화를 유지하므로 다시 대화할 수 있습니다. 탐색 레일에서 **[!UICONTROL 채팅]**&#x200B;을 클릭하여 엽니다. 대화는 날짜별로 그룹화되고 각 행에는 제목과 회전 수가 표시됩니다.
-
-![채팅 페이지](./assets/ui-guide-11.png)
 
 채팅 페이지에서 다음을 수행할 수 있습니다.
 
@@ -216,50 +211,56 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 
 스킬은 동료채팅이 신청할 때 자동으로 사용하는 전문 기능입니다. 채팅에 **/**&#x200B;을(를) 입력하여 스킬을 직접 시작할 수도 있습니다. **[!UICONTROL 스킬]** 탭에는 설치된 모든 스킬이 나열됩니다.
 
-![기술 탭](./assets/ui-guide-12.png)
-
 1. **[!UICONTROL 스킬]** 탭에서 **[!UICONTROL 스킬 추가]**&#x200B;를 클릭하여 새 소스에서 스킬을 설치합니다.
 1. 스킬을 찾으려면 **[!UICONTROL 검색]**&#x200B;에 이름을 입력하십시오.
 보기 토글을 사용하여 격자선과 목록 레이아웃 간에 전환합니다.
 1. 동료 채팅에서 이 플러그인을 사용할 때 이 플러그인이 속한 항목과 이 플러그인에 포함된 파일을 볼 기술을 선택합니다.
 
-   ![지원 파일을 표시하는 스킬 세부 정보 보기](./assets/ui-guide-13.png)
-
 1. (선택 사항) 전체 스킬 정의를 읽으려면 **[!UICONTROL SKILL.md 보기]**&#x200B;를 클릭하고 스킬을 제거하려면 **[!UICONTROL Source 제거]**&#x200B;를 클릭합니다.
 
-   ![SKILL.md 뷰어](./assets/ui-guide-14.png)
+### 서버 연결 {#server}
 
-### MCP 서버 연결
+서버 a 통합은 Coworker Chat를 Adobe Journey Optimizer, Real-Time CDP, Target 및 Workfront과 같은 외부 도구 및 서비스에 연결합니다.
 
-MCP(Model Context Protocol) 서버는 Coworker Chat를 Adobe Journey Optimizer, Real-Time CDP, Target 및 Workfront과 같은 외부 도구 및 서비스에 연결합니다. **[!UICONTROL MCP 서버]** 탭에는 연결된 서버와 활성 연결 수가 나열됩니다. 각 카드에는 서버 이름, 종단점 및 제공되는 항목을 설명하는 태그가 표시됩니다.
+1. **[!UICONTROL 사용자 지정]** > **[!UICONTROL 사용자]** > **[!UICONTROL 통합]**(으)로 이동
 
-서버에 연결하려면 **[!UICONTROL 서버 추가]**&#x200B;를 클릭하고 나타나는 메시지를 따릅니다.
+   ![서버 탭](./assets/get-started-customizations.png)
 
-![MCP 서버 탭](./assets/ui-guide-15.png)
+   **[!UICONTROL 통합]** 탭에는 연결된 서버와 활성 연결 수가 나열됩니다. 각 카드에는 서버 이름, 종단점 및 제공되는 항목을 설명하는 태그가 표시됩니다.
+
+1. 사용자 지정에서 **[!UICONTROL 서버 추가]**&#x200B;를 클릭합니다.
+
+   ![통합 추가](./assets/get-started-add-integrations.png)
+
+1. 다음 필드 및 옵션을 완료합니다.
+
+   * **[!UICONTROL 서버 이름]**(필수): 통합 목록에서 서버를 식별하는 이름을 입력하십시오(예: `github` 또는 `slack`).
+   * **[!UICONTROL Source URL 또는 명령]**(필수): Coworker Chat이 연결되는 주소(예: `https://mcp.example.com/sse`)를 입력하십시오.
+   * **[!UICONTROL 연결 유형]**: 서버가 동료 채팅과 통신하는 데 사용하는 프로토콜을 선택합니다. **[!UICONTROL SSE]**(서버 전송 이벤트) 또는 **[!UICONTROL HTTP]**. 기본값은 **[!UICONTROL SSE]**&#x200B;입니다.
+   * **[!UICONTROL 도구 시간 제한(초)]**: 이 서버에서 도구가 응답을 기다리는 시간을 설정하여 요청을 중지합니다. 기본값은 60초입니다.
+   * **[!UICONTROL 인증]**: 동료 채팅이 서버에 대한 ID를 증명하는 방법을 선택하십시오. 기본값은 자격 증명을 보내지 않는 **[!UICONTROL 없음]**&#x200B;입니다. 서버에 자격 증명이 필요한 경우 다른 방법을 선택하십시오.
+   * **[!UICONTROL 헤더]**: 서버에 요청할 때마다 API 키와 같은 추가 HTTP 헤더를 보내려면 **[!UICONTROL 헤더 추가]**&#x200B;를 클릭합니다. 이 옵션은 선택 사항입니다.
+
+1. **[!UICONTROL 추가를 클릭합니다]**.
 
 ### 마켓플레이스 추가
 
 마켓플레이스는 찾아보고 설치할 수 있는 플러그인의 레지스트리입니다. **[!UICONTROL 마켓플레이스]** 탭에서 **[!UICONTROL 마켓플레이스 추가]**&#x200B;를 클릭하여 새 마켓플레이스를 등록합니다. **[!UICONTROL 검색]**&#x200B;을 사용하거나 그룹별로 필터링하여 목록을 좁히세요. **준비** 상태의 마켓플레이스에서 설치할 수 있습니다.
 
-![마켓플레이스 탭](./assets/ui-guide-16.png)
-
 ### 플러그인 관리
 
-플러그인은 기술과 MCP 서버를 함께 설치하고 관리할 수 있도록 번들로 제공합니다. **[!UICONTROL 플러그인]** 탭에는 설치된 플러그인이 표시됩니다.
+플러그인은 기술과 서버를 함께 설치하고 관리할 수 있도록 번들로 제공합니다. **[!UICONTROL 플러그인]** 탭에는 설치된 플러그인이 표시됩니다.
 
 * 새 플러그인을 찾으려면 **[!UICONTROL 마켓플레이스 찾아보기]**&#x200B;를 클릭하세요.
 * 마켓플레이스를 기준으로 필터링하여 각 플러그인의 출처를 확인합니다.
 * 플러그인과 플러그인이 번들로 제공하는 모든 항목을 제거하려면 **[!UICONTROL 제거]**&#x200B;를 클릭하십시오.
 
-![플러그인 탭](./assets/ui-guide-17.png)
-
 ### 메모리 관리
 
 메모리를 사용하면 Coworker Chat이 대화 전반에 걸쳐 사용자의 선호도를 기억하므로 응답이 시간 경과에 따라 적절합니다. **[!UICONTROL 메모리]** 탭을 사용하여 보관 항목을 제어합니다.
 
-1. 구성 페이지에서 **[!UICONTROL 메모리]**&#x200B;를 클릭합니다.
+1. 사용자 지정 페이지에서 **[!UICONTROL 메모리]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 메모리 사용]**&#x200B;을 켭니다. 동료 채팅이 세션 간에 기억되지 않도록 하려면 이 설정을 끄십시오.
 1. **[!UICONTROL 저장된 환경 설정]**&#x200B;에서 동료 채팅이 저장된 내용을 검토하십시오. 각 항목을 편집, 삭제 또는 검사하고 범주별로 항목을 필터링할 수 있습니다.
 1. **[!UICONTROL 저장된 메모리 내역]**&#x200B;을 사용하여 메모리 변경 타임라인을 확인하세요.
 
-![메모리 탭](./assets/ui-guide-18.png)
