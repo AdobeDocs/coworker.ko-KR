@@ -4,14 +4,14 @@ title: 데이터베이스에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 6d121c60fbf41dc2b27844854078f8f4f48d1944
+source-git-commit: 395e6f64210aedd90fa4f6655860cf4c9bf19f7b
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '140'
 ht-degree: 0%
 ---
 # 데이터베이스에 연결 {#databricks}
 
-Adobe Coworker for teams를 사용하면 데이터 블록을 연결할 수 있습니다...........
+Adobe Coworker for teams를 사용하면 Databricks 작업 영역에서 Unity Catalog 테이블을 연결하고 쿼리하여 캠페인 대상을 빌드하고 활성화할 수 있습니다.
 
 >[!PREREQUISITES]
 >
@@ -19,7 +19,7 @@ Adobe Coworker for teams를 사용하면 데이터 블록을 연결할 수 있�
 
 ## 연결 방법
 
-1. [Coworker for teams 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **사용자 지정**&#x200B;을 클릭하고 **커넥터**&#x200B;를 선택합니다.
+1. [Coworker for teams 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **컨텍스트**&#x200B;를 클릭하고 **커넥터**&#x200B;를 선택합니다.
 
    스크린샷
 
@@ -39,7 +39,7 @@ Adobe Coworker for teams를 사용하면 데이터 블록을 연결할 수 있�
 
    스크린샷
 
-연결 후 Databricks 가 Connectors 목록에 나타나고...................
+연결 후 Databricks 가 Connectors 목록에 나타납니다.
 
 **연결을 끊으려면:**
 
