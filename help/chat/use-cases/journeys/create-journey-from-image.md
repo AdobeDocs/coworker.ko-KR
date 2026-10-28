@@ -38,4 +38,4 @@ ht-degree: 0%
 
 CX Enterprise Coworker에서 마케팅 팀의 PowerPoint 슬라이드와 같은 순서도 이미지를 Adobe Journey Optimizer에서 편집 준비가 된 여정으로 변환하는 방법에 대해 알아봅니다. Coworker가 이미지에서 프롬프트를 추출하고 검토 및 조정할 수 있으며 트리거 이벤트를 요청하고 결과를 원래 디자인과 일치하는 초안으로 저장하는 방법을 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504865/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504870/?captions=kor&learn=on&enablevpops)

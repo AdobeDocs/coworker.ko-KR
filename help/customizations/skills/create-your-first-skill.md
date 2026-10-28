@@ -31,7 +31,7 @@ ht-degree: 0%
 
 따라서 간단한 프롬프트로 필요할 때 실행할 수 있는 반복 가능한 워크플로우가 생성됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502323/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502337/?captions=kor&learn=on&enablevpops)
 
 ## 분석을 재사용 가능한 스킬로 전환
 

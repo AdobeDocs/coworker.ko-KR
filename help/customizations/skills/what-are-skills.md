@@ -22,7 +22,7 @@ ht-degree: 0%
  
 이 비디오에서는 스킬의 작동 방식, 사용 시기 및 팀이 반복 가능한 고객 경험 사례를 확장하는 데 어떻게 도움이 되는지에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502322/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502328/?captions=kor&learn=on&enablevpops)
 
 스킬은 다음을 제공합니다.
 
