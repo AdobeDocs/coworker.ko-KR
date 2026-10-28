@@ -3,8 +3,8 @@ title: Coworker Chat으로 비즈니스 성과 및 KPI 분석
 description: 동료 채팅을 사용하여 지표가 이동한 이유, 지표가 향하는 방향을 예측하고 성과 검토를 준비하고 반복 분석을 재사용 가능한 기술로 전환할 수 있습니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 2%

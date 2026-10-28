@@ -3,8 +3,8 @@ title: 동료 채팅으로 고객 여정 및 드롭오프 분석
 description: 동료 채팅을 사용하여 단계를 만들고, 고객이 중단되는 지점을 찾고, 전환 감소를 진단하고, 분석 데이터에서 여러 기간에 걸친 여정을 비교할 수 있습니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: f1ffc050071fc0ca48ae36c7aea8bc66eff2a147
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 2%

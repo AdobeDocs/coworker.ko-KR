@@ -3,11 +3,8 @@ title: AI 플랫폼용 Adobe CX Enterprise Coworker
 description: AI 플랫폼용 Adobe CX Enterprise Coworker에 대해 알아봅니다. 지원되는 플랫폼, 설정 지침 및 예제 프롬프트를 탐색하여 마케팅 통찰력을 얻으십시오.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: cc2d5256952ce20cda57f7274a5dc1d879d4a6a0
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 1%
@@ -75,7 +72,7 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 >
 >[!DNL Microsoft]에서 새 권한이 필요한 Coworker 업데이트를 릴리스하는 경우 관리자는 [!DNL Agent Registry]에서 업데이트를 승인해야 사용자에게 롤아웃됩니다.
 
-[!DNL Copilot]&#x200B;**에서**&#x200B;동료에 액세스
+[!DNL Copilot]**에서**&#x200B;동료에 액세스
 
 관리자가 Coworker를 사용하도록 설정하면 [!DNL Teams], [!DNL Word], [!DNL Excel], [!DNL PowerPoint] 및 웹 채팅을 포함하여 [!DNL Microsoft 365 Copilot] 표면에 액세스할 수 있습니다.
 
@@ -101,7 +98,7 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 
 * 선택한 사용자 또는 전체 조직에 대해 **[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;을(를) 승인하도록 [!DNL ChatGPT] 관리자에게 요청하십시오.
 
-[!DNL ChatGPT]&#x200B;**에서**&#x200B;동료에 액세스
+[!DNL ChatGPT]**에서**&#x200B;동료에 액세스
 
 [!DNL ChatGPT]에서 **[!UICONTROL 플러그인]**&#x200B;을 선택합니다.
 
@@ -125,7 +122,7 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 
 * 선택한 사용자 또는 전체 조직에 대해 **[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;을(를) 승인하도록 [!DNL Claude] 관리자에게 요청하십시오.
 
-[!DNL Claude]&#x200B;**에서**&#x200B;동료에 액세스
+[!DNL Claude]**에서**&#x200B;동료에 액세스
 
 1. [!DNL Claude]에서 **[!UICONTROL 사용자 지정]**&#x200B;을 선택합니다.
 

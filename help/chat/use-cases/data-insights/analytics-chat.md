@@ -3,8 +3,8 @@ title: 동료 채팅을 사용한 데이터 분석 시작
 description: Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey Analytics 또는 Adobe Analytics 데이터를 분석한 다음 고객 드롭오프를 찾는 예를 따릅니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: d92dcaa94d6fe5577c11db62928f5c4c5e124ed5
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '2182'
 ht-degree: 4%
@@ -335,7 +335,7 @@ funnel은 체크아웃할 때까지 디바이스 간에 동일하며 모바일�
 
 1. (선택 사항) 선택한 모든 사람과 Workspace 프로젝트를 공유합니다.
 
-   Analysis Workspace에 대한 자세한 내용은 Customer Journey Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) 또는 Adobe Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/home)를 참조하십시오.
+   Analysis Workspace에 대한 자세한 내용은 Customer Journey Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) 또는 Adobe Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)를 참조하십시오.
 
 ## 다음 단계
 

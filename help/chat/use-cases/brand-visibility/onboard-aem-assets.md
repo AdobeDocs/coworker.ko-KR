@@ -9,8 +9,8 @@ last-substantial-update: 2026-10-06T00:00:00.000Z
 jira: KT-22770
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 0%
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 Coworker를 사용하여 Adobe Experience Manager Assets에서 DAM(디지털 에셋 관리)을 효율적으로 구성하는 방법에 대해 알아봅니다. 이 비디오에서는 효율적인 설정 프로세스와 조직의 AEM Assets 최적화를 보장하기 위해 브랜드를 온보딩하는 단계를 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504163/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504157/?learn=on&enablevpops)

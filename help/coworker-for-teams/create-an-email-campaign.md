@@ -3,8 +3,8 @@ description: 프롬프트 작성에서 캠페인 검토 및 내보내기에 이�
 title: 이메일 캠페인 만들기
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: a456bf55f7004304df7ad9ea6d6bc3410faffaba
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 0%

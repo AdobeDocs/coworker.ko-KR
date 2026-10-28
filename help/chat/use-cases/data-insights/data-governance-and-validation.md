@@ -3,8 +3,8 @@ title: 동료 채팅을 사용하여 Analytics 구현 및 관리
 description: 구현을 계획하고, 체크리스트에서 추적하고, Coworker Chat을 사용하여 Adobe Analytics, Customer Journey Analytics 및 Experience Platform 데이터의 유효성을 검사합니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: decc8d209d4c9c177c6329a30668f0bbb8bd2c00
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 0%

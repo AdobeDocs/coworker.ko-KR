@@ -3,8 +3,8 @@ title: 동료 채팅으로 마케팅 영향 및 속성 측정
 description: Coworker Chat 을 사용하여 각 채널의 증분 영향을 측정하고, 어디에 지출이 누적되는지 찾고, 가정 예산 시나리오를 작성하고, 마케팅 모델 품질을 확인합니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 2%
