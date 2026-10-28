@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 67936a948c0e985619e3ae72dffa443a016611bb
+source-git-commit: 5394a34858c6480dec74f4fdf8b9a26e28bcac68
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 14%
 ---
 
@@ -98,9 +98,11 @@ ht-degree: 14%
   - [프롬프트 우수 사례](./coworker-for-teams/prompting-best-practices.md)
   - [C2PA 메타데이터](./coworker-for-teams/c2pa-metadata.md)
   - 커넥터 {#connectors}
-    - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
+    - {hide-from-toc}[데이터 블록](./coworker-for-teams/connectors/databricks.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+    - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Salesforce](./coworker-for-teams/connectors/salesforce.md)
+    - {hide-from-toc}[Shopify](./coworker-for-teams/connectors/shopify.md)
   - [릴리스 정보](./coworker-for-teams/release-notes.md)
 - 추가 리소스 {#more-resources}
   - [설명서 업데이트](./more-resources/documentation-updates.md)

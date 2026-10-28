@@ -10,13 +10,17 @@ jira: KT-22312
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+source-git-commit: 645cb0c837d9320c3a908b580b10397532900070
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '187'
 ht-degree: 1%
 ---
 
 # Adobe Journey Optimizer 및 Coworker - 충성도 문제 및 지표 통찰력 만들기
+
+>[!AVAILABILITY]
+>
+>충성도 플러그인과 해당 챌린지 관리 기술은 조직이 Adobe Journey Optimizer Loyalty 권한을 보유한 경우에만 사용할 수 있습니다. 액세스하려면 Adobe 계정 팀에 연락하여 필요한 권한을 요청하십시오.
 
 이 데모에서는 Adobe Journey Optimizer(AJO) 충성도를 동료에서 사용하여 충성도 프로그램 관리를 간소화하고 가속화하는 방법을 살펴볼 수 있습니다.
  
