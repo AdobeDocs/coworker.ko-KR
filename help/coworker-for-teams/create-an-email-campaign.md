@@ -4,9 +4,9 @@ title: 이메일 캠페인 만들기
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bf3751af83dd8d40021fb2459743aec66c53209c
+source-git-commit: a456bf55f7004304df7ad9ea6d6bc3410faffaba
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '933'
 ht-degree: 0%
 ---
 # 이메일 캠페인 만들기 {#create-an-email-campaign}
@@ -68,7 +68,7 @@ Teams 프롬프트에 대한 강력한 동료는 다음과 같습니다.
 
 ![프롬프트에서 입력](./assets/create-an-email-campaign-2.png)
 
-프롬프트가 준비되면 **캠페인 생성**&#x200B;을 클릭하세요. 그러면 팀 동료:
+프롬프트가 준비되면 위쪽 화살표 아이콘을 클릭합니다. 그러면 팀 동료:
 
 * 구조화된 캠페인 전략을 생성합니다.
 * 콘텐츠 개인화에도 사용될 타겟 대상자를 요청합니다.
@@ -88,8 +88,6 @@ Teams 프롬프트에 대한 강력한 동료는 다음과 같습니다.
    >
    >Coworker for teams를 사용하면 샘플 대상을 사용하여 캠페인 빌드를 진행할 수 있지만 캠페인을 시작하려면 실제 대상을 추가해야 합니다.
 
-1. CSV 파일을 가져옵니다.
-
    >[!IMPORTANT]
    >
    >업로드하기 전에 이메일(구독 취소된 사용자, 내부 주소, 테스트 계정)을 보내지 않으려는 연락처를 제외합니다. 체험판이 진행되는 동안 특정 사용자를 제외하거나 속성을 추가하는 기능을 점진적으로 활성화하지만, 시작 날짜부터 즉시 사용할 수는 없습니다.
@@ -98,7 +96,7 @@ Teams 프롬프트에 대한 강력한 동료는 다음과 같습니다.
 
 이메일을 변경하려면 오른쪽으로 스크롤합니다. _Campaign Assets_&#x200B;에서 **편집기 열기**&#x200B;를 클릭합니다.
 
-![](./assets/create-an-email-campaign-4.png)
+![](./assets/create-an-email-campaign-3.png)
 
 두 가지 방법으로 콘텐츠를 업데이트할 수 있습니다.
 
@@ -114,7 +112,7 @@ Teams 프롬프트에 대한 강력한 동료는 다음과 같습니다.
 
 AI 버튼을 사용하여 제목 또는 사전 헤더를 개선할 수도 있습니다.
 
-![](./assets/create-an-email-campaign-5.png)
+![](./assets/create-an-email-campaign-4.png)
 
 >[!TIP]
 >
@@ -128,7 +126,7 @@ AI 버튼을 사용하여 제목 또는 사전 헤더를 개선할 수도 있습
 >
 >현재 테스트 이메일은 자신에게만 보낼 수 있으며 한 번에 하나만 보낼 수 있습니다.
 
-![](./assets/create-an-email-campaign-6.png)
+![](./assets/create-an-email-campaign-5.png)
 
 ## 6단계: 캠페인 시작
 

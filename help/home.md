@@ -4,10 +4,10 @@ description: 조직 전반에서 고객 경험 및 마케팅 워크플로우를 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d611ce2398cba72cf21c766f3b25225765c1675b
+source-git-commit: 67936a948c0e985619e3ae72dffa443a016611bb
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 16%
+source-wordcount: '1231'
+ht-degree: 15%
 ---
 # CX Enterprise Coworker 개요 {#overview}
 
@@ -216,3 +216,9 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+## AI 플랫폼
+
+[!DNL Adobe CX Enterprise Coworker for AI Platforms]을(를) 사용하여 AI 도구에서 마케팅 인사이트를 얻으십시오.
+
+* [AI 플랫폼용 Adobe CX Enterprise Coworker](/help/ai-platforms.md)
