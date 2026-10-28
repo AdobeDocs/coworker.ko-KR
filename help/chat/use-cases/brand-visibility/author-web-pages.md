@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Adobe CX Enterprise Coworker을 사용하여 원하는 내용을 일반 언어로 설명함으로써 AEM Sites 페이지를 작성할 수 있습니다. 이 비디오에서 Coworker는 채팅 프롬프트를 사용하여 시각적 콘텐츠 조각으로 빌드된 WKND 홈 페이지에 새 프로모션을 추가합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503863/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503868/?captions=kor&learn=on)
 
 >[!NOTE]
 >
