@@ -4,7 +4,7 @@ title: HubSpot에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 6d121c60fbf41dc2b27844854078f8f4f48d1944
+source-git-commit: 5394a34858c6480dec74f4fdf8b9a26e28bcac68
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Adobe Coworker for teams를 사용하면 HubSpot 계정을 연결하여 연락�
 >이 커넥터를 사용하려면 먼저 다음을 수행해야 합니다.
 >
 >* 활성 HubSpot 계정
->* 다음 범위를 추가하여 [서비스 키](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys#create-a-service-key)을(를) 만들었습니다. `crm.objects.contacts.read`, `crm.objects.leads.read`, `crm.schemas.contacts.read`, `crm.lists.read`, `crm.export`
+>* 다음 범위를 추가하여 [서비스 키](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys#create-a-service-key){target="_blank"}을(를) 만들었습니다. `crm.objects.contacts.read`, `crm.objects.leads.read`, `crm.schemas.contacts.read`, `crm.lists.read`, `crm.export`
 
 ## 연결 방법
 
-1. [Coworker for teams 홈 페이지](https://coworker-campaigns.experience.adobe.com/)에서 **컨텍스트**&#x200B;를 클릭하고 **커넥터**&#x200B;를 선택합니다.
+1. [Coworker for teams 홈 페이지](https://coworker-campaigns.experience.adobe.com/){target="_blank"}에서 **컨텍스트**&#x200B;를 클릭하고 **커넥터**&#x200B;를 선택합니다.
 
    ![커넥터가 선택된 사이드바에서 확장된 메뉴 사용자 지정](./assets/hubspot-1.png)
 
