@@ -10,7 +10,7 @@ jira: KT-22378
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 따라서 간단한 프롬프트로 필요할 때 실행할 수 있는 반복 가능한 워크플로우가 생성됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502337/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502323/?learn=on&enablevpops)
 
 ## 분석을 재사용 가능한 스킬로 전환
 

@@ -1,5 +1,5 @@
 ---
-title: 기술이란?
+title: 스킬이란 무엇입니까?
 description: 워크플로우를 표준화하고 대화 및 사용자 간에 일관된 결과를 제공하는 재사용 가능한 플레이북인 Adobe CX Coworker의 기술에 대해 알아봅니다.
 role: User
 level: Beginner
@@ -10,7 +10,7 @@ jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
  
 이 비디오에서는 스킬의 작동 방식, 사용 시기 및 팀이 반복 가능한 고객 경험 사례를 확장하는 데 어떻게 도움이 되는지에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502328/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502322/?learn=on&enablevpops)
 
 스킬은 다음을 제공합니다.
 
@@ -45,7 +45,6 @@ ht-degree: 0%
 
 기술을 통해 팀은 매번 수동으로 프로세스를 다시 설명하지 않고도 이러한 모범 사례를 캡처하고 재사용할 수 있습니다.
  
-
 ## 스킬 및 데이터 거버넌스
 
 스킬은 고객 데이터를 저장하지 않습니다.

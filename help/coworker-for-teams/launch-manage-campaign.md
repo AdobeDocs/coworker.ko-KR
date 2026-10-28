@@ -4,7 +4,7 @@ title: 캠페인 시작 및 관리
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
@@ -77,7 +77,7 @@ ht-degree: 1%
 | 필드 | 설명 | 필수? |
 | --- | --- | --- |
 | 일정 모드 | 지금, 한 번 예약 또는 반복 중 선택 | 예 |
-| 시작 일자 | 캠페인 시작 날짜 및 시간(한 번 예약 모드) | 예, 한 번 예약합니다. |
+| 시작 날짜 | 캠페인 시작 날짜 및 시간(한 번 예약 모드) | 예, 한 번 예약합니다. |
 | 빈도 | 일별, 주별 또는 월별(반복 모드) | 예, 자동연장 |
 | 시작 시간 | 반복 캠페인이 전송하는 시간 | 예, 자동연장 |
 | 요일 | 캠페인이 반복되는 날짜 | 예, 주별 빈도 |
