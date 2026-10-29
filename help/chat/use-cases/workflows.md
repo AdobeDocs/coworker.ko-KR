@@ -4,9 +4,9 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
+source-git-commit: 98b1c76104cb131ed6c82e4147758921ef66ab40
 workflow-type: tm+mt
-source-wordcount: '8566'
+source-wordcount: '8673'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -48,6 +48,8 @@ ht-degree: 6%
 | Cloud Manager 환경 관리 | RDE, 환경 변수, 로그 및 백업을 포함한 AEM Cloud Manager 환경을 생성, 구성 및 유지 관리합니다. | `cloud-manager-environment-management` | AEM(Adobe Experience Manager) | &quot;프로그램 12345&quot;<br><br>&quot;내 RDE 다시 설정에 대한 환경 나열&quot; |
 | Cloud Manager 프로그램 관리 | 파이프라인 및 환경을 포함하여 AEM Cloud Manager 프로그램 나열, 검사 및 삭제 | `cloud-manager-program-management` | AEM(Adobe Experience Manager) | &quot;내 Cloud Manager 프로그램 나열&quot;<br><br>&quot;프로그램 12345 세부 정보 가져오기&quot; |
 | AEM 릴리스 업데이트 일정 관리 | 자동 유지 관리를 위해 매일 자동 중지 시간 및 업데이트가 없는 기간을 구성하고 Adobe의 글로벌 코드 동결 창을 봅니다 | `cloud-manager-release-management` | AEM(Adobe Experience Manager) | &quot;현재 방해 금지 시간 기간은 무엇입니까?&quot;<br><br>&quot;12월 20일부터 1월 2일까지를 업데이트 금지 기간으로 예약합니다.&quot; |
+| AEM 워크플로 검사 | 워크플로우 활동에서 실행 중, 일시 중단 또는 실패한 항목을 확인합니다. 워크플로우 받은 편지함을 검토하고 사용 가능한 워크플로우 모델을 찾아봅니다. | `cloud-manager-release-management` | AEM(Adobe Experience Manager) | &quot;현재 실행 중인 워크플로가 무엇입니까?&quot;<br><br>&quot;실행 중이거나 일시 중단된 워크플로에서 오류가 표시됩니까?&quot;<br><br>&quot;내 워크플로 받은 편지함은 무엇입니까?&quot; |
+| Dispatcher 통찰력 탐색 | 수동으로 로그 파일을 검색하지 않고도 캐시 성능을 분석하고, 트래픽 및 게재 문제를 조사하고, Dispatcher 보안 구성을 검토할 수 있습니다. | `aem-edge-dispatcher-operations` | AEM(Adobe Experience Manager) | &quot;오늘 프로덕션에 대한 Dispatcher 캐시 성능을 요약하고 어제와 비교합니다.&quot;<br><br>&quot;오늘 10:00과 11:00 UTC 사이에 프로덕션에서 간헐적인 502 및 503 응답을 조사합니다.&quot;<br><br> &quot;보안 취약점에 대해 공유한 Dispatcher 구성을 검토하십시오.&quot; |
 
 **관련 정보**
 
