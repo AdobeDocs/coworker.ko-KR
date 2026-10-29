@@ -3,15 +3,15 @@ description: Marketo 스마트 및 정적 목록을 동기화할 수 있도록 M
 title: Marketo Engage에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5394a34858c6480dec74f4fdf8b9a26e28bcac68
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 ---
 # Marketo Engage에 연결 {#marketo}
 
-Adobe Coworker for teams를 사용하면 Marketo Engage 계정을 연결하여 스마트 및 정적 목록을 가져올 수 있습니다.
+Coworker for teams를 사용하면 Marketo Engage 계정을 연결하여 스마트 및 정적 목록을 가져올 수 있습니다.
 
 >[!PREREQUISITES]
 >

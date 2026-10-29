@@ -3,15 +3,15 @@ description: 서비스 키를 사용하여 HubSpot 계정을 Coworker for teams�
 title: HubSpot에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5394a34858c6480dec74f4fdf8b9a26e28bcac68
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 0%
 ---
 # HubSpot에 연결 {#hubspot}
 
-Adobe Coworker for teams를 사용하면 HubSpot 계정을 연결하여 연락처 목록을 가져올 수 있습니다.
+Teams용 동료는 HubSpot 계정을 연결하여 연락처 목록을 가져올 수 있도록 해줍니다.
 
 >[!PREREQUISITES]
 >

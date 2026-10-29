@@ -3,11 +3,8 @@ title: AI 플랫폼용 Adobe CX Enterprise Coworker
 description: AI 플랫폼용 Adobe CX Enterprise Coworker에 대해 알아봅니다. 지원되는 플랫폼, 설정 지침 및 예제 프롬프트를 탐색하여 마케팅 통찰력을 얻으십시오.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: cc2d5256952ce20cda57f7274a5dc1d879d4a6a0
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 1%

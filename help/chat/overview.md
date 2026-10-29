@@ -3,10 +3,10 @@ description: Coworker Chat이 대화형 인터페이스를 사용하여 Adobe �
 title: Adobe CX Enterprise Coworker 채팅 개요
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 6%
 ---
 # 동료 채팅 정보 {#overview}
@@ -45,6 +45,7 @@ ht-degree: 6%
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
 * Customer Journey Analytics 에디션
+* Adobe Analytics
 * Adobe Target
 * AEM
 * Workfront

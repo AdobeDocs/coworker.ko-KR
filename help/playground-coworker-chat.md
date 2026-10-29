@@ -16,7 +16,7 @@ product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 feature_v2:
   - id: 9c3a4e5f-6d7b-4c8a-8e9f-1b2c3d4e5f6a
     internal-label: Datasets
@@ -53,7 +53,7 @@ topic_v2:
     internal-label: Behavioral data
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 4%
@@ -268,7 +268,7 @@ Coworker는 실시간 프로필 수 예상 값과 시각적 폭포 차트를 반
 
 동료는 결합된 단일 대상이 존재하지 않지만 모든 구성 요소가 이미 존재함을 확인합니다.
 
-| 빌딩 블록 | 세부 정보 |
+| 빌딩 블록 | 세부 사항 |
 | --- | --- |
 | 성향: 신용 카드 업그레이드 높음 | 점수 ≥ 90 |
 | 계정 값: 250-500K | 기존 대상자 |

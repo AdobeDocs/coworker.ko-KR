@@ -1,17 +1,17 @@
 ---
-description: Adobe Coworker for teams를 사용하면 Shopify 계정을 연결하여 고객 및 세그먼트를 가져올 수 있습니다.
+description: Coworker for teams를 사용하면 Shopify 계정을 연결하여 고객 및 세그먼트를 가져올 수 있습니다.
 title: Shopify에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 55ee8ef8f43e03720e75c9e68fccf12da8595f9c
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '241'
 ht-degree: 0%
 ---
 # Shopify에 연결 {#shopify}
 
-Adobe Coworker for teams를 사용하면 Shopify 계정을 연결하여 고객 및 세그먼트를 가져올 수 있습니다.
+Coworker for teams를 사용하면 Shopify 계정을 연결하여 고객 및 세그먼트를 가져올 수 있습니다.
 
 >[!PREREQUISITES]
 >

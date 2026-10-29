@@ -3,8 +3,8 @@ title: 동료 채팅을 사용한 데이터 분석 시작
 description: Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey Analytics 또는 Adobe Analytics 데이터를 분석한 다음 고객 드롭오프를 찾는 예를 따릅니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: d611ce2398cba72cf21c766f3b25225765c1675b
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '2182'
 ht-degree: 4%

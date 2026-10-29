@@ -1,17 +1,17 @@
 ---
-description: Adobe Coworker for teams를 사용하면 Databricks 작업 영역에서 Unity Catalog 테이블을 연결하고 쿼리하여 캠페인 대상을 빌드하고 활성화할 수 있습니다.
+description: Coworker for teams를 사용하면 Databricks 작업 영역에서 Unity Catalog 테이블을 연결하고 쿼리하여 캠페인 대상을 빌드하고 활성화할 수 있습니다.
 title: 데이터베이스에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 55ee8ef8f43e03720e75c9e68fccf12da8595f9c
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 0%
 ---
 # 데이터베이스에 연결 {#databricks}
 
-Adobe Coworker for teams를 사용하면 Databricks 작업 영역에서 Unity Catalog 테이블을 연결하고 쿼리하여 캠페인 대상을 빌드하고 활성화할 수 있습니다.
+Coworker for teams를 사용하면 Databricks 작업 영역에서 Unity Catalog 테이블을 연결하고 쿼리하여 캠페인 대상을 빌드하고 활성화할 수 있습니다.
 
 >[!PREREQUISITES]
 >

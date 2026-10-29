@@ -3,15 +3,15 @@ description: Teams용 Coworker를 Salesforce 계정에 연결하여 리드 및 �
 title: Salesforce에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 55ee8ef8f43e03720e75c9e68fccf12da8595f9c
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '286'
 ht-degree: 0%
 ---
 # Salesforce에 연결 {#salesforce}
 
-Adobe Coworker for teams를 사용하면 Salesforce 계정을 연결하여 리드 및 연락처에 액세스할 수 있습니다.
+Teams용 동료는 Salesforce 계정을 연결하여 리드 및 연락처에 액세스할 수 있도록 해줍니다.
 
 >[!PREREQUISITES]
 >

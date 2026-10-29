@@ -3,10 +3,10 @@ description: 데이터 통찰력, 대상자, 여정 및 플랫폼 운영 전반�
 title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 8e88ec793bd4ae6fe4692c1d5107fe01fe14bf7f
+    internal-label: Coworker
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
-source-wordcount: '8510'
+source-wordcount: '8566'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -119,6 +119,7 @@ ht-degree: 6%
 | 경영진 요약 및 KPI 다이제스트 | 이해 당사자에게 준비된 성능 요약, 규범적 권장 사항 및 슬라이드 데크 개요 작성 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `aa`, `dx-api` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | &quot;지난달 요약 정보 제공&quot; <br> &quot;이번 분기 데이터로 슬라이드 데크 개요 만들기&quot; |
 | [콘텐츠 분석](data-insights/ask-content-questions.md)(제한된 가용성) | Content Analytics 데이터를 사용하여 콘텐츠에 대한 일반 또는 특정 질문에 답변합니다. 우선 순위를 지정할 콘텐츠, 참여를 유도하는 속성, 매출을 유도하는 자산 및 경험 | `analyze-content`, `cja` | Customer Journey Analytics(CJA) | &quot;우선 순위를 지정해야 하는 콘텐츠는 무엇입니까?&quot; <br> &quot;가장 성과가 좋은 이미지는 공통점이 무엇입니까?&quot; |
 | [AA ↔ CJA 데이터 유효성 검사](data-insights/data-validation-aa-cja.md) | 특히 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics과 Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정할 수 있습니다 | `aa-cja-validation`, `cja`, `aa`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;내 AA 보고서 세트를 내 CJA 데이터 보기와 비교&quot; <br> &quot;AA와 CJA 간의 페이지 보기 유효성 검사&quot; |
+| [AA 프로젝트를 CJA으로 마이그레이션](data-insights/migrate-projects-aa-cja.md)(제한된 가용성) | Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics에 확인, 매핑 및 마이그레이션한 후 마이그레이션 상태 <!-- FLAG: No dedicated skill yet; the tools run through the aa-mcp integration. Update the Skills column when a skill is released. -->을(를) 확인하십시오. | <br/> 없음(`aa-mcp` 통합 사용) | ADOBE ANALYTICS + CJA | &quot;구성 요소를 AA에서 CJA으로 마이그레이션하려고 합니다.&quot; <br> &quot;내 보고서 세트의 어느 차원과 지표가 내 데이터 보기에 매핑되지 않았습니까?&quot; |
 | [데이터 집합 및 필드 품질 확인](data-insights/data-validation-aep.md) | Experience Platform 데이터 세트 및 필드에서 통계 및 의미 체계 유효성 검사를 실행하여 구현 후 또는 지속적으로 데이터 품질 문제를 파악합니다. <!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | &quot;데이터 집합 Electronics 샘플 1000의 유효성 검사&quot; <br> &quot;Customers_2024 데이터 집합의 전자 메일 필드 유효성 검사&quot; |
 | 운영 시계열 및 인과관계 분석 | 인과 관계 속성을 사용하여 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 분석합니다. | `operational-stats-causal-analysis` | 모든 적격 지원 | &quot;지난 90일 동안의 대상 크기 트렌드를 표시합니다.&quot; <br> &quot;데이터 세트 행 수가 3월 3일에 급증한 이유는 무엇입니까?&quot; |
 | 사용자 지정 CJA 스킬 만들기 | 분석 패턴을 세션 간에 지속되는 재사용 가능한 반복 가능한 스킬로 변환 | `cja-skill-creator` | Customer Journey Analytics(CJA) | &quot;이 주별 수익 분석을 재사용 가능한 스킬로 변환&quot; <br> &quot;월별 funnel 보고를 위한 스킬로 저장&quot; |

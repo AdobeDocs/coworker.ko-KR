@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 5394a34858c6480dec74f4fdf8b9a26e28bcac68
+source-git-commit: bd7454ee46cb1ee4ca8b7ae6ab07348a23854979
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 14%
+source-wordcount: '326'
+ht-degree: 15%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -30,6 +30,7 @@ ht-degree: 14%
         - [구현 계획](./chat/use-cases/data-insights/implementation-guide.md)
         - [구현 체크리스트 생성](./chat/use-cases/data-insights/intelligent-checklist.md)
         - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [AA 프로젝트를 CJA으로 마이그레이션](./chat/use-cases/data-insights/migrate-projects-aa-cja.md)
         - [스트리밍 미디어 구현의 유효성 검사](./chat/use-cases/data-insights/streaming-media-validation.md)
         - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
         - [Experience Platform 데이터 유효성 검사](./chat/use-cases/data-insights/data-validation-aep.md)
@@ -98,11 +99,11 @@ ht-degree: 14%
   - [프롬프트 우수 사례](./coworker-for-teams/prompting-best-practices.md)
   - [C2PA 메타데이터](./coworker-for-teams/c2pa-metadata.md)
   - 커넥터 {#connectors}
-    - {hide-from-toc}[데이터 블록](./coworker-for-teams/connectors/databricks.md)
+    - [Databricks](./coworker-for-teams/connectors/databricks.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
     - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Salesforce](./coworker-for-teams/connectors/salesforce.md)
-    - {hide-from-toc}[Shopify](./coworker-for-teams/connectors/shopify.md)
+    - [Shopify](./coworker-for-teams/connectors/shopify.md)
   - [릴리스 정보](./coworker-for-teams/release-notes.md)
 - 추가 리소스 {#more-resources}
   - [설명서 업데이트](./more-resources/documentation-updates.md)

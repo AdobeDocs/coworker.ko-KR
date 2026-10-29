@@ -1,5 +1,5 @@
 ---
-title: 기술이란?
+title: 스킬이란 무엇입니까?
 description: 워크플로우를 표준화하고 대화 및 사용자 간에 일관된 결과를 제공하는 재사용 가능한 플레이북인 Adobe CX Coworker의 기술에 대해 알아봅니다.
 role: User
 level: Beginner
@@ -9,8 +9,8 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: dbee38135a5491fd21b65fdbb70ba60d949d7560
+    internal-label: Coworker
+source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%

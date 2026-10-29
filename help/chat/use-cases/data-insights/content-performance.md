@@ -3,8 +3,8 @@ title: 동료 채팅을 사용하여 콘텐츠 및 Creative 성과 분석
 description: 동료의 채팅 을 사용하여 가장 성과가 좋은 콘텐츠의 공통점을 찾고, 매출이 고객이 볼 수 있는 이미지에 기여하며, 채널 및 대상 간의 창의성을 비교할 수 있습니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 8e88ec793bd4ae6fe4692c1d5107fe01fe14bf7f
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 1%

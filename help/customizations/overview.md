@@ -3,8 +3,8 @@ title: Adobe CX Enterprise Coworker 사용자 지정 개요
 description: 스킬, 통합, 플러그인 및 메모리를 포함한 Adobe CX Enterprise Coworker의 사용자 정의와 사용자가 경험을 어떻게 확장 및 개인화하는지 알아봅니다.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 5973a87d21b23d7621366108716cbd476e6f66ae
+    internal-label: Coworker
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 28%
