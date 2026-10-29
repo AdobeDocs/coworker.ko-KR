@@ -5,10 +5,10 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 1ab2ef6014d3e64e264b46e5a0c43653fe36bbea
 workflow-type: tm+mt
 source-wordcount: '2088'
-ht-degree: 3%
+ht-degree: 2%
 ---
 # 동료 채팅 시작 {#ui-guide}
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 |---|---|---|
 | Real-Time CDP | 현재 사용 가능 | 곧 출시 예정 |
 | Adobe Journey Optimizer | 현재 사용 가능 | 곧 출시 예정 |
-| Customer Journey Analytics | 현재 사용 가능 | 곧 출시 예정 |
+| Customer Journey Analytics | 현재 사용 가능 | 현재 사용 가능 |
 | Workfront | 현재 사용 가능 | 현재 사용 가능 |
 | 대상 | 현재 사용 가능 | 현재 사용 가능 |
 | AEM | 현재 사용 가능 | 현재 사용 가능 |
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 Adobe 자격 증명을 사용하여 [!DNL Coworker]에 로그인합니다.
 
-1. Adobe ID을 사용하여 CX Enterprise에 [로그인](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise).
+1. Adobe ID을 사용하여 CX Enterprise에 [로그인](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise).
 
    로그인한 후 [!DNL CX Enterprise] 응용 프로그램 메뉴에서 또는 직접 연결되는 링크를 사용하여 [!DNL Coworker]을(를) 열 수 있습니다.
 
@@ -46,7 +46,7 @@ Adobe 자격 증명을 사용하여 [!DNL Coworker]에 로그인합니다.
 
 ## 동료 채팅의 기본 사항 알아보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3498572?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Coworker 환경 설정 지정 {#preferences}
 
@@ -57,7 +57,7 @@ Adobe 자격 증명을 사용하여 [!DNL Coworker]에 로그인합니다.
 | 설정 / 옵션 | 사용 대상 |
 | --- | --- |
 | 계정 이름 및 이메일 | 로그인한 Adobe 계정을 확인합니다. |
-| **[!UICONTROL 알림]**(벨 아이콘) | [알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#subscribe-to-notifications-in-experience-cloud)을 봅니다. |
+| **[!UICONTROL 알림]**(벨 아이콘) | [알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-notifications-in-experience-cloud)을 봅니다. |
 | **[!UICONTROL 테마]** | 밝은 테마와 어두운 테마 간을 전환합니다. |
 | **[!UICONTROL 앱 설정]** | 계정 세부 정보 및 작업 공간 설정을 봅니다. |
 | **[!UICONTROL 환경 설정]** | [환경 설정](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences) 계정을 엽니다. 화살표는 페이지가 Coworker 외부에서 열린다는 것을 나타냅니다. |
@@ -212,7 +212,7 @@ Coworker Chat은 아티팩트 아래에서 결과의 의미를 설명하고 주�
 스킬은 동료채팅이 신청할 때 자동으로 사용하는 전문 기능입니다. 채팅에 **/**&#x200B;을(를) 입력하여 스킬을 직접 시작할 수도 있습니다. **[!UICONTROL 스킬]** 탭에는 설치된 모든 스킬이 나열됩니다.
 
 1. **[!UICONTROL 스킬]** 탭에서 **[!UICONTROL 스킬 추가]**&#x200B;를 클릭하여 새 소스에서 스킬을 설치합니다.
-1. 스킬을 찾으려면 **[!UICONTROL 검색]**&#x200B;에 이름을 입력하십시오.
+1. 스킬을 찾으려면 **[!UICONTROL 검색]**에 이름을 입력하십시오.
 보기 토글을 사용하여 격자선과 목록 레이아웃 간에 전환합니다.
 1. 동료 채팅에서 이 플러그인을 사용할 때 이 플러그인이 속한 항목과 이 플러그인에 포함된 파일을 볼 기술을 선택합니다.
 

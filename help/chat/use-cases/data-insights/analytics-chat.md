@@ -4,14 +4,14 @@ description: Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 1ab2ef6014d3e64e264b46e5a0c43653fe36bbea
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2220'
 ht-degree: 4%
 ---
 # 동료 채팅을 사용하여 데이터 분석 시작
 
-Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트를 분석한 다음 작업 예를 따릅니다. 사용 사례, 기술 및 모범 사례를 포함하여 공동 작업자 채팅으로 수행할 수 있는 작업에 대한 개요는 [공동 작업자 채팅으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview.md)을 참조하세요.
+Adobe CX Enterprise Coworker Chat을 설정하여 Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트를 분석한 다음 작업 예를 따릅니다. 사용 사례, 기술 및 모범 사례를 포함하여 공동 작업자 채팅으로 수행할 수 있는 작업에 대한 개요는 [공동 작업자 채팅으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview.md)을 참조하세요. 대신 Customer Journey Analytics Analysis Workspace의 채팅 패널에서 Coworker를 사용하려면 Customer Journey Analytics 안내서에서 [Coworker를 위한 제품 내 경험 사용](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/coworker)을 참조하십시오.
 
 시작하기 전에 Coworker 채팅 인터페이스 및 사용자 지정 옵션을 학습한 다음 Coworker가 Customer Journey Analytics 또는 Adobe Analytics 및 관련 데이터 보기 또는 보고서 세트에 연결되어 있는지 확인합니다.
 
@@ -335,7 +335,7 @@ funnel은 체크아웃할 때까지 디바이스 간에 동일하며 모바일�
 
 1. (선택 사항) 선택한 모든 사람과 Workspace 프로젝트를 공유합니다.
 
-   Analysis Workspace에 대한 자세한 내용은 Customer Journey Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) 또는 Adobe Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/home)를 참조하십시오.
+   Analysis Workspace에 대한 자세한 내용은 Customer Journey Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home) 또는 Adobe Analytics 설명서에서 [Analysis Workspace 개요](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)를 참조하십시오.
 
 ## 다음 단계
 

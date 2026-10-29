@@ -4,9 +4,9 @@ description: CX Enterprise Coworker 설명서에서 새 문서와 비디오의 �
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 1ab2ef6014d3e64e264b46e5a0c43653fe36bbea
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '266'
 ht-degree: 0%
 ---
 # 설명서 업데이트 {#documentation-updates}
@@ -15,7 +15,9 @@ ht-degree: 0%
 
 ## 2026년 10월 {#oct-2026}
 
-<!-- FLAG: Update the date to the publish date of the migration article. Rollout and GA dates are TBD. -->
+**2026년 10월 29일**
+
+* 업데이트됨: [동료 채팅 시작](../chat/ui-guide.md). 이제 가용성 표에 Customer Journey Analytics에서 제품 내 환경을 사용할 수 있다는 메시지가 표시됩니다.
 
 **2026년 10월 28일**
 
