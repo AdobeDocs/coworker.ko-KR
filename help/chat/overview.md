@@ -66,4 +66,4 @@ Coworker Chat은 Coworker 빌딩 블록을 통해 제공됩니다. 현재 사용
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495972?captions=kor&learn=on){transcript=true}
