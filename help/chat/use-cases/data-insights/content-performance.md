@@ -28,7 +28,7 @@ Adobe CX Enterprise Coworker 채팅을 사용하여 각 에셋의 속성까지, 
 
 * Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트에 연결된 동료 채팅. [동료 채팅을 사용하여 데이터 분석 시작](/help/chat/use-cases/data-insights/analytics-chat.md)을 참조하세요.
 * 분석할 데이터 보기 또는 보고서 세트에 대한 액세스 권한을 봅니다. 동료 채팅은 Customer Journey Analytics 또는 Adobe Analytics의 권한을 상속합니다.
-* Content Analytics용으로 구성된 데이터 보기. Customer Journey Analytics 안내서에서 [Content Analytics 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/configuration)을 참조하십시오.
+* Content Analytics용으로 구성된 데이터 보기. Customer Journey Analytics 안내서에서 [Content Analytics 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/configuration/configuration)을 참조하십시오.
 
 ## 사용 사례
 
