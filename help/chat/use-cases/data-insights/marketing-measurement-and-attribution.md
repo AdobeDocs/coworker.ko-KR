@@ -4,7 +4,7 @@ description: Coworker Chat 을 사용하여 각 채널의 증분 영향을 측�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 2%

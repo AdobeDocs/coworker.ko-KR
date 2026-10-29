@@ -4,7 +4,7 @@ title: Teams 사용 사례용 동료
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -159,4 +159,4 @@ ht-degree: 0%
 
 ## 빌드할 준비가 되셨습니까?
 
-위에서 사용 사례를 선택하고 [전자 메일 캠페인 만들기] (./)를 방문하여 전체 단계별 캠페인을 시도하세요.
+위에서 사용 사례를 선택하고 [전자 메일 캠페인 만들기](./)를 방문하여 전체 단계별 캠페인을 시도하세요.

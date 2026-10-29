@@ -4,7 +4,7 @@ description: Teams용 Coworker 및 Experience Cloud 릴리스 정보를 포함�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 11%
@@ -15,7 +15,7 @@ Adobe CX Enterprise Coworker에 대한 릴리스 정보를 확인하십시오. �
 
 ## 동료 릴리스 노트 {#coworker-release-notes}
 
-* [CX Enterprise Coworker 릴리스 노트](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest#cx-enterprise-coworker): Experience Platform 릴리스 노트에 나열된 Coworker Chat에 대한 기능 개선 사항 및 수정 사항입니다.
+* [CX Enterprise Coworker 릴리스 노트](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest#cx-enterprise-coworker): Experience Platform 릴리스 노트에 나열된 Coworker Chat에 대한 기능 개선 사항 및 수정 사항입니다.
 * [[!UICONTROL Coworker for teams] 릴리스 정보](../coworker-for-teams/release-notes.md): Coworker for teams의 기능 개선 사항 및 수정 사항. 릴리스는 계속 제공됩니다.
 
 ## CX Enterprise 중앙 릴리스 정보 {#cx-enterprise-release-notes}

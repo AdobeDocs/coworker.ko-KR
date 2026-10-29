@@ -4,7 +4,7 @@ title: Marketo Engage에 연결
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Coworker for teams를 사용하면 Marketo Engage 계정을 연결하여 스마�
 >
 >* 활성 Marketo Engage 계정
 >* Marketo **인스턴스 URL**
->* [클라이언트 ID 및 클라이언트 암호](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token){target="_blank"}를 통해 Marketo의 Teams용 Coworker에 대해 [사용자 지정 서비스](https://experienceleague.adobe.com/ko/docs/marketo-developer/marketo/rest/custom-services#custom-services-1){target="_blank"}를 만들었습니다.
+>* [클라이언트 ID 및 클라이언트 암호](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token){target="_blank"}를 통해 Marketo의 Teams용 Coworker에 대해 [사용자 지정 서비스](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1){target="_blank"}를 만들었습니다.
 
 ## 연결 방법
 

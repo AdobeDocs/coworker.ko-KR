@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: c09dfe88658fddb1e0ebc371c1d22f13662aebce
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -130,6 +130,6 @@ Adobe CX Enterprise Coworker은 Adobe의 CX Enterprise 애플리케이션용 대
 
 ## CX Enterprise 워크플로 {#cx-enterprise-workflows}
 
-[Application] 및 기타 CX Enterprise 응용 프로그램에서 Coworker가 작동하는 방식을 설명하는 한 문장입니다. 교차 애플리케이션 카드가 없는 경우 이 섹션을 삭제하십시오.&rbrack;
+[Application] 및 기타 CX Enterprise 응용 프로그램에서 Coworker가 작동하는 방식을 설명하는 한 문장입니다. 교차 애플리케이션 카드가 없는 경우 이 섹션을 삭제하십시오.]
 
 [카드 원본 및 생성된 카드 HTML. 응용 프로그램 간 워크플로우당 하나의 카드입니다.]

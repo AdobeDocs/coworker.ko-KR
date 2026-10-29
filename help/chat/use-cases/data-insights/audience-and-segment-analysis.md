@@ -4,7 +4,7 @@ description: 동료 채팅을 사용하여 고객 그룹을 비교하고, 지나
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 2%

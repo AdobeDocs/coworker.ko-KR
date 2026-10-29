@@ -10,7 +10,7 @@ jira: PLAT-302857
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 0%
@@ -156,5 +156,5 @@ Coworker를 사용하여 데이터의 유효성을 검사하려면 다음 작업
 
 * [업그레이드 시 Adobe Analytics에서 Customer Journey Analytics 데이터로의 유효성 검사](./data-validation-aa-cja.md)
 * [Coworker의 데이터 유효성 검사 스킬을 사용하여 Customer Journey Analytics 데이터 유효성 검사](./validate-dataset-quality-for-cja.md)
-* [데이터 유효성 검사(AI Assistant)](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
+* [데이터 유효성 검사(AI Assistant)](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
 * [Customer Journey Analytics 보고 신뢰: Adobe CX Enterprise Coworker의 데이터 유효성 검사 기술](https://www.youtube.com/watch?v=gCSm_QYSYhk)&#x200B;(비디오)

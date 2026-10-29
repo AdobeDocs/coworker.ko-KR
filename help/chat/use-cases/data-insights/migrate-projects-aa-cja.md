@@ -7,7 +7,7 @@ level: Intermediate
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '1785'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Adobe CX Enterprise Coworker을 사용하여 단일 대화 내에서 Adobe Analy
 
 >[!IMPORTANT]
 >
->프로젝트를 마이그레이션하기 전에 Adobe Analytics 설명서에서 [구성 요소와 프로젝트를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션 준비](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)를 참조하십시오. 마이그레이션을 준비하는 방법, 포함된 항목, 오류를 일으키는 요소, 매핑이 조직 전체에 미치는 영향 등을 설명합니다. 이 정보는 Coworker의 마이그레이션에 적용됩니다.
+>프로젝트를 마이그레이션하기 전에 Adobe Analytics 설명서에서 [구성 요소와 프로젝트를 Adobe Analytics에서 Customer Journey Analytics으로 마이그레이션 준비](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)를 참조하십시오. 마이그레이션을 준비하는 방법, 포함된 항목, 오류를 일으키는 요소, 매핑이 조직 전체에 미치는 영향 등을 설명합니다. 이 정보는 Coworker의 마이그레이션에 적용됩니다.
 
 ## Adobe Analytics 사용자 인터페이스에서의 마이그레이션과의 차이점
 
@@ -54,7 +54,7 @@ Coworker를 사용하여 프로젝트를 마이그레이션하려면 다음이 �
 
 * Adobe Analytics 관리자 권한 또는 Admin Console의 [!UICONTROL **구성 요소 마이그레이션**] 권한. 관리자가 될 필요는 없습니다.
 
-* Adobe Analytics 설명서의 구성 요소 마이그레이션을 위한 [사전 요구 사항](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#prerequisites).
+* Adobe Analytics 설명서의 구성 요소 마이그레이션을 위한 [사전 요구 사항](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#prerequisites).
 
 * 기본 보고서 세트를 사용하는 프로젝트. 가상 보고서 세트는 마이그레이션할 수 없습니다.<!-- FLAG: Sourced from Coworker's response in the UI. The Adobe Analytics component migration docs don't mention virtual report suites. Confirm, and consider adding it to those docs. -->
 
@@ -62,7 +62,7 @@ Coworker를 사용하여 프로젝트를 마이그레이션하려면 다음이 �
 
 <!-- FLAG: Confidence: Medium. The recommendation to review mappings before the first migration from a report suite is inferred from the Adobe Analytics guidance to decide mappings as an organization; Coworker also validates mappings during each migration. Confirm with Scott. -->
 
-해당 보고서 세트에서 첫 번째 마이그레이션 전에 보고서 세트의 차원 및 지표가 매핑되는 방법을 검토하는 것이 좋습니다. 매핑은 조직이 마이그레이션하는 모든 프로젝트에 적용되므로 매핑을 먼저 해결하면 나중에 프로젝트가 유효성 검사를 통과할 수 있습니다. 매핑 선택에 대한 지침은 Adobe Analytics 설명서에서 [구성 요소를 매핑할 방법을 조직으로 결정](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#decide-as-an-organization-how-you-will-map-components)을 참조하십시오.
+해당 보고서 세트에서 첫 번째 마이그레이션 전에 보고서 세트의 차원 및 지표가 매핑되는 방법을 검토하는 것이 좋습니다. 매핑은 조직이 마이그레이션하는 모든 프로젝트에 적용되므로 매핑을 먼저 해결하면 나중에 프로젝트가 유효성 검사를 통과할 수 있습니다. 매핑 선택에 대한 지침은 Adobe Analytics 설명서에서 [구성 요소를 매핑할 방법을 조직으로 결정](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#decide-as-an-organization-how-you-will-map-components)을 참조하십시오.
 
 매핑을 검토하려면 [!UICONTROL **범위**] 탭에서 [!UICONTROL **매핑만 검토**]&#x200B;를 선택하거나 동료에게 직접 요청하십시오.
 
@@ -157,13 +157,13 @@ Customer Journey Analytics에 이미 존재하는 구성 요소는 다시 만들
 * **지표:** 발생 횟수가 이벤트가 됨
 * **Dimension:**&#x200B;시간 체류 시간
 
-마이그레이션된 구성 요소 및 프로젝트 요소에 대해서는 Adobe Analytics 설명서의 [마이그레이션에 포함된 내용 이해](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#understand-what-is-included-in-a-migration)를 참조하십시오.
+마이그레이션된 구성 요소 및 프로젝트 요소에 대해서는 Adobe Analytics 설명서의 [마이그레이션에 포함된 내용 이해](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#understand-what-is-included-in-a-migration)를 참조하십시오.
 
 유효성 검사를 통과하지 못한 경우:
 
 * **자동으로 매핑할 수 없는 차원 또는 지표:** Coworker가 데이터 보기에서 각 차원을 매핑할 차원 또는 지표를 제안하고 매핑을 업데이트한 다음 프로젝트의 유효성을 다시 확인합니다. 예를 들어 &quot;web.webPageDetails.pageViews.value에 페이지 보기 수 매핑&quot;과 같이 매핑할 차원 또는 지표를 동료에게 알릴 수도 있습니다.
 
-* **지원되지 않는 요소:** Adobe Analytics의 프로젝트에서 지원되지 않는 요소를 제거하십시오. 예를 들어 모든 패널이 가상 보고서 세트가 아닌 기본 보고서 세트를 사용하도록 하십시오. 그런 다음 동료에게 프로젝트를 다시 확인하도록 요청하십시오. 지원되지 않는 요소 목록을 보려면 Adobe Analytics 설명서에서 [오류를 일으키는 지원되지 않는 요소 이해](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#understand-unsupported-elements-that-cause-errors)를 참조하십시오.
+* **지원되지 않는 요소:** Adobe Analytics의 프로젝트에서 지원되지 않는 요소를 제거하십시오. 예를 들어 모든 패널이 가상 보고서 세트가 아닌 기본 보고서 세트를 사용하도록 하십시오. 그런 다음 동료에게 프로젝트를 다시 확인하도록 요청하십시오. 지원되지 않는 요소 목록을 보려면 Adobe Analytics 설명서에서 [오류를 일으키는 지원되지 않는 요소 이해](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#understand-unsupported-elements-that-cause-errors)를 참조하십시오.
 
 마이그레이션하기 전에 전체 보고서 세트에 대한 매핑을 확인하려면 [마이그레이션하기 전에 보고서 세트 매핑 검토](#review-report-suite-mappings-before-you-migrate)를 참조하십시오.
 
@@ -196,11 +196,11 @@ Customer Journey Analytics에 이미 존재하는 구성 요소는 다시 만들
    | 대기열에 추가됨 | 마이그레이션이 시작되기를 기다리는 중입니다. |
    | 시작됨 | 마이그레이션이 진행 중입니다. |
    | 완료 | 마이그레이션이 완료되었습니다. Coworker는 프로젝트 이름 및 데이터 보기를 포함하여 마이그레이션된 항목에 대한 요약을 제공합니다. |
-   | 실패 | 마이그레이션에 실패했습니다. 마이그레이션을 다시 시도하십시오. Adobe Analytics 설명서에서 [실패한 마이그레이션 다시 시도](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/component-migration#retry-a-failed-migration)를 참조하십시오. |
+   | 실패 | 마이그레이션에 실패했습니다. 마이그레이션을 다시 시도하십시오. Adobe Analytics 설명서에서 [실패한 마이그레이션 다시 시도](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration#retry-a-failed-migration)를 참조하십시오. |
 
 1. 마이그레이션이 완료되면 Customer Journey Analytics Workspace의 프로젝트 목록에서 새 프로젝트를 엽니다.
 
-1. (선택 사항) 프로젝트의 소유권을 Customer Journey Analytics의 모든 사용자에게 이전합니다. 자세한 내용은 [자산 전송](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)을 참조하세요.
+1. (선택 사항) 프로젝트의 소유권을 Customer Journey Analytics의 모든 사용자에게 이전합니다. 자세한 내용은 [자산 전송](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)을 참조하세요.
 
 마이그레이션이 완료되면 동료는 다음에 마이그레이션할 다른 프로젝트를 제안할 수 있습니다.
 
@@ -211,5 +211,5 @@ Customer Journey Analytics에 이미 존재하는 구성 요소는 다시 만들
 
 ## 다음 단계
 
-* 대신 Adobe Analytics 사용자 인터페이스에서 프로젝트를 마이그레이션하려면 Adobe Analytics 설명서의 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/component-migration/component-migration)을 참조하십시오.
+* 대신 Adobe Analytics 사용자 인터페이스에서 프로젝트를 마이그레이션하려면 Adobe Analytics 설명서의 [Adobe Analytics에서 Customer Journey Analytics으로 구성 요소 및 프로젝트 마이그레이션](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration)을 참조하십시오.
 * 다른 구현 및 관리 사용 사례는 [지능형 구현 및 관리 개요](/help/chat/use-cases/data-insights/data-governance-and-validation.md)를 참조하십시오.

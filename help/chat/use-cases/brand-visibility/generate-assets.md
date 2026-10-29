@@ -10,7 +10,7 @@ jira: KT-22502
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -24,4 +24,4 @@ ht-degree: 0%
 
 또한 Coworker는 추가 맞춤화를 위한 유연성도 제공합니다. 에셋을 수정하거나, 변형을 만들거나, Instagram 스토리와 같은 다양한 형식에 대한 콘텐츠를 조정할 수 있습니다. 이 접근 방식을 사용하면 동료가 기술 세부 사항을 관리하는 동안 목표에 집중할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502716/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502692/?learn=on&enablevpops)

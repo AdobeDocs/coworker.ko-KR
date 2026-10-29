@@ -42,7 +42,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 312450e09d9252f17cb2b5d471ee33e1a22b9a05
+source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 관리자가 기존 Adobe 권한과의 정렬을 유지하면서 승인된 플러그인과 Adobe Coworker Chat를 확장하고 마켓플레이스를 관리하며 기술 및 연결된 도구에 대한 액세스를 제어하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504187/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504182/?learn=on&enablevpops)
 
 ## 배울 내용
  
