@@ -24,7 +24,7 @@ Coworker Chat을 사용하면 팀이 자연어를 사용하여 Adobe 제품 작�
 
 동료 채팅에서 시각화를 만들면 더 많은 수동 제어를 위해 언제든지 Analysis Workspace에서 열 수 있습니다. [Analysis Workspace에서 시각화 열기](/help/chat/use-cases/data-insights/analytics-chat.md#open-a-visualization-in-analysis-workspace)를 참조하십시오.
 
-Customer Journey Analytics에서는 Analysis Workspace의 채팅 패널에서 Coworker를 사용할 수도 있습니다. 여기서 Coworker는 열려 있는 프로젝트를 컨텍스트로 사용하며 패널, 테이블 및 구성 요소를 프로젝트에 직접 추가할 수 있습니다. 사용할 항목을 결정하려면 Customer Journey Analytics 안내서에서 [Workspace의 Coworker와 Coworker 애플리케이션 중에서 선택](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/coworker#choose-between-coworker-in-workspace-and-the-coworker-application)을 참조하십시오.
+Customer Journey Analytics에서는 Analysis Workspace의 채팅 패널에서 Coworker를 사용할 수도 있습니다. 여기서 Coworker는 열려 있는 프로젝트를 컨텍스트로 사용하며 패널, 테이블 및 구성 요소를 프로젝트에 직접 추가할 수 있습니다. 사용할 항목을 결정하려면 Customer Journey Analytics 안내서에서 [Workspace의 Coworker와 Coworker 애플리케이션 중에서 선택](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/coworker#choose-between-coworker-in-workspace-and-the-coworker-application)을 참조하십시오.
 
 ## 빠른 답변 및 깊이 있는 작업
 

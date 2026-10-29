@@ -34,7 +34,7 @@ ht-degree: 2%
 
 Adobe 자격 증명을 사용하여 [!DNL Coworker]에 로그인합니다.
 
-1. Adobe ID을 사용하여 CX Enterprise에 [로그인](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise).
+1. Adobe ID을 사용하여 CX Enterprise에 [로그인](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise).
 
    로그인한 후 [!DNL CX Enterprise] 응용 프로그램 메뉴에서 또는 직접 연결되는 링크를 사용하여 [!DNL Coworker]을(를) 열 수 있습니다.
 
@@ -57,7 +57,7 @@ Adobe 자격 증명을 사용하여 [!DNL Coworker]에 로그인합니다.
 | 설정 / 옵션 | 사용 대상 |
 | --- | --- |
 | 계정 이름 및 이메일 | 로그인한 Adobe 계정을 확인합니다. |
-| **[!UICONTROL 알림]**(벨 아이콘) | [알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-notifications-in-experience-cloud)을 봅니다. |
+| **[!UICONTROL 알림]**(벨 아이콘) | [알림](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences#subscribe-to-notifications-in-experience-cloud)을 봅니다. |
 | **[!UICONTROL 테마]** | 밝은 테마와 어두운 테마 간을 전환합니다. |
 | **[!UICONTROL 앱 설정]** | 계정 세부 정보 및 작업 공간 설정을 봅니다. |
 | **[!UICONTROL 환경 설정]** | [환경 설정](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences) 계정을 엽니다. 화살표는 페이지가 Coworker 외부에서 열린다는 것을 나타냅니다. |
