@@ -11,9 +11,9 @@ jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 81e7de5e1b3b322fc74fa7bab8cb16841d627349
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '155'
 ht-degree: 0%
 ---
 
@@ -22,5 +22,7 @@ ht-degree: 0%
 지표가 변경되는 이유를 이해하려면 여러 보고서를 탐색하고, 복잡한 쿼리를 작성하고, 데이터 세트 간 트렌드를 수동으로 분석해야 하는 경우가 많습니다. 이 비디오에서는 Adobe CX Enterprise Coworker이 대화형 AI를 Customer Journey Analytics(CJA)와 결합하여 해당 프로세스를 간소화하는 방법을 살펴볼 수 있습니다.
  
 분석가 및 마케터는 자연어를 사용하여 데이터에 대한 질문을 하고, 시각화된 결과를 받고, 의미 있는 트렌드를 식별하고, 성과를 이끄는 요인을 발견할 수 있습니다. 이 모든 것은 한 번의 대화로 이루어집니다.
+
+이 비디오에서는 Customer Journey Analytics 데이터를 사용하지만 동일한 방법으로 Adobe Analytics 보고서 세트의 트렌드와 근본 원인을 탐색할 수 있습니다. 동료는 데이터 보기에 `cja-root-cause-analysis` 기술을 사용하고 보고서 세트에 `aa-root-cause-analysis` 기술을 사용합니다. 자세한 내용은 [동료 채팅으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview.md)을 참조하세요.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496857/?captions=kor&learn=on&enablevpops)
