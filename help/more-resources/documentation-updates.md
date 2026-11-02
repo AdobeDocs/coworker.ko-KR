@@ -4,14 +4,20 @@ description: CX Enterprise Coworker 설명서에서 새 문서와 비디오의 �
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ab2ef6014d3e64e264b46e5a0c43653fe36bbea
+source-git-commit: 81e7de5e1b3b322fc74fa7bab8cb16841d627349
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: '295'
+ht-degree: 1%
 ---
 # 설명서 업데이트 {#documentation-updates}
 
 이 페이지를 사용하여 CX Enterprise Coworker 설명서에서 새롭고 실질적으로 업데이트된 콘텐츠를 찾을 수 있습니다. 업데이트는 월별로 나열되며 가장 최근 업데이트가 먼저 나열됩니다. Teams용 Coworker에 대한 제품 변경 사항은 [Teams용 Coworker 릴리스 정보](../coworker-for-teams/release-notes.md)를 참조하십시오.
+
+## 2026년 11월 {#nov-2026}
+
+**2026년 11월 2일**
+
+* 업데이트됨: [CX Enterprise Coworker 개요](../home.md) 및 [동료 채팅 시작](../chat/ui-guide.md). 이제 Adobe Analytics이 Coworker Chat을 사용할 수 있는 애플리케이션으로 나열됩니다.
 
 ## 2026년 10월 {#oct-2026}
 
