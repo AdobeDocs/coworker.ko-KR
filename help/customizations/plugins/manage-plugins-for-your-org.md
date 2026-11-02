@@ -10,8 +10,6 @@ jira: KT-22450
 autotag-review: '2026-10-06T19:34:50.127Z'
 TQID: 'https://experienceleague.adobe.com/docSb6NXSCCw15BOSM8A2Zi8h-wGFuCyoNRzAvHvDYQ'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
@@ -42,7 +40,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 024fb1cc0e4d5e5b2627f8b11d533046be8341a0
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -52,7 +50,7 @@ ht-degree: 0%
 
 관리자가 기존 Adobe 권한과의 정렬을 유지하면서 승인된 플러그인과 Adobe Coworker Chat를 확장하고 마켓플레이스를 관리하며 기술 및 연결된 도구에 대한 액세스를 제어하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504187/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504182/?learn=on&enablevpops)
 
 ## 배울 내용
  
