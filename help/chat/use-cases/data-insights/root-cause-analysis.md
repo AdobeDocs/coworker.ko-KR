@@ -25,4 +25,4 @@ ht-degree: 0%
 
 이 비디오에서는 Customer Journey Analytics 데이터를 사용하지만 동일한 방법으로 Adobe Analytics 보고서 세트의 트렌드와 근본 원인을 탐색할 수 있습니다. 동료는 데이터 보기에 `cja-root-cause-analysis` 기술을 사용하고 보고서 세트에 `aa-root-cause-analysis` 기술을 사용합니다. 자세한 내용은 [동료 채팅으로 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview.md)을 참조하세요.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496857/?captions=kor&learn=on&enablevpops)
