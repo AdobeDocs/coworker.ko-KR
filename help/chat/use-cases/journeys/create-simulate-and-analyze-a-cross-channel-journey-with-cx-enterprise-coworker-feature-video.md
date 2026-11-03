@@ -20,4 +20,4 @@ ht-degree: 0%
 
 CX Enterprise Coworker을 사용하여 일반 언어 프롬프트에서 크로스 채널 여정을 작성하고 이메일 및 SMS 콘텐츠를 생성합니다. 이 비디오에서는 분기 경로를 시뮬레이트하고 진단 유틸리티를 검토하여 구성 문제를 파악하는 방법을 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504706?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504711?captions=kor&learn=on)

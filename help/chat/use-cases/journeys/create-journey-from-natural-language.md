@@ -21,7 +21,7 @@ ht-degree: 1%
 
 만들려는 여정에 대해 설명하고 Adobe Journey Optimizer에서 공동 작업자가 초안을 작성합니다. 이 비디오에서는 여정 검토 및 세분화에 집중할 수 있도록 Coworker가 트리거, 시간, 채널 및 의사 결정 논리를 구성하는 방법을 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496881/?captions=kor&learn=on&enablevpops)
 
 ## 참조 -
 
