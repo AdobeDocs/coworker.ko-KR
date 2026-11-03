@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Coworker
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 34422092afceef569f2797f6f54d7fe133734e97
+source-git-commit: 3d3b2c34f053d4f863b2671b9191a76321f3fc80
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 15%
+source-wordcount: '331'
+ht-degree: 14%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -89,6 +89,8 @@ ht-degree: 15%
   - 플러그인 {#plugins}
     - [플러그인이란 무엇입니까?](./customizations/plugins/what-are-plugins.md)
     - [조직의 플러그인 관리](./customizations/plugins/manage-plugins-for-your-org.md)
+  - 외부 커넥터 {#external-connectors}
+    - {hide-from-toc}[Snowflake Cortex AI](./customizations/external-connectors/snowflake.md)
   - 메모리 {#memory}
     - [메모리란 무엇입니까?](./customizations/memory/what-is-memory.md)
 - Teams 동료 {#coworker-for-teams}
