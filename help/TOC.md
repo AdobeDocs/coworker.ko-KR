@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Coworker
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: ee1ca012668a5800e6a653d64700f7a732a111b0
+source-git-commit: ab937d4c1139a9f60cae1f8411f1797e04bf36be
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 14%
 ---
 
@@ -92,6 +92,8 @@ ht-degree: 14%
   - 외부 커넥터 {#external-connectors}
     - {hide-from-toc}[데이터베이스 지니](./customizations/external-connectors/databricks-genie.md)
     - {hide-from-toc}[Google 광고](./customizations/external-connectors/google-ads.md)
+    - {hide-from-toc}[Meta 광고](./customizations/external-connectors/meta-ads.md)
+    - {hide-from-toc}[Microsoft 작업 IQ](./customizations/external-connectors/microsoft-work-iq.md)
     - {hide-from-toc}[Snowflake Cortex AI](./customizations/external-connectors/snowflake.md)
   - 메모리 {#memory}
     - [메모리란 무엇입니까?](./customizations/memory/what-is-memory.md)
