@@ -132,7 +132,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 사용자 지정]**&#x200B;을 열고 **[!UICONTROL 사용자]**&#x200B;을 선택한 다음 **[!UICONTROL 외부 커넥터]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL Databricks Genie]** 카드를 찾습니다. 조직에서 커넥터를 구성하지 않은 경우 카드에 **[!UICONTROL 구성되지 않음]** 및 **[!UICONTROL 아직 사용할 수 없음}이 표시됩니다. 관리자가 이를 설정해야 합니다.]** 구성원에 대한 **[!UICONTROL 구성]** 단추가 없으므로 관리자에게 [커넥터 구성](#configure-organization)을 요청하십시오.
+1. **[!UICONTROL Databricks Genie]** 카드를 찾습니다. 조직에서 커넥터를 구성하지 않은 경우 카드에 **[!UICONTROL 구성되지 않음]** 및 **[!UICONTROL 아직 사용할 수 없음&rbrace;이 표시됩니다. 관리자가 이를 설정해야 합니다.]** 구성원에 대한 **[!UICONTROL 구성]** 단추가 없으므로 관리자에게 [커넥터 구성](#configure-organization)을 요청하십시오.
 
    ![구성되지 않음 상태와 관리자가 설정해야 한다는 메시지가 표시된 Databricks Genie 카드를 표시하는 사용자 외부 커넥터 페이지입니다.](./assets/databricks-genie/member-not-configured.png){width="700" zoomable="yes"}
 
