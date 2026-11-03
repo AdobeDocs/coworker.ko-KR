@@ -4,9 +4,9 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 98b1c76104cb131ed6c82e4147758921ef66ab40
+source-git-commit: 4d788223a7746bda4bb2913f19712c6fc6ab6be7
 workflow-type: tm+mt
-source-wordcount: '8673'
+source-wordcount: '8822'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -48,7 +48,7 @@ ht-degree: 6%
 | Cloud Manager 환경 관리 | RDE, 환경 변수, 로그 및 백업을 포함한 AEM Cloud Manager 환경을 생성, 구성 및 유지 관리합니다. | `cloud-manager-environment-management` | AEM(Adobe Experience Manager) | &quot;프로그램 12345&quot;<br><br>&quot;내 RDE 다시 설정에 대한 환경 나열&quot; |
 | Cloud Manager 프로그램 관리 | 파이프라인 및 환경을 포함하여 AEM Cloud Manager 프로그램 나열, 검사 및 삭제 | `cloud-manager-program-management` | AEM(Adobe Experience Manager) | &quot;내 Cloud Manager 프로그램 나열&quot;<br><br>&quot;프로그램 12345 세부 정보 가져오기&quot; |
 | AEM 릴리스 업데이트 일정 관리 | 자동 유지 관리를 위해 매일 자동 중지 시간 및 업데이트가 없는 기간을 구성하고 Adobe의 글로벌 코드 동결 창을 봅니다 | `cloud-manager-release-management` | AEM(Adobe Experience Manager) | &quot;현재 방해 금지 시간 기간은 무엇입니까?&quot;<br><br>&quot;12월 20일부터 1월 2일까지를 업데이트 금지 기간으로 예약합니다.&quot; |
-| AEM 워크플로 검사 | 워크플로우 활동에서 실행 중, 일시 중단 또는 실패한 항목을 확인합니다. 워크플로우 받은 편지함을 검토하고 사용 가능한 워크플로우 모델을 찾아봅니다. | `cloud-manager-release-management` | AEM(Adobe Experience Manager) | &quot;현재 실행 중인 워크플로가 무엇입니까?&quot;<br><br>&quot;실행 중이거나 일시 중단된 워크플로에서 오류가 표시됩니까?&quot;<br><br>&quot;내 워크플로 받은 편지함은 무엇입니까?&quot; |
+| AEM 워크플로 검사 | 실행 중, 일시 중단 또는 실패한 항목에 대한 워크플로우 활동을 확인합니다. 워크플로우 받은 편지함을 검토하고 사용 가능한 워크플로우 모델을 찾아봅니다. | `cloud-manager-release-management` | AEM(Adobe Experience Manager) | &quot;현재 실행 중인 워크플로가 무엇입니까?&quot;<br><br>&quot;실행 중이거나 일시 중단된 워크플로에서 오류가 표시됩니까?&quot;<br><br>&quot;내 워크플로 받은 편지함의 내용&quot; |
 | Dispatcher 통찰력 탐색 | 수동으로 로그 파일을 검색하지 않고도 캐시 성능을 분석하고, 트래픽 및 게재 문제를 조사하고, Dispatcher 보안 구성을 검토할 수 있습니다. | `aem-edge-dispatcher-operations` | AEM(Adobe Experience Manager) | &quot;오늘 프로덕션에 대한 Dispatcher 캐시 성능을 요약하고 어제와 비교합니다.&quot;<br><br>&quot;오늘 10:00과 11:00 UTC 사이에 프로덕션에서 간헐적인 502 및 503 응답을 조사합니다.&quot;<br><br> &quot;보안 취약점에 대해 공유한 Dispatcher 구성을 검토하십시오.&quot; |
 
 **관련 정보**
@@ -130,13 +130,17 @@ ht-degree: 6%
 
 | 워크플로 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| [자연어에서 대상 만들기](audiences/create-audience-from-natural-language.md) | 각 단계에서 사용자 승인을 통해 단계별 대상 만들기 오케스트레이션 | `audience-creation-flow` | Real-Time CDP(RTCDP) | &quot;지난 30일 동안 구매한 사용자에 대한 대상 만들기&quot; <br> &quot;캘리포니아에서 고가치 충성도 구성원을 위한 세그먼트 만들기&quot; |
-| PQL 정의 작성 | XDM 속성, 동작 이벤트 또는 기존 대상에서 대상 정의를 조합하고 집계 및 시간 창을 지원합니다. | `segment-definition-assembly` | Real-Time CDP(RTCDP) | &quot;3개 이상의 제품을 보았지만 구매하지 않은 사용자를 위한 PQL 만들기&quot; <br> &quot;내 이벤트 조건에 7일 기간 추가&quot; |
-| 대상자 검색 및 찾기 | ID, 이름, 의미 체계 검색으로 대상 찾기, 중복 감지 및 중복 분석 | `audience-search` | Real-Time CDP(RTCDP) | &quot;모든 충성도 대상 찾기&quot; <br> &quot;내 &#39;휴일 쇼핑객&#39; 세그먼트가 중복됩니까?&quot; |
-| 대상 크기 예상 | 폴링과 함께 Adobe Experience Platform 미리보기 API를 사용하여 PQL 표현식에 대한 프로필 도달 예상 | `audience-size-estimate` | Real-Time CDP(RTCDP) | &quot;이 대상자의 크기는 얼마나 됩니까?&quot; <br> &quot;이 PQL 표현식에 대한 도달 범위 예상&quot; |
-| 대상자 크기 폭포 | PQL을 하위 술어로 분해하고 각 조건이 최종 대상 크기에 기여하는 방식을 표시합니다 | `audience-size-waterfall` | Real-Time CDP(RTCDP) | &quot;이 PQL의 폭포를 표시합니다.&quot; <br> &quot;각 조건에 따라 대상자가 줄어드는 방식을 분류합니다.&quot; |
-| 타깃팅할 XDM 필드 검색 | 이름, 설명 또는 데이터 값으로 필드를 검색합니다. 해당 필드가 있는 위치와 이미 사용 중인 위치를 확인하세요. | `field-discovery` | Real-Time CDP(RTCDP) | &quot;충성도 고객을 타깃팅하는 데 사용할 수 있는 필드는 무엇입니까?&quot; <br> &quot;구매 내역과 관련된 필드 찾기&quot; |
-| 대상자 게시/저장 | 이름 지정 규칙 및 준수 확인을 사용하여 Experience Platform 세그멘테이션 서비스에 대상 정의 유지 | `audience-publish` | Real-Time CDP(RTCDP) | &quot;초안으로 저장&quot; <br> &quot;이름이 &#39;봄 판매 구매자&#39;인 대상 게시&quot; |
+| [자연어에서 대상 만들기](audiences/create-audience-from-natural-language.md) | 각 단계에서 사용자 승인을 통해 단계별 대상 생성을 조정합니다. 여기에는 B2C 및 B2B 대상이 모두 포함됩니다. | `audience-creation-flow` | Real-Time CDP | &quot;지난 30일 동안 구매한 사용자에 대한 대상 만들기&quot; <br> &quot;캘리포니아에서 고가치 충성도 구성원을 위한 세그먼트 만들기&quot; |
+| PQL 정의 작성 | XDM 속성, 동작 이벤트 또는 기존 대상에서 대상 정의를 조합하고 집계 및 시간 창을 지원합니다. | `segment-definition-assembly` | Real-Time CDP | &quot;3개 이상의 제품을 보았지만 구매하지 않은 사용자를 위한 PQL 만들기&quot; <br> &quot;내 이벤트 조건에 7일 기간 추가&quot; |
+| 대상자 검색 및 찾기 | ID, 이름, 의미 체계 검색으로 대상 찾기, 중복 감지 및 중복 분석, 세그먼트 정의에 따라 대상 찾기 | `audience-search` | Real-Time CDP | &quot;모든 충성도 대상 찾기&quot; <br> &quot;내 &#39;휴일 쇼핑객&#39; 대상이 중복되어 있습니까?&quot; |
+| 대상 크기 예상 | 폴링과 함께 Adobe Experience Platform 미리보기 API를 사용하여 PQL 표현식에 대한 프로필 도달 예상 | `audience-size-estimate` | Real-Time CDP | &quot;이 대상자의 크기는 얼마나 됩니까?&quot; <br> &quot;이 PQL 표현식에 대한 도달 범위 예상&quot; |
+| 대상자 크기 폭포 | PQL을 하위 술어로 분해하고 각 조건이 최종 대상 크기에 기여하는 방식을 표시합니다 | `audience-size-waterfall` | Real-Time CDP | &quot;이 PQL의 폭포를 표시합니다.&quot; <br> &quot;각 조건에 따라 대상자가 줄어드는 방식을 분류합니다.&quot; |
+| 타깃팅할 XDM 필드 검색 | 이름, 설명 또는 데이터 값으로 필드를 검색합니다. 해당 필드가 있는 위치와 이미 사용 중인 위치를 확인하세요. | `field-discovery` | Real-Time CDP | &quot;충성도 고객을 타깃팅하는 데 사용할 수 있는 필드는 무엇입니까?&quot; <br> &quot;구매 내역과 관련된 필드 찾기&quot; |
+| 대상자 게시/저장 | 이름 지정 규칙 및 준수 확인을 사용하여 Experience Platform 세그멘테이션 서비스에 대상 정의 유지 | `audience-publish` | Real-Time CDP | &quot;초안으로 저장&quot; <br> &quot;이름이 &#39;봄 판매 구매자&#39;인 대상 게시&quot; |
+| 대상 인벤토리 분포 | 총 대상 수, 대상 라이프사이클, 대상 평가 방법 및 생성 트렌드 등의 세부 정보를 포함하여 현재 샌드박스의 대상 인벤토리에 대한 정보를 대시보드로 검색합니다. | `audience-inventory-distribution` | Real-Time CDP | &quot;대상 개요를 알려 주세요.&quot; <br> &quot;대상을 가장 많이 만드는 사람은 누구입니까?&quot; |
+| 대상 인벤토리 상태 | 활성화 비율, 부실 대상, 중복 대상 및 정리 후보를 포함하여 현재 샌드박스의 대상 인벤토리의 상태를 확인합니다. | `audience-inventory-health` | Real-Time CDP | &quot;대상 인벤토리가 얼마나 건전합니까?&quot; <br> &quot;오래된 대상은 무엇입니까?&quot; |
+| 대상자 계보 | 대상자의 업스트림 및 다운스트림 사용을 모두 표시하는 대상자의 계보를 표시합니다. | `audience-lineage` | Real-Time CDP | &quot;다운스트림 대상에 사용되는 대상을 찾아서 해당 대상의 전체 계보를 표시합니다.&quot; |
+| 중복 대상자 감지 | 조직 내에서 중복되는 대상을 찾습니다. | `detect-duplicate-audience` | Real-Time CDP | &quot;내 조직에서 복제된 대상을 찾습니다.&quot; |
 
 ## 여정
 

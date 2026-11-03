@@ -3,10 +3,10 @@ audience: user
 user-guide-title: CX Enterprise Coworker
 user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크플로우를 자동화하는 AI 기반의 팀원인 Adobe CX Enterprise Coworker에 대해 알아봅니다.
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
-solution: Experience Cloud
+solution: Coworker
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: bd7454ee46cb1ee4ca8b7ae6ab07348a23854979
+source-git-commit: 34422092afceef569f2797f6f54d7fe133734e97
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 15%

@@ -5,7 +5,7 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 81e7de5e1b3b322fc74fa7bab8cb16841d627349
+source-git-commit: a91f0d04b8f4c79ad9c019d03f479542fc1db3ec
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 3%

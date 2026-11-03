@@ -11,14 +11,14 @@ jira: KT-22080
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: e8af933a3be8a5a2a6a007c0bba8a0b2bc36bcb2
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '97'
 ht-degree: 0%
 ---
 
 # Coworker를 사용하여 Experience Platform 상태 평가 및 자연어에서 대상 구축
 
-대상자, 여정, 데이터 세트 및 대상이 어떻게 연결되는지 감사하는 것은 일반적으로 시간이 많이 걸리는 수동 연습입니다. 이 비디오에서는 Coworker가 Adobe Experience Platform(AEP) 환경에 대한 전체 운영 보기를 생성하고, 업계 모범 사례에 따라 이를 벤치마킹하고, 이러한 결과를 사용하여 새로운 대상을 구축하는 방법에 대해 알아봅니다. 이러한 모든 작업은 한 번의 대화로 이루어집니다.
+대상자, 여정, 데이터 세트 및 대상이 어떻게 연결되는지 감사하는 것은 일반적으로 시간이 많이 걸리는 수동 연습입니다. 이 비디오에서는 Coworker가 Adobe Experience Platform 환경에 대한 전체 운영 보기를 생성하고, 업계 모범 사례에 따라 이를 벤치마킹하고, 이러한 결과를 사용하여 새로운 대상을 구축하는 방법에 대해 알아봅니다. 이러한 모든 작업은 한 번의 대화를 통해 이루어집니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496872/?captions=kor&learn=on&enablevpops)
