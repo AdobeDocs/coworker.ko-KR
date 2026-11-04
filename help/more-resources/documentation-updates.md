@@ -4,9 +4,9 @@ description: CX Enterprise Coworker 설명서에서 새 문서와 비디오의 �
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: df0cae9a0151501dad78527ba15fb06c57a9f9f4
+source-git-commit: e5fad76b20f2d10d32fc03131b4c18d220ed8e1e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '363'
 ht-degree: 1%
 ---
 # 설명서 업데이트 {#documentation-updates}
@@ -14,6 +14,10 @@ ht-degree: 1%
 이 페이지를 사용하여 CX Enterprise Coworker 설명서에서 새롭고 실질적으로 업데이트된 콘텐츠를 찾을 수 있습니다. 업데이트는 월별로 나열되며 가장 최근 업데이트가 먼저 나열됩니다. Teams용 Coworker에 대한 제품 변경 사항은 [Teams용 Coworker 릴리스 정보](../coworker-for-teams/release-notes.md)를 참조하십시오.
 
 ## 2026년 11월 {#nov-2026}
+
+**2026년 11월 4일**
+
+* 업데이트됨: [콘텐츠에 대해 질문하기](../chat/use-cases/data-insights/ask-content-questions.md). 이제 `analyze-content` 스킬을 사용한 콘텐츠 분석을 일반적으로 사용할 수 있습니다.
 
 **2026년 11월 3일**
 

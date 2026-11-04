@@ -4,9 +4,9 @@ description: 동료의 채팅 을 사용하여 가장 성과가 좋은 콘텐츠
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 3cfee4503efc246c105156e3b99260912eb74d49
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '608'
 ht-degree: 1%
 ---
 
@@ -28,7 +28,7 @@ Adobe CX Enterprise Coworker 채팅을 사용하여 각 에셋의 속성까지, 
 
 * Customer Journey Analytics 데이터 보기 또는 Adobe Analytics 보고서 세트에 연결된 동료 채팅. [동료 채팅을 사용하여 데이터 분석 시작](/help/chat/use-cases/data-insights/analytics-chat.md)을 참조하세요.
 * 분석할 데이터 보기 또는 보고서 세트에 대한 액세스 권한을 봅니다. 동료 채팅은 Customer Journey Analytics 또는 Adobe Analytics의 권한을 상속합니다.
-* Content Analytics용으로 구성된 데이터 보기. Customer Journey Analytics 안내서에서 [Content Analytics 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/content-analytics/configuration/configuration)을 참조하십시오.
+* Content Analytics용으로 구성된 데이터 보기. Customer Journey Analytics 안내서에서 [Content Analytics 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/configuration)을 참조하십시오.
 
 ## 사용 사례
 
@@ -47,7 +47,7 @@ Adobe CX Enterprise Coworker 채팅을 사용하여 각 에셋의 속성까지, 
 
 | 스킬 | 다음에 사용됨 |
 | --- | --- |
-| `cja`,`analyze-content` <br/>(제한된 가용성) | 가장 성과가 좋은 콘텐츠의 공통점을 찾습니다<br>고객이 볼 수 있는 콘텐츠에 대한 매출 특성<br>웹과 모바일에서 크리에이티브 비교<br>각 대상자를 움직이는 시각적 요소 파악<p>자세한 내용은 [콘텐츠에 대해 질문하기](/help/chat/use-cases/data-insights/ask-content-questions.md)를 참조하세요.</p> |
+| `cja`,`analyze-content` | 가장 성과가 좋은 콘텐츠의 공통점을 찾습니다<br>고객이 볼 수 있는 콘텐츠에 대한 매출 특성<br>웹과 모바일에서 크리에이티브 비교<br>각 대상자를 움직이는 시각적 요소 파악<p>자세한 내용은 [콘텐츠에 대해 질문하기](/help/chat/use-cases/data-insights/ask-content-questions.md)를 참조하세요.</p> |
 
 ## 더 나은 결과를 위한 팁
 
@@ -60,6 +60,6 @@ Adobe CX Enterprise Coworker 채팅을 사용하여 각 에셋의 속성까지, 
 
 ## 다음 단계
 
-* Coworker가 콘텐츠 질문에 답변하는 방법에 대해 알아보려면 [콘텐츠에 대해 질문하기](/help/chat/use-cases/data-insights/ask-content-questions.md)(제한된 가용성)를 참조하십시오.
+* Coworker가 콘텐츠 질문에 답변하는 방법에 대해 알아보려면 [콘텐츠에 대해 질문하기](/help/chat/use-cases/data-insights/ask-content-questions.md)를 참조하십시오.
 * 다른 분석 도메인 및 모범 사례를 포함하여 Coworker Chat을 사용한 데이터 분석에 대한 개요를 보려면 [Coworker Chat을 사용하여 데이터 분석](/help/chat/use-cases/data-insights/analytics-overview.md)을 참조하십시오.
 * 동료 채팅을 설정하고 작업 예제를 보려면 [동료 채팅을 사용하여 데이터 분석 시작](/help/chat/use-cases/data-insights/analytics-chat.md)을 참조하세요.
