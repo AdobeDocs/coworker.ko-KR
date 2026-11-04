@@ -8,9 +8,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 hide: true
-source-git-commit: d0099a2e082b15db77876039604d4d37e77255e2
+source-git-commit: 39953e05bb5c7fede783fa344bcc846eaaa9b933
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1577'
 ht-degree: 1%
 ---
 
@@ -66,8 +66,6 @@ ht-degree: 1%
 
 1. **[!UICONTROL 사용자 지정]**&#x200B;을 열고 **[!UICONTROL 조직]**&#x200B;을 선택한 다음 **[!UICONTROL 외부 커넥터]**&#x200B;를 선택합니다. **[!UICONTROL Databricks Genie]** 카드에서 **[!UICONTROL 구성]**&#x200B;을 선택합니다.
 
-   ![구성되지 않음 상태의 데이터베이스 지니 카드를 표시하는 조직 외부 커넥터 페이지입니다.](./assets/databricks-genie/org-connectors.png){width="700" zoomable="yes"}
-
 1. **[!UICONTROL Connect Databricks Genie]** 대화 상자에서 **[!UICONTROL 서버 URL]**&#x200B;에 작업 공간 URL 또는 [!DNL Genie One] MCP URL을 입력하십시오. Coworker는 소스를 다음 형식으로 저장합니다.
 
    ```text
@@ -118,8 +116,6 @@ ht-degree: 1%
 
 1. **[!UICONTROL 액세스 및 권한]**&#x200B;을 검토한 다음 **[!UICONTROL 연결 저장]**&#x200B;을 선택하십시오. **[!UICONTROL Databricks Genie]** 카드에 **[!UICONTROL 저장된 구성]**&#x200B;이 표시됩니다.
 
-   ![구성 저장 상태 및 구성 보기 단추가 있는 Databricks Genie 카드를 표시하는 조직 외부 커넥터 페이지](./assets/databricks-genie/org-saved.png){width="700" zoomable="yes"}
-
    작업 영역, 인증, 활성화된 도구 및 도구 시간 제한을 검토하려면 **[!UICONTROL 구성 보기]**&#x200B;를 선택하십시오. 그런 다음 **[!UICONTROL 테스트]**&#x200B;를 선택하여 연결을 확인합니다.
 
    ![소스, 인증, 네 개의 허용된 도구와 도구 정책, 도구 시간 제한 및 도구 목록을 표시하는 저장된 데이터 블록 커넥터 세부 정보입니다.](./assets/databricks-genie/org-details.png){width="700" zoomable="yes"}
@@ -133,8 +129,6 @@ ht-degree: 1%
 1. **[!UICONTROL 사용자 지정]**&#x200B;을 열고 **[!UICONTROL 사용자]**&#x200B;을 선택한 다음 **[!UICONTROL 외부 커넥터]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL Databricks Genie]** 카드를 찾습니다. 조직에서 커넥터를 구성하지 않은 경우 카드에 **[!UICONTROL 구성되지 않음]** 및 **[!UICONTROL 아직 사용할 수 없음&rbrace;이 표시됩니다. 관리자가 이를 설정해야 합니다.]** 구성원에 대한 **[!UICONTROL 구성]** 단추가 없으므로 관리자에게 [커넥터 구성](#configure-organization)을 요청하십시오.
-
-   ![구성되지 않음 상태와 관리자가 설정해야 한다는 메시지가 표시된 Databricks Genie 카드를 표시하는 사용자 외부 커넥터 페이지입니다.](./assets/databricks-genie/member-not-configured.png){width="700" zoomable="yes"}
 
 1. 조직에서 서비스 주체를 사용하는 경우 카드에 **[!UICONTROL 조직을 통해 사용 가능]**&#x200B;이 표시됩니다. 로그인할 필요가 없습니다. 연결을 확인하려면 커넥터 세부 정보를 열고 **[!UICONTROL 연결 테스트]**&#x200B;를 선택하십시오.
 
