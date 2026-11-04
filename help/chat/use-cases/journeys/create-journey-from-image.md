@@ -33,4 +33,4 @@ ht-degree: 0%
 
 PowerPoint 슬라이드와 같은 순서도 이미지를 CX Enterprise Coworker에 업로드합니다. 이 비디오에서는 이미지에서 추출된 프롬프트를 검토하고, 트리거 이벤트를 지정하고, Adobe Journey Optimizer에서 편집 가능한 여정 초안을 저장하는 방법을 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504865/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3504870/?captions=kor&learn=on&enablevpops)
