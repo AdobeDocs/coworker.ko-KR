@@ -4,7 +4,7 @@ description: CX Enterprise Coworker 설명서에서 새 문서와 비디오의 �
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: e5fad76b20f2d10d32fc03131b4c18d220ed8e1e
+source-git-commit: bdee1fbac171345d41a0bcdfdaaadb025f860a55
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 1%
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 **2026년 10월 16일**
 
-* 새로운 기능: [채널 간 여정 만들기, 시뮬레이션 및 분석](../chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker-feature-video.md)
+* 새로운 기능: [채널 간 여정 만들기, 시뮬레이션 및 분석](../chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker.md)
 * 새로운 기능: [여정 분석 개요](../chat/use-cases/data-insights/journey-analysis.md)
 * 새로운 기능: [대상 및 세그먼트 분석 개요](../chat/use-cases/data-insights/audience-and-segment-analysis.md)
 * 새로운 기능: [비즈니스 성과 개요](../chat/use-cases/data-insights/business-performance.md)
