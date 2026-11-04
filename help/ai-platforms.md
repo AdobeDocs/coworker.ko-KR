@@ -4,9 +4,9 @@ description: AI 플랫폼용 Adobe CX Enterprise Coworker에 대해 알아봅니
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 386b8d2ef4c6f36577300b4bcfbf4c82a40292b3
+source-git-commit: b9c3e1915b1f3f182cc91452e60eea13b05f12fa
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2104'
 ht-degree: 1%
 ---
 
@@ -349,9 +349,10 @@ MCP(Model Context Protocol)를 통해 동료가 도구를 [!DNL IBM watsonx Orch
 
 ## 알려진 제한 사항 {#known-limitations}
 
-AI 플랫폼의 동료가 모든 통합 패턴을 지원하는 것은 아닙니다.
+AI 플랫폼의 Coworker가 Coworker 인터페이스에서 사용할 수 있는 모든 기능을 지원하는 것은 아닙니다.
 
-* Coworker를 MCP를 사용하여 자신의 에이전트 하네스에 연결할 수 없습니다.
+* 이 문서에 나열된 지원되는 AI 플랫폼 외부의 사용자 지정 에이전트 하네스에 Coworker를 연결할 수 없습니다. MCP를 통해 추가 AI 플랫폼 또는 에이전트 하네스에 대한 지원을 요청하려면 Adobe 담당자에게 문의하십시오.
+* Claude를 통해 Coworker에 액세스하면 Firefly 이미지 생성 기술을 사용할 수 없습니다. 이 스킬은 이 문서에 설명된 Coworker 인터페이스 및 기타 지원되는 AI 플랫폼에서 계속 사용할 수 있습니다. Firefly 이미지 생성 기술을 사용하려면 Coworker 인터페이스 또는 지원되는 다른 AI 플랫폼을 통해 Coworker에 액세스하십시오.
 
 ## AI 플랫폼의 Coworker 문제 해결 {#troubleshoot}
 
