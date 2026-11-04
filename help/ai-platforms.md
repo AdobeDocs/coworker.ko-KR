@@ -4,9 +4,9 @@ description: AI 플랫폼용 Adobe CX Enterprise Coworker에 대해 알아봅니
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 386b8d2ef4c6f36577300b4bcfbf4c82a40292b3
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '2028'
 ht-degree: 1%
 ---
 
@@ -32,7 +32,7 @@ AI 플랫폼에서 Coworker를 사용하기 전에 다음 사항을 확인하십
 
 AI 플랫폼의 동료는 Adobe ID에 연결된 동일한 데이터 및 액세스 수준을 반영합니다. 쿼리하고 볼 수 있는 내용은 Experience Platform 및 관련 솔루션에서 이미 권한이 부여된 항목과 일치합니다. Coworker는 이러한 권한을 상속하므로 AI 플랫폼 통합에 별도의 권한 설정이 필요하지 않습니다. 동료는 읽기 전용 인사이트를 반환하고 고객 데이터를 수정하지 않습니다. 생성된 요약 및 분석을 사용하여 비즈니스 결정을 내리기 전에 검토하십시오.
 
-<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02 for Microsoft 365 Copilot, Claude, and ChatGPT. Validate this permissions model for each additional platform before adding its setup tab. -->
+<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02 for Microsoft 365 Copilot, Claude, and ChatGPT. Validate this permissions model for each additional platform before adding its setup section. -->
 
 ## 주요 사용 사례 {#key-use-cases}
 
@@ -46,21 +46,27 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 | 워크플로우 및 콘텐츠 최적화 | CX 캠페인에 대한 워크플로우를 최적화하고 에셋 및 콘텐츠 요구 사항을 파악합니다. 쿼리나 대시보드를 수동으로 작성하지 않고도 캠페인 성능에 대한 시각적 보고서를 생성할 수 있습니다. |
 | 신속한 공동 작업 및 결정 | 추천 프롬프트를 사용하여 대상자, 캠페인 및 웹 트래픽을 탐색합니다. 계획 회의 중에 팀과 통찰력을 공유하고, 계획 또는 데크를 검토하는 동안 즉석 질문에 실시간으로 답변할 수 있습니다. |
 
-<!-- Use cases approved by PM Siddhartha Srivastava on 2026-08-31 and confirmed for Microsoft 365 Copilot, Claude, and ChatGPT on 2026-09-02. Validate applicability for each additional platform before adding its setup tab. -->
+<!-- Use cases approved by PM Siddhartha Srivastava on 2026-08-31 and confirmed for Microsoft 365 Copilot, Claude, and ChatGPT on 2026-09-02. Validate applicability for each additional platform before adding its setup section. -->
 
 ## 동료 설정 {#set-up-coworker}
 
 설치 지침에 사용할 수 있는 플랫폼을 선택합니다. 설정 후 [예제 프롬프트](#example-prompts)를 시도해 보십시오.
 
->[!BEGINTABS]
+* [Microsoft 365 부조종사](#microsoft-365-copilot)
+* [ChatGPT](#chatgpt)
+* [클로드](#claude)
+* [제미니 엔터프라이즈](#gemini-enterprise)
+* [Amazon 빠른](#amazon-quick)
+* [IBM watsonx 오케스트레이션](#ibm-watsonx-orchestrate)
+* [Databricks](#databricks)
 
->[!TAB Microsoft 365 Copilot]
+### [!DNL Microsoft 365 Copilot] {#microsoft-365-copilot}
 
 [!DNL Microsoft 365 Copilot]에서 마케팅 인사이트를 얻으려면 [!DNL Adobe CX Enterprise Coworker for Copilot]을(를) 사용하십시오.
 
 시작하기 전에 [!DNL Microsoft 365 Copilot]에 대한 액세스 권한이 있는지 확인하십시오.
 
-**조직에 대한 동료 설정**
+#### 조직 액세스 설정 {#copilot-organization-setup}
 
 최종 사용자가 [!DNL Microsoft 365 Copilot]에서 Coworker에 액세스하려면 관리자가 이러한 단계를 완료해야 합니다.
 
@@ -72,7 +78,7 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 >
 >[!DNL Microsoft]에서 새 권한이 필요한 Coworker 업데이트를 릴리스하는 경우 관리자는 [!DNL Agent Registry]에서 업데이트를 승인해야 사용자에게 롤아웃됩니다.
 
-[!DNL Copilot]&#x200B;**에서**&#x200B;동료에 액세스
+#### 동료 액세스 {#copilot-access}
 
 관리자가 Coworker를 사용하도록 설정하면 [!DNL Teams], [!DNL Word], [!DNL Excel], [!DNL PowerPoint] 및 웹 채팅을 포함하여 [!DNL Microsoft 365 Copilot] 표면에 액세스할 수 있습니다.
 
@@ -88,17 +94,19 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 
 추가 단추가 강조 표시된 Microsoft 365 Copilot의 ![Adobe CX Enterprise Coworker 세부 정보.](./assets/ai-platforms/copilot/copilot-add-coworker.png)
 
->[!TAB ChatGPT]
+### [!DNL ChatGPT] {#chatgpt}
 
 [!DNL ChatGPT]에서 마케팅 인사이트를 얻으려면 [!DNL Adobe CX Enterprise Coworker for ChatGPT]을(를) 사용하십시오.
 
 시작하기 전에 [!DNL ChatGPT]에 대한 액세스 권한이 있는지 확인하십시오.
 
-**조직에 대한 동료 설정**
+#### 조직 액세스 설정 {#chatgpt-organization-setup}
+
+추가하기 전에 관리자가 동료의 동의를 받아야 합니다.
 
 * 선택한 사용자 또는 전체 조직에 대해 **[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;을(를) 승인하도록 [!DNL ChatGPT] 관리자에게 요청하십시오.
 
-[!DNL ChatGPT]&#x200B;**에서**&#x200B;동료에 액세스
+#### 동료 액세스 {#chatgpt-access}
 
 [!DNL ChatGPT]에서 **[!UICONTROL 플러그인]**&#x200B;을 선택합니다.
 
@@ -112,17 +120,19 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 
 ![플러그 인 설치 단추가 강조 표시된 ChatGPT의 Adobe CX Enterprise Coworker 세부 정보.](./assets/ai-platforms/chatgpt/gpt-install-coworker.png)
 
->[!TAB 클라우드]
+### [!DNL Claude] {#claude}
 
 [!DNL Claude]에서 Coworker를 사용하여 마케팅 인사이트를 얻으십시오.
 
 시작하기 전에 [!DNL Claude]에 대한 액세스 권한이 있는지 확인하십시오.
 
-**조직에 대한 동료 설정**
+#### 조직 액세스 설정 {#claude-organization-setup}
+
+추가하기 전에 관리자가 동료의 동의를 받아야 합니다.
 
 * 선택한 사용자 또는 전체 조직에 대해 **[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;을(를) 승인하도록 [!DNL Claude] 관리자에게 요청하십시오.
 
-[!DNL Claude]&#x200B;**에서**&#x200B;동료에 액세스
+#### 동료 액세스 {#claude-access}
 
 1. [!DNL Claude]에서 **[!UICONTROL 사용자 지정]**&#x200B;을 선택합니다.
 
@@ -138,9 +148,195 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 
 1. Coworker를 [!DNL Claude]에 연결하려면 Adobe 자격 증명으로 로그인하십시오.
 
->[!ENDTABS]
+### [!DNL Gemini Enterprise] {#gemini-enterprise}
 
-<!-- Setup steps above reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
+[!DNL Gemini Enterprise]에서 Coworker를 사용하여 마케팅 인사이트를 얻으십시오.
+
+시작하기 전에 [!DNL Gemini Enterprise]에 대한 액세스 권한이 있는지 확인하십시오.
+
+#### 조직 액세스 설정 {#gemini-organization-setup}
+
+[!DNL Gemini Enterprise] 관리자는 다음 단계를 완료하여 조직에서 동료가 사용할 수 있도록 하십시오.
+
+1. [Gemini Enterprise AI 에이전트 마켓플레이스](https://console.cloud.google.com/marketplace/browse?filter=solution-type:ai-agent-service)&#x200B;(으)로 이동합니다.
+1. Adobe CX Enterprise Coworker을 검색한 다음 **[!UICONTROL Adobe CX Enterprise Coworker]** 에이전트 카드를 선택합니다.
+1. 에이전트 카드에서 **[!UICONTROL 판매 담당자에게 문의]**&#x200B;를 선택합니다.
+
+   ![판매 담당자에게 문의 단추가 있는 Gemini Enterprise 마켓플레이스 에이전트 목록.](./assets/ai-platforms/gemini-enterprise/gemini-contact-sales.png){width="700"}
+
+1. 양식을 작성하여 Adobe에 요청을 제출합니다.
+
+   ![연락처 및 프로젝트 필드, 동의 확인란 및 전자 메일 보내기 단추가 있는 Adobe Inc 양식에 전자 메일을 보냅니다.](./assets/ai-platforms/gemini-enterprise/gemini-contact-adobe.png){width="600"}
+
+   Adobe은 무료로 비공개 오퍼를 만들고 링크를 이메일로 보냅니다.
+
+1. 이메일 링크를 열고 비공개 오퍼를 승인합니다.
+
+   오퍼를 승인하면 Adobe에서 [!DNL Gemini Enterprise] 계정에 대해 에이전트를 활성화합니다.
+
+1. 조직의 선택된 사용자 또는 모든 Enterprise 사용자에게 에이전트를 게시합니다.
+
+#### 동료 액세스 {#gemini-access}
+
+관리자가 동료가 게시되면 [!DNL Gemini Enterprise]에서 열어 질문을 시작합니다.
+
+1. [!DNL Gemini Enterprise]에서 **[!UICONTROL 에이전트]** 카탈로그로 이동합니다.
+1. Adobe CX Enterprise Coworker을 검색합니다.
+1. **[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;을(를) 선택하고 시작할 프롬프트를 입력하십시오.
+
+아이디어를 보려면 [주요 사용 사례](#key-use-cases) 및 [예제 프롬프트](#example-prompts)를 살펴보십시오.
+
+### [!DNL Amazon Quick] {#amazon-quick}
+
+[!DNL Amazon Quick]에서 Coworker를 사용하여 마케팅 인사이트를 얻으십시오.
+
+시작하기 전에 [!DNL Amazon Quick] 및 Adobe 계정에 대한 액세스 권한이 있는지 확인하십시오.
+
+#### 동료 연결 {#amazon-quick-connection}
+
+MCP(모델 컨텍스트 프로토콜)를 사용하여 [!DNL Amazon Quick]의 Coworker에 연결합니다. Adobe에서 이 연결에 대한 [!DNL Amazon Quick]을(를) 이미 승인했습니다.
+
+1. [!DNL Amazon Quick]에서 **[!UICONTROL 커넥터]**(으)로 이동합니다.
+1. MCP를 검색하고 커넥터 설정을 엽니다.
+1. `https://mcp.coworker.experience.adobe.io`을(를) MCP 서버 URL로 입력하십시오.
+
+   몇 분 안에 연결을 완료하고 등록할 수 있습니다.
+
+1. 설정 프롬프트에 따라 Adobe 자격 증명으로 로그인합니다.
+1. 질문을 시작하기 전에 연결이 성공했는지 확인하십시오.
+
+#### 동료 액세스 {#amazon-quick-access}
+
+Coworker를 연결한 후 [!DNL Amazon Quick]에서 사용하여 Adobe 데이터에 대해 질문합니다.
+
+아이디어를 보려면 [주요 사용 사례](#key-use-cases) 및 [예제 프롬프트](#example-prompts)를 살펴보십시오.
+
+### [!DNL IBM watsonx Orchestrate] {#ibm-watsonx-orchestrate}
+
+[!DNL IBM watsonx Orchestrate]에서 Coworker를 사용하여 마케팅 인사이트를 얻으십시오.
+
+시작하기 전에 [!DNL IBM watsonx Orchestrate] 및 Adobe 계정에 대한 액세스 권한이 있는지 확인하십시오.
+
+또한 연결을 관리하고 MCP 서버를 등록하며 에이전트를 편집할 수 있는 권한이 필요합니다. 설정하기 전에 Adobe 담당자에게 OAuth 클라이언트 설정을 확인하십시오.
+
+#### Coworker 연결 만들기 {#ibm-connection}
+
+OAuth를 사용하여 동료에 연결한 다음 Adobe 계정으로 인증합니다. 다음 단계에서는 초안 환경에서 테스트하기 위해 연결을 준비합니다.
+
+1. [!DNL IBM watsonx Orchestrate]에서 **[!UICONTROL 연결]**(으)로 이동한 다음 **[!UICONTROL 연결 추가]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 연결 ID]**, **[!UICONTROL 표시 이름]** 및 선택적 **[!UICONTROL 연결 설명]**&#x200B;을 입력한 다음 **[!UICONTROL 저장 및 계속]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 초안 환경 구성]**&#x200B;에서 **[!UICONTROL OAuth2 인증 코드]**&#x200B;을(를) **[!UICONTROL 인증 형식]**(으)로 선택합니다.
+1. 연결 설정을 입력합니다.
+
+   | 필드 | 값 |
+   | --- | --- |
+   | [!UICONTROL 서버 URL] | `https://mcp.coworker.experience.adobe.io` |
+   | [!UICONTROL 토큰 URL] | OAuth 클라이언트에 대해 토큰 엔드포인트가 확인되었습니다. |
+   | [!UICONTROL 인증 URL] | OAuth 클라이언트에 대해 인증 엔드포인트가 확인되었습니다. |
+   | [!UICONTROL 클라이언트 ID] | 승인된 OAuth 클라이언트 ID입니다. |
+   | [!UICONTROL 클라이언트 암호] | 승인된 OAuth 클라이언트 암호입니다. |
+
+   ![IBM watsonx OAuth2 인증 코드 인증과 Coworker 서버 주소로 연결 설정을 조정합니다.](./assets/ai-platforms/ibm/ibm-add-connection.png){width="700"}
+
+1. **[!UICONTROL PKCE]** 및 **[!UICONTROL 구성원 자격 증명]**&#x200B;을 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Live 환경 구성]**&#x200B;을 완료한 다음 **[!UICONTROL 완료]**&#x200B;를 선택하여 연결을 저장합니다.
+
+<!-- Confirm the customer process for obtaining OAuth settings before publication. -->
+
+#### Adobe으로 로그인 {#ibm-sign-in}
+
+구성원 자격 증명을 추가하여 Adobe ID와의 연결을 인증합니다.
+
+1. **[!UICONTROL 설정]** > **[!UICONTROL 구성원 자격 증명]**(으)로 이동한 다음 **[!UICONTROL 구성원 자격 증명 추가]**&#x200B;를 선택합니다.
+1. 동료 연결을 선택하고 **[!UICONTROL 자격 증명 설정]**(으)로 진행하십시오.
+1. **[!UICONTROL 연결 및 저장]**&#x200B;을 선택한 다음 메시지가 표시되면 Adobe 자격 증명으로 로그인합니다.
+1. [!DNL IBM watsonx Orchestrate]&#x200B;(으)로 돌아가서 자격 증명이 추가되었는지 확인하십시오.
+
+#### MCP 서버 등록 {#ibm-register-server}
+
+MCP(Model Context Protocol)를 통해 동료가 도구를 [!DNL IBM watsonx Orchestrate]&#x200B;(으)로 가져오도록 등록하십시오.
+
+1. **[!UICONTROL AI 게이트웨이]** > **[!UICONTROL MCP 서버]**(으)로 이동한 다음 **[!UICONTROL 서버 등록]**&#x200B;을 선택합니다.
+1. 서버 설정을 입력합니다.
+
+   | 필드 | 값 |
+   | --- | --- |
+   | [!UICONTROL 서버 이름] | 설명적인 이름(예: `cx-coworker`). |
+   | [!UICONTROL 전송 형식] | [!UICONTROL 스트리밍 가능 HTTP] |
+   | [!UICONTROL MCP 서버 URL] | `https://mcp.coworker.experience.adobe.io` |
+   | [!UICONTROL Connection] | 사용자가 인증한 동료 연결입니다. |
+
+1. **[!UICONTROL 등록]**&#x200B;을 선택하고 서버 등록 및 도구 가져오기가 완료될 때까지 기다립니다.
+
+   ![IBM watsonx는 스트리밍 가능한 HTTP 전송 및 인증된 연결에 Coworker server를 등록하도록 조정합니다.](./assets/ai-platforms/ibm/ibm-register-mcp.png){width="700"}
+
+#### 에이전트에 도구 추가 {#ibm-agent-tools}
+
+가져온 도구를 에이전트에 추가한 다음 에이전트를 배포하기 전에 연결을 테스트합니다.
+
+1. **[!UICONTROL 활성 인벤토리]** > **[!UICONTROL 에이전트]**(으)로 이동하여 구성할 에이전트를 엽니다.
+1. **[!UICONTROL 빌드]**&#x200B;에서 **[!UICONTROL 도구]**&#x200B;를 선택한 다음 **[!UICONTROL 도구 추가]**&#x200B;를 선택합니다.
+1. **[!UICONTROL MCP 서버]**&#x200B;를 선택하고 등록된 동료 서버에서 도구를 찾습니다.
+1. 필요한 동료 도구를 선택한 다음 **[!UICONTROL 에이전트에 추가]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 초안 미리 보기]**&#x200B;에서 프롬프트를 입력하고 응답을 검토하여 연결이 작동하는지 확인하십시오.
+
+아이디어를 보려면 [주요 사용 사례](#key-use-cases) 및 [예제 프롬프트](#example-prompts)를 살펴보십시오.
+
+### [!DNL Databricks] {#databricks}
+
+[!DNL Databricks Genie One]에서 Coworker를 사용하여 마케팅 인사이트를 얻으십시오.
+
+시작하기 전에 [!DNL Databricks Genie One] 및 Adobe 계정에 대한 액세스 권한이 있는지 확인하십시오. 선택한 [!DNL Unity Catalog] 카탈로그 및 스키마에 MCP 서비스를 설치할 수 있는 권한도 필요합니다.
+
+설정하기 전에 Adobe 담당자에게 OAuth 클라이언트 설정을 확인하십시오.
+
+#### Coworker 설치 {#databricks-install}
+
+[!DNL Databricks Marketplace]에서 Coworker MCP 서비스를 설치합니다.
+
+1. [!DNL Databricks]에서 **[!UICONTROL Marketplace]**(으)로 이동하여 Adobe Coworker를 검색합니다.
+1. **[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;을 선택한 다음 **[!UICONTROL 설치]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 카탈로그]** 및 **[!UICONTROL 스키마]**&#x200B;을 선택한 다음 **[!UICONTROL MCP 서비스 이름]**&#x200B;을 입력하십시오.
+1. 다음 값을 포함하여 목록에서 제공한 연결 설정을 유지합니다.
+
+   | 필드 | 값 |
+   | --- | --- |
+   | [!UICONTROL 호스트] | `https://mcp.coworker.experience.adobe.io` |
+   | [!UICONTROL 기본 경로] | `/mcp` |
+   | [!UICONTROL 자격 증명 형식] | [!UICONTROL OAuth U2M] |
+
+   카탈로그, 스키마, 연결 및 자격 증명 필드가 있는 Adobe CX Enterprise Coworker용 데이터베이스 마켓플레이스 설치 대화 상자![입니다.](./assets/ai-platforms/databricks/databricks-install.png){width="700"}
+
+1. **[!UICONTROL 클라이언트 ID]** 및 **[!UICONTROL 클라이언트 암호]**&#x200B;를 입력하십시오.
+1. 약관을 검토하고 동의한 다음 **[!UICONTROL 설치]**&#x200B;를 선택합니다.
+
+<!-- Confirm the customer process for obtaining OAuth settings before publication. -->
+
+#### Adobe 계정 연결 {#databricks-adobe-connection}
+
+각 사용자는 Adobe 계정으로 로그인합니다. 동료 요청은 해당 사용자의 Adobe 권한을 사용합니다.
+
+1. **[!UICONTROL 카탈로그]**&#x200B;에서 선택한 카탈로그 및 스키마에서 설치된 Coworker 서비스를 엽니다.
+1. 메시지가 표시되면 Adobe 로그인을 완료합니다.
+1. **[!UICONTROL 상태]** 서비스가 **[!UICONTROL 활성]**&#x200B;이고 해당 도구가 나열되어 있는지 확인하십시오.
+1. **[!UICONTROL 시작]**&#x200B;에서 **[!UICONTROL 지니]**&#x200B;를 선택한 다음 **[!UICONTROL 지니 원]**&#x200B;을 선택하고 **[!UICONTROL 지니 원에 추가]**&#x200B;를 선택합니다.
+
+#### 동료 액세스 {#databricks-access}
+
+[!DNL Genie One]에서 질문을 하기 전에 커넥터를 사용할 수 있는지 확인하십시오.
+
+1. [!DNL Genie One]에서 **[!UICONTROL 사용자 지정]** > **[!UICONTROL 커넥터]**(으)로 이동하여 Coworker 커넥터를 엽니다.
+1. 커넥터에 **[!UICONTROL 연결됨]**&#x200B;이 표시되는지 확인하십시오. 조직의 정책에 따라 도구 승인 설정을 검토합니다.
+
+   ![연결된 상태, 사용 가능한 도구 및 도구 승인 설정을 표시하는 Databricks Genie One의 Coworker 커넥터.](./assets/ai-platforms/databricks/databricks-connectors.png){width="700"}
+
+1. **[!UICONTROL 새 채팅]**&#x200B;을(를) 선택하고 &quot;Adobe Coworker 사용, 게시된 대상자 나열&quot;과 같은 메시지를 입력하세요.
+
+아이디어를 보려면 [주요 사용 사례](#key-use-cases) 및 [예제 프롬프트](#example-prompts)를 살펴보십시오.
+
+<!-- Setup steps for Microsoft 365 Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
+
+<!-- Amazon Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
 
 ## 프롬프트 예 {#example-prompts}
 
@@ -166,19 +362,19 @@ AI 플랫폼에서 Coworker를 사용하여 문제가 발생하는 경우 다음
 
 <!--
 Editorial maintenance, 2026-10-27:
-Only approved platforms with validated setup guidance belong in the rendered tab set.
-Remaining platforms to add: Gemini, Amazon Quick, IBM, and Databricks.
+Only approved platforms with validated setup guidance belong in the platform sections.
+Databricks setup follows the supplied "Adobe Coworker in Genie One.mp4" walkthrough. Confirm marketplace availability and customer OAuth provisioning before publication.
 
 To add an approved platform:
 * Confirm approval and obtain access to the customer flow.
 * Validate prerequisites, organization approval, catalog discovery, listing name, installation, and Adobe sign-in.
 * Confirm the shared licensing, permissions, use cases, prompts, limitations, and troubleshooting guidance applies.
-* Add one tab before ENDTABS, following the existing order: introduction, platform prerequisites, organization setup, and user access.
-* Document any platform-specific requirements or exceptions within that tab.
-* Preview the tab and verify its links and image references.
-Keep the introduction, metadata, and shared prerequisites free of platform lists so adding a tab does not require duplicate updates.
+* Add an H3 platform section with an explicit anchor under Set up Coworker and add it to the linked platform list.
+* Follow the existing order: introduction, platform prerequisites, setup tasks, and user access. Use H4 task headings with unique anchors.
+* Document any platform-specific requirements or exceptions within that section.
+* Preview the section and verify its links and image references.
+Keep the article introduction, metadata, and shared prerequisites free of platform lists so adding a section does not require duplicate updates.
 
-Gemini draft scope:
-No setup steps are confirmed. Validate the complete customer flow and all shared guidance before adding the tab.
-Do not infer the flow from another platform.
+Gemini Enterprise follow-up:
+Administrator setup and end user access steps are documented. Confirm applicability of the shared guidance before expanding the section.
 -->
