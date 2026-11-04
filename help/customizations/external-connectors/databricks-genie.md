@@ -8,9 +8,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 hide: true
-source-git-commit: 39953e05bb5c7fede783fa344bcc846eaaa9b933
+source-git-commit: 4f03df081c098fb1dc1044cb022663ce4d9b3d86
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1534'
 ht-degree: 1%
 ---
 
@@ -131,8 +131,6 @@ ht-degree: 1%
 1. **[!UICONTROL Databricks Genie]** 카드를 찾습니다. 조직에서 커넥터를 구성하지 않은 경우 카드에 **[!UICONTROL 구성되지 않음]** 및 **[!UICONTROL 아직 사용할 수 없음&rbrace;이 표시됩니다. 관리자가 이를 설정해야 합니다.]** 구성원에 대한 **[!UICONTROL 구성]** 단추가 없으므로 관리자에게 [커넥터 구성](#configure-organization)을 요청하십시오.
 
 1. 조직에서 서비스 주체를 사용하는 경우 카드에 **[!UICONTROL 조직을 통해 사용 가능]**&#x200B;이 표시됩니다. 로그인할 필요가 없습니다. 연결을 확인하려면 커넥터 세부 정보를 열고 **[!UICONTROL 연결 테스트]**&#x200B;를 선택하십시오.
-
-   ![조직 상태 및 테스트 단추를 통해 사용 가능한 Databricks Genie 카드를 표시하는 User External Connectors 페이지입니다.](./assets/databricks-genie/member-connectors.png){width="700" zoomable="yes"}
 
    테스트가 성공하면 **[!UICONTROL 연결 성공]** 및 사용 가능한 도구 수가 표시됩니다.
 
