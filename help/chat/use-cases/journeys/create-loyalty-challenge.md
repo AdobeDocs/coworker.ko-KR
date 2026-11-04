@@ -1,6 +1,6 @@
 ---
 title: 충성도 문제 및 통찰력 만들기
-description: Coworker가 충성도 문제를 만들고 관리하고 대상 선택을 자동화하고 통찰력을 제공하는 데 어떻게 도움이 되는지에 대해 알아봅니다.
+description: CX Enterprise Coworker을 사용하여 Adobe Journey Optimizer에서 충성도 문제를 만들고 시작하는 방법에 대해 알아봅니다.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -10,9 +10,9 @@ jira: KT-22312
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: d7f1f470a99880d46f518b42f4e766066c6fa52e
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '163'
 ht-degree: 1%
 ---
 
@@ -22,9 +22,7 @@ ht-degree: 1%
 >
 >충성도 플러그인과 해당 챌린지 관리 기술은 조직이 Adobe Journey Optimizer Loyalty 권한을 보유한 경우에만 사용할 수 있습니다. 액세스하려면 Adobe 계정 팀에 연락하여 필요한 권한을 요청하십시오.
 
-이 데모에서는 Adobe Journey Optimizer(AJO) 충성도를 동료에서 사용하여 충성도 프로그램 관리를 간소화하고 가속화하는 방법을 살펴볼 수 있습니다.
- 
-이 비디오에서는 충성도 플러그인과 사용자 인터페이스의 모든 설정을 수동으로 구성하는 대신 자연어를 사용하여 충성도 문제를 만들고, 편집하고, 관리하는 마케터를 지원하는 AI 기반 기능인 과제 관리 기술을 소개합니다.
+일반 언어 프롬프트를 사용하여 CX Enterprise Coworker에서 충성도 문제를 만들고, 구성하고, 시작합니다. 이 비디오에서는 대상, 보상 및 일정을 설정하고, 여정 설정을 자동화하고, 과제 인사이트를 검토하는 방법을 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496543/?captions=kor&learn=on&enablevpops)
 

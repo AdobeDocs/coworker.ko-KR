@@ -1,6 +1,6 @@
 ---
 title: 크로스 채널 여정 만들기, 시뮬레이션 및 분석
-description: CX Enterprise Coworker에서 크로스 채널 여정을 빌드하고, 이메일 및 SMS 콘텐츠를 만들고, 분기를 시뮬레이트하고, 여정 구성 문제를 진단하는 방법을 알아봅니다.
+description: CX Enterprise Coworker을 사용하여 Adobe Journey Optimizer에서 크로스 채널 여정을 구축, 시뮬레이션 및 문제를 해결하는 방법에 대해 알아봅니다.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -10,16 +10,14 @@ jira: KT-22912
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
+source-git-commit: d7f1f470a99880d46f518b42f4e766066c6fa52e
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '70'
 ht-degree: 0%
 ---
 
 # 크로스 채널 여정 만들기, 시뮬레이션 및 분석
 
-CX Enterprise Coworker에서 자연어 프롬프트에서 크로스 채널 여정을 빌드하고 이메일 및 SMS 콘텐츠를 만드는 방법을 알아봅니다.
-
-이 비디오에서는 여정의 분기 경로를 시뮬레이션하고 진단을 분석하여 구성 문제를 식별하는 방법을 참조하십시오.
+CX Enterprise Coworker을 사용하여 일반 언어 프롬프트에서 크로스 채널 여정을 작성하고 이메일 및 SMS 콘텐츠를 생성합니다. 이 비디오에서는 분기 경로를 시뮬레이트하고 진단 유틸리티를 검토하여 구성 문제를 파악하는 방법을 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504711?captions=kor&learn=on)

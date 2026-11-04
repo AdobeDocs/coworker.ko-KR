@@ -1,6 +1,6 @@
 ---
 title: 이미지에서 여정 만들기
-description: CX Enterprise Coworker에서 마케팅 팀의 슬라이드와 같은 순서도 이미지를 Adobe Journey Optimizer(AJO)에서 편집 준비 여정으로 변환하는 방법에 대해 알아봅니다.
+description: CX Enterprise Coworker을 사용하여 순서도 이미지에서 초안 Adobe Journey Optimizer 여정을 만드는 방법에 대해 알아봅니다.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -28,14 +28,14 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: da31900f-0b2e-4267-a5f8-69290b954752
     internal-label: Customer experience management
-source-git-commit: 0ef1f562174f53393bab97a0d0c91c666810aa20
+source-git-commit: d7f1f470a99880d46f518b42f4e766066c6fa52e
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '71'
 ht-degree: 0%
 ---
 
 # 이미지에서 여정 만들기
 
-CX Enterprise Coworker에서 마케팅 팀의 PowerPoint 슬라이드와 같은 순서도 이미지를 Adobe Journey Optimizer에서 편집 준비가 된 여정으로 변환하는 방법에 대해 알아봅니다. Coworker가 이미지에서 프롬프트를 추출하고 검토 및 조정할 수 있으며 트리거 이벤트를 요청하고 결과를 원래 디자인과 일치하는 초안으로 저장하는 방법을 확인할 수 있습니다.
+PowerPoint 슬라이드와 같은 순서도 이미지를 CX Enterprise Coworker에 업로드합니다. 이 비디오에서는 이미지에서 추출된 프롬프트를 검토하고, 트리거 이벤트를 지정하고, Adobe Journey Optimizer에서 편집 가능한 여정 초안을 저장하는 방법을 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504870/?captions=kor&learn=on&enablevpops)
