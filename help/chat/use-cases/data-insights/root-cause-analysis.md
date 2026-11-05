@@ -25,7 +25,7 @@ Adobe CX Enterprise Coworker 채팅 을 사용하여 Adobe Analytics 또는 Cust
 
 다음 비디오에서는 Coworker가 대화형 AI를 Customer Journey Analytics과 결합하는 방법을 보여 줍니다. 자연어로 질문하는 방법, 결과를 시각화하는 방법, 의미 있는 트렌드를 식별하는 방법, 수동 쿼리를 작성하지 않고도 성능을 이끄는 요인을 찾아내는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496857/?captions=kor&learn=on&enablevpops)
 
 ### 사전 요구 사항
 
