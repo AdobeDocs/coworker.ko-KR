@@ -53,7 +53,7 @@ Adobe CX Enterprise Coworker 채팅 을 사용하여 Adobe Analytics 또는 Cust
 
 시작하기 전에:
 
-1. **동료 채팅에 액세스하고 Adobe Analytics에 연결합니다.** 동료에서 **사용자 지정 > 통합**(으)로 이동하여 `aa-mcp` 통합이 나열되고 연결되어 있는지 확인하십시오. 사용할 수 없는 경우 관리자에게 조직의 설정을 확인하도록 요청하십시오. 설치 지침은 [동료 채팅을 사용하여 데이터 분석 시작](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)을 참조하세요.
+1. **동료 채팅에 액세스하고 Adobe Analytics에 연결합니다.** 동료에서 **사용자 지정 > 통합**(으)로 이동하여 `aa-mcp` 통합이 나열되고 연결되어 있는지 확인하십시오. 사용할 수 없는 경우 관리자에게 조직의 설정을 확인하도록 요청하십시오. 설치 지침은 [동료 채팅을 사용하여 데이터 분석 시작](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)을 참조하세요.
 1. **분석할 Adobe Analytics 보고서 세트에 대한 보기 액세스 권한이 있습니다.** Coworker는 Adobe Analytics 권한을 상속하며 Analysis Workspace에서 사용할 수 있는 보고서 세트와 구성 요소만 사용할 수 있습니다.
 1. **관련 데이터가 포함된 보고서 세트를 선택하십시오.** 여러 보고서 세트에 액세스할 수 있는 경우 Coworker에서 사용할 보고서 세트의 이름을 지정합니다.
 1. **조사할 변경 내용을 식별합니다.** 지표 및 기간을 지정합니다. 보다 집중적인 분석을 위해 비교 기간, 관련 차원 또는 세그먼트, Coworker에서 테스트할 모든 가설을 포함하십시오.
@@ -68,5 +68,5 @@ Adobe CX Enterprise Coworker 채팅 을 사용하여 Adobe Analytics 또는 Cust
 
 ## 관련 리소스
 
-* [Adobe CX Enterprise Coworker Chat으로 데이터 분석](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)
-* [동료 채팅을 사용하여 데이터 분석 시작](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)
+* [Adobe CX Enterprise Coworker Chat으로 데이터 분석](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)
+* [동료 채팅을 사용하여 데이터 분석 시작](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/use-cases/data-insights/analytics-chat)
