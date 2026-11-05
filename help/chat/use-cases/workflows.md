@@ -4,7 +4,7 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 3cfee4503efc246c105156e3b99260912eb74d49
+source-git-commit: 41216c2254d4c98f05c608f02bc6da31da3dd3c6
 workflow-type: tm+mt
 source-wordcount: '8820'
 ht-degree: 6%
@@ -123,7 +123,7 @@ ht-degree: 6%
 | [AA ↔ CJA 데이터 유효성 검사](data-insights/data-validation-aa-cja.md) | 특히 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics과 Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정할 수 있습니다 | `aa-cja-validation`, `cja`, `aa`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;내 AA 보고서 세트를 내 CJA 데이터 보기와 비교&quot; <br> &quot;AA와 CJA 간의 페이지 보기 유효성 검사&quot; |
 | [AA 프로젝트를 CJA으로 마이그레이션](data-insights/migrate-projects-aa-cja.md)(제한된 가용성) | Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics에 확인, 매핑 및 마이그레이션한 후 마이그레이션 상태 <!-- FLAG: No dedicated skill yet; the tools run through the aa-mcp integration. Update the Skills column when a skill is released. -->을(를) 확인하십시오. | <br/> 없음(`aa-mcp` 통합 사용) | ADOBE ANALYTICS + CJA | &quot;구성 요소를 AA에서 CJA으로 마이그레이션하려고 합니다.&quot; <br> &quot;내 보고서 세트의 어느 차원과 지표가 내 데이터 보기에 매핑되지 않았습니까?&quot; |
 | [데이터 집합 및 필드 품질 확인](data-insights/data-validation-aep.md) | Experience Platform 데이터 세트 및 필드에서 통계 및 의미 체계 유효성 검사를 실행하여 구현 후 또는 지속적으로 데이터 품질 문제를 파악합니다. <!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | &quot;데이터 집합 Electronics 샘플 1000의 유효성 검사&quot; <br> &quot;Customers_2024 데이터 집합의 전자 메일 필드 유효성 검사&quot; |
-| 운영 시계열 및 인과관계 분석 | 인과 관계 속성을 사용하여 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 분석합니다. | `operational-stats-causal-analysis` | 모든 적격 지원 | &quot;지난 90일 동안의 대상 크기 트렌드를 표시합니다.&quot; <br> &quot;데이터 세트 행 수가 3월 3일에 급증한 이유는 무엇입니까?&quot; |
+| [작동 시계열 및 인과관계 분석](audiences/why-your-audience-size-changed.md) | 인과 관계 속성을 사용하여 대상자, 데이터 세트 및 여정에 대한 내역 시계열 데이터를 쿼리하고 분석합니다. | `operational-stats-causal-analysis` | 모든 적격 지원 | &quot;지난 90일 동안의 대상 크기 트렌드를 표시합니다.&quot; <br> &quot;데이터 세트 행 수가 3월 3일에 급증한 이유는 무엇입니까?&quot; |
 | 사용자 지정 CJA 스킬 만들기 | 분석 패턴을 세션 간에 지속되는 재사용 가능한 반복 가능한 스킬로 변환 | `cja-skill-creator` | Customer Journey Analytics(CJA) | &quot;이 주별 수익 분석을 재사용 가능한 스킬로 변환&quot; <br> &quot;월별 funnel 보고를 위한 스킬로 저장&quot; |
 
 ## 대상자
