@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Coworker
 role: Admin,User,Developer,Leader
 nudge: true
-source-git-commit: 41216c2254d4c98f05c608f02bc6da31da3dd3c6
+source-git-commit: b7d069b0ebd8fb68e3ffae62cc57d4b91dd248f5
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 11%
+source-wordcount: '359'
+ht-degree: 13%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -59,6 +59,7 @@ ht-degree: 11%
       - [자연어를 사용하여 여정 만들기](./chat/use-cases/journeys/create-journey-from-natural-language.md)
       - [이미지에서 여정 만들기](./chat/use-cases/journeys/create-journey-from-image.md)
       - [Coworker를 사용하여 여정 시뮬레이션](./chat/use-cases/journeys/simulate-journey-using-coworker.md)
+      - [고객 참여 가속화](./chat/use-cases/journeys/accelerate-personalized-customer-engagement.md)
       - [Coworker를 사용하여 여정 버전 비교](./chat/use-cases/journeys/journey-version-comparison.md)
       - [크로스 채널 여정 만들기, 시뮬레이션 및 분석](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker.md)
     - 충성도 {#loyalty}
