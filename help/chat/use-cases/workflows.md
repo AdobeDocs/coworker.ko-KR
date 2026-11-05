@@ -4,9 +4,9 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 4d788223a7746bda4bb2913f19712c6fc6ab6be7
+source-git-commit: 3cfee4503efc246c105156e3b99260912eb74d49
 workflow-type: tm+mt
-source-wordcount: '8822'
+source-wordcount: '8820'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -119,7 +119,7 @@ ht-degree: 6%
 | 예측 | 내역 CJA 또는 AA 데이터를 기반으로 향후 지표 값 예상 | `cja`, `aa` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | &quot;다음 30일 동안의 세션 예측&quot; <br> &quot;매출 목표를 달성하는 데 도움이 됩니까?&quot; |
 | [근본 원인 분석](data-insights/root-cause-analysis.md) | 지표가 변경된 이유를 조사합니다. 드롭, 스파이크 및 예외 항목을 진단합니다. | `cja-root-cause-analysis`, `aa-root-cause-analysis` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | &quot;지난 주에 전환율이 떨어진 이유는 무엇입니까?&quot; <br> &quot;1월 15일 매출 급증의 원인은 무엇입니까?&quot; |
 | 경영진 요약 및 KPI 다이제스트 | 이해 당사자에게 준비된 성능 요약, 규범적 권장 사항 및 슬라이드 데크 개요 작성 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `aa`, `dx-api` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | &quot;지난달 요약 정보 제공&quot; <br> &quot;이번 분기 데이터로 슬라이드 데크 개요 만들기&quot; |
-| [콘텐츠 분석](data-insights/ask-content-questions.md)(제한된 가용성) | Content Analytics 데이터를 사용하여 콘텐츠에 대한 일반 또는 특정 질문에 답변합니다. 우선 순위를 지정할 콘텐츠, 참여를 유도하는 속성, 매출을 유도하는 자산 및 경험 | `analyze-content`, `cja` | Customer Journey Analytics(CJA) | &quot;우선 순위를 지정해야 하는 콘텐츠는 무엇입니까?&quot; <br> &quot;가장 성과가 좋은 이미지는 공통점이 무엇입니까?&quot; |
+| [콘텐츠 분석](data-insights/ask-content-questions.md) | Content Analytics 데이터를 사용하여 콘텐츠에 대한 일반 또는 특정 질문에 답변합니다. 우선 순위를 지정할 콘텐츠, 참여를 유도하는 속성, 매출을 유도하는 자산 및 경험 | `analyze-content`, `cja` | Customer Journey Analytics(CJA) | &quot;우선 순위를 지정해야 하는 콘텐츠는 무엇입니까?&quot; <br> &quot;가장 성과가 좋은 이미지는 공통점이 무엇입니까?&quot; |
 | [AA ↔ CJA 데이터 유효성 검사](data-insights/data-validation-aa-cja.md) | 특히 Adobe Analytics에서 Customer Journey Analytics으로 업그레이드할 때 Adobe Analytics과 Customer Journey Analytics 간의 데이터를 비교, 감사 및 조정할 수 있습니다 | `aa-cja-validation`, `cja`, `aa`, `dx-api` | ADOBE ANALYTICS + CJA | &quot;내 AA 보고서 세트를 내 CJA 데이터 보기와 비교&quot; <br> &quot;AA와 CJA 간의 페이지 보기 유효성 검사&quot; |
 | [AA 프로젝트를 CJA으로 마이그레이션](data-insights/migrate-projects-aa-cja.md)(제한된 가용성) | Adobe Analytics 프로젝트 및 관련 구성 요소를 Customer Journey Analytics에 확인, 매핑 및 마이그레이션한 후 마이그레이션 상태 <!-- FLAG: No dedicated skill yet; the tools run through the aa-mcp integration. Update the Skills column when a skill is released. -->을(를) 확인하십시오. | <br/> 없음(`aa-mcp` 통합 사용) | ADOBE ANALYTICS + CJA | &quot;구성 요소를 AA에서 CJA으로 마이그레이션하려고 합니다.&quot; <br> &quot;내 보고서 세트의 어느 차원과 지표가 내 데이터 보기에 매핑되지 않았습니까?&quot; |
 | [데이터 집합 및 필드 품질 확인](data-insights/data-validation-aep.md) | Experience Platform 데이터 세트 및 필드에서 통계 및 의미 체계 유효성 검사를 실행하여 구현 후 또는 지속적으로 데이터 품질 문제를 파악합니다. <!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | &quot;데이터 집합 Electronics 샘플 1000의 유효성 검사&quot; <br> &quot;Customers_2024 데이터 집합의 전자 메일 필드 유효성 검사&quot; |

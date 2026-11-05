@@ -4,19 +4,15 @@ description: 일반 언어부터 특정 언어까지 일반 언어로 콘텐츠�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 3cfee4503efc246c105156e3b99260912eb74d49
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1042'
 ht-degree: 2%
 ---
 
 # 콘텐츠에 대한 질문
 
-<!-- FLAG: Confirm with the PM: (1) availability (GA, beta, or experimental) and whether this page needs an AVAILABILITY note or `hide: true` until launch, and (2) any required Coworker entitlement. Content Analytics itself has no separate permission: users get access through data views that are configured for Content Analytics (Access control section of analytics-platform.en/help/content-analytics/config/configuration.md). -->
-
->[!AVAILABILITY]
->
->이 문서에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 메모는 기능을 일반적으로 사용할 수 있을 때 제거됩니다.
+<!-- FLAG: Confirm with the PM any required Coworker entitlement. Content Analytics itself has no separate permission: users get access through data views that are configured for Content Analytics (Access control section of analytics-platform.en/help/content-analytics/config/configuration.md). -->
 
 Adobe CX Enterprise Coworker 채팅을 사용하여 Adobe Content Analytics에서 콘텐츠에 대한 정확한 답변을 얻을 수 있습니다. &quot;지난 분기에 가장 많은 매출을 올린 이미지는 무엇입니까?&quot;와 같은 특정 질문이나 &quot;우선 순위를 두어야 하는 콘텐츠는 무엇입니까?&quot;와 같은 일반적인 질문을 합니다. 동료는 질문을 건전한 분석으로 바꿉니다.
 
