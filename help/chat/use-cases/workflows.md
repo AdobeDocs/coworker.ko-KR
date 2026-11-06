@@ -4,9 +4,9 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 41216c2254d4c98f05c608f02bc6da31da3dd3c6
+source-git-commit: 0d2b1c7e146114fac57a894ce1b61727456d263f
 workflow-type: tm+mt
-source-wordcount: '8820'
+source-wordcount: '9190'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -258,6 +258,20 @@ ht-degree: 6%
 **관련 정보**
 
 * [콘텐츠 관리를 위한 동료](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}에서는 Adobe Journey Optimizer의 콘텐츠 관리 도구 및 사용 가능한 기술에 대한 세부 정보를 제공합니다.
+
+## 오케스트레이션된 캠페인
+
+동료 채팅을 사용하여 Adobe Journey Optimizer에서 오케스트레이션된 캠페인을 검색 및 검사하고, 워크플로우 그래프를 렌더링합니다. 이러한 기술은 읽기 전용입니다. 오케스트레이션된 캠페인 만들기 또는 편집은 현재 도구 집합에서 지원되지 않으며 오케스트레이션된 캠페인 분석 및 성능 보고는 지원되지 않습니다.
+
+| 워크플로 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| [오케스트레이션된 캠페인 찾기 및 찾아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrated/orchestrated-campaigns-coworker-skills#orchestrated-campaign-list){target="_blank"} | 지표 카드, 차트 및 캠페인 테이블이 있는 대시보드로 렌더링된 오케스트레이션된 캠페인의 개요를 나열, 찾아보기, 필터링, 검색, 계산 또는 가져옵니다 | 오케스트레이션된 캠페인 목록 | Adobe Journey Optimizer (AJO) | &quot;오케스트레이션된 모든 캠페인을 나열합니다.&quot; <br> &quot;실시간 오케스트레이션된 캠페인을 표시합니다.&quot; <br> &quot;오케스트레이션된 캠페인에서 이메일을 사용하는 횟수는 몇 개입니까?&quot; <br> &quot;Xavier에서 만든 오케스트레이션된 캠페인을 표시합니다.&quot; <br> &quot;프로덕션 샌드박스에서 오케스트레이션된 캠페인을 찾아봅니다.&quot; <br> &quot;초안 상태별로 오케스트레이션된 캠페인을 필터링합니다.&quot; |
+| [오케스트레이션된 캠페인 검사](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrated/orchestrated-campaigns-coworker-skills#orchestrated-campaign-get){target="_blank"} | 세부 정보, 상태, 메타데이터, 라이프사이클 내역 및 실행 내역과 같이 이름이 지정되거나 식별된 오케스트레이션된 단일 캠페인에 대한 모든 것을 가져오고 활동 그래프를 시각화합니다 | 오케스트레이션된 캠페인 Get | Adobe Journey Optimizer (AJO) | &quot;여름 재참여 오케스트레이션 캠페인에 대한 세부 정보를 표시합니다.&quot; <br> &quot;환영 시리즈 OC를 게시한 사람은 누구입니까?&quot; <br> &quot;내 Q3 캠페인의 라이프사이클 기록을 표시합니다.&quot; <br> &quot;Holiday Promo가 캠페인을 몇 번 조정했습니까?&quot; <br> &quot;온보딩 OC에 대한 그래프를 그리거나 시각화합니다.&quot; <br> &quot;장바구니 포기 오케스트레이션 캠페인이 실패했습니까?&quot; |
+| [워크플로 그래프 렌더링](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrated/orchestrated-campaigns-coworker-skills#orchestrated-campaign-workflow-renderer){target="_blank"} | 노드 및 에지가 있는 JSON 페이로드로 제공되는 워크플로우 또는 오케스트레이션 그래프를 시각적 다이어그램으로 렌더링합니다. <br> 그래프 페이로드가 이미 대화에 있는 경우에만 사용합니다. <br> 이름 또는 ID별로 캠페인의 그래프를 그리려면 오케스트레이션된 Campaign Get을 사용합니다. | 오케스트레이션된 캠페인 워크플로 렌더러 | Adobe Journey Optimizer (AJO) | &quot;이 워크플로 그래프를 다이어그램으로 렌더링합니다.&quot; <br> &quot;이 오케스트레이션 그래프를 시각화하십시오.&quot; |
+
+**관련 정보**
+
+* [오케스트레이션된 캠페인에 대한 동료](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrated/orchestrated-campaigns-coworker-skills){target="_blank"}에서 오케스트레이션된 캠페인 목록, 오케스트레이션된 캠페인 가져오기 및 오케스트레이션된 캠페인 워크플로 렌더러 기술에 대한 자세한 지침, 사용 사례 및 샘플 프롬프트를 제공합니다.
 
 ## Campaign v8
 
