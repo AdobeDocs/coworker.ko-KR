@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Coworker를 사용하여 Adobe Journey Optimizer 여정 버전을 비교하는 방법에 대해 알아봅니다. 시각적 비교 및 세부 요약을 탐색하여 활동, 분기 및 여정 속성에 대한 변경 사항을 식별하고 특정 업데이트가 수행된 시기를 추적합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3507163/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3507251/?captions=kor&learn=on&enablevpops)

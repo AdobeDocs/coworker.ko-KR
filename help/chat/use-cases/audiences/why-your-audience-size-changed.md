@@ -30,7 +30,7 @@ ht-degree: 0%
 
 이 비디오에서는 캠페인 시작 전에 Coworker에서 일반 언어 프롬프트를 사용하여 Adobe Experience Platform 대상의 예상치 못한 증가를 조사하는 방법을 알아봅니다. 이 연습에서는 인과관계 분석을 통해 대상 크기 변경 사항을 운영 데이터와 연결하고, 구성 변경 사항을 배제하고, 엔지니어링 조사를 기다리지 않고 표면 가능성 설명을 추가하는 방법에 대해 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3507342/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3507348/?captions=kor&learn=on&enablevpops)
 
 다음 방법을 배우게 됩니다.
 
