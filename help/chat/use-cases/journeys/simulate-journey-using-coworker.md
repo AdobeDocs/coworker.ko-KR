@@ -30,4 +30,4 @@ ht-degree: 0%
 
 Coworker를 사용하여 자동으로 생성된 테스트 여정 및 이벤트를 사용하여 Adobe Journey Optimizer 프로필을 시뮬레이션할 수 있습니다. 이 비디오에서는 게시 전에 여정 경로를 테스트하고, 증명 메시지를 받고, 경로 범위 및 시뮬레이션 결과를 검토하는 방법을 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3507004?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507036?captions=kor&learn=on)
