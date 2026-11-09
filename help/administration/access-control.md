@@ -38,7 +38,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
 이 비디오를 통해 동료 관리자를 추가하는 방법을 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3507041?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3507046?captions=kor&learn=on){transcript=true}
 
 ## 사용자 액세스 관리 {#manage-user-access}
 
@@ -55,7 +55,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
    이 비디오를 통해 동료 사용자를 관리하는 방법을 알아보십시오.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507156?captions=kor&learn=on){transcript=true}
 
 4. Coworker에서 개인 사용자의 액세스를 관리하려면 **[!UICONTROL 사용자]**&#x200B;를 사용하고, 사용자 그룹의 Coworker 액세스를 관리하려면 **[!UICONTROL 사용자 그룹]**&#x200B;을 사용하십시오. 사용자 그룹 설정은 해당 구성원에게 적용됩니다.
 
