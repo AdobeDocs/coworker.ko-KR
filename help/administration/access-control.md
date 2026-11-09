@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 96c54754b978ac1be0fc5bb0741e9ed073017953
+source-git-commit: 11db1488d950f39ccb8c8019f644e54e1f3b8fa6
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '522'
 ht-degree: 0%
 ---
 # 동료에 대한 액세스 제어 {#access-control}
@@ -19,7 +19,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
 >[!NOTE]
 >
->이 기능을 사용하려면 Coworker에서 조직을 활성화해야 합니다. 자세한 내용은 [동료 채팅 개요](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)를 참조하세요.
+>이 기능을 사용하려면 Coworker에서 조직을 활성화해야 합니다. 자세한 내용은 [동료 채팅 개요](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)를 참조하세요.
 
 ## 액세스 결정 방법 {#how-access-is-determined}
 
@@ -34,11 +34,11 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
 ## 동료 관리자 추가 {#add-coworker-admins}
 
-동료 관리자는 [!DNL Adobe Admin Console]의 [!DNL Adobe Experience Platform]에 대해 **[!UICONTROL 제품 관리자]** 역할이 할당된 사용자입니다.
+동료 관리자는 [!DNL Adobe Admin Console]의 [!DNL Adobe Experience Platform]에 대해 **[!UICONTROL 제품 관리자]** 또는 **[!UICONTROL 시스템 관리자]**&#x200B;가 할당된 사용자입니다.
 
 이 비디오를 통해 동료 관리자를 추가하는 방법을 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3507046?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3507041?learn=on){transcript=true}
 
 ## 사용자 액세스 관리 {#manage-user-access}
 
@@ -55,7 +55,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
    이 비디오를 통해 동료 사용자를 관리하는 방법을 알아보십시오.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507156?captions=kor&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
 4. Coworker에서 개인 사용자의 액세스를 관리하려면 **[!UICONTROL 사용자]**&#x200B;를 사용하고, 사용자 그룹의 Coworker 액세스를 관리하려면 **[!UICONTROL 사용자 그룹]**&#x200B;을 사용하십시오. 사용자 그룹 설정은 해당 구성원에게 적용됩니다.
 
