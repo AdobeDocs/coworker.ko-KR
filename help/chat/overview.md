@@ -4,10 +4,10 @@ title: Adobe CX Enterprise Coworker 채팅 개요
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: 4d1a45924304a21da9f23287c307e7616bb86219
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 6%
+source-wordcount: '546'
+ht-degree: 8%
 ---
 # 동료 채팅 정보 {#overview}
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 ## AI Assistant의 발전
 
-동료 채팅은 [AI 도우미](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/ai-assistant-ui) 및 Adobe Experience Platform Agent Orchestrator 다음의 단계입니다. 제품 지식, 운영 및 데이터 통찰력을 포함하여 현재 AI Assistant에서 수행할 수 있는 모든 작업을 사용할 수 있습니다. Coworker Chat은 대화에서 단순히 질문에 답변하는 것이 아니라 작업을 완료할 수 있도록 하는 [빌딩 블록](#building-blocks)을 추가합니다.
+동료 채팅은 [AI 도우미](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/ai-assistant-ui) 및 Adobe Experience Platform Agent Orchestrator 다음의 단계입니다. 제품 지식, 운영 및 데이터 통찰력을 포함하여 현재 AI Assistant에서 수행할 수 있는 모든 작업을 사용할 수 있습니다. Coworker Chat은 공유 [Coworker 기본 구성 요소](/help/home.md#building-blocks)를 사용하여 질문에 대한 답변이 아닌 대화를 통해 작업을 완료합니다.
 
 ## 채팅 경험
 
@@ -54,16 +54,6 @@ ht-degree: 6%
 * _Adobe Journey Optimizer B2B Edition(준비 중)_
 * _Customer Journey Analytics B2B edition(준비 중)_
 
-## 빌딩 블록
-
-Coworker Chat은 Coworker 빌딩 블록을 통해 제공됩니다. 현재 사용할 수 있는 기본 구성 요소는 다음과 같습니다.
-
-* **엔터프라이즈 활용:** 목표를 완료된 작업으로 만드는 엔진입니다. 지속적인 자체 수정 루프(원인, 기술 선택, 실행, 유효성 검사, 반복)를 실행하고, 오류에서 복구하며, 작업이 완료될 때까지 동시에 작업합니다.
-* **스킬:** 각 작업을 잘 수행하기 위해 일반 Markdown으로 재사용 가능한 플레이북입니다. Coworker Chat 은 현재 가장 일반적인 고객 경험 작업에 대한 기술과 함께 제공됩니다. 이 솔루션의 목표는 시간이 지남에 따라 모든 Adobe CX Enterprise 애플리케이션에서 작업을 수행하는 것입니다.
-* **MCP 커넥터:**&#x200B;는 기본 제공 커넥터와 사용자 고유의 기능 사용 옵션을 사용하여 Adobe 및 서드파티 시스템 전체에 적용되는 액세스를 제어합니다.
-* **거버넌스:** 승인 게이트, Adobe 조직에서 상속된 권한, 작업이 실행되기 전에 실행되는 검사 및 전체 감사 추적.
-* **메모리:** 동료 채팅은 조직 전체 규칙에서 개인 환경 설정에 이르기까지 세션 간 환경 설정, 의사 결정 및 수정 사항을 학습하므로 작업을 더 선명하게 할 수 있습니다.
-
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3495972?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
