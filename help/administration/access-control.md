@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 11db1488d950f39ccb8c8019f644e54e1f3b8fa6
+source-git-commit: a14bd350d7259294368acdcb08549ea6e084f1c1
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '534'
 ht-degree: 0%
 ---
 # 동료에 대한 액세스 제어 {#access-control}
@@ -19,7 +19,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
 >[!NOTE]
 >
->이 기능을 사용하려면 Coworker에서 조직을 활성화해야 합니다. 자세한 내용은 [동료 채팅 개요](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)를 참조하세요.
+>이 기능을 사용하려면 Coworker에서 조직을 활성화해야 합니다. 액세스 제어는 점진적으로 사용할 수 있게 되며 실행 시 모든 동료 조직에 대해 활성화되지 않을 수 있습니다. 자세한 내용은 [동료 채팅 개요](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)를 참조하세요.
 
 ## 액세스 결정 방법 {#how-access-is-determined}
 
@@ -32,13 +32,9 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 | 호환 가능한 애플리케이션 권한 | 동료 액세스 컨트롤은 일반적으로 사용 가능한 모든 동료 기능에 액세스할 수 있는지 여부를 결정합니다. Coworker는 Coworker 호환 CX Enterprise 애플리케이션에서 사용자 권한을 상속하며 각 애플리케이션이 이미 시행하고 있는 권한을 준수합니다. |
 
 
-## 동료 관리자 추가 {#add-coworker-admins}
+## 동료 관리자 {#add-coworker-admins}
 
-동료 관리자는 [!DNL Adobe Admin Console]의 [!DNL Adobe Experience Platform]에 대해 **[!UICONTROL 제품 관리자]** 또는 **[!UICONTROL 시스템 관리자]**&#x200B;가 할당된 사용자입니다.
-
-이 비디오를 통해 동료 관리자를 추가하는 방법을 알아보십시오.
-
->[!VIDEO](https://video.tv.adobe.com/v/3507046?captions=kor&learn=on){transcript=true}
+동료 관리자는 조직의 **[!UICONTROL 시스템 관리자]** 또는 [!DNL Adobe Admin Console]의 [!DNL Adobe Experience Platform]의 **[!UICONTROL 제품 관리자]**(으)로 할당된 사용자입니다.
 
 ## 사용자 액세스 관리 {#manage-user-access}
 
