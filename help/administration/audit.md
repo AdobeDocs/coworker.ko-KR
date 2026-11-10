@@ -22,4 +22,4 @@ Adobe CX Enterprise Coworker에서 이벤트를 감사하는 방법을 알아봅
 >이 기능을 사용하려면 Coworker에서 조직을 활성화해야 합니다. 감사는 점진적으로 제공되며 실행 시 모든 동료 조직에 대해 활성화되지 않을 수 있습니다. 자세한 내용은 [액세스 도움말 보기](/help/administration/access-control.md#get-help-with-access)를 참조하세요.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3508073?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3508097?captions=kor&learn=on){transcript=true}
