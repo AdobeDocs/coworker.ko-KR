@@ -8,7 +8,7 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 61a0368cd6119139cce74c9e374257e99809ea00
+source-git-commit: a14bd350d7259294368acdcb08549ea6e084f1c1
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
 >[!NOTE]
 >
->이 기능을 사용하려면 Coworker에서 조직을 활성화해야 합니다. 액세스 제어는 점진적으로 사용할 수 있게 되며 실행 시 모든 동료 조직에 대해 활성화되지 않을 수 있습니다.자세한 내용은 [동료 채팅 개요](https://experienceleague.adobe.com/ko/docs/coworker/content/chat/overview)를 참조하세요.
+>이 기능을 사용하려면 Coworker에서 조직을 활성화해야 합니다. 액세스 제어는 점진적으로 사용할 수 있게 되며 실행 시 모든 동료 조직에 대해 활성화되지 않을 수 있습니다. 자세한 내용은 [동료 채팅 개요](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)를 참조하세요.
 
 ## 액세스 결정 방법 {#how-access-is-determined}
 
@@ -51,7 +51,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
    이 비디오를 통해 동료 사용자를 관리하는 방법을 알아보십시오.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507156?captions=kor&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
 4. Coworker에서 개인 사용자의 액세스를 관리하려면 **[!UICONTROL 사용자]**&#x200B;를 사용하고, 사용자 그룹의 Coworker 액세스를 관리하려면 **[!UICONTROL 사용자 그룹]**&#x200B;을 사용하십시오. 사용자 그룹 설정은 해당 구성원에게 적용됩니다.
 
