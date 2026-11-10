@@ -4,9 +4,9 @@ description: CX Enterprise Coworker 설명서에서 새 문서와 비디오의 �
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 52a5bd4f877300cb0ee6b7acbb7d0d0e4fddd3db
+source-git-commit: b2a8aa48302c80efa48416dede5f5d66005b8e7c
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '419'
 ht-degree: 0%
 ---
 # 설명서 업데이트 {#documentation-updates}
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 **2026년 11월 10일**
 
-* 업데이트됨: [동료 채팅 시작](../chat/ui-guide.md). 이제 가용성 테이블에 Customer Journey Analytics B2B edition, Content Analytics 및 Marketing Campaign Analytics이 나열됩니다. 동료 채팅은 세 가지 모두를 위한 몰입형 및 제품 내 경험에서 사용할 수 있습니다.
+* 업데이트됨: [동료 채팅 시작](../chat/ui-guide.md). 이제 가용성 테이블에 Customer Journey Analytics B2B edition, Content Analytics 및 Marketing Campaign Analytics이 나열됩니다. 세 가지 모두 몰입형 경험을 사용할 수 있습니다. 제품 내 경험은 Customer Journey Analytics B2B edition 및 Content Analytics에서 사용할 수 있으며 Marketing Campaign Analytics에 곧 제공됩니다.
 
 **2026년 11월 4일**
 
