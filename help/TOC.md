@@ -5,8 +5,8 @@ user-guide-description: 조직 전반에서 고객 경험 및 마케팅 워크�
 description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise에서 AI를 사용하여 제품 지식을 향상시키고 운영 통찰력을 얻으십시오.
 solution: Coworker
 role: Admin,User,Developer,Leader
-nudge: true
-source-git-commit: 8d80e55f4a2bdda11c5e9f3a97b6fe99c03b9b64
+auto-video-transcripts: true
+source-git-commit: 3c5387c838bedf96b9f3a3c826b39b6f3414c229
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 13%
