@@ -5,9 +5,9 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: a91f0d04b8f4c79ad9c019d03f479542fc1db3ec
+source-git-commit: b2a8aa48302c80efa48416dede5f5d66005b8e7c
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2116'
 ht-degree: 3%
 ---
 # 동료 채팅 시작 {#ui-guide}
@@ -25,6 +25,9 @@ ht-degree: 3%
 | Real-Time CDP | 현재 사용 가능 | 곧 출시 예정 |
 | Adobe Journey Optimizer | 현재 사용 가능 | 곧 출시 예정 |
 | Customer Journey Analytics | 현재 사용 가능 | 현재 사용 가능 |
+| Customer Journey Analytics B2B Edition | 현재 사용 가능 | 현재 사용 가능 |
+| Content Analytics | 현재 사용 가능 | 현재 사용 가능 |
+| Marketing Campaign Analytics | 현재 사용 가능 | 곧 출시 예정 |
 | Adobe Analytics | 현재 사용 가능 | 곧 출시 예정 |
 | Workfront | 현재 사용 가능 | 현재 사용 가능 |
 | 대상 | 현재 사용 가능 | 현재 사용 가능 |
