@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: d9dae093a2a6366154366a9da320f07a891114f2
+source-git-commit: ef8141ff251a2900b9f10b77942e1c9097cba59f
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '562'
 ht-degree: 0%
 ---
 # 동료에 대한 액세스 제어 {#access-control}
@@ -40,22 +40,28 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
 ## 사용자 액세스 관리 {#manage-user-access}
 
+개인 또는 사용자 그룹에 대한 액세스를 관리하려면 Coworker의 [!UICONTROL 액세스 제어]를 사용하십시오.
+
+>[!NOTE]
+>
+>일괄 작업당 최대 100개의 사용자 또는 사용자 그룹을 선택합니다. 사용자를 내보내면 내보내기에 로드된 사용자만 포함됩니다.
+
 1. 동료 경험을 엽니다. 자세한 내용은 [Coworker에 로그인](/help/chat/ui-guide.md#sign-in)을 참조하십시오.
-2. 프로필 메뉴를 열고 **[!UICONTROL 관리자 설정]**&#x200B;을 선택합니다.
+1. 프로필 메뉴를 열고 **[!UICONTROL 관리자 설정]**&#x200B;을 선택합니다.
 
    ![프로필 메뉴 컨트롤이 강조 표시된 Coworker home입니다.](./assets/access-control/coworker-home.png)
 
    ![관리자 설정이 강조 표시된 Coworker 프로필 메뉴.](./assets/access-control/admin-settings.png)
 
-3. **[!UICONTROL 액세스 제어]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 액세스 제어]**&#x200B;를 선택합니다.
 
    액세스 제어 카드가 강조 표시된 ![관리자 설정.](./assets/access-control/access-control.png)
 
    이 비디오를 통해 동료 사용자를 관리하는 방법을 알아보십시오.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507156?captions=kor&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
-4. Coworker에서 개인 사용자의 액세스를 관리하려면 **[!UICONTROL 사용자]**&#x200B;를 사용하고, 사용자 그룹의 Coworker 액세스를 관리하려면 **[!UICONTROL 사용자 그룹]**&#x200B;을 사용하십시오. 사용자 그룹 설정은 해당 구성원에게 적용됩니다.
+1. 개별 액세스를 관리하려면 **[!UICONTROL 사용자]**&#x200B;를 선택하고 그룹 액세스를 관리하려면 **[!UICONTROL 사용자 그룹]**&#x200B;을 선택하십시오. 사용자 그룹 설정은 해당 구성원에게 적용됩니다.
 
    동료 사용자 그룹은 [!DNL Adobe Admin Console] 그룹과 별개입니다. 사용자 그룹을 [!DNL Adobe Admin Console]에서 Coworker로 동기화하는 작업이 곧 시작됩니다.
 
