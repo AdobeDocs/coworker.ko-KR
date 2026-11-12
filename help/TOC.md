@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: 5377963a32db6b195349a198c4158ffb99eaeeec
+source-git-commit: bafd318fee6017f992d4feab453058b5332005ce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 13%
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 13%
       - [데이터 레이크 보존 관리](./chat/use-cases/data-management/manage-data-lake-retention.md)
     - 대상자 {#audiences}
       - [플랫폼 상태 평가 및 대상 구축](./chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - [아이디어부터 활성화 준비 대상까지](./chat/use-cases/audiences/from-idea-to-activation-ready-audience-with-coworker.md)
       - [왜 내 대상이 급증하거나 감소합니까?](./chat/use-cases/audiences/why-your-audience-size-changed.md)
     - 여정 {#journeys}
       - [자연어를 사용하여 여정 만들기](./chat/use-cases/journeys/create-journey-from-natural-language.md)
