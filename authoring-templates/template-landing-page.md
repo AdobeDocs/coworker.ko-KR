@@ -4,7 +4,7 @@ title: '[Application]의 CX Enterprise Coworker'
 description: Coworker의 대화형 AI가 [첫 번째], [두 번째] 및 [Application]에서 더 많은 작업을 수행하는 데 어떻게 도움이 되는지 알아봅니다.
 doc-type: Catalog
 duration: 0
-last-substantial-update: 2026-01-01T00:00:00.000Z
+last-substantial-update: 2026-01-01
 nudge: true
 role: Leader, User, Developer, Admin
 level: Beginner
@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+source-git-commit: a08e1d51d2c8aec7b558b0c72efb39961b64dd6f
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%

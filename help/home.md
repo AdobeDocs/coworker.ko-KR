@@ -4,7 +4,7 @@ description: 조직 전반에서 고객 경험 및 마케팅 워크플로우를 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 4d1a45924304a21da9f23287c307e7616bb86219
+source-git-commit: abb341180786a0d250db4313ad1719a1947151ca
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 14%
@@ -14,6 +14,8 @@ ht-degree: 14%
 [!DNL Coworker]은(는) 조직, 팀 및 개인의 작업 특성을 재정의하는 AI 기반의 팀 동료입니다. 고객 경험과 마케팅 워크플로우를 자동화하여 조직은 작업을 조정하는 것보다 비즈니스 목표 달성과 결과 향상에 집중할 수 있습니다. Coworker는 에이전트 엔진으로서 비즈니스 프로세스 자동화에 대한 혁신적인 접근 방식을 채택하고 있습니다. 거버넌스 및 인간 감독이 내장된 엔터프라이즈 컨텍스트, 데이터, 인텔리전스, 협업 및 에이전트 기술 실행을 통합함으로써 AI 모델 성능과 정확성을 향상시킵니다.
 
 Coworker는 복잡한 교차 기능 고객 경험 워크플로우를 실행하는 조직을 위해 빌드됩니다. 또한 Coworker Chat 및 Coworker Projects를 통합하여 전문가가 단일 작업에서 Coworker 경험 내의 전체, 다중 팀 워크플로우로 이동할 수 있습니다. 거버넌스, 승인 및 인적 감독이 처음부터 통합됩니다. [Adobe for Business](https://business.adobe.com/kr/products/cx-enterprise-coworker.html)에서 자세히 알아보세요.
+
+<div id="recs-overview-body-1"></div>
 
 ## 빌딩 블록 {#building-blocks}
 
@@ -162,6 +164,13 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
 
 ### Experience League LIVE 가입
 
