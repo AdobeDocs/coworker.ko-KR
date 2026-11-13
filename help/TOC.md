@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: bafd318fee6017f992d4feab453058b5332005ce
+source-git-commit: 3a1fbd2a3ed69c47fd4450c0c1e07bb7398f2dbe
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '380'
 ht-degree: 13%
 ---
 
@@ -82,6 +82,7 @@ ht-degree: 13%
       - [브랜드 준수 검사](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [AEM Sites 페이지 작성](./chat/use-cases/brand-visibility/author-web-pages.md)
       - [AEM Assets 온보드](./chat/use-cases/brand-visibility/onboard-aem-assets.md)
+      - [Coworker를 사용하여 자산 소싱 포털 구축](./chat/use-cases/brand-visibility/set-up-asset-sourcing-portal.md)
       - [마케팅 에셋 생성](./chat/use-cases/brand-visibility/generate-assets.md)
     - 워크플로 및 계획 {#workflow-and-planning}
       - [디지털 캠페인 시작 계획](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
