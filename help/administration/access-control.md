@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: ef8141ff251a2900b9f10b77942e1c9097cba59f
+source-git-commit: d3438a28430c6c845cea881e28ab8e22a636edbb
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '571'
 ht-degree: 0%
 ---
 # 동료에 대한 액세스 제어 {#access-control}
@@ -25,7 +25,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
 ## 액세스 결정 방법 {#how-access-is-determined}
 
-동료 액세스는 조직 전체 설정과 선택적 사용자 또는 그룹 재정의에 의해 제어됩니다. 조직 전체 설정은 조직의 사용자에 대해 동료 액세스를 활성화하거나 비활성화합니다. 액세스는 기본적으로 모든 사용자에 대해 활성화됩니다.
+동료 액세스는 조직 전체 설정과 선택적 사용자 또는 그룹 재정의에 의해 제어됩니다. 조직 전체 설정은 조직의 사용자에 대해 동료 액세스를 활성화하거나 비활성화합니다. 액세스 권한은 기본적으로 조직에 대해 활성화되거나 비활성화될 수 있습니다.
 
 | 설정 | 액세스에 미치는 영향 |
 | --- | --- |
@@ -65,7 +65,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
    동료 사용자 그룹은 [!DNL Adobe Admin Console] 그룹과 별개입니다. 사용자 그룹을 [!DNL Adobe Admin Console]에서 Coworker로 동기화하는 작업이 곧 시작됩니다.
 
-   사용자 목록에는 조직의 사용자가 포함됩니다. 이러한 사용자는 기본적으로 동료 액세스를 사용할 수 있습니다.
+   사용자 목록에는 조직의 사용자가 포함됩니다. 액세스 권한은 조직의 기본 설정 및 모든 사용자 또는 그룹 재정의에 따라 다릅니다.
 
    * **사용:** 사용자 또는 사용자 그룹이 활성 상태입니다.
    * **사용 안 함:** 사용자 또는 사용자 그룹이 비활성 상태입니다.
