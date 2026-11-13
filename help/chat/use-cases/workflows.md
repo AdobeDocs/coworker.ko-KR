@@ -4,9 +4,9 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 0d2b1c7e146114fac57a894ce1b61727456d263f
+source-git-commit: e8010a31192b717a762510d189f3a8a344b3e2fe
 workflow-type: tm+mt
-source-wordcount: '9190'
+source-wordcount: '9318'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -212,6 +212,18 @@ ht-degree: 6%
 **관련 정보**
 
 * [의사 결정 공동 작업자](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"}는 Adobe Journey Optimizer에서 의사 결정 기술에 대한 자세한 지침, 사용 사례 및 모범 사례를 제공합니다.
+
+## 프로세스 관리자
+
+>[!AVAILABILITY]
+>
+>프로세스 관리자가 **베타**&#x200B;에 있습니다. 프로세스 관리자에 대한 자세한 내용은 [프로세스 관리자 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/process-manager/home)를 참조하십시오.
+
+| 워크플로 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
+| --- | --- | --- | --- | --- |
+| 프로세스 관리자 빌더 | 프로세스 관리자에서 프로세스를 설계, 생성, 업데이트, 이름 변경 및 삭제합니다. 프로세스 관리자에 사용할 수 있는 작업 유형을 나열합니다. | `process-manager-builder` | 프로세스 관리자 | &quot;프로세스 관리자에서 사용할 수 있는 모든 프로세스를 나열합니다.&quot; |
+| 프로세스 관리자 실행 연산자 | 실행을 시작하고, 실행 상태 및 내역을 확인하고, 실행이 실패한 이유를 찾고, 기존 실행을 다시 실행하고, 진행 중인 실행을 취소합니다. | `process-manager-run-operator` | 프로세스 관리자 | &quot;샘플 프로세스에서 실행 내역을 확인합니다.&quot; |
+| 프로세스 관리자 스케줄러 | 프로세스 관리자 스케줄 생성, 변경, 일시 중지, 재개, 나열 및 제거 | `process-manager-scheduler` | 프로세스 관리자 | &quot;샘플 프로세스에 대한 스케줄을 나열합니다.&quot; |
 
 ## 채널
 
