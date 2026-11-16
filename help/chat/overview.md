@@ -58,4 +58,4 @@ ht-degree: 10%
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495972?captions=kor&learn=on){transcript=true}
