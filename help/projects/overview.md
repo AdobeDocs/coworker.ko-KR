@@ -82,6 +82,6 @@ Journey Optimizer에서 캠페인 및 여정의 운영 상태를 모니터링합
 
 이 비디오에서 동료 프로젝트에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3508234?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3508240?captions=kor&learn=on){transcript=true}
 
 
