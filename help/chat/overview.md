@@ -4,9 +4,9 @@ title: Adobe CX Enterprise Coworker 채팅 개요
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 4d1a45924304a21da9f23287c307e7616bb86219
+source-git-commit: 69468cabd86925ee6a7f3f86022ffefb26ffa66c
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '514'
 ht-degree: 8%
 ---
 # 동료 채팅 정보 {#overview}
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->동료 채팅은 Adobe CX Enterprise Coworker의 한 모듈입니다. 두 개의 다른 모듈은 동일한 기반을 확장합니다. 팀용 Coworker(한 번의 대화에서 전체 캠페인을 시작하고 실행) 및 Coworker 프로젝트(엔드 투 엔드, 다중 팀 워크플로우를 위한 항상 제공되는 작업 공간). 이 페이지에서는 동료 채팅을 다룹니다.
+>동료 채팅 및 [동료 프로젝트](/help/projects/overview.md)는 Adobe CX Enterprise Coworker의 모듈입니다. 이 페이지에서는 동료 채팅을 다룹니다.
 
 ## AI Assistant의 발전
 
@@ -56,4 +56,4 @@ ht-degree: 8%
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3495972?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
