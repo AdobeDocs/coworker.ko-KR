@@ -4,10 +4,10 @@ description: CX Enterprise Coworker 설명서에서 새 문서와 비디오의 �
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: b2a8aa48302c80efa48416dede5f5d66005b8e7c
+source-git-commit: c29ae8ac2b69dd3d5e52529875a9224cb697ebee
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 0%
+source-wordcount: '539'
+ht-degree: 1%
 ---
 # 설명서 업데이트 {#documentation-updates}
 
@@ -15,8 +15,27 @@ ht-degree: 0%
 
 ## 2026년 11월 {#nov-2026}
 
+**2026년 11월 16일**
+
+* 새 항목: [동료 프로젝트 정보](../projects/overview.md). 동료 프로젝트의 가용성이 제한됩니다.
+* 업데이트됨: [동료 채팅 정보](../chat/overview.md). 이제 호환 가능한 애플리케이션 목록에 Customer Journey Analytics B2B edition, Content Analytics 및 Marketing Campaign Analytics이 포함됩니다. 이 문서에서는 동료 프로젝트에 대한 링크도 제공합니다.
+
+**2026년 11월 13일**
+
+* 새로운 기능: [Coworker와 함께 자산 소싱 포털 구축](../chat/use-cases/brand-visibility/set-up-asset-sourcing-portal.md)
+* 업데이트됨: [Coworker에 대한 액세스 제어](../administration/access-control.md). 이제 이 문서에서는 대량 작업에 대한 제한(최대 100명의 사용자 또는 사용자 그룹)을 명시하고 기본 동료 액세스 설정을 명확하게 설명합니다.
+
+**2026년 11월 12일**
+
+* 업데이트됨: [동료 채팅 워크플로](../chat/use-cases/workflows.md). 이제 이 문서에는 프로세스 구축, 실행 및 예약에 대한 프로세스 관리자 기술이 나열되어 있습니다. Process Manager는 베타 버전입니다.
+
+**2026년 11월 11일**
+
+* 새로운 기능: [아이디어부터 활성화 준비 대상까지](../chat/use-cases/audiences/from-idea-to-activation-ready-audience-with-coworker.md)
+
 **2026년 11월 10일**
 
+* 새로운 기능: [동료가 감사 이벤트](../administration/audit.md)
 * 업데이트됨: [동료 채팅 시작](../chat/ui-guide.md). 이제 가용성 테이블에 Customer Journey Analytics B2B edition, Content Analytics 및 Marketing Campaign Analytics이 나열됩니다. 세 가지 모두 몰입형 경험을 사용할 수 있습니다. 제품 내 경험은 Customer Journey Analytics B2B edition 및 Content Analytics에서 사용할 수 있으며 Marketing Campaign Analytics에 곧 제공됩니다.
 
 **2026년 11월 4일**
