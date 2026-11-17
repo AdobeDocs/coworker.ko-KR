@@ -4,9 +4,9 @@ description: 조직 전반에서 고객 경험 및 마케팅 워크플로우를 
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: abb341180786a0d250db4313ad1719a1947151ca
+source-git-commit: 69468cabd86925ee6a7f3f86022ffefb26ffa66c
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1369'
 ht-degree: 14%
 ---
 # CX Enterprise Coworker 개요 {#overview}
@@ -36,7 +36,7 @@ Coworker는 복잡한 교차 기능 고객 경험 워크플로우를 실행하�
 | --- | --- | --- |
 | [동료 [!UICONTROL 채팅]](./chat/overview.md) | 자연어로 Adobe 애플리케이션 전반에 대한 통찰력, 콘텐츠 및 작업을 요청합니다. | Adobe 계정 팀을 통해 라이선스가 부여됩니다. [가용성 확인](#chat-availability)을 참조하세요. |
 | [팀용 [!UICONTROL 동료]](./coworker-for-teams/overview.md) | 소규모 민첩한 마케팅 팀으로서, 캠페인 목표에서 통합 실행으로 이동합니다. | 2026년 12월 31일까지 무료 체험판. 북미 지역에만 해당됩니다. |
-| 동료 [!UICONTROL 프로젝트] | 팀이 프로세스, 승인 및 동료의 자율 수준을 설정하는 장기적인 교차 작업 워크플로우를 실행합니다. | 곧 출시 예정 |
+| [동료 프로젝트](/help/projects/overview.md) | 공유 진행률, 승인 및 거버넌스를 통해 팀 간의 워크플로우를 조정합니다. | 제한된 가용성. 향후 가용성에 대한 자세한 내용은 Adobe 계정 담당자에게 문의하십시오. |
 
 ## 동료 채팅
 

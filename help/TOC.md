@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: 3a1fbd2a3ed69c47fd4450c0c1e07bb7398f2dbe
+source-git-commit: 69468cabd86925ee6a7f3f86022ffefb26ffa66c
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 13%
+source-wordcount: '385'
+ht-degree: 12%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -86,6 +86,8 @@ ht-degree: 13%
       - [마케팅 에셋 생성](./chat/use-cases/brand-visibility/generate-assets.md)
     - 워크플로 및 계획 {#workflow-and-planning}
       - [디지털 캠페인 시작 계획](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+- 동료 프로젝트 {#projects}
+  - [동료 프로젝트 정보](./projects/overview.md)
 - 사용자 정의 {#customizations}
   - [맞춤화 개요](./customizations/overview.md)
   - 스킬 {#skills}
