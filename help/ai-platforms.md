@@ -25,7 +25,7 @@ AI 플랫폼에서 Coworker를 사용하는 데 드는 추가 비용이 없습�
 AI 플랫폼에서 Coworker를 사용하기 전에 다음 사항을 확인하십시오.
 
 * Adobe CX Enterprise Coworker은 조직에 대해 프로비저닝되었으며, Adobe에서 해당 조직에 대한 자체 액세스 권한이 있습니다.
-* [Adobe CX Enterprise](https://business.adobe.com/solutions/customer-experience-orchestration.html) 응용 프로그램 중 하나입니다.
+* [Adobe CX Enterprise](https://business.adobe.com/kr/solutions/customer-experience-orchestration.html) 응용 프로그램 중 하나입니다.
 * [Coworker 설정](#set-up-coworker)에 나열된 AI 플랫폼에 액세스합니다.
 
 ## 데이터 액세스 및 권한 {#data-access-and-permissions}
