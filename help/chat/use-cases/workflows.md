@@ -4,9 +4,9 @@ title: 동료 채팅 워크플로
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 195ec9f05a901294bbd3631ef91435e58f016cd0
+source-git-commit: 0089deb08fffb7ff7318d3b8ad0d89d465999793
 workflow-type: tm+mt
-source-wordcount: '9326'
+source-wordcount: '9483'
 ht-degree: 6%
 ---
 # 동료 채팅 워크플로 {#use-cases}
@@ -205,13 +205,16 @@ ht-degree: 6%
 
 ## 결정
 
+동료 채팅을 사용하여 Adobe Journey Optimizer에서 의사 결정 개체를 관리합니다. 자격 규칙, 등급 수식, 빈도 제한 표현식 및 자연어 프롬프트의 의사 결정 항목을 만들고 유지 관리합니다.
+
 | 워크플로 | 설명 | 스킬 | 애플리케이션 | 샘플 프롬프트 |
 | --- | --- | --- | --- | --- |
-| [의사 결정 규칙 생성, 설명, 시뮬레이션 및 최적화](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 자연어를 사용하여 자격 규칙과 등급 수식을 만들고 간단한 영어 설명을 얻을 수 있습니다. <br> 최대 3개의 프로필에 대해 테스트합니다. <br> PQL 구문을 수동으로 작성하지 않고 PQL 크기 제한에 맞게 다시 작성합니다. | 의사 결정 규칙 워크플로 | Adobe Journey Optimizer (AJO) | &quot;계층 2 이상의 충성도 구성원을 타깃팅하는 자격 규칙을 만듭니다.&quot;<br><br>&quot;자연어로 이 규칙을 나에게 설명합니다.&quot;<br><br>&quot;테스트 프로필로 이 규칙을 시뮬레이트합니다.&quot;<br><br>&quot;나를 위해 이 PQL 규칙을 최적화합니다.&quot; |
+| [의사 결정 규칙 만들기, 관리, 시뮬레이션 및 최적화](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | 자연어를 사용하여 자격 규칙, 등급 수식 및 오퍼 항목 빈도 제한 표현식을 만들고, 찾고, 수정하고, 삭제하고, 일반적인 영어 설명을 얻을 수 있습니다. <br> 최대 3개의 프로필에 대해 유효성을 검사하고 테스트합니다. <br> PQL 구문을 수동으로 작성하지 않고 PQL 크기 제한에 맞게 다시 작성합니다. | 의사 결정 규칙 워크플로 | Adobe Journey Optimizer (AJO) | &quot;계층 2 이상의 충성도 구성원을 타깃팅하는 자격 규칙을 만듭니다.&quot;<br><br>&quot;자연어로 이 규칙을 나에게 설명합니다.&quot;<br><br>&quot;테스트 프로필로 이 규칙을 시뮬레이트합니다.&quot;<br><br>&quot;나를 위해 이 PQL 규칙을 최적화합니다.&quot;<br><br>&quot;순위 공식을 나열합니다.&quot;<br><br>&quot;클릭 이벤트를 계산하는 최대 가용량 규칙을 만듭니다.&quot; |
+| [결정 항목 만들기 및 관리](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#decisioning-offer-item-workflow){target="_blank"} | 레이블 또는 태그, 자격 요건, 일정, 빈도 제한, 콘텐츠 조각 및 사용자 지정 특성을 포함하여 채팅에서 의사 결정 항목(오퍼)을 설명하여 만듭니다. <br> 항목을 업데이트, 승인, 승인 취소, 보관 또는 영구적으로 삭제합니다. <br> CSV 파일 또는 목록에서 여러 항목을 한 번에 만들거나 업데이트합니다. | Decisioning 오퍼 항목 워크플로 | Adobe Journey Optimizer (AJO) | &quot;drc와 같은 배치를 제한하는 오퍼를 만듭니다.&quot;<br><br>&quot;이 CSV 파일에서 결정 항목을 만듭니다.&quot;<br><br>&quot;여름 판매 항목을 승인합니다.&quot;<br><br>&quot;이 오퍼를 보관합니다.&quot; |
 
 **관련 정보**
 
-* [의사 결정 공동 작업자](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"}는 Adobe Journey Optimizer에서 의사 결정 기술에 대한 자세한 지침, 사용 사례 및 모범 사례를 제공합니다.
+* [Decisioning용 Coworker](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"}는 Adobe Journey Optimizer에서 Decisioning 규칙 워크플로 및 Decisioning 오퍼 항목 워크플로 기술에 대한 자세한 지침, 사용 사례 및 권장 모범 사례를 제공합니다.
 
 ## 프로세스 관리자
 
