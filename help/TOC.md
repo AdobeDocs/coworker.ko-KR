@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: 98439066e28b43d6f97f1ac769dfb9d45e698ea9
+source-git-commit: 4c82db341547bf3009009a3fea4a88e294ce6c24
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '408'
 ht-degree: 20%
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 20%
         - [구현 체크리스트 생성](./chat/use-cases/data-insights/intelligent-checklist.md)
         - [업그레이드 시 AA에서 CJA 데이터로의 유효성 검사](./chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [AA 프로젝트를 CJA으로 마이그레이션](./chat/use-cases/data-insights/migrate-projects-aa-cja.md)
+        - [Content Analytics 계획 만들기](./chat/use-cases/data-insights/content-analytics-implementation-plan.md)
         - [스트리밍 미디어 구현의 유효성 검사](./chat/use-cases/data-insights/streaming-media-validation.md)
         - [CJA 보고를 위한 데이터 세트 품질 유효성 검사](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
         - [Experience Platform 데이터 유효성 검사](./chat/use-cases/data-insights/data-validation-aep.md)
