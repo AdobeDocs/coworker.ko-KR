@@ -175,7 +175,7 @@ search:read.public search:read.private search:read.im search:read.mpim search:re
 
 1. **[!UICONTROL 사용자 지정]**&#x200B;을 열고 **[!UICONTROL 사용자]**&#x200B;을 선택한 다음 **[!UICONTROL 외부 커넥터]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL Slack]** 카드를 찾습니다. 카드에 **[!UICONTROL 구성되지 않음]** 및 **[!UICONTROL 아직 사용할 수 없음}이 표시되는 경우 관리자가 이를 설정해야 합니다.]** 관리자에게 [커넥터를 구성](#configure-organization)하도록 요청하십시오.
+1. **[!UICONTROL Slack]** 카드를 찾습니다. 카드에 **[!UICONTROL 구성되지 않음]** 및 **[!UICONTROL 아직 사용할 수 없음&rbrace;이 표시되는 경우 관리자가 이를 설정해야 합니다.]** 관리자에게 [커넥터를 구성](#configure-organization)하도록 요청하십시오.
 
    조직의 클라이언트 암호를 요청하거나 복사하지 마십시오.
 
