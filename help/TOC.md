@@ -6,9 +6,9 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: e80cad8019c00fdf6bf101f113e9bbef780d5923
+source-git-commit: 98439066e28b43d6f97f1ac769dfb9d45e698ea9
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '403'
 ht-degree: 20%
 ---
 
@@ -102,10 +102,17 @@ ht-degree: 20%
     - [플러그인이란 무엇입니까?](./customizations/plugins/what-are-plugins.md)
     - [조직의 플러그인 관리](./customizations/plugins/manage-plugins-for-your-org.md)
   - 외부 커넥터 {#external-connectors}
+    - {hide-from-toc}[Amazon Ads](./customizations/external-connectors/amazon-ads.md)
     - {hide-from-toc}[데이터베이스 지니](./customizations/external-connectors/databricks-genie.md)
     - {hide-from-toc}[Google 광고](./customizations/external-connectors/google-ads.md)
+    - {hide-from-toc}[Google BigQuery](./customizations/external-connectors/google-bigquery.md)
+    - {hide-from-toc}[Google 클라우드 저장소](./customizations/external-connectors/google-cloud-storage.md)
+    - {hide-from-toc}[Infobip 관찰](./customizations/external-connectors/infobip-observe.md)
+    - {hide-from-toc}[Jira / Atlassian Rovo](./customizations/external-connectors/jira-atlassian-rovo.md)
     - {hide-from-toc}[Meta 광고](./customizations/external-connectors/meta-ads.md)
     - {hide-from-toc}[Microsoft 작업 IQ](./customizations/external-connectors/microsoft-work-iq.md)
+    - {hide-from-toc}[RainFocus](./customizations/external-connectors/rainfocus.md)
+    - {hide-from-toc}[Slack](./customizations/external-connectors/slack.md)
     - {hide-from-toc}[Snowflake Cortex AI](./customizations/external-connectors/snowflake.md)
   - 메모리 {#memory}
     - [메모리란 무엇입니까?](./customizations/memory/what-is-memory.md)
