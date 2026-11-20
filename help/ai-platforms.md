@@ -4,9 +4,9 @@ description: AI 플랫폼용 Adobe CX Enterprise Coworker에 대해 알아봅니
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: b9c3e1915b1f3f182cc91452e60eea13b05f12fa
+source-git-commit: 9210150fc17e1d10484e5aff3997dc0cfbc429de
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2161'
 ht-degree: 1%
 ---
 
@@ -25,7 +25,7 @@ AI 플랫폼에서 Coworker를 사용하는 데 드는 추가 비용이 없습�
 AI 플랫폼에서 Coworker를 사용하기 전에 다음 사항을 확인하십시오.
 
 * Adobe CX Enterprise Coworker은 조직에 대해 프로비저닝되었으며, Adobe에서 해당 조직에 대한 자체 액세스 권한이 있습니다.
-* Adobe Experience Platform 및 Adobe Real-Time CDP, Adobe Journey Optimizer 또는 Adobe Customer Journey Analytics 중 하나 이상.
+* [Adobe CX Enterprise](https://business.adobe.com/kr/solutions/customer-experience-orchestration.html) 응용 프로그램 중 하나입니다.
 * [Coworker 설정](#set-up-coworker)에 나열된 AI 플랫폼에 액세스합니다.
 
 ## 데이터 액세스 및 권한 {#data-access-and-permissions}
@@ -56,7 +56,7 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 * [ChatGPT](#chatgpt)
 * [클로드](#claude)
 * [제미니 엔터프라이즈](#gemini-enterprise)
-* [Amazon 빠른](#amazon-quick)
+* [AWS 빠른](#amazon-quick)
 * [IBM watsonx 오케스트레이션](#ibm-watsonx-orchestrate)
 * [Databricks](#databricks)
 
@@ -186,17 +186,17 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 
 아이디어를 보려면 [주요 사용 사례](#key-use-cases) 및 [예제 프롬프트](#example-prompts)를 살펴보십시오.
 
-### [!DNL Amazon Quick] {#amazon-quick}
+### [!DNL AWS Quick] {#amazon-quick}
 
-[!DNL Amazon Quick]에서 Coworker를 사용하여 마케팅 인사이트를 얻으십시오.
+[!DNL AWS Quick]에서 Coworker를 사용하여 마케팅 인사이트를 얻으십시오.
 
-시작하기 전에 [!DNL Amazon Quick] 및 Adobe 계정에 대한 액세스 권한이 있는지 확인하십시오.
+시작하기 전에 [!DNL AWS Quick] 및 Adobe 계정에 대한 액세스 권한이 있는지 확인하십시오.
 
 #### 동료 연결 {#amazon-quick-connection}
 
-MCP(모델 컨텍스트 프로토콜)를 사용하여 [!DNL Amazon Quick]의 Coworker에 연결합니다. Adobe에서 이 연결에 대한 [!DNL Amazon Quick]을(를) 이미 승인했습니다.
+MCP(모델 컨텍스트 프로토콜)를 사용하여 [!DNL AWS Quick]의 Coworker에 연결합니다. Adobe에서 이 연결에 대한 [!DNL AWS Quick]을(를) 이미 승인했습니다.
 
-1. [!DNL Amazon Quick]에서 **[!UICONTROL 커넥터]**(으)로 이동합니다.
+1. [!DNL AWS Quick]에서 **[!UICONTROL 커넥터]**(으)로 이동합니다.
 1. MCP를 검색하고 커넥터 설정을 엽니다.
 1. `https://mcp.coworker.experience.adobe.io`을(를) MCP 서버 URL로 입력하십시오.
 
@@ -207,7 +207,7 @@ MCP(모델 컨텍스트 프로토콜)를 사용하여 [!DNL Amazon Quick]의 Cow
 
 #### 동료 액세스 {#amazon-quick-access}
 
-Coworker를 연결한 후 [!DNL Amazon Quick]에서 사용하여 Adobe 데이터에 대해 질문합니다.
+Coworker를 연결한 후 [!DNL AWS Quick]에서 사용하여 Adobe 데이터에 대해 질문합니다.
 
 아이디어를 보려면 [주요 사용 사례](#key-use-cases) 및 [예제 프롬프트](#example-prompts)를 살펴보십시오.
 
@@ -336,7 +336,7 @@ MCP(Model Context Protocol)를 통해 동료가 도구를 [!DNL IBM watsonx Orch
 
 <!-- Setup steps for Microsoft 365 Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
 
-<!-- Amazon Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
+<!-- AWS Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
 
 ## 프롬프트 예 {#example-prompts}
 
@@ -346,6 +346,17 @@ MCP(Model Context Protocol)를 통해 동료가 도구를 [!DNL IBM watsonx Orch
 * 지난 달에 대한 지표를 표시합니다.
 * 활성 Workfront 프로젝트를 표시합니다.
 * 충성도 대상자와 함께 여정을 표시합니다.
+
+## 인증 및 정보 소스 {#authentication-and-information-sources}
+
+Adobe 자격 증명으로 로그인하면 조직을 선택합니다. Coworker는 기본 샌드박스 및 데이터 보기를 정보 소스로 사용합니다.
+
+정보 출처를 변경하려면 다음 프롬프트 중 하나를 입력합니다. 자리 표시자를 사용할 데이터 보기 또는 샌드박스의 이름으로 바꿉니다.
+
+* `switch dataview to <dataview>`
+* `switch sandbox to <sandbox>`
+
+동료가 변경 내용을 확인하기 위해 응답합니다. 확인은 AI 플랫폼에 따라 다릅니다.
 
 ## 알려진 제한 사항 {#known-limitations}
 

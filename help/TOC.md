@@ -6,10 +6,10 @@ description: CX Enterprise의 AI 도구에 대해 알아봅니다. CX Enterprise
 solution: Coworker
 role: Admin,User,Developer,Leader
 auto-video-transcripts: true
-source-git-commit: 69468cabd86925ee6a7f3f86022ffefb26ffa66c
+source-git-commit: e80cad8019c00fdf6bf101f113e9bbef780d5923
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 12%
+source-wordcount: '389'
+ht-degree: 20%
 ---
 
 # CX Enterprise Coworker {#content}
@@ -65,9 +65,9 @@ ht-degree: 12%
       - [Coworker를 사용하여 여정 시뮬레이션](./chat/use-cases/journeys/simulate-journey-using-coworker.md)
       - [고객 참여 가속화](./chat/use-cases/journeys/accelerate-personalized-customer-engagement.md)
       - [Coworker를 사용하여 여정 버전 비교](./chat/use-cases/journeys/journey-version-comparison.md)
-      - [크로스 채널 여정 만들기, 시뮬레이션 및 분석](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker.md)
+      - [크로스 채널 여정 생성, 시뮬레이션 및 분석](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker.md)
     - 충성도 {#loyalty}
-      - [충성도 과제 및 잠재 고객 인사이트 만들기](./chat/use-cases/journeys/create-loyalty-challenge.md)
+      - [충성도 챌린지 생성 및 인사이트 제시](./chat/use-cases/journeys/create-loyalty-challenge.md)
     - 최적화 {#optimization}
       - [Target 활동 시작](./chat/use-cases/optimization/target.md)
       - [실험 가속화](./chat/use-cases/optimization/accelerate-experimentation.md)
@@ -97,6 +97,7 @@ ht-degree: 12%
     - [기술 관리 및 반복](./customizations/skills/manage-and-iterate-on-skills.md)
   - 통합 {#integrations}
     - [통합이란 무엇입니까?](./customizations/integrations/understanding-integrations-in-coworker.md)
+    - [첫 번째 통합 활성화](./customizations/integrations/enable-your-first-integration.md)
   - 플러그인 {#plugins}
     - [플러그인이란 무엇입니까?](./customizations/plugins/what-are-plugins.md)
     - [조직의 플러그인 관리](./customizations/plugins/manage-plugins-for-your-org.md)
