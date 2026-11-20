@@ -5,9 +5,9 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: b2a8aa48302c80efa48416dede5f5d66005b8e7c
+source-git-commit: 1fd895142c5f222c3a5f47e30390d2cf9072fad1
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2131'
 ht-degree: 3%
 ---
 # 동료 채팅 시작 {#ui-guide}
@@ -24,6 +24,7 @@ ht-degree: 3%
 |---|---|---|
 | Real-Time CDP | 현재 사용 가능 | 곧 출시 예정 |
 | Adobe Journey Optimizer | 현재 사용 가능 | 곧 출시 예정 |
+| Adobe Journey Optimizer B2B Edition | 현재 사용 가능 | 곧 출시 예정 |
 | Customer Journey Analytics | 현재 사용 가능 | 현재 사용 가능 |
 | Customer Journey Analytics B2B Edition | 현재 사용 가능 | 현재 사용 가능 |
 | Content Analytics | 현재 사용 가능 | 현재 사용 가능 |
@@ -33,12 +34,13 @@ ht-degree: 3%
 | 대상 | 현재 사용 가능 | 현재 사용 가능 |
 | AEM | 현재 사용 가능 | 현재 사용 가능 |
 | Marketo Engage | 현재 사용 가능 | 곧 출시 예정 |
+| Marketo Optimizer | 현재 사용 가능 | 현재 사용 가능 |
 
 ## [!DNL Coworker]에 로그인 {#sign-in}
 
 Adobe 자격 증명을 사용하여 [!DNL Coworker]에 로그인합니다.
 
-1. Adobe ID을 사용하여 CX Enterprise에 [로그인](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise).
+1. Adobe ID을 사용하여 CX Enterprise에 [로그인](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise).
 
    로그인한 후 [!DNL CX Enterprise] 응용 프로그램 메뉴에서 또는 직접 연결되는 링크를 사용하여 [!DNL Coworker]을(를) 열 수 있습니다.
 
