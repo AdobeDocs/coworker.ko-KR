@@ -112,7 +112,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 사용자 지정]**&#x200B;을 열고 **[!UICONTROL 사용자]**&#x200B;을 선택한 다음 **[!UICONTROL 외부 커넥터]**&#x200B;를 선택합니다. **[!UICONTROL Infobip Observe]**&#x200B;를 찾습니다.
 
-   카드에 **[!UICONTROL 구성되지 않음]** 및 **[!UICONTROL 아직 사용할 수 없음}이 표시되는 경우 관리자가 이를 설정해야 합니다.]** 관리자에게 [커넥터를 구성](#configure-organization)하도록 요청하십시오.
+   카드에 **[!UICONTROL 구성되지 않음]** 및 **[!UICONTROL 아직 사용할 수 없음&rbrace;이 표시되는 경우 관리자가 이를 설정해야 합니다.]** 관리자에게 [커넥터를 구성](#configure-organization)하도록 요청하십시오.
 
 1. **[!UICONTROL 로그인]**&#x200B;을 선택하고 원하는 [!DNL Infobip] 계정을 사용하십시오. SSO(Single Sign-On), MFA(Multi-Factor Authentication) 및 동의 프롬프트를 직접 완료합니다. 승인하기 전에 요청된 액세스, 계정 및 데이터 센터를 검토하십시오.
 
