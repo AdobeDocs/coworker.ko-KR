@@ -4,10 +4,10 @@ title: Adobe CX Enterprise Coworker 채팅 개요
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: f2c2de80ebe4026b736463626ee8122ac88bd5c5
+source-git-commit: 1fd895142c5f222c3a5f47e30390d2cf9072fad1
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 10%
+ht-degree: 11%
 ---
 # 동료 채팅 정보 {#overview}
 
@@ -44,6 +44,7 @@ ht-degree: 10%
 
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
+* Adobe Journey Optimizer B2B Edition
 * Customer Journey Analytics
 * Customer Journey Analytics B2B Edition
 * Content Analytics
@@ -53,9 +54,9 @@ ht-degree: 10%
 * AEM
 * Workfront
 * Marketo Engage
+* Marketo Optimizer
 * _Real-Time CDP B2B edition(준비 중)_
-* _Adobe Journey Optimizer B2B Edition(준비 중)_
 
 ## 비디오 개요
 
->[!VIDEO](https://video.tv.adobe.com/v/3495972?captions=kor&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
