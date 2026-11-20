@@ -38,7 +38,7 @@ ht-degree: 1%
 
 시작하기 전에 다음을 확인하십시오.
 
-* [!DNL Google Cloud] 준비:**청구 및 [!DNL Cloud Storage] API가 활성화된 프로젝트, 승인된 데이터가 포함된 버킷, 구성원용 IAM 권한 및**[!UICONTROL &#x200B;웹 애플리케이션&#x200B;]**유형의 [!DNL Google] OAuth 클라이언트.**
+* [!DNL Google Cloud] 준비:**청구 및 [!DNL Cloud Storage] API가 활성화된 프로젝트, 승인된 데이터가 포함된 버킷, 구성원용 IAM 권한 및**&#x200B;[!UICONTROL &#x200B;웹 애플리케이션&#x200B;]&#x200B;**유형의 [!DNL Google] OAuth 클라이언트.**
 * **조직 설정의 경우:** Coworker에서 조직 커넥터를 관리할 수 있는 권한이 있는 계정입니다. 또한 OAuth 클라이언트 ID와 클라이언트 암호 또는 이 ID가 포함된 기존 조직 암호가 필요합니다.
 * **구성원 로그인:** OAuth 응용 프로그램 대상자와 [!DNL Google Cloud] IAM이 모두 허용하는 [!DNL Google] 계정입니다.
 
