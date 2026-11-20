@@ -12,10 +12,10 @@ product_v2:
     internal-label: Coworker
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
-source-git-commit: 195ec9f05a901294bbd3631ef91435e58f016cd0
+source-git-commit: 44d80cde607adc9f8c688f85489dba2b932f0fbe
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 0%
 ---
 
 # Adobe Journey Optimizer 및 Coworker - 충성도 문제 및 지표 통찰력 만들기
@@ -26,10 +26,12 @@ ht-degree: 1%
 
 일반 언어 프롬프트를 사용하여 CX Enterprise Coworker에서 충성도 문제를 만들고, 구성하고, 시작합니다. 이 비디오에서는 대상, 보상 및 일정을 설정하고, 여정 설정을 자동화하고, 과제 인사이트를 검토하는 방법을 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496543/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
 
 ## 참조 -
 
-- [Journey Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)&#x200B;(여정 만들기, 분석 및 시뮬레이션과 같은 동료 채팅을 통해 사용할 수 있는 기타 AJO AI 기능)
-- Adobe Journey Optimizer 설명서의 [충성도 과제 관리](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"}.
-- [더 많은 동료 채팅 워크플로](../workflows.md#journeys)
+- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)&#x200B;(여정 만들기, 분석 및 시뮬레이션과 같은 동료 채팅을 통해 사용할 수 있는 기타 AJO AI 기능)
+- Adobe Journey Optimizer 설명서의 [충성도 과제 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"}.
+- 충성도 포인트, 계층 및 매출 지표를 쿼리하기 위한 Adobe Journey Optimizer 설명서의 [충성도 인사이트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"}.
+- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
+- [더 많은 동료 채팅 워크플로](../workflows.md#loyalty)
