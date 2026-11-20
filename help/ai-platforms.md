@@ -4,9 +4,9 @@ description: AI 플랫폼용 Adobe CX Enterprise Coworker에 대해 알아봅니
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 9210150fc17e1d10484e5aff3997dc0cfbc429de
+source-git-commit: 86f96b905c83d202ba5adbc0781582e96f61883e
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2157'
 ht-degree: 1%
 ---
 
@@ -25,14 +25,14 @@ AI 플랫폼에서 Coworker를 사용하는 데 드는 추가 비용이 없습�
 AI 플랫폼에서 Coworker를 사용하기 전에 다음 사항을 확인하십시오.
 
 * Adobe CX Enterprise Coworker은 조직에 대해 프로비저닝되었으며, Adobe에서 해당 조직에 대한 자체 액세스 권한이 있습니다.
-* [Adobe CX Enterprise](https://business.adobe.com/kr/solutions/customer-experience-orchestration.html) 응용 프로그램 중 하나입니다.
+* [Adobe CX Enterprise](https://business.adobe.com/solutions/customer-experience-orchestration.html) 응용 프로그램 중 하나입니다.
 * [Coworker 설정](#set-up-coworker)에 나열된 AI 플랫폼에 액세스합니다.
 
 ## 데이터 액세스 및 권한 {#data-access-and-permissions}
 
 AI 플랫폼의 동료는 Adobe ID에 연결된 동일한 데이터 및 액세스 수준을 반영합니다. 쿼리하고 볼 수 있는 내용은 Experience Platform 및 관련 솔루션에서 이미 권한이 부여된 항목과 일치합니다. Coworker는 이러한 권한을 상속하므로 AI 플랫폼 통합에 별도의 권한 설정이 필요하지 않습니다. 동료는 읽기 전용 인사이트를 반환하고 고객 데이터를 수정하지 않습니다. 생성된 요약 및 분석을 사용하여 비즈니스 결정을 내리기 전에 검토하십시오.
 
-<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02 for Microsoft 365 Copilot, Claude, and ChatGPT. Validate this permissions model for each additional platform before adding its setup section. -->
+<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02 for Microsoft Copilot, Claude, and ChatGPT. Validate this permissions model for each additional platform before adding its setup section. -->
 
 ## 주요 사용 사례 {#key-use-cases}
 
@@ -46,13 +46,13 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 | 워크플로우 및 콘텐츠 최적화 | CX 캠페인에 대한 워크플로우를 최적화하고 에셋 및 콘텐츠 요구 사항을 파악합니다. 쿼리나 대시보드를 수동으로 작성하지 않고도 캠페인 성능에 대한 시각적 보고서를 생성할 수 있습니다. |
 | 신속한 공동 작업 및 결정 | 추천 프롬프트를 사용하여 대상자, 캠페인 및 웹 트래픽을 탐색합니다. 계획 회의 중에 팀과 통찰력을 공유하고, 계획 또는 데크를 검토하는 동안 즉석 질문에 실시간으로 답변할 수 있습니다. |
 
-<!-- Use cases approved by PM Siddhartha Srivastava on 2026-08-31 and confirmed for Microsoft 365 Copilot, Claude, and ChatGPT on 2026-09-02. Validate applicability for each additional platform before adding its setup section. -->
+<!-- Use cases approved by PM Siddhartha Srivastava on 2026-08-31 and confirmed for Microsoft Copilot, Claude, and ChatGPT on 2026-09-02. Validate applicability for each additional platform before adding its setup section. -->
 
 ## 동료 설정 {#set-up-coworker}
 
 설치 지침에 사용할 수 있는 플랫폼을 선택합니다. 설정 후 [예제 프롬프트](#example-prompts)를 시도해 보십시오.
 
-* [Microsoft 365 부조종사](#microsoft-365-copilot)
+* [Microsoft Copilot](#microsoft-365-copilot)
 * [ChatGPT](#chatgpt)
 * [클로드](#claude)
 * [제미니 엔터프라이즈](#gemini-enterprise)
@@ -60,15 +60,15 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 * [IBM watsonx 오케스트레이션](#ibm-watsonx-orchestrate)
 * [Databricks](#databricks)
 
-### [!DNL Microsoft 365 Copilot] {#microsoft-365-copilot}
+### [!DNL Microsoft Copilot] {#microsoft-365-copilot}
 
-[!DNL Microsoft 365 Copilot]에서 마케팅 인사이트를 얻으려면 [!DNL Adobe CX Enterprise Coworker for Copilot]을(를) 사용하십시오.
+[!DNL Microsoft Copilot]에서 마케팅 인사이트를 얻으려면 [!DNL Adobe CX Enterprise Coworker for Copilot]을(를) 사용하십시오.
 
-시작하기 전에 [!DNL Microsoft 365 Copilot]에 대한 액세스 권한이 있는지 확인하십시오.
+시작하기 전에 [!DNL Microsoft Copilot]에 대한 액세스 권한이 있는지 확인하십시오.
 
 #### 조직 액세스 설정 {#copilot-organization-setup}
 
-최종 사용자가 [!DNL Microsoft 365 Copilot]에서 Coworker에 액세스하려면 관리자가 이러한 단계를 완료해야 합니다.
+최종 사용자가 [!DNL Microsoft Copilot]에서 Coworker에 액세스하려면 관리자가 이러한 단계를 완료해야 합니다.
 
 1. [!DNL Microsoft 365 admin center]에서 테넌트 설정이 외부 게시자가 만든 앱과 에이전트를 허용하는지 확인합니다.
 1. [!DNL Microsoft 365 admin center] 및 [!DNL Teams admin center]에서 **[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;을(를) 승인합니다. 일반적으로 [!DNL Microsoft Commercial Marketplace] 또는 조직의 **[!UICONTROL 통합 앱]** 목록을 통해 에이전트를 찾을 수 있습니다.
@@ -80,19 +80,19 @@ AI 플랫폼의 Coworker를 사용하여 일상적인 도구를 종료하지 않
 
 #### 동료 액세스 {#copilot-access}
 
-관리자가 Coworker를 사용하도록 설정하면 [!DNL Teams], [!DNL Word], [!DNL Excel], [!DNL PowerPoint] 및 웹 채팅을 포함하여 [!DNL Microsoft 365 Copilot] 표면에 액세스할 수 있습니다.
+관리자가 Coworker를 사용하도록 설정하면 [!DNL Teams], [!DNL Word], [!DNL Excel], [!DNL PowerPoint] 및 웹 채팅을 포함하여 [!DNL Microsoft Copilot] 표면에 액세스할 수 있습니다.
 
-[!DNL Microsoft 365 Copilot]에서 **[!UICONTROL 에이전트]**&#x200B;를 선택한 다음 **[!UICONTROL 추가 에이전트]**&#x200B;를 선택합니다.
+[!DNL Microsoft Copilot]에서 **[!UICONTROL 에이전트]**&#x200B;를 선택한 다음 **[!UICONTROL 추가 에이전트]**&#x200B;를 선택합니다.
 
-![에이전트 메뉴가 열리고 더 많은 에이전트가 강조 표시된 Microsoft 365 Copilot입니다.](./assets/ai-platforms/copilot/copilot-agents.png)
+![에이전트 메뉴가 열려 있고 더 많은 에이전트가 강조 표시된 Microsoft Copilot입니다.](./assets/ai-platforms/copilot/copilot-agents.png)
 
 그런 다음 에이전트 카탈로그에서 **[!UICONTROL Adobe CX Enterprise Coworker]**&#x200B;을(를) 선택합니다.
 
-![Adobe CX Enterprise Coworker 목록이 강조 표시된 Microsoft 365 Copilot 에이전트 카탈로그입니다.](./assets/ai-platforms/copilot/copilot-select-agent.png)
+![Adobe CX Enterprise Coworker 목록이 강조 표시된 Microsoft Copilot 에이전트 카탈로그입니다.](./assets/ai-platforms/copilot/copilot-select-agent.png)
 
 마지막으로 **[!UICONTROL 추가]**&#x200B;를 선택하여 에이전트에 Coworker를 추가합니다.
 
-추가 단추가 강조 표시된 Microsoft 365 Copilot의 ![Adobe CX Enterprise Coworker 세부 정보.](./assets/ai-platforms/copilot/copilot-add-coworker.png)
+추가 단추가 강조 표시된 Microsoft Copilot의 ![Adobe CX Enterprise Coworker 세부 정보.](./assets/ai-platforms/copilot/copilot-add-coworker.png)
 
 ### [!DNL ChatGPT] {#chatgpt}
 
@@ -334,7 +334,7 @@ MCP(Model Context Protocol)를 통해 동료가 도구를 [!DNL IBM watsonx Orch
 
 아이디어를 보려면 [주요 사용 사례](#key-use-cases) 및 [예제 프롬프트](#example-prompts)를 살펴보십시오.
 
-<!-- Setup steps for Microsoft 365 Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
+<!-- Setup steps for Microsoft Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
 
 <!-- AWS Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
 
