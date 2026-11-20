@@ -34,6 +34,6 @@ Coworker를 사용하여 자동으로 생성된 테스트 여정 및 이벤트�
 
 ## 참조 -
 
-- [여정에 대한 Coworker: 여정 시뮬레이션](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-simulation){target="_blank"}(주요 사용 사례 및 Coworker로 여정 시뮬레이션의 제한 사항 포함).
-- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
+- [여정에 대한 Coworker: 여정 시뮬레이션](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-simulation){target="_blank"}(주요 사용 사례 및 Coworker로 여정 시뮬레이션의 제한 사항 포함).
+- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
 - [더 많은 동료 채팅 워크플로](../workflows.md#journeys)

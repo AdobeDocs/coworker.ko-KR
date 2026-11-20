@@ -37,6 +37,6 @@ PowerPoint 슬라이드와 같은 순서도 이미지를 CX Enterprise Coworker�
 
 ## 참조 -
 
-- [여정에 대한 동료: 여정 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}, 주요 사용 사례, 모범 사례, Adobe Journey Optimizer에서 여정을 만들기 위한 범위 외 기술 확인
-- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
+- [여정에 대한 동료: 여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}, 주요 사용 사례, 모범 사례, Adobe Journey Optimizer에서 여정을 만들기 위한 범위 외 기술 확인
+- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
 - [더 많은 동료 채팅 워크플로](../workflows.md#journeys)

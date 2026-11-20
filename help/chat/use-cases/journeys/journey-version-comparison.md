@@ -21,6 +21,6 @@ Coworker를 사용하여 Adobe Journey Optimizer 여정 버전을 비교하는 �
 
 ## 참조 -
 
-- 버전 비교 사용 사례 및 샘플 프롬프트에 대한 [여정에 대한 동료: 여정 도구](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-tools){target="_blank"}.
-- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
+- 버전 비교 사용 사례 및 샘플 프롬프트에 대한 [여정에 대한 동료: 여정 도구](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-tools){target="_blank"}.
+- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
 - [더 많은 동료 채팅 워크플로](../workflows.md#journeys)

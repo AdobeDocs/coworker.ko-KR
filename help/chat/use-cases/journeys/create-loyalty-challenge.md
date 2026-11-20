@@ -30,8 +30,8 @@ ht-degree: 0%
 
 ## 참조 -
 
-- [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)&#x200B;(여정 만들기, 분석 및 시뮬레이션과 같은 동료 채팅을 통해 사용할 수 있는 기타 AJO AI 기능)
-- Adobe Journey Optimizer 설명서의 [충성도 과제 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"}.
-- 충성도 포인트, 계층 및 매출 지표를 쿼리하기 위한 Adobe Journey Optimizer 설명서의 [충성도 인사이트](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"}.
-- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
+- [Journey Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent)&#x200B;(여정 만들기, 분석 및 시뮬레이션과 같은 동료 채팅을 통해 사용할 수 있는 기타 AJO AI 기능)
+- Adobe Journey Optimizer 설명서의 [충성도 과제 관리](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"}.
+- 충성도 포인트, 계층 및 매출 지표를 쿼리하기 위한 Adobe Journey Optimizer 설명서의 [충성도 인사이트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"}.
+- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
 - [더 많은 동료 채팅 워크플로](../workflows.md#loyalty)
