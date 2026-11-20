@@ -59,7 +59,7 @@ Coworker 관리자는 [!UICONTROL 기본 액세스 설정]을 사용하여 전�
 
    이 비디오를 통해 동료 사용자를 관리하는 방법을 알아보십시오.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507156?captions=kor&learn=on){transcript=true}
 
 1. **[!UICONTROL 기본 액세스 설정]**&#x200B;에서 조직에 대한 액세스를 켜거나 끕니다.
 
