@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: da31900f-0b2e-4267-a5f8-69290b954752
     internal-label: Customer experience management
-source-git-commit: b5b8b4188aaa1c81c63a2b089c5dd12b408dbcda
+source-git-commit: cf3c531cc5daacec7b917cad472fe95b08f31b9a
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 0%
+source-wordcount: '142'
+ht-degree: 5%
 ---
 
 # 이미지에서 여정 만들기
@@ -34,3 +34,9 @@ ht-degree: 0%
 PowerPoint 슬라이드와 같은 순서도 이미지를 CX Enterprise Coworker에 업로드합니다. 이 비디오에서는 이미지에서 추출된 프롬프트를 검토하고, 트리거 이벤트를 지정하고, Adobe Journey Optimizer에서 편집 가능한 여정 초안을 저장하는 방법을 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504870/?captions=kor&learn=on&enablevpops)
+
+## 참조 -
+
+- [여정에 대한 동료: 여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}, 주요 사용 사례, 모범 사례, Adobe Journey Optimizer에서 여정을 만들기 위한 범위 외 기술 확인
+- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
+- [더 많은 동료 채팅 워크플로](../workflows.md#journeys)

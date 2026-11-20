@@ -13,9 +13,9 @@ product_v2:
     internal-label: Coworker
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
     internal-label: Journey Optimizer
-source-git-commit: b5b8b4188aaa1c81c63a2b089c5dd12b408dbcda
+source-git-commit: da823df94cfeb096cfa02fd939e3025c54e6372b
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '166'
 ht-degree: 1%
 ---
 
@@ -27,5 +27,7 @@ ht-degree: 1%
 
 ## 참조 -
 
+- [여정에 대한 동료: 여정 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}, 주요 사용 사례, 모범 사례, Adobe Journey Optimizer에서 여정을 만들기 위한 범위 외 기술 확인
+- [Journey Optimizer의 동료 기술](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, Journey Optimizer의 동료 기술에 대한 개요입니다.
 - [Journey Agent](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create), Coworker Chat에서 여정 생성을 지원하는 기본 AI 기능입니다.
 - [더 많은 동료 채팅 워크플로](../workflows.md#journeys)
