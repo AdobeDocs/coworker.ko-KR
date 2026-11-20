@@ -8,9 +8,9 @@ jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: d3438a28430c6c845cea881e28ab8e22a636edbb
+source-git-commit: 386a24a7a52efce2e36f8391b55fd044e4f44a71
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '622'
 ht-degree: 0%
 ---
 # 동료에 대한 액세스 제어 {#access-control}
@@ -25,7 +25,7 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
 ## 액세스 결정 방법 {#how-access-is-determined}
 
-동료 액세스는 조직 전체 설정과 선택적 사용자 또는 그룹 재정의에 의해 제어됩니다. 조직 전체 설정은 조직의 사용자에 대해 동료 액세스를 활성화하거나 비활성화합니다. 액세스 권한은 기본적으로 조직에 대해 활성화되거나 비활성화될 수 있습니다.
+Coworker 관리자는 [!UICONTROL 기본 액세스 설정]을 사용하여 전체 조직에 대해 Coworker 액세스를 설정하거나 해제합니다. 특정 사용자 또는 사용자 그룹에 대한 액세스 재정의를 구성할 수도 있습니다. 액세스 권한은 기본적으로 조직에 대해 활성화되거나 비활성화될 수 있습니다.
 
 | 설정 | 액세스에 미치는 영향 |
 | --- | --- |
@@ -59,7 +59,14 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
    이 비디오를 통해 동료 사용자를 관리하는 방법을 알아보십시오.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507156?captions=kor&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
+
+1. **[!UICONTROL 기본 액세스 설정]**&#x200B;에서 조직에 대한 액세스를 켜거나 끕니다.
+
+   * **켜짐:** 사용자 또는 그룹 재정의에 따라 조직의 모든 사용자에 대해 동료 액세스를 사용하도록 설정합니다.
+   * **해제:** 사용자 또는 그룹 재정의를 허용하지 않는 한 조직의 모든 사용자에 대해 동료 액세스를 사용하지 않도록 설정하십시오.
+
+   조직 액세스가 꺼져 있는 동안 특정 사용자 또는 그룹에 대한 액세스 권한을 부여하려면 **[!UICONTROL 재정의 허용]**&#x200B;을 켜십시오. 액세스 권한이 필요한 사용자 또는 그룹을 추가하려면 **[!UICONTROL 재정의 추가]**&#x200B;를 선택하십시오.
 
 1. 개별 액세스를 관리하려면 **[!UICONTROL 사용자]**&#x200B;를 선택하고 그룹 액세스를 관리하려면 **[!UICONTROL 사용자 그룹]**&#x200B;을 선택하십시오. 사용자 그룹 설정은 해당 구성원에게 적용됩니다.
 
@@ -69,8 +76,6 @@ Adobe CX Enterprise Coworker 액세스 제어를 사용하여 Coworker를 사용
 
    * **사용:** 사용자 또는 사용자 그룹이 활성 상태입니다.
    * **사용 안 함:** 사용자 또는 사용자 그룹이 비활성 상태입니다.
-
-   모든 사용자에 대한 액세스가 비활성화되면 **[!UICONTROL 재정의 허용]**&#x200B;을 켜고 **[!UICONTROL 재정의 추가]**&#x200B;를 선택하여 액세스 권한이 있는 사용자 또는 그룹을 추가하십시오.
 
 ## Coworker 호환 CX Enterprise 애플리케이션의 권한 {#permissions-in-compatible-applications}
 
