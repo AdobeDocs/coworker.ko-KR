@@ -2,14 +2,33 @@
 title: Adobe Analytics 프로젝트를 Customer Journey Analytics으로 마이그레이션
 description: Coworker를 사용하여 Adobe Analytics Workspace 프로젝트 및 해당 구성 요소를 Customer Journey Analytics에 확인, 매핑 및 마이그레이션한 다음 마이그레이션 상태를 확인합니다.
 feature: AI Tools
-role: Admin
+role: Admin, User
 level: Intermediate
+doc-type: Feature Video
+duration: '00:05:41'
+last-substantial-update: 2026-11-20T00:00:00.000Z
+jira: KT-23118
+autotag-review: '2026-11-20T18:24:50.351Z'
+TQID: 'https://experienceleague.adobe.com/FmcRExwh-Qjt5tqi4iKwX0B1m8KoIfRXQHRTI4gH6vE'
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-source-git-commit: 1ec3a8bf6dff44df068529cf1f7ceb699a027d65
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 4c82db341547bf3009009a3fea4a88e294ce6c24
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1795'
 ht-degree: 1%
 ---
 
@@ -26,6 +45,10 @@ Adobe CX Enterprise Coworker을 사용하여 단일 대화 내에서 Adobe Analy
 >[!AVAILABILITY]
 >
 >이 문서에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 메모는 기능을 일반적으로 사용할 수 있을 때 제거됩니다.
+
+## AA-CJA 단계별 플랜으로 시작
+
+>[!VIDEO](https://video.tv.adobe.com/v/3508619/?learn=on&enablevpops)
 
 >[!IMPORTANT]
 >
