@@ -40,7 +40,7 @@ ht-degree: 3%
 
 Adobe 자격 증명을 사용하여 [!DNL Coworker]에 로그인합니다.
 
-1. Adobe ID을 사용하여 CX Enterprise에 [로그인](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise).
+1. Adobe ID을 사용하여 CX Enterprise에 [로그인](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud#sign-in-to-cx-enterprise).
 
    로그인한 후 [!DNL CX Enterprise] 응용 프로그램 메뉴에서 또는 직접 연결되는 링크를 사용하여 [!DNL Coworker]을(를) 열 수 있습니다.
 
